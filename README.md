@@ -201,7 +201,7 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 | Foto | Nombre | Descripción |
 | -------- | -------- | -------- |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| u20241e158, Aponte Pablo, Isabel Luisa| |
-| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | Soy estudiante de Ingeniería de Software, una carrera que me está formando en el desarrollo y diseño de soluciones tecnológicas. Poseo experiencia en programación, así como en programas de ilustración vectorial y gráficos rasterizados. Me destaco por mi responsabilidad, creatividad y capacidad de adaptación a nuevas herramientas. Asimismo, valoro profundamente la comunicación efectiva dentro del trabajo colaborativo, ya que considero que es clave para alcanzar los objetivos del equipo. |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Diaz Martinez, Alexther Kamil  (U202412316) | |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Dulanto Espino, Leo César (U202410254) | |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Laura Acosta, Victor Jhosuef (u202418655) | |
@@ -275,6 +275,11 @@ Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiante
 
 #### *1.2.2.1. Lean UX Problem Statements*
 
+El proyecto EcoMind propone una aplicación móvil educativa que promueve la conciencia ambiental en niños mediante retos interactivos y actividades familiares. A través de un diseño centrado en el usuario, inclusivo y gamificado, busca convertir el aprendizaje ecológico en una experiencia divertida y cotidiana. Su objetivo es integrar a padres e hijos en un entorno digital que fomente hábitos sostenibles y fortalezca el compromiso con el cuidado del planeta. 
+
+Dentro de las escuelas primarias, se quiere que los estudiantes transformen la educación ambiental en hábitos sostenibles que se practiquen de manera constante en el hogar y la comunidad. no obstante, observamos que lo aprendido en el aula no cuenta con un proceso continuo y verificable que lo enlace con la rutina cotidiana, lo que se refleja en pocas eco acciones fuera de clase y baja permanencia en el tiempo. Aunque en la actualidad existen diversas plataformas y programas de educación ambiental y gamificación, identificamos que la continuidad, especialmente en el hogar y la comunidad, son débiles. Ahí radica la oportunidad que se desea aprovechar: intervenir en esa brecha de continuidad y verificación del comportamiento ambiental. Finalmente, todo ello ocurre bajo restricciones de tiempo pedagógico, brechas de conectividad y acceso a dispositivos. 
+
+¿Como podríamos garantizar esa continuidad y acompañamiento entre escuela, hogar y comunidad, bajo dichas restricciones? 
 
 
 #### *1.2.2.2. Lean UX Assumptions*
