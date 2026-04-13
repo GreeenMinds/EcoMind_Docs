@@ -200,11 +200,11 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 
 | Foto | Nombre | Descripción |
 | -------- | -------- | -------- |
-| ![](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png) | u20241e158, Aponte Pablo, Isabel Luisa| |
-| ![](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png) | Astocondor Bazan, Alejandra Isabel (U202410678) | |
-| ![](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png) | Diaz Martinez, Alexther Kamil  (U202412316) | |
-| ![](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png) | Dulanto Espino, Leo César (U202410254) | |
-| ![](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png) | Laura Acosta, Victor Jhosuef (u202418655) | |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| u20241e158, Aponte Pablo, Isabel Luisa| |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Diaz Martinez, Alexther Kamil  (U202412316) | |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Dulanto Espino, Leo César (U202410254) | |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Laura Acosta, Victor Jhosuef (u202418655) | |
 
 ## 1.2. Solution Profile
 
