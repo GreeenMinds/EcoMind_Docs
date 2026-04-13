@@ -257,6 +257,8 @@ En el Perú, la gestión de residuos sólidos evidencia serias limitaciones. Aun
 **Figura 1**
 *Porcentaje de residuos sólidos municipales valorizados con respecto a lo generado según departamento*
 
+<img src="img/image021.png" width="500">
+
 Nota.*Adaptado de Anuario estadístico del sector Ambiente 2023, por el Ministerio del Ambiente, 2023.*
 
 Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes tenía un nivel moderado de conciencia ambiental, el 28,7 % un nivel alto y solo el 7,2 % alcanzó un nivel muy alto, mientras que un 5,5 % se ubicó en un nivel muy bajo. Respecto a las actitudes proambientales, el 43,7 % presentó niveles parcialmente adecuados y apenas un 3,3 % logró niveles muy adecuados (Estrada, et al. 2022). 
@@ -264,6 +266,8 @@ Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes t
 **Figura 2**
 
 *Resultados descriptivos de conciencia ambiental y las actitudes proambientales de los estudiantes de la Institución Educativa Almirante Miguel Grau Seminario de Madre de Dios, Perú.*
+
+<img src="img/image022.png" width="500">
 
 Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú, por Estrada E., 2022.* 
 
