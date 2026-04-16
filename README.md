@@ -391,7 +391,9 @@ Creemos que integrar un sistema de ranking motivara a los niños a una participa
 Link: https://canva.link/9mzenct40v5ocok
 
 **Figura 3**
+
 *Lean Product Canvas*
+
 ![Lean Product Canvas](assets/img/figures/image077.png)
 
 ## 1.3. Segmentos objetivo
@@ -451,6 +453,37 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 ### 2.1.1. Análisis competitivo
 
+**Perfil**
+
+|     | EcoMind | Defensor de la naturaleza | Happy Little plantet | Earth Cubs |
+| --- | --- | --- | --- | --- |
+| Logos | ![Logo Ecomind](assets/img/figures/image024.png) | ![Logo Defensor de la naturaleza](assets/img/figures/image025.png) | ![Logo Happy Little](assets/img/figures/image026.png) | ![Logo Earth Cubs](assets/img/figures/image027.png) |
+| Overview | Plataforma educativa gamificada que enseña hábitos sostenibles a escolares, con acceso online y offline, involucrando a familias y comunidades. | Juego móvil centrado en acciones ambientales directas en un entorno lúdico. | App educativa para niños que enseña hábitos sostenibles y cuidado ambiental mediante juegos interactivos y libros con audio, con acompañamiento de padres. | App educativa gamificada que enseña a los niños sobre el medio ambiente, sostenibilidad y cambio climático a través de minijuegos, acertijos, comics y recursos escolares. |
+| Ventaja competitiva | Plataforma inclusiva con acceso online y offline. | Educación ambiental sencilla y entretenida para primeras edades. | Aprendizaje ambiental lúdico y seguro para primeras edades, con participación de los padres y contenido offline. | Contenidos educativos integrales y con impacto real. |
+
+**Perfil de marketing**
+
+|     | EcoMind | Defensor de la naturaleza | Happy Little plantet | Earth Cubs |
+| --- | --- | --- | --- | --- |
+| Mercado Objetivo | Niños escolares y padres de familia interesados en el cuidado ambiental. | Niños pequeños en la edad preescolar y primaria inicial. | Niños pequeños y padres interesados en educación ambiental. | Niños de nivel preescolar y primarios y sus padres / educadores. |
+| Estrategias de Marketing | Promoción en redes sociales. | Promoción en tiendas de apps y atractivo visual infantil. | Promoción en tiendas de apps y blogs/redes sobre educación infantil; atractivo visual y seguro para niños. | Difusión multiplataforma y colaboraciones con escuelas y asociaciones ambientales   |
+
+**Perfil de producto**
+
+|     | EcoMind | Defensor de la naturaleza | Happy Little plantet | Earth Cubs |
+| --- | --- | --- | --- | --- |
+| Productos y Servicios | Plataforma gamificada con mini retos y juegos educativos. | App móvil con minijuegos ecológicos interactivos. | Juegos interactivos educativos, audiolibros, contenido descargable para uso offline. | Plataforma digital con juegos, videos y recursos educativos. |
+| Precios y costos | Gratuita, con suscripciones y microtransacciones. | Gratuita con anuncios. | Gratuita. | App gratuita con acceso a contenidos basicos. |
+| Canales de distribución (Web y/o móvil) | Web, app móvil y acceso offline. | App móvil (Google play). | App móvil         (Google Play, App Store) y web oficial. | Web official y apps móviles (App Store, Google play). |
+
+**Análisis SWOT**
+
+|     | EcoMind | Defensor de la naturaleza | Happy Little plantet | Earth Cubs |
+| --- | --- | --- | --- | --- |
+| Fortalezas | Gamificación que motiva a los jugadores y acceso online y offline. | Juego simple, divertido y accesible para niños pequeños. | Conecta lo digital con acciones reales de conversión. | Combina diversión con educación ambiental y amplia variedad de contenidos. |
+| Debilidades | Requiere inversión constante en desarrollo de juegos. | Contenido limitado y depende de la publicidad. | Contenido limitado y poca interactividad social entre usuarios. | Enfoque amplio, y depende de actualizaciones constantes. |
+| Oportunidades | Creciente interés en educación ambiental. | Creciente interés en apps educativas ecológicas. | Expansión a edades mayores o contenidos multijugador. | Integración de más contenidos ambientales en su plataforma global. |
+| Amenazas | Competencia de apps educativas consolidadas. | Alta competencia de apps educativas similares. | Necesidad de actualizaciones frecuentes y alta competitividad. | Riesgo a quedas rasgada frente a plataformas digitales más innovadoras. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
