@@ -388,7 +388,11 @@ Creemos que integrar un sistema de ranking motivara a los niños a una participa
 
 #### *1.2.2.4. Lean UX Canvas*
 
+Link: https://canva.link/9mzenct40v5ocok
 
+**Figura 3**
+*Lean Product Canvas*
+![Lean Product Canvas](assets/img/figures/image077.png)
 
 ## 1.3. Segmentos objetivo
 
