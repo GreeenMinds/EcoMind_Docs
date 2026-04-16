@@ -203,7 +203,7 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| u20241e158, Aponte Pablo, Isabel Luisa| |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | Soy estudiante de Ingeniería de Software, una carrera que me está formando en el desarrollo y diseño de soluciones tecnológicas. Poseo experiencia en programación, así como en programas de ilustración vectorial y gráficos rasterizados. Me destaco por mi responsabilidad, creatividad y capacidad de adaptación a nuevas herramientas. Asimismo, valoro profundamente la comunicación efectiva dentro del trabajo colaborativo, ya que considero que es clave para alcanzar los objetivos del equipo. |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Diaz Martinez, Alexther Kamil  (U202412316) | |
-| ![](../assets/images/team-photos/leo-photo.jpg) | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python, y básico de web y Java. Me gusta crear soluciones creativas a los problemas, además de participar y apoyar al equipo en cualquier progreso o dificultad. |
+| ![](../assets/img/team-photos/leo-photo.jpg) | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python, y básico de web y Java. Me gusta crear soluciones creativas a los problemas, además de participar y apoyar al equipo en cualquier progreso o dificultad. |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Laura Acosta, Victor Jhosuef (u202418655) | |
 
 ## 1.2. Solution Profile
@@ -257,7 +257,7 @@ En el Perú, la gestión de residuos sólidos evidencia serias limitaciones. Aun
 **Figura 1**
 *Porcentaje de residuos sólidos municipales valorizados con respecto a lo generado según departamento*
 
-<img src="assets/img/image021.png" width="500">
+<img src="../assets/img/figures/image021.png" width="500">
 
 Nota.*Adaptado de Anuario estadístico del sector Ambiente 2023, por el Ministerio del Ambiente, 2023.*
 
@@ -267,7 +267,7 @@ Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes t
 
 *Resultados descriptivos de conciencia ambiental y las actitudes proambientales de los estudiantes de la Institución Educativa Almirante Miguel Grau Seminario de Madre de Dios, Perú.*
 
-<img src="assets/img/image022.png" width="500">
+<img src="../assets/img/figures/image022.png" width="500">
 
 Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú, por Estrada E., 2022.* 
 
