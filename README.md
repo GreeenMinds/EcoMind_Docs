@@ -370,7 +370,21 @@ En términos de funcionamiento, se espera que la plataforma sea ágil, responsiv
 
 #### *1.2.2.3. Lean UX Hypothesis Statements*
 
+**Hypothesis Statement 1**
 
+Creemos que la implementación de actividades didácticas y gamificadas captará el interés de los niños para su contribución hacia el medio ambiente. Sabremos que lo hemos logrado, cuando al menos un 30% de los niños/estudiantes completen los mini-retos de forma semanal.
+
+**Hypothesis Statement 2**
+
+Creemos que añadir un modo offline permitirá acceso desde cualquier lugar y atraerá a nuevos usuarios de sectores o zonas de menos recursos. Sabremos que lo hemos logrado, cuando haya un incremento de 15% de usuarios que sean de zonas rurales o baja conectividad.
+
+**Hypothesis Statement 3**
+
+Creemos que incentivar a padres e hijos con actividades/mini-retos conjuntos harán que agreguen actividades eco-amigables dentro del hogar. Sabremos que lo hemos logrado, cuando al menos un 40% de las familias registradas complete/publique las actividades conjuntas que realizaron
+
+**Hypothesis Statement 4**
+
+Creemos que integrar un sistema de ranking motivara a los niños a una participación constante en las actividades. Sabremos que lo hemos logrado,cuando los niños aumenten en un 5% en tiempo/días de uso de la aplicación de forma mensual.
 
 #### *1.2.2.4. Lean UX Canvas*
 
