@@ -203,7 +203,7 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| u20241e158, Aponte Pablo, Isabel Luisa| |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | Soy estudiante de Ingeniería de Software, una carrera que me está formando en el desarrollo y diseño de soluciones tecnológicas. Poseo experiencia en programación, así como en programas de ilustración vectorial y gráficos rasterizados. Me destaco por mi responsabilidad, creatividad y capacidad de adaptación a nuevas herramientas. Asimismo, valoro profundamente la comunicación efectiva dentro del trabajo colaborativo, ya que considero que es clave para alcanzar los objetivos del equipo. |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Diaz Martinez, Alexther Kamil  (U202412316) | |
-| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Dulanto Espino, Leo César (U202410254) | |
+| ![](../assets/images/team-photos/leo-photo.jpg) | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python, y básico de web y Java. Me gusta crear soluciones creativas a los problemas, además de participar y apoyar al equipo en cualquier progreso o dificultad. |
 | <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Laura Acosta, Victor Jhosuef (u202418655) | |
 
 ## 1.2. Solution Profile
@@ -257,7 +257,7 @@ En el Perú, la gestión de residuos sólidos evidencia serias limitaciones. Aun
 **Figura 1**
 *Porcentaje de residuos sólidos municipales valorizados con respecto a lo generado según departamento*
 
-<img src="img/image021.png" width="500">
+<img src="assets/img/image021.png" width="500">
 
 Nota.*Adaptado de Anuario estadístico del sector Ambiente 2023, por el Ministerio del Ambiente, 2023.*
 
@@ -267,7 +267,7 @@ Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes t
 
 *Resultados descriptivos de conciencia ambiental y las actitudes proambientales de los estudiantes de la Institución Educativa Almirante Miguel Grau Seminario de Madre de Dios, Perú.*
 
-<img src="img/image022.png" width="500">
+<img src="assets/img/image022.png" width="500">
 
 Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú, por Estrada E., 2022.* 
 
@@ -284,7 +284,89 @@ Dentro de las escuelas primarias, se quiere que los estudiantes transformen la e
 
 #### *1.2.2.2. Lean UX Assumptions*
 
+**Assumptions Worksheet**
 
+1. ¿Quién es el usuario? 
+
+Los usuarios principales son: 
+
+Estudiantes de primaria (9–12 años): niños que inician la formación de hábitos ambientales y requieren actividades visuales, breves e interactivas para consolidar lo aprendido en la escuela.
+
+Padres de familia de escolares de primaria: adultos responsables de reforzar y acompañar las prácticas sostenibles en el hogar, asegurando continuidad en las eco-acciones.
+
+2. ¿Dónde encaja nuestro producto en su trabajo o vida? 
+
+La aplicación se integra en la rutina de los escolares tanto en la escuela como en el hogar. Funciona como: 
+
+Recurso educativo en el aula: apoyo a las clases de educación ambiental a través de actividades gamificadas.
+
+Extensión en el hogar: plataforma para completar mini-retos familiares y dar seguimiento a las eco-acciones.
+
+Conexión comunitaria: registro de actividades ambientales que trascienden el aula y se vinculan con la comunidad.
+
+3. ¿Qué problemas tiene nuestro producto que resolver? 
+
+En escolares de primaria: dificultad para trasladar lo aprendido en la escuela a la vida diaria, ya que los contenidos ambientales no siempre se refuerzan en casa o comunidad.
+
+En padres de familia: falta de recursos y estrategias claras para apoyar a los niños en la práctica de hábitos sostenibles dentro del hogar.
+
+En general: ausencia de retroalimentación y medición de impacto que permitan dar continuidad a las eco-acciones.
+
+4. ¿Cuándo y cómo es usado nuestro producto? 
+
+Durante las clases escolares, en sesiones que integren los contenidos ambientales.
+
+En el hogar, como parte de tareas, eco-retos o proyectos familiares.
+
+En la comunidad, registrando prácticas ambientales conjuntas.
+
+El producto puede usarse en cualquier momento y lugar, tanto en modo online como en modo offline con sincronización diferida, asegurando continuidad incluso en contextos de baja conectividad.
+
+5. ¿Qué características son importantes? 
+
+Mini-retos y actividades progresivas adaptadas a escolares y familias.
+
+Gamificación: puntos, insignias y rankings para incentivar la participación conjunta.
+
+Retroalimentación inmediata con reportes visibles para niños y padres.
+
+Modo offline con registro y posterior sincronización de actividades.
+
+Interfaz visual, inclusiva y fácil de usar, adecuada para niños y adultos.
+
+Reportes de impacto que midan el avance de eco-acciones individuales y colectivas.
+
+6. ¿Cómo debería verse nuestro producto y cómo comportarse?
+
+La aplicación debe presentar un diseño colorido, dinámico e intuitivo, con ilustraciones y personajes que conecten con los escolares y resulten comprensibles para los padres. La navegación debe ser clara, sencilla y atractiva, sin elementos que distraigan del aprendizaje.
+
+En términos de funcionamiento, se espera que la plataforma sea ágil, responsiva y accesible, con tiempos de carga mínimos y transiciones fluidas. Debe comportarse como una experiencia de juego educativo con retroalimentación constante, transmitiendo confianza a las familias mediante reportes verificables de progreso e indicadores claros del impacto de las eco-acciones.
+
+**Assumptions**
+
+- Creo que mis clientes necesitan una plataforma educativa que integre escuela y hogar para reforzar la conciencia ambiental a través de actividades prácticas y gamificadas. 
+
+- Estas necesidades se pueden resolver con mini-retos, eco-acciones verificables y reportes de impacto que motiven la continuidad de hábitos sostenibles. 
+
+- Mis clientes iniciales son (o serán) escolares de primaria (9–12 años) y sus padres de familia, interesados en adoptar hábitos ambientales dentro y fuera del aula. 
+
+- El valor #1 que un cliente quiere de mi servicio es la posibilidad de ver resultados tangibles en la formación de hábitos sostenibles en los niños. 
+
+- El cliente también puede obtener estos beneficios adicionales: participación conjunta entre escuela y hogar, retroalimentación inmediata y reconocimiento familiar y comunitario. 
+
+- Voy a adquirir la mayoría de mis clientes a través de instituciones educativas, programas ambientales escolares y difusión digital en redes sociales. 
+
+- Haré dinero a través de un modelo freemium con acceso gratuito básico y una versión premium con funciones avanzadas de seguimiento e impacto. 
+
+- Mi competencia principal en el mercado será aplicaciones educativas ambientales como Happy Little Planet o Defensor de la Naturaleza. 
+
+- Los venceremos debido a nuestra propuesta integral que combina escuela, hogar y comunidad, con funcionalidad offline y un sistema de reportes verificables. 
+
+- Mi mayor riesgo de producto es que las familias no utilicen la plataforma de manera constante fuera del aula. 
+
+- Resolveremos esto a través de estrategias de gamificación, incentivos visibles (insignias, rankings) y actividades comunitarias que refuercen la continuidad. 
+
+- ¿Qué otras suposiciones tenemos? Que las familias valorarán los reportes de impacto como evidencia de aprendizaje. Si esta suposición se prueba falsa, el proyecto podría tener baja adopción en los hogares. 
 
 #### *1.2.2.3. Lean UX Hypothesis Statements*
 
