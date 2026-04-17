@@ -43,8 +43,9 @@ Abril 2026
 
 | Version | Fecha | Autor | Descripción de modificación |
 | -------- | -------- | -------- | -------- |
-| 1.0.0    | Text     | Text     |
-
+| 1.0.0    | 4/04/26     | Alejandra Astocondor     | initial commit <br> docs: añadir estructura del proyecto |
+| 1.0.0    | 13/04/26     | Alejandra Astocondor <br> Isabel Aponte    | docs: agregar antecedentes y problematica <br> docs: añadir Lean UX Problem Statement <br> docs: Añadir segmento objetivo  |
+| 1.1.0    | 16/04/26     | Leo Dulanto   | docs: agregar Lean UX assumptions <br> docs: agregar Lean UX Hypothesis Statements <br> docs: agregar Lean UX Canvas <br> docs: agregar analisis competitivo <br> docs: agregar diseño de entrevistas |
 
 # Projet Report Collaboration Insights
 
