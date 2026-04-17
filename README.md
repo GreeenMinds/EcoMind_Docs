@@ -607,8 +607,15 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAc74he
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
+**Primer Segmento Objetivo (Padres de Familia)**
 
+*Figura 4 (User Persona 1)*  
+![User Persona 1](assets\img\figures\image054.png)
 
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 5 (User Persona 2)*  
+![User Persona 2](assets\img\figures\image053.png)
 
 ### 2.3.2. User Task Matrix
 
