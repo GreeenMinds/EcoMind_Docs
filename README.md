@@ -602,7 +602,118 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAc74he
 
 ### 2.2.3. Análisis de entrevistas
 
+**Segmento: Padres de familia**
 
+**1. Perfil general (edad, ocupación, hijos, residencia):**
+
+* Edad promedio: 47 años (48, 62 y 30).
+* Todos tienen hijos en edad escolar (inicial, primaria y secundaria).
+* Viven en Lima Metropolitana y Barranca.
+     
+**2. Nivel de confianza con tecnología (celulares/aplicaciones)**
+
+**Figura 3**
+
+*Nivel de confianza en la tecnología - Padres*
+
+ <img src="assets/img/figures/image038.png" width="330"> 
+ 
+**3. Actividades familiares durante la semana:**
+
+En relación con las actividades familiares, los padres señalaron que durante la semana revisan clases y tareas con sus hijos, conversan en las tardes y comparten más tiempo durante los fines de semana.
+
+**4. Importancia del medio ambiente en la educación de los hijos:**
+
+Sobre la importancia del medio ambiente en la educación de sus hijos, el 100% de los entrevistados lo considera fundamental, asociándolo con problemas actuales como sequías, contaminación y el exceso de desechos.
+
+**5. Acciones ambientales realizadas en casa**
+
+En cuanto a las acciones ambientales realizadas en casa, todos afirmaron practicar el ahorro de agua y energía. Además, realizan reciclaje y utilizan bolsas reutilizables o deposita correctamente los desechos.
+
+**6. Dificultades al enseñar hábitos sostenibles a los hijos**
+
+**Figura 4**
+
+*Dificultades en las enseñanzas - Padres*
+
+ <img src="assets/img/figures/image040.png" width="330"> 
+ 
+**7. Aplicaciones educativas Ambientales**
+
+Frente al uso de aplicaciones educativas ambientales, todos los padres estarían dispuestos a utilizarlas, siempre que sean prácticas y sencillas. 
+
+**8. Motivación para los hijos**
+
+En cuanto a la motivación de los hijos, los padres mencionaron que responden mejor cuando hay premios y logros visibles, dinámicas familiares o cuando sienten que sus acciones tienen un impacto en la comunidad.
+
+**9. Expectativas de aprendizaje ambiental:**
+
+Con respecto a las expectativas de aprendizaje ambiental, los padres desean que sus hijos asuman responsabilidades tanto en el hogar como en la comunidad, y que desarrollen una conciencia crítica frente al consumo de agua, energía y residuos.
+
+**Segmento: Escolares de primaria:**
+
+**1. Perfil general (nombre, edad, residencia):**
+* Edad promedio: 11 años (10, 11 y 12).
+* Residentes en Lima (Pueblo Libre, La Molina, San Juan de Lurigancho).
+  
+**2. Actividades en tiempo libre:**
+
+Respecto a sus actividades en el tiempo libre, los escolares disfrutan jugar en consola o computadora, pasar tiempo en plataformas digitales
+
+**Figura 5**
+
+*Apps favoritas de escolares de primaria*
+
+<img src="assets/img/figures/image042.png" width="330"> 
+
+**Figura 6**
+
+Uso de aparatos tecnológicos- Escolares
+
+<img src="assets/img/figures/image044.png" width="330"> 
+ 
+**4. Aprendizaje escolar sobre medio ambiente:**
+
+Sobre el aprendizaje escolar en temas ambientales, los niños identificaron prácticas como el ahorro de agua y energía, la separación de basura, la reducción de plásticos y la conciencia frente a la contaminación futura.
+
+**5. Acciones ambientales en casa:**
+
+Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua, otro practica el reciclaje o la reducción de bolsas plásticas, y también se enfocan en mantener limpio su espacio,
+
+**6. Motivación para hacerlo:**
+
+**Figura 7**
+
+*Motivación de escolares*
+
+<img src="assets/img/figures/image046.png" width="330">
+ 
+**7. Aprender con juegos o retos**
+
+**Figura 8**
+*Juegos educativos - Escolares*
+
+<img src="assets/img/figures/image048.png" width="330"> 
+ 
+**8. Preferencias entre lo digital o papel**
+
+**Figura 9**
+
+*Preferencia en los escolares*
+
+<img src="assets/img/figures/image050.png" width="330"> 
+  
+**9. Forma de aprender favorita**
+
+En cuanto a la forma de aprender, todos mostraron interés en juegos y retos relacionados con el medio ambiente.
+
+**Análisis comparativo**
+
+El análisis de entrevistas evidencia una diferencia clara en el nivel de confianza tecnológica entre padres e hijos. Mientras que los padres presentan un manejo básico o intermedio, lo que implica la necesidad de aplicaciones simples y fáciles de usar, los escolares muestran un dominio más alto de dispositivos y plataformas digitales, lo que refleja una motivación clara hacia el aprendizaje mediante entornos digitales.
+
+En cuanto a la educación ambiental, los padres perciben este aspecto como una responsabilidad tanto familiar como comunitaria, asociándolo a prácticas de ahorro y reciclaje en el hogar. Por su parte, los hijos lo relacionan más directamente con el futuro y con su entorno inmediato, mostrando interés en acciones como el cuidado del agua, la energía y la reducción de plásticos. Sin embargo, ambos segmentos comparten limitaciones que deben considerarse. Los padres enfrentan la falta de constancia de sus hijos al mantener hábitos sostenibles, así como una escasa conciencia comunitaria. 
+
+En el caso de los escolares, algunos presentan una motivación débil al asumir estas prácticas y existe el riesgo de que las aplicaciones o juegos se vuelvan adictivos si no se diseñan adecuadamente. Frente a este panorama, se identifica una oportunidad clara para el desarrollo de una aplicación educativa ambiental con retos sencillos, dinámicos e incentivados que fortalezcan el vínculo entre familia y la conciencia ambiental.
 
 ## 2.3. Needfinding
 
