@@ -632,7 +632,16 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAc74he
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+**Epics**
 
+| Epic ID | Título | Descripción |
+| --- | --- | --- |
+| E1 | Actividades gamificadas  | Como estudiante, quiero acceder a actividades gamificadas sobre cuidado ambiental, para aprender de forma entretenida y mantener mi interés en el tema. |
+| E2 | Participación familiar | Como padre, quiero que la aplicación ofrezca actividades y proyectos grupales, para fortalecer la interacción, colaboración y aprendizaje dentro de mi familia. |
+| E3 | Información clara y amigable | Como estudiante, quiero acceder a información sencilla y fácil de comprender sobre las actividades, para aprender sin perder la motivación. |
+| E4 | Acceso a comunidad | Como estudiante, quiero una sección que me permita interactuar con otros usuarios y compartir logros, para sentir motivación en mejorar continuamente. |
+| E5 | Accesibilidad | Como estudiante o padre, quiero que la aplicación funcione de manera rápida, sencilla y accesible en cualquier dispositivo, para contar con una experiencia fluida y agradable en cualquier situación.  |
+| E6 | Landing page informativa | Como estudiante o padre, quiero acceder a una página informativa de EcoMind, para conocer la propuesta del producto y unirme a la comunidad. |
 
 
 ## 3.2. Impact Mapping
