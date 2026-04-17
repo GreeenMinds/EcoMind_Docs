@@ -419,7 +419,7 @@ Para el segmento de estudiantes de primaria, las investigaciones indican que, si
 **Necesidad:**
 El estudiante requiere una experiencia de aprendizaje gamificada que convierta las tareas ecológicas (como reciclar o ahorrar agua) en "misiones" divertidas. Necesita una herramienta que le brinde retroalimentación inmediata sobre sus logros, permitiéndole ver el impacto real de sus acciones de manera sencilla y atractiva.
 
-## Segmento objetivo #2: Padres de Familia
+#### Segmento objetivo #2: Padres de Familia
 Este segmento comprende a los adultos responsables del hogar, quienes actúan como el nexo principal para que los hábitos aprendidos en la escuela se consoliden en la rutina familiar cotidiana.
 Aspectos demográficos:
 
@@ -555,6 +555,48 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 
 ### 2.2.2. Registro de entrevistas
 
+**Video de la entrevista** :
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAc74hewuNHToZcDklOaDB9AXfXi86jJbeHQm1dYv3cQZY?e=jNMFmH
+
+#### Segmento: Padres de Familia
+<br>
+
+| **Entrevista No. 1** |
+|---|
+| <img src="assets/img/figures/image028.png" width="330" hspace="54"> <img src="assets/img/figures/image029.png" width="360" hspace="60"> |
+| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 48 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 48 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
+
+
+| **Entrevista No. 2** |
+|---|
+| <img src="assets/img/figures/image031.png" width="330" height="200" hspace="54"> <img src="assets/img/figures/image030.png" width="330" height="190" hspace="60"> |
+| **Entrevistado N°2:** César Meléndez Romero<br> **Edad:** 62 años<br>**Ubicación:** Independencia, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 4:55<br> **Duración:** 5:13<br><br> **Resumen:** <br><br>Nuestro entrevistado es César, un profesor de 62 años que vive en Independencia y cuenta con 1 hijo. La rutina semanal de César se centra en sus clases, y la entrevista aborda la importancia del cuidado del medio ambiente y el uso de una aplicación educativa para este propósito.<br><br>En cuanto al uso de la tecnología, César tiene un conocimiento básico, ya que se siente confiado en su capacidad para usar un teléfono celular y aplicaciones. Respecto al cuidado del medio ambiente, le otorga gran importancia, especialmente con los problemas actuales como las sequías. En su hogar, las acciones más comunes son gestionar el consumo de agua y evitar materiales que emitan gases de efecto invernadero. Sin embargo, enfrenta dificultades porque la gente no es plenamente consciente de la importancia de estas acciones.<br><br>César considera que el apoyo de la tecnología puede ser clave para motivar a su familia. Estaría dispuesto a utilizar una aplicación con retos simples para enseñar acciones ambientales a sus hijos. Para él, lo más importante es que sus hijos valoren y preserven un medio ambiente saludable para el futuro. |
+
+
+| **Entrevista Nro. 3** |
+|---|
+| <img src="assets/img/figures/image033.png" width="330" height="200" hspace="54"> <img src="assets/img/figures/image032.png" width="330" height="200" hspace="60"> |
+| **Entrevistado N°3:** Juan Carlos Huamán Quispe<br> **Edad:** 30 años<br>**Ubicación:** San Juan de Lurigancho, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 3:12<br> **Duración:** 4:35<br><br> **Resumen:** <br><br>Nuestro entrevistado es Juan Carlos Huamán Quispe, un padre de familia de 30 años que vive en San Juan de Lurigancho, Lima. Tiene dos hijos de 8 y 3 años, quienes actualmente cursan primaria e inicial. Su rutina semanal combina su trabajo como contador con el acompañamiento a sus hijos, dedicando las noches y fines de semana a compartir actividades familiares.<br><br>En cuanto al uso de la tecnología, Juan Carlos tiene un nivel intermedio, ya que utiliza el celular para llamadas, WhatsApp, correo y aplicaciones bancarias, aunque suele pedir ayuda para instalar o configurar nuevas aplicaciones. Respecto al cuidado del medio ambiente, considera que es un aspecto fundamental en la educación de sus hijos. En su hogar, las acciones más comunes son el reciclaje, el uso de bolsas reutilizables y el ahorro de agua y energía. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan apagar las luces o colocar la basura en el tacho adecuado.<br><br>Juan Carlos afirma que utilizaría una aplicación con retos ambientales, pues cree que sus hijos aprenden más rápido con dinámicas lúdicas y competitivas. Considera que la motivación se refuerza cuando la escuela y la familia trabajan de la mano, y que los incentivos o pequeños logros ayudan a mantener el interés de los niños. Finalmente, espera que sus hijos aprendan a ser responsables con el medio ambiente, valorando la naturaleza y entendiendo que cada acción, por pequeña que sea, puede marcar la diferencia en su comunidad. |
+
+
+#### Segmento objetivo: Escolares de Primaria
+<br>
+
+| **Entrevista Nro. 1** |
+|---|
+| <img src="assets/img/figures/image035.png" width="330" height="200" hspace="54"> <img src="assets/img/figures/image034.png" width="330" height="190" hspace="60"> |
+| **Entrevistado N°1:** Mia Rivera Vivanco Zárate<br> **Edad:** 10 años<br>**Ubicación:** Surquillo, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 15:17<br> **Duración:** 4:35<br><br> **Resumen:** <br><br>Nuestra entrevistada es Mia Antonela Rivera Vivanco, una niña de 10 años que actualmente es estudiante de nivel primaria, junto a su madre, Erita Vivanco Zárate.<br><br>En cuanto al uso de la tecnología, utiliza su celular y computadora. Sus aplicaciones favoritas son Pinterest y Roblox, ya que le permiten interactuar con amigos que viven lejos. Para aprender sobre el cuidado del medio ambiente, prefiere juegos y videos porque son más entretenidos. Respecto al cuidado del medio ambiente, recuerda que en su colegio le enseñaron que la contaminación puede afectar a la comunidad en el futuro. En casa, sus acciones más comunes son ahorrar agua y apagar las luces durante el día para aprovechar la luz natural.<br><br>Lo que la motiva a cuidar el planeta es el deseo de que en el futuro siga siendo como lo conocemos hoy y no se convierta en un lugar peor. Prefiere actividades en papel sobre las digitales porque puede reutilizarlas. |
+
+| **Entrevista Nro. 2** |
+|---|
+| <img src="assets/img/figures/image036.png" width="330" hspace="270"> |
+| **Entrevistado N°2:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 19:51<br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
+
+| **Entrevista Nro. 3** |
+|---|
+| <img src="assets/img/figures/image037.png" width="330" hspace="270"> |
+| **Entrevistado N°3:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 23:06<br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
 
 
 ### 2.2.3. Análisis de entrevistas
