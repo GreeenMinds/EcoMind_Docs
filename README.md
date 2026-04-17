@@ -200,11 +200,11 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 
 | Foto | Nombre | Descripción |
 | -------- | -------- | -------- |
-| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| u20241e158, Aponte Pablo, Isabel Luisa| |
+| <img src="assets/img/team-photos/isabel-photo.jpg" width="150"> | Aponte Pablo, Isabel Luisa (u20241e158) | Estudiante de Ingeniería de Software. Me interesa la programación y el desarrollo de soluciones prácticas. Tengo conocimientos en C++ y otras herramientas tecnólogicas, me caracterizo por ser responsable, organizada y enfocada en el trabajo en equipo. |
 | <img src="assets/img/team-photos/ale-photo.jpg" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | Estudiante de Ingeniería de Software, enfocada en el desarrollo de soluciones tecnológicas. Poseo habilidades en programación y diseño digital. Me caracterizo por mi creatividad, responsabilidad y capacidad de adaptación. |
-| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Diaz Martinez, Alexther Kamil  (U202412316) | |
-| ![](assets/img/team-photos/leo-photo.jpg) | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python, y básico de web y Java. Me gusta crear soluciones creativas a los problemas, además de participar y apoyar al equipo en cualquier progreso o dificultad. |
-| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150">| Laura Acosta, Victor Jhosuef (u202418655) | |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Diaz Martinez, Alexther Kamil (U202412316) | — |
+| <img src="assets/img/team-photos/leo-photo.jpg" width="150"> | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python y fundamentos de desarrollo web y Java. Me gusta crear soluciones creativas a problemas y apoyar activamente al equipo en los proyectos. |
+| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Laura Acosta, Victor Jhosuef (u202418655) | — |
 
 ## 1.2. Solution Profile
 
