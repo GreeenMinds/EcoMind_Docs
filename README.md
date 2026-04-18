@@ -721,41 +721,46 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 4 (User Persona 1)*  
-<img src="assets/img/figures/image054.png" width="330">
+<img src="assets/img/figures/image054.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
 *Figura 5 (User Persona 2)*  
-<img src="assets/img/figures/image053.png" width="330">
+<img src="assets/img/figures/image053.png" width="530">
 
 ### 2.3.2. User Task Matrix
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 6 (User Task Matrix 1)*  
-<img src="assets/img/figures/imagen083.png" width="330">
+<img src="assets/img/figures/imagen083.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
 *Figura 7 (User Task Matrix 2)*  
-<img src="assets/img/figures/imagen082.png" width="330">
+<img src="assets/img/figures/imagen082.png" width="530">
 
 
 ### 2.3.3. User Journey Mapping
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 8 (User Journey Mapping 1)*  
-<img src="assets/img/figures/image059.png" width="330">
+<img src="assets/img/figures/image059.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
 *Figura 9 (User Journey Mapping 2)*  
-<img src="assets/img/figures/image057.png" width="330">
-
-
+<img src="assets/img/figures/image057.png" width="530">
 
 ### 2.3.4. Empathy Mapping
+**Primer Segmento Objetivo (Padres de Familia)**
 
+*Figura 10 (Empathy Mapping 1)*  
+<img src="assets/img/figures/image63.png" width="530">
 
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 11 (Empathy Mapping 2)*  
+<img src="assets/img/figures/image062.png" width="530">
 
 ## 2.4. Big Picture EventStorming
 
