@@ -755,7 +755,7 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 10 (Empathy Mapping 1)*  
-<img src="assets/img/figures/image63.png" width="530">
+<img src="assets/img/figures/image063.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
