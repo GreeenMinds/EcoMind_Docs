@@ -721,26 +721,35 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 4 (User Persona 1)*  
-![User Persona 1](assets\img\figures\image054.png)
+<img src="assets/img/figures/image054.png" width="330">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
 *Figura 5 (User Persona 2)*  
-![User Persona 2](assets\img\figures\image053.png)
+<img src="assets/img/figures/image053.png" width="330">
 
 ### 2.3.2. User Task Matrix
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 6 (User Task Matrix 1)*  
-![User Task Matrix 1](assets\img\figures\imagen083.png)
+<img src="assets/img/figures/imagen083.png" width="330">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
 *Figura 7 (User Task Matrix 2)*  
-![User Task Matrix 2](assets\img\figures\imagen082.png)
+<img src="assets/img/figures/imagen082.png" width="330">
 
 
 ### 2.3.3. User Journey Mapping
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 8 (User Journey Mapping 1)*  
+<img src="assets/img/figures/image059.png" width="330">
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 9 (User Journey Mapping 2)*  
+<img src="assets/img/figures/image057.png" width="330">
 
 
 
