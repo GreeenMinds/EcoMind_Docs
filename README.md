@@ -3088,15 +3088,6 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
   </tr>
 </table>
 
-## 3.2. Impact Mapping
-
-
-
-## 3.3. Product Backlog
-
-
-
-# Capítulo IV: Product Design
 
 ## 3.2. Impact Mapping
 
