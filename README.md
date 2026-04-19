@@ -3154,17 +3154,23 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 5 | US54 | Información de la comunidad | Como usuario, quiero conocer la comunidad desde la landing. | 3 |
 | 6 | US52 | Consejos para padres | Como padre, quiero recomendaciones de uso. | 3 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 7 | US03 | Acceso a mini-retos ambientales | Como estudiante, quiero acceder a mini-retos interactivos. | 8 |
 | 8 | US08 | Información educativa | Como estudiante, quiero aprender eco-acciones. | 3 |
 | 9 | US17 | Acceso a resúmenes | Como estudiante, quiero ver resúmenes educativos. | 3 |
 | 10 | US32 | Infografías resumen | Como estudiante, quiero acceder a infografías. | 3 |
 | 11 | US09 | Retroalimentación inmediata | Como estudiante, quiero recibir feedback al terminar actividades. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 12 | US04 | Sistema de puntos e insignias | Como estudiante, quiero ganar recompensas. | 5 |
 | 13 | US25 | Insignias desbloqueadas | Como estudiante, quiero visualizar mis insignias. | 3 |
 | 14 | US24 | Progreso visual | Como estudiante, quiero ver mi progreso. | 3 |
 | 15 | US23 | Historial de actividades | Como estudiante, quiero ver mis actividades pasadas. | 3 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 16 | US10 | Compartir logros | Como estudiante, quiero compartir logros. | 5 |
 | 17 | US26 | Feed comunitario | Como estudiante, quiero ver publicaciones. | 5 |
 | 18 | US28 | Reaccionar a publicaciones | Como estudiante, quiero reaccionar a posts. | 3 |
@@ -3172,33 +3178,49 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 20 | US38 | Panel de logros | Como estudiante, quiero ver logros destacados. | 3 |
 | 21 | US39 | Invitar amigos | Como estudiante, quiero invitar amigos. | 3 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 22 | US05 | Ranking de estudiantes | Como estudiante, quiero ver ranking. | 3 |
 | 23 | US36 | Ranking semanal | Como estudiante, quiero ver ranking semanal. | 3 |
 | 24 | US40 | Logros colectivos | Como estudiante, quiero metas colectivas. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 25 | US31 | Eventos ambientales | Como estudiante, quiero participar en eventos. | 5 |
 | 26 | US37 | Eventos comunitarios | Como estudiante, quiero participar en eventos. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 27 | US06 | Retos familiares conjuntos | Como padre, quiero retos con mis hijos. | 8 |
 | 28 | US07 | Reporte de progreso para padres | Como padre, quiero ver progreso del hijo. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 29 | US11 | Modo offline | Como estudiante, quiero usar la app sin internet. | 8 |
 | 30 | US49 | Sincronización automática | Como usuario, quiero sincronización automática. | 5 |
 | 31 | US42 | Multiplataforma | Como usuario, quiero usar varios dispositivos. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 32 | US12 | Interfaz responsive | Como usuario, quiero adaptabilidad. | 5 |
 | 33 | US44 | Interfaz simple | Como usuario, quiero interfaz clara. | 3 |
 | 34 | US43 | Carga rápida | Como usuario, quiero rapidez. | 3 |
 | 35 | US50 | Optimización de recursos | Como usuario, quiero bajo consumo. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 36 | US45 | Disponibilidad 24/7 | Como usuario, quiero acceso constante. | 5 |
 | 37 | US47 | Soporte técnico | Como usuario, quiero ayuda dentro de la app. | 3 |
 | 38 | US48 | Personalización | Como usuario, quiero personalizar accesos. | 3 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 39 | US01 | Registro de cuenta | Como padre, quiero registrarme. | 5 |
 | 40 | US02 | Inicio de sesión | Como usuario, quiero iniciar sesión. | 3 |
 | 41 | US46 | Seguridad de datos | Como usuario, quiero datos protegidos. | 5 |
 
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
 | 42 | TS01 | Endpoint de registro | Implementar registro backend. | 5 |
 | 43 | TS02 | Endpoint de login | Implementar autenticación JWT. | 5 |
 | 44 | TS03 | Vinculación familiar | Implementar relación padre-hijo. | 5 |
