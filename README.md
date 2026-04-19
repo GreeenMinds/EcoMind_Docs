@@ -766,7 +766,44 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 
 
 ## 2.5. Ubiquitous Language
+El siguiente glosario define los términos clave del dominio de negocio utilizados en EcoMind. Estos conceptos permiten que todos los miembros del equipo y stakeholders compartan una comprensión común, evitando ambigüedades y facilitando la comunicación.
 
+Los términos se presentan en inglés, acompañados de su equivalente en español.
+
+*Glosario del Dominio*
+
+- **User**(Usuario)
+Persona que interactúa con la plataforma. Se clasifica principalmente en estudiantes y padres de familia, quienes cumplen roles complementarios.
+- **Streak**(Racha) 
+  Registro de días consecutivos en que el usuario (estudiante/padre de familia) ingresa y completa sus actividades. Al alcanzar un periodo determinado (por ejemplo, 7 días), se otorga un bono de puntos incremental para reforzar la constancia.
+- **Ranking**(Ranking)  
+  Tabla que ordena a estudiantes o familias según los puntos acumulados. Solo participan aquellos que hayan completado al menos una actividad en el periodo evaluado.
+- **Commitment**(Compromiso)  
+  Declaración personal registrada por el usuario en su perfil, donde expresa su intención de mantener un hábito ambiental específico. Puede ser editada o eliminada por el usuario.
+- **Challenge**(Reto) 
+  Actividad propuesta por la plataforma que impulsa la realización de una eco-acción. Puede desarrollarse de manera individual, familiar o comunitaria.
+- **Points**(Puntos)  
+  Unidad de reconocimiento otorgada al completar actividades. Se acumulan en el perfil del usuario y determinan su posición en el ranking.
+- **Badge**(Insignia)  
+  Representación visual de un logro alcanzado por el usuario, utilizada como incentivo y reconocimiento dentro del sistema.
+- **Community**(Comunidad)  
+  Espacio donde los usuarios comparten logros, interactúan y participan en actividades colectivas, fomentando la motivación social.
+- **Offline Mode**(Modo Offline)  
+  Funcionalidad que permite realizar y registrar actividades sin conexión a internet. Los datos se sincronizan cuando se restablece la conectividad.
+- **Dashboard**(Panel de Control) 
+  Vista principal donde el usuario puede visualizar su progreso, puntos acumulados, retos completados y métricas de impacto de forma clara y resumida.
+- **Frequently Asked Questions** - FAQ (Preguntas Frecuentes)  
+  Sección informativa que responde dudas comunes de los usuarios sobre el uso de la plataforma, actividades y objetivos ambientales.
+- **Environmental Awareness**(Conciencia Ambiental)  
+  Nivel de conocimientos, actitudes y prácticas que permiten a una persona actuar de manera responsable con el entorno.
+- **Eco-Action** (Eco-Acción) 
+  Acción concreta y verificable realizada fuera de la aplicación que contribuye al cuidado del medio ambiente.
+- **Sustainable Habit**  (Hábito Sostenible)  
+  Práctica repetitiva incorporada en la vida diaria del usuario, como resultado del uso continuo de la plataforma.
+- **Gamification** (Gamificación)
+Estrategia que utiliza elementos de juego para hacer el aprendizaje más atractivo, dinámico y motivador.
+- **Progress** (Progreso)
+  Medida del avance del usuario en la realización de retos y eco-acciones. Permite visualizar la evolución del aprendizaje.
 
 
 # Capítulo III: Requirements Specification
