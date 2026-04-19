@@ -3142,12 +3142,24 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 12 (Impact Mapping 1)*  
-<img src="assets/img/figures/impact-map-car.jpg" width="530">
+<div align="center">
+ 
+![Foto](assets/img/figures/impact-map-car.jpg)
+
+
+</div>
+
+---
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
 *Figura 13 (Impact Mapping 2)*  
-<img src="assets/img/figures/impact-map-val.jpg" width="530">
+<div align="center">
+ 
+![Foto](assets/img/figures/impact-map-val.jpg)
+
+
+</div>
 
 ---
 
