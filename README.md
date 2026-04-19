@@ -3098,35 +3098,276 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 
 # Capítulo IV: Product Design
 
+## 3.2. Impact Mapping
+
+El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio, los actores clave, los impactos esperados y las funcionalidades que los sustentan.
+
+**Objetivo de negocio:** Lograr que al menos el 30% de los escolares registrados completen mini-retos de forma semanal durante los primeros 6 meses de operación.
+
+| Actor | Impacto esperado | Entregables / Funcionalidades |
+|---|---|---|
+| **Estudiante de primaria (9-12 años)** | Completar retos semanales y adoptar hábitos sostenibles en casa | Mini-retos gamificados, sistema de puntos e insignias, ranking, retroalimentación inmediata, modo offline |
+| **Padre de familia** | Monitorear el progreso de su hijo y participar activamente en retos familiares | Panel de reportes de progreso, retos familiares conjuntos, notificaciones semanales de avance |
+| **Comunidad educativa** | Fomentar la conciencia ambiental más allá del aula | Muro de logros compartidos, métricas de impacto colectivo, retos comunitarios |
+| **Equipo GreenMinds** | Garantizar disponibilidad e inclusión digital | Modo offline con sincronización, interfaz responsive, soporte para dispositivos de gama media-baja |
+
+[foto de Impact Mapping - diagrama visual del impact mapping de EcoMind]
+
+---
+
+## 3.3. Product Backlog
+
+| # | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1 | US13 | Visualización de la landing page | Como visitante, quiero acceder a una página informativa de EcoMind para conocer sus beneficios. | 3 |
+| 2 | US14 | Sección de preguntas frecuentes | Como visitante, quiero encontrar un FAQ en la landing page para aclarar mis dudas. | 2 |
+| 3 | US01 | Registro de cuenta | Como padre, quiero registrarme en EcoMind para crear una cuenta familiar. | 5 |
+| 4 | US02 | Inicio de sesión | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil. | 3 |
+| 5 | TS01 | Endpoint de registro de usuarios | Implementar POST /api/v1/auth/register con validación y hash de contraseña. | 5 |
+| 6 | TS02 | Endpoint de autenticación con JWT | Implementar POST /api/v1/auth/login con generación de token JWT. | 5 |
+| 7 | TS06 | Vinculación de cuentas padre-hijo | Implementar endpoints para vincular/desvincular cuentas familia. | 5 |
+| 8 | US03 | Acceso a mini-retos ambientales | Como estudiante, quiero acceder a mini-retos interactivos sobre cuidado ambiental. | 8 |
+| 9 | US04 | Sistema de puntos e insignias | Como estudiante, quiero ganar puntos e insignias al completar retos. | 5 |
+| 10 | US05 | Ranking de estudiantes | Como estudiante, quiero ver un ranking con los puntajes de otros usuarios. | 3 |
+| 11 | US08 | Información educativa sobre eco-acciones | Como estudiante, quiero acceder a información sencilla sobre eco-acciones. | 3 |
+| 12 | US09 | Retroalimentación inmediata | Como estudiante, quiero recibir retroalimentación al terminar una actividad. | 5 |
+| 13 | TS03 | Endpoint de gestión de retos | Implementar CRUD de retos en /api/v1/challenges. | 8 |
+| 14 | TS04 | Endpoint de progreso y puntaje | Implementar GET /api/v1/users/:id/progress con historial de actividad. | 5 |
+| 15 | US06 | Retos familiares conjuntos | Como padre, quiero acceder a retos diseñados para realizar con mis hijos. | 8 |
+| 16 | US07 | Reporte de progreso para padres | Como padre, quiero ver reportes del progreso ambiental de mi hijo. | 5 |
+| 17 | US10 | Compartir logros en comunidad | Como estudiante, quiero compartir mis logros con otros usuarios. | 5 |
+| 18 | US11 | Uso de la aplicación en modo offline | Como estudiante, quiero usar EcoMind sin conexión a internet. | 8 |
+| 19 | TS05 | API de sincronización offline | Implementar POST /api/v1/sync para sincronizar progreso offline. | 8 |
+| 20 | US12 | Interfaz accesible y responsive | Como usuario, quiero que la aplicación se adapte a cualquier dispositivo. | 5 |
+
+---
+
+# Capítulo IV: Product Design
+
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
 
+EcoMind adopta un sistema de diseño coherente, accesible y emocionalmente conectado con su audiencia principal: niños de 9 a 12 años y sus padres. El diseño visual busca transmitir energía positiva, cercanía con la naturaleza y facilidad de uso.
 
+**Identidad de marca**
+
+El nombre EcoMind combina los conceptos de ecología y mentalidad consciente. El logotipo emplea formas orgánicas (hojas, círculos) que evocan la naturaleza y el crecimiento. La marca usa un tono amigable, motivador y positivo tanto en el texto como en los elementos visuales.
+
+**Paleta de colores**
+
+La paleta está basada en tonos naturales que transmiten frescura, vitalidad y cuidado ambiental, complementados por colores de acento para gamificación:
+
+| Color | Hex | Uso |
+|---|---|---|
+| Verde primario | #4CAF50 | Elementos principales, botones CTA, iconos de retos |
+| Verde oscuro | #2E7D32 | Títulos, énfasis, navegación |
+| Amarillo acento | #FFC107 | Puntos, insignias, recompensas |
+| Azul agua | #29B6F6 | Fondos secundarios, sección de agua |
+| Blanco | #FFFFFF | Fondos de tarjetas, texto sobre fondos oscuros |
+| Gris claro | #F5F5F5 | Fondos de pantalla principal |
+| Gris texto | #424242 | Texto de cuerpo |
+
+**Tipografía**
+
+- **Títulos y encabezados:** Nunito Bold – redondeada, amigable y legible para niños.
+- **Texto de cuerpo:** Nunito Regular – consistente con la tipografía de títulos, facilita la lectura.
+- **Tamaños mínimos:** 14px para cuerpo, 18px para subtítulos, 24px para títulos principales.
+
+**Tono de comunicación**
+
+- Lenguaje simple, positivo y motivador.
+- Uso de segunda persona ("Tú puedes hacerlo", "¡Misión completada!").
+- Evitar tecnicismos; cuando se usen términos ambientales, se acompañan de una explicación breve.
+- Emojis y personajes animados para reforzar mensajes clave.
+
+**Iconografía**
+
+Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la librería de iconos Material Design adaptada con el color verde primario de EcoMind.
+
+[foto de General Style Guidelines – tabla de paleta de colores, tipografías e iconografía]
+
+---
 
 ### 4.1.2. Web Style Guidelines
 
+Las guías de estilo web de EcoMind definen los patrones visuales y de interacción específicos para la versión web de la plataforma (landing page y aplicación web).
 
+**Grid y Layout**
+
+- Sistema de 12 columnas con gutters de 16px en móvil y 24px en desktop.
+- Máximo ancho de contenido: 1200px, centrado en pantalla.
+- Secciones con padding vertical de 64px en desktop y 40px en móvil.
+
+**Componentes UI**
+
+| Componente | Especificación |
+|---|---|
+| Botón primario | Fondo verde #4CAF50, texto blanco, border-radius 24px, padding 12px 24px |
+| Botón secundario | Borde verde #4CAF50, fondo transparente, texto verde |
+| Tarjeta de reto | Fondo blanco, sombra sutil (0 2px 8px rgba(0,0,0,0.1)), border-radius 16px |
+| Input de formulario | Borde #BDBDBD, activo borde #4CAF50, border-radius 8px, altura 48px |
+| Badge / insignia | Fondo #FFC107, forma circular, tamaño mínimo 48px |
+
+**Breakpoints responsive**
+
+| Breakpoint | Ancho mínimo | Uso |
+|---|---|---|
+| Mobile | 320px | Layout de 1 columna |
+| Tablet | 768px | Layout de 2 columnas |
+| Desktop | 1024px | Layout completo de 3–4 columnas |
+
+**Estados de interacción**
+
+- **Hover:** Botones aumentan opacidad al 90%, tarjetas elevan sombra.
+- **Active/Pressed:** Botones reducen escala a 0.97.
+- **Disabled:** Opacidad al 40%, sin cursor pointer.
+- **Focus:** Outline verde de 2px para accesibilidad (WCAG AA).
+
+**Animaciones**
+
+- Transiciones de 200ms ease-in-out para hover y estados.
+- Animaciones de celebración (confetti, bounce) al completar retos: máximo 1.5 segundos.
+- Sin animaciones que parpadeen más de 3 veces por segundo (accesibilidad).
+
+[foto de Web Style Guidelines – componentes UI, breakpoints y estados de interacción]
+
+---
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
+EcoMind organiza su contenido bajo dos sistemas complementarios:
 
+**Organización jerárquica** (principal): La información se estructura de lo general a lo específico. La pantalla principal agrupa las secciones más importantes (Retos, Progreso, Familia, Comunidad), y cada sección despliega su contenido al profundizar en ella.
+
+**Organización por categorías temáticas**: Los retos y contenidos educativos se agrupan según los ejes ambientales de la plataforma:
+- 🌿 Reciclaje y residuos
+- 💧 Ahorro de agua
+- ⚡ Eficiencia energética
+- 🌳 Cuidado del entorno
+
+**Organización cronológica**: El historial de actividades, el progreso del usuario y las notificaciones se presentan en orden cronológico inverso (más reciente primero).
+
+**Roles y vistas diferenciadas**: La arquitectura distingue entre la vista del estudiante (enfocada en retos, puntos y comunidad) y la vista del padre (enfocada en progreso, retos familiares y reportes).
+
+---
 
 ### 4.2.2. Labeling Systems
 
+El sistema de etiquetado de EcoMind prioriza la claridad y la simplicidad para una audiencia infantil y adulta con distintos niveles de alfabetización digital.
 
+**Principios de etiquetado:**
+- Etiquetas cortas (máximo 2-3 palabras).
+- Verbos de acción cuando aplica: "Ver progreso", "Iniciar reto", "Compartir logro".
+- Iconos acompañan todas las etiquetas de navegación principal para reforzar el significado.
+- Evitar tecnicismos; se usan palabras cotidianas: "Retos" en lugar de "Actividades gamificadas", "Tu avance" en lugar de "Dashboard".
+
+**Etiquetas de navegación principal:**
+
+| Sección | Etiqueta | Icono |
+|---|---|---|
+| Pantalla inicial | Inicio | 🏠 |
+| Actividades | Retos | 🎯 |
+| Avance personal | Mi progreso | 📊 |
+| Actividades familia | Familia | 👨‍👩‍👧 |
+| Muro social | Comunidad | 🌍 |
+| Ajustes de cuenta | Perfil | 👤 |
+
+---
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Las siguientes etiquetas SEO y meta tags se aplican a la landing page de EcoMind para optimizar su visibilidad en motores de búsqueda y redes sociales:
 
+**Landing Page Principal**
+
+```html
+<!-- SEO Básico -->
+<title>EcoMind – Aprende a cuidar el planeta jugando | GreenMinds</title>
+<meta name="description" content="EcoMind es la plataforma educativa gamificada que enseña a niños hábitos sostenibles a través de retos interactivos. Disponible online y offline para escolares de primaria y sus familias.">
+<meta name="keywords" content="educación ambiental, conciencia ecológica, app para niños, reciclaje, hábitos sostenibles, gamificación educativa, EcoMind, GreenMinds">
+<meta name="author" content="GreenMinds">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (Redes Sociales) -->
+<meta property="og:title" content="EcoMind – Aprende a cuidar el planeta jugando">
+<meta property="og:description" content="Plataforma educativa gamificada para que niños y familias desarrollen hábitos sostenibles.">
+<meta property="og:image" content="https://ecomind.greenminds.pe/assets/og-image.png">
+<meta property="og:url" content="https://ecomind.greenminds.pe">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EcoMind – Educación ambiental gamificada para niños">
+<meta name="twitter:description" content="Retos ecológicos, insignias y actividades familiares para formar hábitos sostenibles desde la infancia.">
+<meta name="twitter:image" content="https://ecomind.greenminds.pe/assets/twitter-card.png">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://ecomind.greenminds.pe">
+```
+
+**Página de Registro**
+
+```html
+<title>Regístrate en EcoMind | GreenMinds</title>
+<meta name="description" content="Crea tu cuenta en EcoMind y comienza a aprender sobre cuidado ambiental con retos divertidos para niños y familias.">
+<meta name="robots" content="noindex, follow">
+```
+
+---
 
 ### 4.2.4. Searching Systems
 
+EcoMind implementa los siguientes mecanismos de búsqueda y filtrado dentro de la plataforma:
 
+**Búsqueda de retos**: Los usuarios pueden buscar retos por nombre o palabra clave desde la sección "Retos". La búsqueda es en tiempo real (a partir de 3 caracteres escritos) y muestra resultados filtrados instantáneamente.
+
+**Filtros de retos**: Complementa la búsqueda con filtros por:
+- Categoría temática (Reciclaje, Agua, Energía, Entorno)
+- Dificultad (Fácil, Medio, Difícil)
+- Estado (Pendiente, En progreso, Completado)
+- Tipo (Individual, Familiar)
+
+**Búsqueda en comunidad**: En el muro de logros, los usuarios pueden buscar publicaciones por nombre de usuario o tipo de insignia.
+
+**Historial de actividades**: El panel de progreso permite filtrar actividades por rango de fechas (última semana, último mes, personalizado).
+
+**Criterios de presentación de resultados**: Los resultados de búsqueda se muestran ordenados por relevancia y, en caso de empate, por fecha de publicación más reciente. Cuando no hay resultados, se muestra el mensaje "No encontramos retos con ese nombre. ¿Quieres explorar todos los retos?" con un enlace al listado completo.
+
+---
 
 ### 4.2.5. Navigation Systems
+
+EcoMind implementa un sistema de navegación sencillo y predecible, adaptado a su audiencia infantil y a los padres de familia.
+
+**Navegación principal (Bottom Navigation Bar – Móvil)**
+
+En dispositivos móviles, la navegación principal se ubica en la barra inferior con 5 accesos directos: Inicio, Retos, Mi Progreso, Familia y Comunidad. Esta disposición sigue el patrón estándar de aplicaciones móviles populares entre el público objetivo (similar a Roblox o aplicaciones educativas).
+
+**Navegación principal (Top Navigation Bar – Web/Desktop)**
+
+En la versión web, la navegación se ubica en la cabecera con el logotipo a la izquierda y los accesos principales centrados. El perfil y notificaciones se ubican a la derecha.
+
+**Navegación secundaria (Breadcrumbs)**
+
+Dentro de secciones profundas (por ejemplo, detalle de un reto), se muestra la ruta de navegación: Inicio > Retos > Reciclaje > Reto "El gran separador". Permite al usuario regresar a cualquier nivel con un clic.
+
+**Gestos de navegación (Móvil)**
+
+- Deslizar a la derecha para regresar a la pantalla anterior.
+- Pull-to-refresh para actualizar el contenido de cualquier listado.
+
+**Flujo de onboarding**
+
+Los nuevos usuarios pasan por un flujo de 3 pantallas de bienvenida que explican las funciones principales antes de llegar al home. Este flujo puede saltarse y no se repite en sesiones posteriores.
+
+**Acceso rápido a retos del día**
+
+En la pantalla de Inicio, los retos del día se muestran en una sección destacada en la parte superior, eliminando la necesidad de navegar hasta la sección de Retos para el uso diario.
+
+[foto de Navigation Systems – diagrama de flujo de navegación de EcoMind]
 
 
 
