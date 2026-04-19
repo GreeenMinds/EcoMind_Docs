@@ -3272,7 +3272,9 @@ Las guías de estilo web de EcoMind definen los patrones visuales y de interacci
 <div align="center">
    
  *Figura 15 ( Web Style Guidelines )* 
-![Foto](assets/img/figures/image-web.png)
+
+ <img src="assets/img/figures/image-web.png" width="350"> 
+
 
 
 </div>
