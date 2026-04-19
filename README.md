@@ -922,8 +922,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-002</td>
@@ -957,8 +955,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-003</td>
@@ -990,8 +986,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1026,7 +1020,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -1053,8 +1046,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1094,8 +1085,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-007</td>
@@ -1115,7 +1104,7 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
       <b>Escenario 1:</b> Ver el progreso de actividades<br/>
       <ul>
         <li><b>Dado que</b> el usuario está en el menú principal,</li>
-        <li><b>Cuando</b> el usuario selecciona "Actividades activas",</li>
+        <li><b>Cuando</b> el usuario selecciona "Progreso",</li>
         <li><b>Entonces</b> el sistema mostrará una lista con todas las actividades iniciadas y el progreso de cada una.</li>
       </ul>
       <b>Escenario 2:</b> No hay actividades<br/>
@@ -1127,8 +1116,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1162,8 +1149,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-009</td>
@@ -1196,8 +1181,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1243,8 +1226,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-011</td>
@@ -1276,8 +1257,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1311,8 +1290,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-013</td>
@@ -1345,8 +1322,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1386,8 +1361,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-015</td>
@@ -1414,7 +1387,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -1437,14 +1409,12 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
         <li><b>Dado que</b> el padre registra una serie de retos conjuntos completados,</li>
         <li><b>Cuando</b> alcancen el umbral establecido,</li>
         <li><b>Entonces</b> el sistema otorgará una insignia familiar especial,</li>
-        <li><b>Y</b> desbloqueará contenido nuevo,</li>
         <li><b>Y</b> mostrará una animación de celebración.</li>
       </ul>
     </td>
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -1484,8 +1454,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-018</td>
@@ -1523,8 +1491,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-019</td>
@@ -1556,8 +1522,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1592,8 +1556,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-021</td>
@@ -1627,8 +1589,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1670,8 +1630,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-023</td>
@@ -1683,34 +1641,32 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero acceder a guías simplificadas, para entender conceptos ambientales sin dificultad.</td>
+    <td colspan="3">Como estudiante, quiero acceder a materiales didacticos, para entender conceptos ambientales sin dificultad.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Acceso a guías simplificadas exitoso<br/>
+      <b>Escenario 1:</b> Acceso a material exitoso<br/>
       <ul>
         <li><b>Dado que</b> el estudiante ha iniciado sesión correctamente,</li>
-        <li><b>Cuando</b> selecciona la opción "Guías" en el menú principal,</li>
-        <li><b>Entonces</b> la aplicación muestra un listado de guías y permite al estudiante elegir la que desea consultar.</li>
+        <li><b>Cuando</b> selecciona la opción "Aprende más" en el menú principal,</li>
+        <li><b>Entonces</b> la aplicación muestra un listado de materiales y permite al estudiante elegir la que desea consultar.</li>
       </ul>
       <b>Escenario 2:</b> Visualización del contenido simplificado<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante selecciona una guía del listado,</li>
-        <li><b>Cuando</b> accede al contenido,</li>
-        <li><b>Entonces</b> la aplicación muestra información en un lenguaje sencillo y claro,</li>
-        <li><b>Y</b> presenta ejemplos prácticos relacionados con la vida diaria del estudiante.</li>
+        <li><b>Dado que</b> el estudiante selecciona un material del listado,</li>
+        <li><b>Cuando</b> accede al contenido </li>
+        <li><b>Entonces</b> la aplicación muestra el material solicitado de manera maximixada.</li>
       </ul>
-      <b>Escenario 3:</b> Acceso a guías no exitoso<br/>
+      <b>Escenario 3:</b> Acceso a material no exitoso<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante selecciona "Guías" y no existen guías cargadas,</li>
+        <li><b>Dado que</b> no existen materiales cargados </li>
+        <li><b>Cuando</b> el estudiante selecciona "Aprende más",</li>
         <li><b>Entonces</b> la aplicación muestra el mensaje "No hay guías disponibles en este momento".</li>
       </ul>
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -1723,30 +1679,36 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero seguir tutoriales paso a paso dentro de la aplicación, para aprender cómo actuar responsablemente.</td>
+    <td colspan="3">Como usuario, quiero seguir tutoriales paso a paso dentro de la aplicación, para aprender cómo usarla correctamente.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Finalización correcta del tutorial<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante inició sesión y seleccionó un tutorial disponible,</li>
+        <li><b>Dado que</b> el usuario se encuentra en un tutorial ,</li>
         <li><b>Cuando</b> marca como completado cada paso en el orden indicado,</li>
         <li><b>Entonces</b> la aplicación muestra el siguiente paso automáticamente,</li>
         <li><b>Y</b> al finalizar el último paso muestra un mensaje de confirmación.</li>
       </ul>
       <b>Escenario 2:</b> Intento de saltar pasos<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante seleccionó un tutorial disponible,</li>
+        <li><b>Dado que</b> el estudiante se encuentra en un tutorial,</li>
         <li><b>Cuando</b> intenta completar un paso posterior sin haber marcado los anteriores,</li>
         <li><b>Entonces</b> la aplicación muestra un mensaje indicando pasos pendientes,</li>
         <li><b>Y</b> impide avanzar hasta que se completen.</li>
+      </ul>
+      <b>Escenario 3:</b> Iniciar Tutorial<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se registro,</li>
+        <li><b>Cuando</b> es su primera sesión,</li>
+        <li><b>Entonces</b> la aplicación inicia un tutorial de bienvenida,</li>
+        <li><b>Y</b> impide avanzar hasta que lo complete.</li>
       </ul>
     </td>
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -1787,8 +1749,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-026</td>
@@ -1826,7 +1786,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -1859,8 +1818,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-028</td>
@@ -1892,7 +1849,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -1931,8 +1887,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-030</td>
@@ -1970,7 +1924,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2008,7 +1961,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2046,7 +1998,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2081,7 +2032,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2115,7 +2065,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2148,8 +2097,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-036</td>
@@ -2181,7 +2128,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2213,7 +2159,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2240,8 +2185,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -2273,7 +2216,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2306,8 +2248,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -2345,7 +2285,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2383,7 +2322,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2416,8 +2354,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -2455,8 +2391,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-045</td>
@@ -2488,7 +2422,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2521,7 +2454,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2559,8 +2491,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-048</td>
@@ -2595,8 +2525,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -2634,8 +2562,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-050</td>
@@ -2671,7 +2597,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2709,8 +2634,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-052</td>
@@ -2742,7 +2665,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2780,8 +2702,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -2824,7 +2744,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2864,7 +2783,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 ### Technical Stories
 
@@ -3530,5 +3448,3 @@ En la pantalla de Inicio, los retos del día se muestran en una sección destaca
 
 
 # Anexos
-
-
