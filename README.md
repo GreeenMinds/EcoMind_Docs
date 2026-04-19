@@ -1777,11 +1777,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
         <li><b>Cuando</b> la aplicación explica un concepto ambiental,</li>
         <li><b>Entonces</b> acompaña la información con un ejemplo práctico y resalta las ideas clave.</li>
       </ul>
-      <b>Escenario 3:</b> Contenido sobrecargado<br/>
-      <ul>
-        <li><b>Dado que</b> el estudiante accede a un tema con párrafos largos o palabras complejas,</li>
-        <li><b>Entonces</b> la aplicación muestra un aviso "El contenido no es claro" y sugiere una versión simplificada.</li>
-      </ul>
     </td>
   </tr>
 </table>
@@ -1805,8 +1800,8 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Reproducción exitosa<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante accede a una guía,</li>
-        <li><b>Cuando</b> selecciona "Ver video explicativo",</li>
+        <li><b>Dado que</b> el estudiante accede a los materiales,</li>
+        <li><b>Cuando</b> selecciona un video,</li>
         <li><b>Entonces</b> la aplicación abre el reproductor y reproduce el video desde el inicio.</li>
       </ul>
       <b>Escenario 2:</b> Video no disponible<br/>
@@ -1840,11 +1835,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
         <li><b>Cuando</b> la aplicación carga la información,</li>
         <li><b>Entonces</b> muestra el contenido en lenguaje claro y sencillo.</li>
       </ul>
-      <b>Escenario 2:</b> Contenido con tecnicismos<br/>
-      <ul>
-        <li><b>Dado que</b> el contenido contiene demasiados tecnicismos,</li>
-        <li><b>Entonces</b> la aplicación muestra un aviso "El contenido no es claro" y sugiere una versión simplificada.</li>
-      </ul>
     </td>
   </tr>
 </table>
@@ -1857,33 +1847,65 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Ejemplos prácticos</td>
+    <td colspan="3">Avatares y comesticos personalizables</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero ver ejemplos prácticos en la aplicación, para aplicar lo aprendido en mi entorno.</td>
+    <td colspan="3">Como usuario, quiero personalizar mi avatar con comesticos para diferenciarme de otros usuarios. </td>
   </tr>
   <tr>
-    <td colspan="4">
-      <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Visualización de ejemplos prácticos exitosa<br/>
-      <ul>
-        <li><b>Dado que</b> el estudiante accede a una guía,</li>
-        <li><b>Cuando</b> selecciona "Ver ejemplo práctico",</li>
-        <li><b>Entonces</b> la aplicación muestra un ejemplo relacionado con el concepto con pasos sencillos para aplicarlo.</li>
-      </ul>
-      <b>Escenario 2:</b> Varios ejemplos disponibles<br/>
-      <ul>
-        <li><b>Dado que</b> el estudiante consulta un tema con más de un ejemplo práctico,</li>
-        <li><b>Cuando</b> elige un ejemplo de la lista,</li>
-        <li><b>Entonces</b> la aplicación muestra el detalle del ejemplo y permite regresar a la lista.</li>
-      </ul>
-      <b>Escenario 3:</b> Sin ejemplos disponibles<br/>
-      <ul>
-        <li><b>Dado que</b> el tema no tiene ejemplos prácticos asociados,</li>
-        <li><b>Entonces</b> la aplicación muestra el mensaje "No hay ejemplos prácticos disponibles para este tema".</li>
-      </ul>
-    </td>
+  <td colspan="4">
+  <b>Criterios de aceptación:</b><br/><br/>
+
+  <b>Escenario 1:</b> Obtención de avatares y cosméticos por compra<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario accede a la tienda de avatares y cosméticos y tiene gemas suficiente,</li>
+    <li><b>Cuando</b> selecciona un avatar o cosmético disponible y confirma la compra,</li>
+    <li><b>Entonces</b> la aplicación procesa la compra, descuenta el saldo y agrega el ítem a su inventario.</li>
+  </ul>
+
+  <b>Escenario 2:</b> Obtención de avatares y cosméticos por logro<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario cumple las condiciones de un logro asociado a un avatar o cosmético,</li>
+    <li><b>Cuando</b> el logro es desbloqueado,</li>
+    <li><b>Entonces</b> la aplicación otorga automáticamente la recompensa y la agrega al inventario del usuario.</li>
+  </ul>
+
+  <b>Escenario 3:</b> Compra fallida por saldo insuficiente<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario accede a la tienda de avatares y cosméticos y no tiene saldo suficiente,</li>
+    <li><b>Cuando</b> intenta comprar un avatar o cosmético,</li>
+    <li><b>Entonces</b> la aplicación rechaza la compra y muestra un mensaje indicando que no cuenta con saldo suficiente.</li>
+  </ul>
+
+  <b>Escenario 4:</b> Equipamiento exitoso de cosmético<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario tiene avatares o cosméticos disponibles en su inventario,</li>
+    <li><b>Cuando</b> selecciona un cosmético para equiparlo,</li>
+    <li><b>Entonces</b> la aplicación actualiza la apariencia del avatar con el elemento seleccionado.</li>
+  </ul>
+
+  <b>Escenario 5:</b> Equipamiento fallido de cosmético no obtenido<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario no posee el avatar o cosmético en su inventario,</li>
+    <li><b>Cuando</b> intenta equiparlo,</li>
+    <li><b>Entonces</b> la aplicación impide la acción y muestra un mensaje indicando que debe obtenerlo primero.</li>
+  </ul>
+
+  <b>Escenario 6:</b> Visualización de avatares y cosméticos disponibles<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario accede a la tienda o al inventario,</li>
+    <li><b>Cuando</b> ingresa a la sección de avatares y cosméticos,</li>
+    <li><b>Entonces</b> la aplicación muestra los elementos disponibles, obtenidos y equipados según corresponda.</li>
+  </ul>
+
+  <b>Escenario 7:</b> Intento de obtener un ítem ya desbloqueado<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario ya posee un avatar o cosmético en su inventario,</li>
+    <li><b>Cuando</b> intenta obtener nuevamente el mismo ítem,</li>
+    <li><b>Entonces</b> la aplicación informa que el ítem ya fue obtenido y evita duplicarlo.</li>
+  </ul>
+</td>
   </tr>
 </table>
 
