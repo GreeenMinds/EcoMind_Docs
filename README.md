@@ -3217,7 +3217,14 @@ La paleta está basada en tonos naturales que transmiten frescura, vitalidad y c
 
 Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la librería de iconos Material Design adaptada con el color verde primario de EcoMind.
 
-[foto de General Style Guidelines – tabla de paleta de colores, tipografías e iconografía]
+ 
+<div align="center">
+   
+ *Figura 13 ( General Style Guidelines)* 
+![Foto](assets/img/figures/img-gl.png)
+
+
+</div>
 
 ---
 
