@@ -3096,7 +3096,7 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 *Figura 13 (Impact Mapping 2)*  
 <div align="center">
  
-![Foto](assets/img/figures/impact-map-val.jpg)
+![Foto](assets/img/figures/image022.png)
 
 
 </div>
