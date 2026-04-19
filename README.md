@@ -3220,7 +3220,7 @@ Los iconos siguen un estilo outline redondeado, coherente con la identidad orgá
  
 <div align="center">
    
- *Figura 13 ( General Style Guidelines)* 
+ *Figura 14 ( General Style Guidelines )* 
 ![Foto](assets/img/figures/img-gl.png)
 
 
@@ -3269,7 +3269,14 @@ Las guías de estilo web de EcoMind definen los patrones visuales y de interacci
 - Animaciones de celebración (confetti, bounce) al completar retos: máximo 1.5 segundos.
 - Sin animaciones que parpadeen más de 3 veces por segundo (accesibilidad).
 
-[foto de Web Style Guidelines – componentes UI, breakpoints y estados de interacción]
+<div align="center">
+   
+ *Figura 15 ( Web Style Guidelines )* 
+![Foto](assets/img/figures/image-web.png)
+
+
+</div>
+
 
 ---
 
@@ -3406,8 +3413,16 @@ Los nuevos usuarios pasan por un flujo de 3 pantallas de bienvenida que explican
 
 En la pantalla de Inicio, los retos del día se muestran en una sección destacada en la parte superior, eliminando la necesidad de navegar hasta la sección de Retos para el uso diario.
 
-[foto de Navigation Systems – diagrama de flujo de navegación de EcoMind]
+<div align="center">
+   
+ *Figura 16 ( Navigation Systems )* 
+![Foto](assets/img/figures/image-dia.png)
 
+
+</div>
+
+
+---
 
 
 ## 4.3. Landing Page UI Design
