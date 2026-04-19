@@ -205,8 +205,7 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 | <img src="assets/img/team-photos/ale-photo.jpg" width="150"> | Astocondor Bazan, Alejandra Isabel (U202410678) | Estudiante de Ingeniería de Software, enfocada en el desarrollo de soluciones tecnológicas. Poseo habilidades en programación y diseño digital. Me caracterizo por mi creatividad, responsabilidad y capacidad de adaptación. |
 | <img src="assets\img\team-photos\kamil-photo.jpg" width="150"> | Diaz Martinez, Alexther Kamil (U202412316) | Estudiante de ingeniería de software, me gusta programar, tengo conocimiento en C++ y Python, me gustan los desafíos. Mi meta es aplicar mi optimismo y capacidad técnica para desarrollar software que genere un impacto real. |
 | <img src="assets/img/team-photos/leo-photo.jpg" width="150"> | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python y fundamentos de desarrollo web y Java. Me gusta crear soluciones creativas a problemas y apoyar activamente al equipo en los proyectos. |
-| <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width="150"> | Laura Acosta, Victor Jhosuef (u202418655) | — |
-
+| <img src="assets/img/team-photos/victor-photo.jpg" width="150"> | Laura Acosta, Victor Jhosuef (u202418655) | Estudiante de Ingeniería de Software, con conocimientos en C++, C# y Java, y experiencia en Visual Studio Code y Visual Studio. Cuento con habilidades en diseño de bases de datos, elaborando modelos conceptuales y físicos. Me caracterizo por estar en constante aprendizaje y disposición para trabajar en equipo. |
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
