@@ -3079,7 +3079,15 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | **Comunidad educativa** | Fomentar la conciencia ambiental más allá del aula | Muro de logros compartidos, métricas de impacto colectivo, retos comunitarios |
 | **Equipo GreenMinds** | Garantizar disponibilidad e inclusión digital | Modo offline con sincronización, interfaz responsive, soporte para dispositivos de gama media-baja |
 
-[foto de Impact Mapping - diagrama visual del impact mapping de EcoMind]
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 12 (Impact Mapping 1)*  
+<img src="assets/img/figures/impact-map-car.jpg" width="530">
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 13 (Impact Mapping 2)*  
+<img src="assets/img/figures/impact-map-val.jpg" width="530">
 
 ---
 
