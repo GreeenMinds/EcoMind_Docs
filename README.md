@@ -3079,34 +3079,98 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | **Comunidad educativa** | Fomentar la conciencia ambiental más allá del aula | Muro de logros compartidos, métricas de impacto colectivo, retos comunitarios |
 | **Equipo GreenMinds** | Garantizar disponibilidad e inclusión digital | Modo offline con sincronización, interfaz responsive, soporte para dispositivos de gama media-baja |
 
-[foto de Impact Mapping - diagrama visual del impact mapping de EcoMind]
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 12 (Impact Mapping 1)*  
+<div align="center">
+ 
+![Foto](assets/img/figures/Impact-map-car.jpg)
+
+
+</div>
+
+---
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 13 (Impact Mapping 2)*  
+<div align="center">
+ 
+![Foto](assets/img/figures/Impact-map-val.jpg)
+
+
+</div>
 
 ---
 
 ## 3.3. Product Backlog
 
-| # | User Story ID | Título | Descripción | Story Points |
+| # | ID | Título | Descripción | Story Points |
 |---|---|---|---|---|
 | 1 | US13 | Visualización de la landing page | Como visitante, quiero acceder a una página informativa de EcoMind para conocer sus beneficios. | 3 |
 | 2 | US14 | Sección de preguntas frecuentes | Como visitante, quiero encontrar un FAQ en la landing page para aclarar mis dudas. | 2 |
-| 3 | US01 | Registro de cuenta | Como padre, quiero registrarme en EcoMind para crear una cuenta familiar. | 5 |
-| 4 | US02 | Inicio de sesión | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil. | 3 |
-| 5 | TS01 | Endpoint de registro de usuarios | Implementar POST /api/v1/auth/register con validación y hash de contraseña. | 5 |
-| 6 | TS02 | Endpoint de autenticación con JWT | Implementar POST /api/v1/auth/login con generación de token JWT. | 5 |
-| 7 | TS06 | Vinculación de cuentas padre-hijo | Implementar endpoints para vincular/desvincular cuentas familia. | 5 |
-| 8 | US03 | Acceso a mini-retos ambientales | Como estudiante, quiero acceder a mini-retos interactivos sobre cuidado ambiental. | 8 |
-| 9 | US04 | Sistema de puntos e insignias | Como estudiante, quiero ganar puntos e insignias al completar retos. | 5 |
-| 10 | US05 | Ranking de estudiantes | Como estudiante, quiero ver un ranking con los puntajes de otros usuarios. | 3 |
-| 11 | US08 | Información educativa sobre eco-acciones | Como estudiante, quiero acceder a información sencilla sobre eco-acciones. | 3 |
-| 12 | US09 | Retroalimentación inmediata | Como estudiante, quiero recibir retroalimentación al terminar una actividad. | 5 |
-| 13 | TS03 | Endpoint de gestión de retos | Implementar CRUD de retos en /api/v1/challenges. | 8 |
-| 14 | TS04 | Endpoint de progreso y puntaje | Implementar GET /api/v1/users/:id/progress con historial de actividad. | 5 |
-| 15 | US06 | Retos familiares conjuntos | Como padre, quiero acceder a retos diseñados para realizar con mis hijos. | 8 |
-| 16 | US07 | Reporte de progreso para padres | Como padre, quiero ver reportes del progreso ambiental de mi hijo. | 5 |
-| 17 | US10 | Compartir logros en comunidad | Como estudiante, quiero compartir mis logros con otros usuarios. | 5 |
-| 18 | US11 | Uso de la aplicación en modo offline | Como estudiante, quiero usar EcoMind sin conexión a internet. | 8 |
-| 19 | TS05 | API de sincronización offline | Implementar POST /api/v1/sync para sincronizar progreso offline. | 8 |
-| 20 | US12 | Interfaz accesible y responsive | Como usuario, quiero que la aplicación se adapte a cualquier dispositivo. | 5 |
+| 3 | US51 | Información descriptiva clara | Como estudiante, quiero entender fácilmente las funcionalidades desde la landing page. | 3 |
+| 4 | US54 | Información de la comunidad | Como estudiante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
+| 5 | US52 | Consejos de uso para padres | Como padre, quiero ver recomendaciones de uso en la landing. | 3 |
+| 6 | US53 | Preguntas frecuentes en landing | Como estudiante, quiero acceder a preguntas frecuentes. | 2 |
+| 7 | US55 | Redirección a registro | Como estudiante, quiero ir al registro desde la landing. | 5 |
+| 8 | US01 | Registro de cuenta | Como usuario, quiero crear una cuenta. | 5 |
+| 9 | TS01 | Endpoint de registro | Implementar POST /auth/register. | 5 |
+| 10 | US02 | Inicio de sesión | Como usuario, quiero iniciar sesión. | 3 |
+| 11 | TS02 | Endpoint login JWT | Implementar autenticación con JWT. | 5 |
+| 12 | TS03 | Vinculación padre-hijo | Implementar vinculación de cuentas. | 5 |
+| 13 | US03 | Acceso a mini-retos | Como estudiante, quiero acceder a retos ambientales. | 8 |
+| 14 | TS04 | CRUD de retos | Implementar gestión de retos. | 8 |
+| 15 | US04 | Sistema de puntos | Como estudiante, quiero ganar puntos. | 5 |
+| 16 | TS06 | Sistema de insignias | Implementar badges. | 5 |
+| 17 | US09 | Retroalimentación | Como estudiante, quiero feedback inmediato. | 5 |
+| 18 | US08 | Información eco | Como estudiante, quiero aprender eco-acciones. | 3 |
+| 19 | US31 | Resúmenes | Como estudiante, quiero ver resúmenes. | 3 |
+| 20 | US32 | Infografías | Como estudiante, quiero ver infografías. | 3 |
+| 21 | US06 | Retos familiares | Como padre, quiero retos con hijos. | 8 |
+| 22 | US07 | Reporte de progreso | Como padre, quiero ver progreso. | 5 |
+| 23 | TS05 | Endpoint progreso | Implementar progreso usuario. | 5 |
+| 24 | US05 | Ranking | Como estudiante, quiero ver ranking. | 3 |
+| 25 | TS07 | Endpoint ranking | Implementar ranking. | 5 |
+| 26 | US36 | Ranking comunitario | Como estudiante, quiero ranking por periodo. | 3 |
+| 27 | US10 | Compartir logros | Como estudiante, quiero compartir logros. | 5 |
+| 28 | US33 | Publicar logros | Como estudiante, quiero publicar logros. | 5 |
+| 29 | US34 | Reacciones | Como estudiante, quiero reaccionar. | 3 |
+| 30 | US35 | Comentarios | Como estudiante, quiero comentar. | 3 |
+| 31 | US38 | Logros destacados | Como estudiante, quiero ver destacados. | 3 |
+| 32 | US39 | Invitar amigos | Como estudiante, quiero invitar amigos. | 3 |
+| 33 | US40 | Logros colectivos | Como estudiante, quiero celebrar logros. | 3 |
+| 34 | US37 | Eventos | Como estudiante, quiero participar en eventos. | 5 |
+| 35 | US11 | Modo offline | Como estudiante, quiero usar sin internet. | 8 |
+| 36 | US41 | Acceso offline | Como estudiante, quiero acceso sin conexión. | 8 |
+| 37 | TS08 | Sync offline | Implementar sincronización offline. | 8 |
+| 38 | US49 | Sincronización automática | Como estudiante, quiero sync automático. | 5 |
+| 39 | US42 | Multiplataforma | Como estudiante, quiero usar varios dispositivos. | 5 |
+| 40 | US44 | Interfaz simple | Como estudiante, quiero UI simple. | 3 |
+| 41 | US12 | Responsive | Como usuario, quiero adaptabilidad. | 5 |
+| 42 | US43 | Carga rápida | Como estudiante, quiero rapidez. | 3 |
+| 43 | US50 | Optimización | Como estudiante, quiero eficiencia. | 3 |
+| 44 | US48 | Personalización | Como estudiante, quiero accesos personalizados. | 3 |
+| 45 | US45 | Disponibilidad | Como estudiante, quiero acceso 24/7. | 3 |
+| 46 | US46 | Seguridad | Como estudiante, quiero datos protegidos. | 5 |
+| 47 | US47 | Soporte | Como estudiante, quiero soporte. | 3 |
+| 48 | TS09 | Notificaciones | Implementar push notifications. | 5 |
+| 49 | US15 | Navegación básica | Como usuario, quiero navegar fácilmente. | 3 |
+| 50 | US16 | Visualización de perfil | Como usuario, quiero ver mi perfil. | 3 |
+| 51 | US17 | Edición de perfil | Como usuario, quiero editar datos. | 3 |
+| 52 | US18 | Cerrar sesión | Como usuario, quiero cerrar sesión. | 2 |
+| 53 | US19 | Validación de formularios | Como usuario, quiero validación. | 3 |
+| 54 | US20 | Mensajes de error | Como usuario, quiero errores claros. | 2 |
+| 55 | US21 | Navegación por menú | Como usuario, quiero menú intuitivo. | 3 |
+| 56 | US22 | Visualización de actividades | Como usuario, quiero ver actividades. | 3 |
+| 57 | US23 | Detalle de actividad | Como usuario, quiero ver detalles. | 3 |
+| 58 | US24 | Marcar progreso | Como usuario, quiero marcar avances. | 3 |
+| 59 | US25 | Historial | Como usuario, quiero historial. | 3 |
+| 60 | US26 | Notificaciones básicas | Como usuario, quiero alertas. | 3 |
+| 61 | US27 | Configuración | Como usuario, quiero configurar app. | 3 |
+| 62 | US28 | Ayuda | Como usuario, quiero ayuda. | 2 |
+| 63 | US29 | Tutorial inicial | Como usuario, quiero onboarding. | 3 |
+| 64 | US30 | Carga inicial | Como usuario, quiero carga rápida inicial. | 3 |
 
 ---
 
