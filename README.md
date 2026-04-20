@@ -2544,33 +2544,41 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-048</td>
-    <td><b>Epic ID</b></td><td>EP05</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Personalización de accesos</td>
+    <td colspan="3">Visualización de eventos de la comunidad en mapa</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero personalizar los accesos rápidos, para llegar más rápido a mis secciones favoritas.</td>
+    <td colspan="3">Como usuario, quiero ver eventos de la comunidad cercanos en un mapa, para participar en actividades cercanas a mi ubicación.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Configuración personalizada<br/>
+      <b>Escenario 1:</b> Visualización de eventos en mapa<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante personaliza los accesos rápidos,</li>
-        <li><b>Entonces</b> el sistema guarda la configuración y los accesos se actualizan en su interfaz.</li>
+        <li><b>Dado que</b> el usuario accede a la pantalla de comunidad,</li>
+        <li><b>Cuando</b> ingresa a la sección de eventos de la comunidad,</li>
+        <li><b>Entonces</b> el sistema muestra un mapa con los eventos cercanos a su ubicación.</li>
       </ul>
-      <b>Escenario 2:</b> Error de personalización<br/>
+      <b>Escenario 2:</b> Visualización de detalle de evento<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante no tiene conexión estable al intentar guardar,</li>
-        <li><b>Entonces</b> el sistema muestra un mensaje de error y conserva la configuración anterior.</li>
+        <li><b>Dado que</b> el usuario visualiza el mapa con eventos,</li>
+        <li><b>Cuando</b> selecciona un evento en el mapa,</li>
+        <li><b>Entonces</b> el sistema muestra la información detallada del evento.</li>
       </ul>
-      <b>Escenario 3:</b> Restablecimiento de accesos<br/>
+      <b>Escenario 3:</b> Sin eventos cercanos<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante selecciona "restablecer accesos",</li>
-        <li><b>Entonces</b> el sistema restaura los valores predeterminados y elimina las personalizaciones.</li>
+        <li><b>Dado que</b> no existen eventos de la comunidad cercanos a la ubicación del usuario,</li>
+        <li><b>Entonces</b> el sistema muestra el mensaje "No hay eventos cercanos disponibles".</li>
+      </ul>
+      <b>Escenario 4:</b> Error de ubicación<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario no otorga permisos de ubicación o hay un error al obtenerla,</li>
+        <li><b>Cuando</b> intenta acceder al mapa de eventos,</li>
+        <li><b>Entonces</b> el sistema muestra un mensaje solicitando habilitar la ubicación.</li>
       </ul>
     </td>
   </tr>
