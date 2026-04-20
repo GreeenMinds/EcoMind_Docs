@@ -3501,6 +3501,54 @@ En la pantalla de Inicio, los retos del día se muestran en una sección destaca
 
 ### 5.1.1. Software Development Environment Configuration
 
+**Project Management:**
+
+WhatsApp (SaaS/Application): Aplicación de mensajería instantánea utilizada por el equipo para coordinar actividades, resolver dudas y mantener comunicación continua durante el desarrollo del proyecto. Ruta: https://www.whatsapp.com/ 
+
+Trello (SaaS/Application): Herramienta de gestión de proyectos basada en la metodología Kanban, utilizada por el equipo para planificar, organizar y dar seguimiento al avance de las tareas del proyecto. A través de tableros, listas y tarjetas, se controlaron los sprints y se documentaron los entregables de cada fase. 
+Ruta: https://trello.com/
+
+**Figura 89**
+*Tablas para sprint en Trello*
+
+Requirements Management: 
+Microsoft Word (SaaS/Application): Procesador de texto utilizado para documentar los requerimientos funcionales y no funcionales del sistema, facilitando su revisión y actualización colaborativa. Ruta: https://www.microsoft.com/microsoft-365/word 
+
+**Product UX/UI design:**
+
+Figma (SaaS/Application): Plataforma colaborativa en línea empleada para diseñar la interfaz visual del producto, diseñar Wireframes, crear prototipos interactivos y definir la estructura gráfica del sistema. Ruta: https://www.figma.com/ 
+
+**Figura 90**
+*Diseños realizados en figma*
+
+ 
+LucidChart (SaaS): Herramienta utilizada para crear user flows, representando visualmente las rutas y acciones que siguen los usuarios dentro del producto digital. Ruta: https://www.lucidchart.com/ 
+
+**Figura 91**
+*Wireflows realizados en LucidChart*
+ 
+**Software Development:**
+Visual Studio Code (Application): Editor de código fuente multiplataforma que permite escribir, depurar y ejecutar el código del sistema. Incluye integración con GitHub para control de versiones. Ruta: https://code.visualstudio.com/ 
+
+Live Preview (Extensión de Visual Studio Code) (Instalable): Extensión oficial de Microsoft que permite visualizar en tiempo real los cambios realizados en el código HTML, CSS y JavaScript dentro del navegador, facilitando el desarrollo web. Ruta: https://code.visualstudio.com/ 
+
+**Figura 92**
+*Vista de landing page y código*
+ 
+GitHub (SaaS): Plataforma basada en Git utilizada para alojar repositorios de código, realizar control de versiones, seguimiento de cambios y trabajo colaborativo entre desarrolladores. Ruta: https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+
+**Figura 93**
+*Repositorio en GitHub*
+
+ 
+Software Testing:
+Google Chrome (Application): Navegador web utilizado para realizar pruebas funcionales y de interfaz del producto digital, verificando el comportamiento y la visualización. Ruta: https://www.google.com/chrome 
+
+**Software Documentation:**
+
+- **Markdown (Lenguaje de marcado ligero):** Utilizado para elaborar y mantener la documentación del proyecto de forma simple, legible y compatible con múltiples plataformas.  
+  **Ruta:** https://www.markdownguide.org/
+
 
 
 ### 5.1.2. Source Code Management
