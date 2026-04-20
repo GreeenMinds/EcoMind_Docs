@@ -2102,37 +2102,50 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
-
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-035</td>
-    <td><b>Epic ID</b></td><td>EP04</td>
+    <td><b>Epic ID</b></td><td>EP10</td>
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Comentarios en logros</td>
+    <td colspan="3">Compra y obtención de gemas</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero dejar comentarios en los logros compartidos, para generar interacción positiva.</td>
+    <td colspan="3">Como usuario, quiero obtener gemas mediante compras con dinero real o completando retos y misiones diarias, para utilizarlas dentro de la aplicación.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Comentario publicado correctamente<br/>
+      <b>Escenario 1:</b> Compra exitosa de gemas<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante visualiza una publicación de logro,</li>
-        <li><b>Cuando</b> escribe un comentario y presiona "Enviar",</li>
-        <li><b>Entonces</b> el sistema publicará el comentario, notificará al autor y mostrará nombre y foto del estudiante junto al comentario.</li>
+        <li><b>Dado que</b> el usuario ha iniciado sesión y selecciona un paquete de gemas,</li>
+        <li><b>Cuando</b> realiza el pago con dinero real y este es aprobado,</li>
+        <li><b>Entonces</b> el sistema acredita las gemas en su cuenta.</li>
       </ul>
-      <b>Escenario 2:</b> Contenido inapropiado<br/>
+      <b>Escenario 2:</b> Compra fallida de gemas<br/>
       <ul>
-        <li><b>Dado que</b> el sistema detecta palabras inapropiadas,</li>
-        <li><b>Entonces</b> bloqueará la publicación del comentario, mostrará un mensaje recordando las normas y sugerirá reformularlo.</li>
+        <li><b>Dado que</b> el usuario intenta comprar un paquete de gemas,</li>
+        <li><b>Cuando</b> el pago es rechazado o falla,</li>
+        <li><b>Entonces</b> el sistema no acredita gemas y muestra un mensaje de error.</li>
+      </ul>
+      <b>Escenario 3:</b> Obtención de gemas por retos o misiones<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario completa un reto o misión diaria,</li>
+        <li><b>Cuando</b> se cumplen las condiciones de recompensa,</li>
+        <li><b>Entonces</b> el sistema otorga automáticamente gemas al usuario.</li>
+      </ul>
+      <b>Escenario 4:</b> Visualización de gemas disponibles<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede a su perfil o panel principal,</li>
+        <li><b>Cuando</b> consulta su saldo de gemas,</li>
+        <li><b>Entonces</b> el sistema muestra la cantidad actual de gemas disponibles.</li>
       </ul>
     </td>
   </tr>
 </table>
+
 
 <table align="center">
   <tr>
