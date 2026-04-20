@@ -3553,6 +3553,49 @@ Google Chrome (Application): Navegador web utilizado para realizar pruebas funci
 
 ### 5.1.2. Source Code Management
 
+El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada y colaborativa para el desarrollo, pruebas y liberación del producto digital.
+URL de repositorio de GitHub: https://github.com/GreeenMinds/EcoMind_LandingPage
+
+**Figura 94**
+*Repositorio de landing page en GitHub*
+ 
+URL de repositorio de pruebas de aceptación: https://github.com/GreeenMinds/Ecomind_AcceptanceTests
+
+**Figura 95**
+*Repositorio de Acceptance Tests en GitHub*
+ 
+**Estructura de Ramas (branches):**
+
+**Ramas principales:**
+•	Main: Versión estable y lista para producción
+•	Develop: Rama de integración, se unirán todas las funcionalidades desarrolladas antes de preparar una versión oficial
+
+**Ramas de soporte:**
+•	Feature: Cada nueva funcionalidad o mejora se desarrollará en una rama independiente a partir de develop.
+Convención de nombre: feature/nombre-descriptivo.
+•	Release: Ramas temporales creadas desde develop para preparar una nueva versión antes de su lanzamiento. Solo se aplican correcciones menores o ajustes.
+Convención de nombres: release/vX.Y.Z
+•	Hotfix: Ramas utilizadas para solucionar errores críticos detectados en la versión de producción. Una vez corregido, se fusiona tanto en main como en develop.
+Convención de nombres: hotfix/v.X.Y.Z
+
+**Semantic Versioning:**
+Se usará Semantic Versioning 2.0.0, utilizando el formato: MAJOR.MINOR.PATCH
+MAJOR: Cambio incompatible
+MINOR: Nueva funcionalidad compatible
+PATCH: Corrección y ajuste menor
+
+**Conventional Commits:**
+Para los mensajes de commit se utilizará el estándar Conventional Commits, asegurando claridad y trazabilidad en el historial del proyecto. 
+
+\<tipo>(\<opcional>): \<mensaje en presente>
+
+Tipos:
+•	feat: nueva funcionalidad.
+•	fix: corrección de error.
+•	docs: cambios en documentación.
+•	style: formato o estilo (sin lógica).
+•	refactor: reestructuración del código.
+•	chore: tareas menores o de mantenimiento
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
