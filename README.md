@@ -3326,8 +3326,6 @@ El sistema de etiquetado de EcoMind prioriza la claridad y la simplicidad para u
 | Muro social | Comunidad | 🌍 |
 | Ajustes de cuenta | Perfil | 👤 |
 
----
-
 ### 4.2.3. SEO Tags and Meta Tags
 
 Las siguientes etiquetas SEO y meta tags se aplican a la landing page de EcoMind para optimizar su visibilidad en motores de búsqueda y redes sociales:
@@ -3423,15 +3421,26 @@ En la pantalla de Inicio, los retos del día se muestran en una sección destaca
 
 </div>
 
-
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
+![Foto](assets/img/figures/Prototipo_Principal.png)
 
+![Foto](assets/img/figures/Prototipo_Guia.png)
+
+![Foto](assets/img/figures/Prototipo_Faq.png)
+
+![Foto](assets/img/figures/PrototipoComunidad.png)
 
 ### 4.3.2. Landing Page Mock-up
+![Foto](assets/img/figures/LandingPage.png)
 
+![Foto](assets/img/figures/LandingPage_Faq.png)
+
+![Foto](assets/img/figures/LandingPage_Guia.png)
+
+![Foto](assets/img/figures/LandingPageComunidad.png)
 
 
 ## 4.4. Web Applications UX/UI Design
