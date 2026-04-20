@@ -851,19 +851,24 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td align="center"><b>EP07</b></td>
-    <td align="center">Backend – Gestión de Usuarios y Autenticación</td>
+    <td align="center">Backend: Gestión de Usuarios y Autenticación</td>
     <td>Como equipo de desarrollo, necesitamos implementar los servicios de autenticación, registro y gestión de perfiles para soportar el acceso seguro a la plataforma.</td>
   </tr>
   <tr>
     <td align="center"><b>EP08</b></td>
-    <td align="center">Backend – Gestión de Retos y Progreso</td>
+    <td align="center">Backend: Gestión de Retos y Progreso</td>
     <td>Como equipo de desarrollo, necesitamos implementar los endpoints para la gestión de retos, puntajes e insignias, para soportar las funcionalidades gamificadas de la plataforma.</td>
   </tr>
   <tr>
     <td align="center"><b>EP09</b></td>
-    <td align="center">Backend – Sincronización y Disponibilidad</td>
+    <td align="center">Backend: Sincronización y Disponibilidad</td>
     <td>Como equipo de desarrollo, necesitamos implementar la sincronización offline y garantizar la disponibilidad del sistema para soportar el acceso desde zonas con baja conectividad.</td>
   </tr>
+  <tr>
+  <td align="center"><b>EP010</b></td>
+  <td align="center">Monetización: Gestión de compras y recompensas</td>
+  <td>Como equipo de desarrollo, necesitamos implementar mecanismos de monetización como la compra de avatares y cosméticos, así como la obtención de recompensas, para generar ingresos y mejorar la experiencia del usuario.</td>
+</tr>
 </table>
 
 ---
@@ -1844,7 +1849,7 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-029</td>
-    <td><b>Epic ID</b></td><td>EP03</td>
+    <td><b>Epic ID</b></td><td>EP10</td>
   </tr>
   <tr>
     <td><b>Título</b></td>
@@ -1951,34 +1956,43 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-031</td>
-    <td><b>Epic ID</b></td><td>EP03</td>
+    <td><b>Epic ID</b></td><td>EP10</td>
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Resúmenes interactivos</td>
+    <td colspan="3">Multiplicador de XP</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero leer resúmenes interactivos, para repasar mis conocimientos de forma dinámica.</td>
+    <td colspan="3">Como usuario, quiero comprar un multiplicador de XP, para aumentar la experiencia obtenida en mis actividades.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Acceso exitoso a resúmenes<br/>
+      <b>Escenario 1:</b> Compra exitosa de multiplicador<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante ha iniciado sesión,</li>
-        <li><b>Cuando</b> selecciona la opción de "Resúmenes",</li>
-        <li><b>Entonces</b> el programa mostrará un listado de resúmenes disponibles ordenados por secciones.</li>
+        <li><b>Dado que</b> el usuario ha iniciado sesión y tiene las gemas suficientes,</li>
+        <li><b>Cuando</b> selecciona un multiplicador de XP y confirma la compra,</li>
+        <li><b>Entonces</b> el sistema procesa la compra, descuenta el saldo y activa el multiplicador.</li>
       </ul>
-      <b>Escenario 2:</b> Sin resúmenes cargados<br/>
+      <b>Escenario 2:</b> Compra fallida por saldo insuficiente<br/>
       <ul>
-        <li><b>Dado que</b> no hay ningún resumen cargado previamente,</li>
-        <li><b>Entonces</b> el sistema mostrará el mensaje "No hay resúmenes disponibles".</li>
+        <li><b>Dado que</b> el usuario no tiene saldo suficiente,</li>
+        <li><b>Cuando</b> intenta comprar un multiplicador de XP,</li>
+        <li><b>Entonces</b> el sistema rechaza la compra y muestra el mensaje "Gemas insuficientes".</li>
       </ul>
-      <b>Escenario 3:</b> Resumen con contenido interactivo<br/>
+       <b>Escenario 3:</b> Obtención de multiplicador por actividades o retos<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante selecciona un resumen de interés,</li>
-        <li><b>Entonces</b> el sistema abrirá el documento con actividades interactivas incluidas.</li>
+        <li><b>Dado que</b> el usuario completa una actividad o cumple un reto diario,</li>
+        <li><b>Cuando</b> se cumplen las condiciones de recompensa,</li>
+        <li><b>Entonces</b> el sistema otorga automáticamente un multiplicador de XP al usuario.</li>
+      </ul>
+      <b>Escenario 4:</b> Aplicación del multiplicador de XP<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario tiene un multiplicador de XP activo,</li>
+        <li><b>Cuando</b> completa una actividad,</li>
+        <li><b>Entonces</b> el sistema incrementa la experiencia obtenida según el multiplicador activo.</li>
+      </ul>
       </ul>
     </td>
   </tr>
