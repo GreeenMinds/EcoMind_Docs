@@ -2872,7 +2872,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2901,7 +2900,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -2930,8 +2928,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-004</td>
@@ -2958,8 +2954,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -2988,7 +2982,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
 
 <table align="center">
   <tr>
@@ -3016,8 +3009,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
 </table>
 
----
-
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-007</td>
@@ -3043,8 +3034,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -3072,8 +3061,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
     </td>
   </tr>
 </table>
-
----
 
 <table align="center">
   <tr>
@@ -3133,82 +3120,68 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 <div align="center">
  
 ![Foto](assets/img/figures/Impact-map-val.jpg)
-
-
 </div>
 
----
 
 ## 3.3. Product Backlog
 
-| # | ID | Título | Descripción | Story Points |
+| # | ID | Título | Descripción | SP |
 |---|---|---|---|---|
-| 1 | US13 | Visualización de la landing page | Como visitante, quiero acceder a una página informativa de EcoMind para conocer sus beneficios. | 3 |
-| 2 | US14 | Sección de preguntas frecuentes | Como visitante, quiero encontrar un FAQ en la landing page para aclarar mis dudas. | 2 |
-| 3 | US51 | Información descriptiva clara | Como estudiante, quiero entender fácilmente las funcionalidades desde la landing page. | 3 |
-| 4 | US54 | Información de la comunidad | Como estudiante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
-| 5 | US52 | Consejos de uso para padres | Como padre, quiero ver recomendaciones de uso en la landing. | 3 |
-| 6 | US53 | Preguntas frecuentes en landing | Como estudiante, quiero acceder a preguntas frecuentes. | 2 |
-| 7 | US55 | Redirección a registro | Como estudiante, quiero ir al registro desde la landing. | 5 |
-| 8 | US01 | Registro de cuenta | Como usuario, quiero crear una cuenta. | 5 |
-| 9 | TS01 | Endpoint de registro | Implementar POST /auth/register. | 5 |
-| 10 | US02 | Inicio de sesión | Como usuario, quiero iniciar sesión. | 3 |
-| 11 | TS02 | Endpoint login JWT | Implementar autenticación con JWT. | 5 |
-| 12 | TS03 | Vinculación padre-hijo | Implementar vinculación de cuentas. | 5 |
-| 13 | US03 | Acceso a mini-retos | Como estudiante, quiero acceder a retos ambientales. | 8 |
-| 14 | TS04 | CRUD de retos | Implementar gestión de retos. | 8 |
-| 15 | US04 | Sistema de puntos | Como estudiante, quiero ganar puntos. | 5 |
-| 16 | TS06 | Sistema de insignias | Implementar badges. | 5 |
-| 17 | US09 | Retroalimentación | Como estudiante, quiero feedback inmediato. | 5 |
-| 18 | US08 | Información eco | Como estudiante, quiero aprender eco-acciones. | 3 |
-| 19 | US31 | Resúmenes | Como estudiante, quiero ver resúmenes. | 3 |
-| 20 | US32 | Infografías | Como estudiante, quiero ver infografías. | 3 |
-| 21 | US06 | Retos familiares | Como padre, quiero retos con hijos. | 8 |
-| 22 | US07 | Reporte de progreso | Como padre, quiero ver progreso. | 5 |
-| 23 | TS05 | Endpoint progreso | Implementar progreso usuario. | 5 |
-| 24 | US05 | Ranking | Como estudiante, quiero ver ranking. | 3 |
-| 25 | TS07 | Endpoint ranking | Implementar ranking. | 5 |
-| 26 | US36 | Ranking comunitario | Como estudiante, quiero ranking por periodo. | 3 |
-| 27 | US10 | Compartir logros | Como estudiante, quiero compartir logros. | 5 |
-| 28 | US33 | Publicar logros | Como estudiante, quiero publicar logros. | 5 |
-| 29 | US34 | Reacciones | Como estudiante, quiero reaccionar. | 3 |
-| 30 | US35 | Comentarios | Como estudiante, quiero comentar. | 3 |
-| 31 | US38 | Logros destacados | Como estudiante, quiero ver destacados. | 3 |
-| 32 | US39 | Invitar amigos | Como estudiante, quiero invitar amigos. | 3 |
-| 33 | US40 | Logros colectivos | Como estudiante, quiero celebrar logros. | 3 |
-| 34 | US37 | Eventos | Como estudiante, quiero participar en eventos. | 5 |
-| 35 | US11 | Modo offline | Como estudiante, quiero usar sin internet. | 8 |
-| 36 | US41 | Acceso offline | Como estudiante, quiero acceso sin conexión. | 8 |
-| 37 | TS08 | Sync offline | Implementar sincronización offline. | 8 |
-| 38 | US49 | Sincronización automática | Como estudiante, quiero sync automático. | 5 |
-| 39 | US42 | Multiplataforma | Como estudiante, quiero usar varios dispositivos. | 5 |
-| 40 | US44 | Interfaz simple | Como estudiante, quiero UI simple. | 3 |
-| 41 | US12 | Responsive | Como usuario, quiero adaptabilidad. | 5 |
-| 42 | US43 | Carga rápida | Como estudiante, quiero rapidez. | 3 |
-| 43 | US50 | Optimización | Como estudiante, quiero eficiencia. | 3 |
-| 44 | US48 | Personalización | Como estudiante, quiero accesos personalizados. | 3 |
-| 45 | US45 | Disponibilidad | Como estudiante, quiero acceso 24/7. | 3 |
-| 46 | US46 | Seguridad | Como estudiante, quiero datos protegidos. | 5 |
-| 47 | US47 | Soporte | Como estudiante, quiero soporte. | 3 |
-| 48 | TS09 | Notificaciones | Implementar push notifications. | 5 |
-| 49 | US15 | Navegación básica | Como usuario, quiero navegar fácilmente. | 3 |
-| 50 | US16 | Visualización de perfil | Como usuario, quiero ver mi perfil. | 3 |
-| 51 | US17 | Edición de perfil | Como usuario, quiero editar datos. | 3 |
-| 52 | US18 | Cerrar sesión | Como usuario, quiero cerrar sesión. | 2 |
-| 53 | US19 | Validación de formularios | Como usuario, quiero validación. | 3 |
-| 54 | US20 | Mensajes de error | Como usuario, quiero errores claros. | 2 |
-| 55 | US21 | Navegación por menú | Como usuario, quiero menú intuitivo. | 3 |
-| 56 | US22 | Visualización de actividades | Como usuario, quiero ver actividades. | 3 |
-| 57 | US23 | Detalle de actividad | Como usuario, quiero ver detalles. | 3 |
-| 58 | US24 | Marcar progreso | Como usuario, quiero marcar avances. | 3 |
-| 59 | US25 | Historial | Como usuario, quiero historial. | 3 |
-| 60 | US26 | Notificaciones básicas | Como usuario, quiero alertas. | 3 |
-| 61 | US27 | Configuración | Como usuario, quiero configurar app. | 3 |
-| 62 | US28 | Ayuda | Como usuario, quiero ayuda. | 2 |
-| 63 | US29 | Tutorial inicial | Como usuario, quiero onboarding. | 3 |
-| 64 | US30 | Carga inicial | Como usuario, quiero carga rápida inicial. | 3 |
-
----
+| 1 | HU-051 | Información descriptiva clara | Como estudiante, quiero entender fácilmente las funcionalidades desde la landing page. | 3 |
+| 2 | HU-054 | Información de la comunidad en landing | Como estudiante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
+| 3 | HU-052 | Consejos de uso para padres | Como padre, quiero ver recomendaciones de uso en la landing. | 3 |
+| 4 | HU-053 | Preguntas frecuentes en landing | Como estudiante, quiero acceder a preguntas frecuentes desde la landing. | 2 |
+| 5 | HU-055 | Redirección a registro | Como estudiante, quiero ir al registro desde la landing. | 5 |
+| 6 | HU-001 | Miniactividad guiada con indicaciones | Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
+| 7 | HU-002 | Reto ambiental diario | Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación. | 5 |
+| 8 | HU-003 | Retroalimentación de actividades | Como estudiante, quiero recibir retroalimentación al finalizar una actividad, para saber en qué aspectos puedo mejorar. | 5 |
+| 9 | HU-004 | Sistema de puntos por aprendizaje | Como estudiante, quiero obtener puntos al completar actividades, para mantener mi motivación dentro de la aplicación. | 5 |
+| 10 | HU-005 | Reconocimiento por constancia | Como estudiante, quiero recibir reconocimientos al completar varias actividades seguidas, para reforzar mi compromiso con el aprendizaje. | 3 |
+| 11 | HU-006 | Establecimiento de compromiso | Como estudiante, quiero establecer compromisos individuales, para mantenerme constante. | 3 |
+| 12 | HU-007 | Seguimiento de progreso | Como estudiante, quiero ver mi progreso de actividades iniciadas, para saber cuánto he avanzado en ellas. | 5 |
+| 13 | HU-008 | Animaciones de logro | Como estudiante, quiero ver animaciones motivadoras al aprobar una actividad, para sentir satisfacción por mi esfuerzo. | 3 |
+| 14 | HU-009 | Ranking educativo | Como usuario, quiero ver un ranking de los mejores puntajes, para compararme de forma sana con otros usuarios. | 3 |
+| 15 | HU-010 | Desafío entre compañeros | Como estudiante, quiero realizar actividades en conjunto con mis amigos, para aprender y divertirnos al mismo tiempo. | 8 |
+| 16 | HU-011 | Colección de medallas | Como estudiante, quiero ganar medallas al superar retos, para sentir orgullo por mis logros. | 5 |
+| 17 | HU-012 | Historial de aprendizaje | Como estudiante, quiero revisar mi historial de actividades completadas, para repasar contenido de mi progreso. | 3 |
+| 18 | HU-023 | Guía simplificada | Como estudiante, quiero acceder a materiales didacticos, para entender conceptos ambientales sin dificultad. | 5 |
+| 19 | HU-024 | Tutorial paso a paso | Como usuario, quiero seguir tutoriales paso a paso dentro de la aplicación, para aprender cómo usarla correctamente. | 5 |
+| 20 | HU-025 | Recordatorios educativos | Como estudiante, quiero recibir recordatorios en la aplicación de materiales pendientes. | 3 |
+| 21 | HU-026 | Contenido breve y claro | Como estudiante, quiero que la información sea breve y clara. | 3 |
+| 22 | HU-027 | Videos explicativos | Como estudiante, quiero ver videos explicativos dentro de la aplicación. | 3 |
+| 23 | HU-028 | Lenguaje sencillo | Como estudiante, quiero contenido en lenguaje sencillo. | 2 |
+| 24 | HU-030 | Preguntas frecuentes | Como estudiante, quiero acceder a una sección de preguntas frecuentes. | 2 |
+| 25 | HU-032 | Infografías resumen | Como estudiante, quiero acceder a infografías que resuman la información. | 3 |
+| 26 | HU-013 | Reto familiar en casa | Como padre, quiero realizar retos ambientales en casa junto a mi familia. | 5 |
+| 27 | HU-014 | Actividad familiar en comunidad | Como padre, quiero participar con mi familia en actividades ambientales. | 8 |
+| 28 | HU-015 | Registro de logros familiares | Como padre, quiero registrar los logros de mi familia. | 5 |
+| 29 | HU-016 | Premios por colaboración familiar | Como padre, quiero que la aplicación premie nuestras acciones conjuntas. | 5 |
+| 30 | HU-017 | Planificación de retos familiares | Como padre, quiero planificar nuestras actividades ambientales. | 8 |
+| 31 | HU-018 | Alertas de actividades | Como padre, quiero recibir alertas de actividades. | 5 |
+| 32 | HU-019 | Agregar integrantes a la familia | Como padre, quiero crear mi grupo familiar. | 5 |
+| 33 | HU-020 | Felicitación de logros familiares | Como padre, quiero una animación al cumplir un reto. | 3 |
+| 34 | HU-021 | Reportes de progreso familiares | Como padre, quiero recibir reportes visuales del progreso. | 5 |
+| 35 | HU-022 | Ranking de familias | Como padre, quiero ver el ranking de familias. | 5 |
+| 36 | HU-033 | Compartir logros ambientales | Como estudiante, quiero compartir mis logros ambientales. | 5 |
+| 37 | HU-034 | Reaccionar a publicaciones | Como estudiante, quiero reaccionar a publicaciones. | 3 |
+| 38 | HU-036 | Ranking comunitario | Como estudiante, quiero ver un ranking de usuarios. | 3 |
+| 39 | HU-037 | Eventos ambientales | Como estudiante, quiero participar en eventos ambientales. | 5 |
+| 40 | HU-048 | Eventos de la comunidad en mapa | Como usuario, quiero ver eventos cercanos en un mapa. | 5 |
+| 41 | HU-029 | Avatares y cosméticos personalizables | Como usuario, quiero personalizar mi avatar con cosméticos. | 5 |
+| 42 | HU-031 | Multiplicador de XP | Como usuario, quiero comprar u obtener multiplicadores de XP. | 5 |
+| 43 | HU-035 | Compra y obtención de gemas | Como usuario, quiero obtener gemas mediante compras o misiones. | 5 |
+| 44 | HU-038 | Panel de logros compartidos | Como estudiante, quiero consultar logros destacados. | 3 |
+| 45 | HU-039 | Invitar amigos | Como estudiante, quiero invitar amigos. | 3 |
+| 46 | HU-040 | Logros colectivos | Como estudiante, quiero celebrar logros en grupo. | 3 |
+| 47 | HU-041 | Acceso offline | Como estudiante, quiero usar la app sin conexión. | 8 |
+| 48 | HU-042 | Multiplataforma | Como estudiante, quiero usar la app en varios dispositivos. | 5 |
+| 49 | HU-043 | Carga rápida | Como estudiante, quiero rapidez en la aplicación. | 3 |
+| 50 | HU-044 | Interfaz simple | Como estudiante, quiero una interfaz sencilla. | 3 |
+| 51 | HU-045 | Disponibilidad | Como estudiante, quiero acceso 24/7. | 3 |
+| 52 | HU-046 | Seguridad | Como estudiante, quiero datos protegidos. | 5 |
+| 53 | HU-047 | Soporte | Como estudiante, quiero soporte. | 3 |
+| 54 | HU-049 | Sincronización automática | Como estudiante, quiero sincronización automática. | 5 |
+| 55 | HU-050 | Optimización | Como estudiante, quiero eficiencia del sistema. | 3 |
 
 # Capítulo IV: Product Design
 
@@ -3262,8 +3235,6 @@ Los iconos siguen un estilo outline redondeado, coherente con la identidad orgá
 
 </div>
 
----
-
 ### 4.1.2. Web Style Guidelines
 
 Las guías de estilo web de EcoMind definen los patrones visuales y de interacción específicos para la versión web de la plataforma (landing page y aplicación web).
@@ -3315,9 +3286,6 @@ Las guías de estilo web de EcoMind definen los patrones visuales y de interacci
 
 </div>
 
-
----
-
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
@@ -3327,7 +3295,7 @@ EcoMind organiza su contenido bajo dos sistemas complementarios:
 **Organización jerárquica** (principal): La información se estructura de lo general a lo específico. La pantalla principal agrupa las secciones más importantes (Retos, Progreso, Familia, Comunidad), y cada sección despliega su contenido al profundizar en ella.
 
 **Organización por categorías temáticas**: Los retos y contenidos educativos se agrupan según los ejes ambientales de la plataforma:
-- 🌿 Reciclaje y residuos
+- ♻️ Reciclaje y residuos
 - 💧 Ahorro de agua
 - ⚡ Eficiencia energética
 - 🌳 Cuidado del entorno
@@ -3336,7 +3304,6 @@ EcoMind organiza su contenido bajo dos sistemas complementarios:
 
 **Roles y vistas diferenciadas**: La arquitectura distingue entre la vista del estudiante (enfocada en retos, puntos y comunidad) y la vista del padre (enfocada en progreso, retos familiares y reportes).
 
----
 
 ### 4.2.2. Labeling Systems
 
@@ -3400,8 +3367,6 @@ Las siguientes etiquetas SEO y meta tags se aplican a la landing page de EcoMind
 <meta name="robots" content="noindex, follow">
 ```
 
----
-
 ### 4.2.4. Searching Systems
 
 EcoMind implementa los siguientes mecanismos de búsqueda y filtrado dentro de la plataforma:
@@ -3420,7 +3385,6 @@ EcoMind implementa los siguientes mecanismos de búsqueda y filtrado dentro de l
 
 **Criterios de presentación de resultados**: Los resultados de búsqueda se muestran ordenados por relevancia y, en caso de empate, por fecha de publicación más reciente. Cuando no hay resultados, se muestra el mensaje "No encontramos retos con ese nombre. ¿Quieres explorar todos los retos?" con un enlace al listado completo.
 
----
 
 ### 4.2.5. Navigation Systems
 
@@ -3458,9 +3422,6 @@ En la pantalla de Inicio, los retos del día se muestran en una sección destaca
 
 
 </div>
-
-
----
 
 
 ## 4.3. Landing Page UI Design
