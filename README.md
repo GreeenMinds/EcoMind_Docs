@@ -3623,10 +3623,17 @@ De acuerdo con Google HTML/CSS Style Guide:
 •	Sangría de dos espacios y punto y coma al final de cada instrucción.
 •	Los comentarios se harán con // para líneas simples o /* ... */ para bloques.
 
-
-
 ### 5.1.4. Software Deployment Configuration
 
+Landing Page
+El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de GitHub que permite publicar sitios web estáticos directamente desde el repositorio de código fuente, sin necesidad de configurar servidores adicionales.
+Procedimiento planificado:
+1.	Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
+2.	Acceder al repositorio en GitHub y dirigirse a Settings -> Pages.
+3.	En la sección Source, seleccionar la rama main y la carpeta raíz.
+4.	Guardar la configuración para que GitHub Pages genere automáticamente la página pública.
+5.	Una vez desplegado, el sitio estará disponible.
+Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
 
 ## 5.2. Landing Page, Services & Applications Implementation
