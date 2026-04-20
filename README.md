@@ -3559,7 +3559,6 @@ URL de repositorio de GitHub: https://github.com/GreeenMinds/EcoMind_LandingPage
 **Figura 94**
 *Repositorio de landing page en GitHub*
  
-URL de repositorio de pruebas de aceptación: https://github.com/GreeenMinds/Ecomind_AcceptanceTests
 
 **Figura 95**
 *Repositorio de Acceptance Tests en GitHub*
@@ -3599,6 +3598,30 @@ Tipos:
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Para todos los lenguajes se aplicará la nomenclatura en inglés.
+
+**Lenguaje HTML:** Se seguirá la guía HTML Style Guide and Coding Conventions y las recomendaciones de Google HTML/CSS Style Guide:
+
+•	Los nombres de archivos serán en minúsculas, sin espacios, separados por guiones.
+•	Las etiquetas estarán correctamente anidadas, en minúsculas y con sangría de dos espacios.
+•	Los atributos HTML se escribirán en minúsculas y siempre entre comillas.
+•	Los comentarios se usarán para describir secciones principales de código
+•	Evitar largas líneas de código
+
+**Lenguaje CSS:**
+De acuerdo con Google HTML/CSS Style Guide:
+•	Los nombres de clases y selectores se escribirán en minúsculas y con guiones (kebab-case).
+•	Se mantendrá un orden lógico: primero estructura general, luego estilos específicos.
+•	Se evitará el uso de estilos en línea dentro del HTML.
+•	Los valores numéricos de cero no incluirán unidad.
+
+**Lenguaje JavaScript:** Se seguirán las convenciones estándar de JavaScript Style Guide (Google y MDN):
+•	Uso de camelCase para variables y funciones.
+•	Uso de PascalCase para nombres de clases o constructores.
+•	Uso de const y let en lugar de var.
+•	Sangría de dos espacios y punto y coma al final de cada instrucción.
+•	Los comentarios se harán con // para líneas simples o /* ... */ para bloques.
 
 
 
