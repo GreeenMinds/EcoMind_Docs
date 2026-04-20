@@ -3425,6 +3425,12 @@ En la pantalla de Inicio, los retos del día se muestran en una sección destaca
 
 ### 4.3.1. Landing Page Wireframe
 
+Los 4 wireframes del **Landing Page de EcoMind** representan la fase inicial del diseño, donde se define la estructura, jerarquía visual y distribución de los contenidos antes de aplicar el estilo final. En la **Landing Principal**, se establece el primer contacto con el usuario mediante una cabecera heroica que comunica el propósito ambiental, seguida de secciones sobre nosotros que detallan la misión y visión, utilizando una cuadrícula de 8 píxeles para asegurar una alineación perfecta de todos los elementos visuales y de texto.
+
+La sección de **Comunidad** profundiza en la interacción social, integrando una arquitectura de información que destaca métricas de impacto, testimonios reales y un calendario de eventos geolocalizados. Este diseño utiliza el principio de proximidad para agrupar experiencias de otras familias, lo que refuerza el sentido de pertenencia y motiva a la acción colectiva. Por su parte, la **Guía para Padres** se estructura como un repositorio de recursos educativos, donde el contraste y la jerarquía visual facilitan la distinción entre lecturas, videos e infografías, permitiendo que los tutores encuentren herramientas pedagógicas de forma rápida y sin fricciones.
+
+Finalmente, la sección de **Preguntas Frecuentes** aborda la usabilidad técnica mediante un sistema de menús desplegables que minimiza el desplazamiento vertical y organiza las dudas comunes de manera lógica. En todas las vistas, se mantiene una consistencia rigurosa en la barra de navegación y el pie de página, lo que reduce la carga cognitiva y asegura que, tanto en escritorio como en dispositivos móviles, el usuario siempre sepa dónde se encuentra. Este enfoque integral no solo organiza el contenido, sino que prepara la plataforma para una implementación visual inclusiva, accesible y altamente efectiva para la educación ambiental familiar.
+
 ![Foto](assets/img/figures/Prototipo_Principal.png)
 
 ![Foto](assets/img/figures/Prototipo_Guia.png)
@@ -3434,6 +3440,16 @@ En la pantalla de Inicio, los retos del día se muestran en una sección destaca
 ![Foto](assets/img/figures/PrototipoComunidad.png)
 
 ### 4.3.2. Landing Page Mock-up
+
+Los mockups finales de **EcoMind** representan la evolución visual definitiva de los wireframes, consolidando una propuesta estética alineada con el **Design System** de la marca. En estas interfaces, se materializan los principios de diseño visual, inclusivo y de arquitectura de información de manera cohesiva. En la **Landing Principal**, se refuerza la jerarquía mediante el uso del verde institucional (**#69A44E**) en botones de acción y elementos clave, creando un contraste armónico con el fondo blanco y las imágenes de naturaleza. La tipografía **Poppins** se utiliza para asegurar una legibilidad superior y consistencia en todos los pesos visuales, mientras que la sección "¿Por qué usar EcoMind?" emplea iconos personalizados y coloridos que fomentan un entorno lúdico, alineado perfectamente con el público familiar.
+
+En la sección **Comunidad EcoMind**, el diseño comunica cercanía y participación activa. Se han integrado bloques visuales que destacan estadísticas clave (como las más de 10,000 familias conectadas) y testimonios reales con avatares circulares, fortaleciendo la confianza del usuario. La arquitectura informativa se apoya en una disposición jerárquica clara que guía la vista desde los logros comunitarios hasta un mapa interactivo de eventos cercanos, cumpliendo con los principios de retroalimentación visual y emocionalidad al mostrar el impacto real de las acciones colectivas.
+
+En la **Guía para Padres**, la estructura prioriza la facilidad de acompañamiento mediante espacios en blanco amplios y el uso de fotografías familiares que humanizan la plataforma. Aquí, el diseño inclusivo es evidente en la organización de los "Recursos Educativos", donde cada categoría (Lecturas, Videos, Infografías) cuenta con un contenedor visualmente diferenciado y un icono representativo. Se aplican rigurosamente los principios de proximidad y consistencia, garantizando que padres de diferentes niveles de competencia digital puedan navegar los consejos y reportes de progreso sin fricciones.
+
+La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista y funcional. El uso de acordeones con bordes redondeados y tipografía clara permite una exploración rápida, aplicando el principio de simplicidad para evitar la sobrecarga cognitiva. Finalmente, en todas las vistas de escritorio y su adaptación móvil, el **Design System** garantiza una experiencia fluida: el uso de botones con esquinas suavizadas, la paleta de colores inspirada en la sostenibilidad y la iconografía amigable aseguran que EcoMind no solo sea una herramienta educativa, sino un ecosistema visualmente atractivo y profundamente accesible para todos los miembros del hogar.
+
+
 ![Foto](assets/img/figures/LandingPage.png)
 
 ![Foto](assets/img/figures/LandingPage_Faq.png)
