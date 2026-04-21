@@ -3541,7 +3541,7 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-
+![Ranking](assets/img/figures/UserFlows.jpg)
 
 ## 4.5. Web Applications Prototyping
 
