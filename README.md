@@ -3853,6 +3853,198 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 
 #### 5.2.1.3. *Sprint Backlog 1*
 
+<p><strong>Sprint #:</strong> Sprint 1</p>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO01</td>
+      <td>Header Landing</td>
+      <td>Implementar header del landing page</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO02</td>
+      <td>Hero Landing</td>
+      <td>Implementar sección hero del landing</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO03</td>
+      <td>Por qué usar Ecomind</td>
+      <td>Implementar sección con descripciones e imágenes</td>
+      <td>4</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO04</td>
+      <td>Sobre nosotros</td>
+      <td>Implementar sección de objetivos</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO05</td>
+      <td>Footer</td>
+      <td>Implementar footer del landing</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO06</td>
+      <td>Redirección guía padres</td>
+      <td>Implementar navegación a la sección</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO07</td>
+      <td>Sección guía padres</td>
+      <td>Implementar resumen de la aplicación</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO08</td>
+      <td>Recursos educativos</td>
+      <td>Mostrar materiales con descripción e imagen</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO09</td>
+      <td>Consejos clave</td>
+      <td>Implementar recomendaciones para padres</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO10</td>
+      <td>Botón FAQ</td>
+      <td>Insertar botón con redirección</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO11</td>
+      <td>Diseño FAQ</td>
+      <td>Diseñar sección FAQ</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO12</td>
+      <td>Definir preguntas</td>
+      <td>Seleccionar preguntas relevantes</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO13</td>
+      <td>Contenido FAQ</td>
+      <td>Insertar preguntas y respuestas</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO14</td>
+      <td>Botón comunidad</td>
+      <td>Insertar redirección</td>
+      <td>2</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO15</td>
+      <td>Sección comunidad</td>
+      <td>Diseñar indicadores principales</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO16</td>
+      <td>Qué puedes hacer</td>
+      <td>Bloque informativo con imagen y texto</td>
+      <td>2</td>
+      <td>Alexther Kamil Diaz Martinez </td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO17</td>
+      <td>Testimonios</td>
+      <td>Añadir tarjetas responsivas</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+  </tbody>
+</table>
 
 
 #### 5.2.1.4. *Development Evidence for Sprint Review*
