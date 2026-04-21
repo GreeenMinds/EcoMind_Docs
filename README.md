@@ -3739,13 +3739,6 @@ Google Chrome (Application): Navegador web utilizado para realizar pruebas funci
 El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada y colaborativa para el desarrollo, pruebas y liberación del producto digital.
 URL de repositorio de GitHub: https://github.com/GreeenMinds/EcoMind_LandingPage
 
-**Figura 94**
-*Repositorio de landing page en GitHub*
- 
-
-**Figura 95**
-*Repositorio de Acceptance Tests en GitHub*
- 
 **Estructura de Ramas (branches):**
 
 **Ramas principales:**
@@ -3825,11 +3818,27 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 
 #### 5.2.1.1. *Sprint Planning 1*
 
+| **Sprint #** |  1 |
+|------|--------|
+| **Date** | 2026-16-04 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
+| **Sprint n Goal** | Nuestro enfoque es desarrollar una landing page funcional e informativa para Ecomind. Creemos que esto brinda una comprensión clara del propósito y las funcionalidades de la plataforma a los nuevos usuarios (estudiantes y padres). Esto se confirmará cuando los usuarios puedan navegar por todas las secciones de la landing page e identificar sus principales características sin necesidad de ayuda. |
+| **Sprint n Velocity** | 11 SP |
+| **Sum of Story Points** | 11 SP |
 
 
 #### 5.2.1.2. *Aspect Leaders and Collaborators*
 
-
+| Team Member (Last Name, First Name) | GitHub Username | Sección Principal | Guía para Padres | Comunidad | FAQ |
+|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | C | L | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | L | C | C |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C |
+| Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | C |
 
 #### 5.2.1.3. *Sprint Backlog 1*
 
