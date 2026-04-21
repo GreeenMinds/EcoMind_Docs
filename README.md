@@ -4192,11 +4192,23 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 ![Contributors](assets/img/figures/Contributors_insight.jpeg)
 
 # Conclusiones
+A partir del desarrollo del proyecto EcoMind, se concluye que la problemática planteada al inicio sí representa una necesidad real, ya que existe una brecha entre lo que los escolares aprenden sobre el cuidado del medio ambiente en la escuela y lo que realmente aplican en su vida diaria. Si bien los niños conocen conceptos como el reciclaje, el ahorro de agua o el cuidado de la energía, estas prácticas no siempre se mantienen en el hogar ni se convierten en hábitos sostenibles sin acompañamiento constante.
 
+En relación con los **Problem Statements**, el equipo concluye que la oportunidad identificada fue adecuada, porque el problema no se limita a la falta de información ambiental, sino también a la ausencia de herramientas que ayuden a dar continuidad a ese aprendizaje fuera del aula. En ese sentido, EcoMind propone una solución pertinente al integrar escuela, hogar y comunidad mediante una experiencia gamificada, dinámica y orientada a la práctica.
+
+Respecto a los **assumptions** planteados, las entrevistas realizadas permitieron validar que los escolares se sienten más atraídos por experiencias visuales, interactivas y basadas en retos, mientras que los padres valoran herramientas simples, claras y útiles para acompañar el aprendizaje de sus hijos. También se comprobó que la participación familiar es un factor importante para reforzar los hábitos ambientales. Sin embargo, algunas suposiciones aún deben validarse en una etapa posterior, especialmente las relacionadas con la frecuencia de uso, la permanencia del interés y el valor real que los usuarios le darán a los reportes de progreso.
+
+En cuanto a los **Hypothesis Statements**, los resultados obtenidos muestran indicios positivos sobre la aceptación de la gamificación, los mini-retos y las actividades conjuntas entre padres e hijos. No obstante, los criterios de éxito cuantitativos establecidos en Lean UX todavía no pueden considerarse completamente comprobados, ya que su validación requiere pruebas con usuarios reales y medición directa del uso de la plataforma.
+
+Finalmente, se concluye que EcoMind cuenta con una propuesta de valor sólida y diferenciada, al combinar educación ambiental, participación familiar, motivación por recompensas y accesibilidad online/offline. Además, el trabajo realizado en investigación, diseño y planteamiento funcional deja una base consistente para continuar con el desarrollo del producto y sus futuras validaciones.
 
 
 # Recomendaciones
+Como siguiente paso, se recomienda realizar una validación piloto con escolares y padres de familia para medir en la práctica el nivel de aceptación de la plataforma y comprobar el cumplimiento de las hipótesis y criterios de éxito definidos. Esta etapa permitirá obtener evidencia más precisa sobre el comportamiento real de los usuarios.
 
+También se recomienda priorizar el desarrollo de un MVP que incluya las funcionalidades principales del proyecto, como los mini-retos, el sistema de puntos e insignias, el seguimiento del progreso, las actividades familiares y el modo offline. Esto permitirá validar primero la propuesta principal de valor antes de incorporar funciones más complejas.
+
+Finalmente, sería importante reforzar el sistema de retroalimentación y reportes de avance, ya que los padres necesitan evidencias claras de que sus hijos están aprendiendo y desarrollando hábitos sostenibles. Esta funcionalidad puede convertirse en uno de los elementos más valiosos de la plataforma.
 
 
 # Bibliografía
