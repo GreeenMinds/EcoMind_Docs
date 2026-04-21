@@ -3828,6 +3828,7 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. *Sprint Planning 1*
+Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing page de nuestra aplicación. Para ello designamos tareas específicas para cada sección, de modo que podamos repartirnos estas tareas entre los integrantes del grupo por seccion de la landing, agilizando su desarrollo. Dentro de la landing esta la pestaña principal (Home), en la cual se presenta quienes somos y que ofrecemos. De ahi ya tendriamos apartados más especificos, los cuales son: Preguntas frecuentes, guía para padres y comunidad.
 
 | **Sprint #** |  1 |
 |------|--------|
@@ -3836,10 +3837,9 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 | **Location** | Reunión virtual (Google Meet / Zoom) |
 | **Prepared By** | Alejandra Isabel Astocondor Bazan |
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
-| **Sprint n Goal** | Nuestro enfoque es desarrollar una landing page funcional e informativa para Ecomind. Creemos que esto brinda una comprensión clara del propósito y las funcionalidades de la plataforma a los nuevos usuarios (estudiantes y padres). Esto se confirmará cuando los usuarios puedan navegar por todas las secciones de la landing page e identificar sus principales características sin necesidad de ayuda. |
-| **Sprint n Velocity** | 11 SP |
+| **Sprint n Goal** | Our focus is on developing a fully responsive landing page with all main sections completed. We believe it delivers a clear understanding of the app's value in promoting environmental habits through gamification to families and children. This will be confirmed when the page is deployed and can be navigated seamlessly on both mobile and desktop devices. |
+| **Sprint n Velocity** | Designamos aceptar hasta 20 SP |
 | **Sum of Story Points** | 11 SP |
-
 
 #### 5.2.1.2. *Aspect Leaders and Collaborators*
 
