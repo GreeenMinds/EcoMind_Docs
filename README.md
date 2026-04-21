@@ -3609,7 +3609,7 @@ Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
 - Diagrama de componentes - Gestion de retos
 
-![Component_Diagram_retos](assets/img/figures/Diagrama_componentes_retos.png)
+![Component_Diagram_retos](assets/img/figures/Diagrama_componente_retos.png)
 
 - Diagrama de componentes - Gestion de ranking
 
