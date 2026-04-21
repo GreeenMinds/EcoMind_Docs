@@ -764,7 +764,47 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 
 ## 2.4. Big Picture EventStorming
 
+- Módulo gestión ususarios
 
+![Gestion_usuarios-1](assets/img/figures/Eventstorming_gestion_usuarios_1.png)
+
+![Gestion_usuarios-2](assets/img/figures/Eventstorming_gestion_usuarios_2.png)
+
+- Módulo perfil
+
+![Perfil-1](assets/img/figures/Eventstorming_perfil_1.png)
+
+![Perfil-2](assets/img/figures/Eventstorming_perfil_2.png)
+
+- Módulo retos
+
+![Retos-1](assets/img/figures/Eventstorming_retos_1.png)
+
+![Retos-2](assets/img/figures/Eventstorming_retos_2.png)
+
+- Módulo comunidad
+
+![Comunidad-1](assets/img/figures/Eventstorming_comunidad_1.png)
+
+![Comunidad-2](assets/img/figures/Eventstorming_comunidad_2.png)
+
+- Módulo ranking
+
+![Ranking-1](assets/img/figures/Eventstorming_ranking_1.png)
+
+![Ranking-2](assets/img/figures/Eventstorming_ranking_2.png)
+
+- Módulo preferencias
+
+![Preferencias-1](assets/img/figures/Eventstorming_preferencias_1.png)
+
+![Preferencias-2](assets/img/figures/Eventstorming_preferencias_2.png)
+
+- Módulo monetización
+
+![Monetizacion-1](assets/img/figures/Eventstorming_monetizacion_1.png)
+
+![Monetizacion-2](assets/img/figures/Eventstorming_monetizacion_2.png)
 
 ## 2.5. Ubiquitous Language
 El siguiente glosario define los términos clave del dominio de negocio utilizados en EcoMind. Estos conceptos permiten que todos los miembros del equipo y stakeholders compartan una comprensión común, evitando ambigüedades y facilitando la comunicación.
@@ -3609,7 +3649,7 @@ Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
 - Diagrama de componentes - Gestion de retos
 
-![Component_Diagram_retos](assets/img/figures/Diagrama_componente_retos.png)
+![Component_Diagram_retos](assets/img/figures/Diagrama_componentes_retos.png)
 
 - Diagrama de componentes - Gestion de ranking
 
