@@ -3467,10 +3467,9 @@ La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-
+![Foto](assets/img/figures/WireFlow.png)
 
 ### 4.4.3. Web Applications Mock-ups
-
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
