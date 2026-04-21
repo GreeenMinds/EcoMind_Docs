@@ -3545,7 +3545,35 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 ### 4.6.1. Design-Level EventStorming
 
+Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
+- Bounded context Gestion de usuarios
+
+![Gestion_usuarios](assets/img/figures/Bounded_context_gestion_usuarios.png)
+
+- Bounded context Perfil
+
+![Perfil](assets/img/figures/Bounded_context_perfil.png)
+
+- Bounded context Retos
+
+![Retos](assets/img/figures/Bounded_context_retos.png)
+
+- Bounded context comunidad
+
+![Comunidad](assets/img/figures/Bounded_context_comunidad.png)
+
+- Bounded context Ranking
+
+![Ranking](assets/img/figures/Bounded_context_ranking.png)
+
+- Bounded context Preferencias
+
+![Preferencias](assets/img/figures/Bounded_context_preferencias.png)
+
+- Bounded context Monetización
+
+![Monetizacion](assets/img/figures/Bounded_context_monetizacion.png)
 
 ### 4.6.2. Software Architecture Context Diagram
 
