@@ -3282,8 +3282,6 @@ Las guías de estilo web de EcoMind definen los patrones visuales y de interacci
 
  <img src="assets/img/figures/image-web.png" width="350"> 
 
-
-
 </div>
 
 ## 4.2. Information Architecture
@@ -3470,7 +3468,69 @@ La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista
 ![Foto](assets/img/figures/WireFlow.png)
 
 ### 4.4.3. Web Applications Mock-ups
+Los mock-ups de la web app de EcoMind presentan la estructura general de la aplicación y permiten entender cómo el usuario navega entre sus diferentes secciones principales: Perfil, Retos, Comunidad, Ranking, Tienda y Ajustes, además de la pantalla de registro (Sign Up). A través de estas pantallas se evidencia una organización clara de los contenidos y una distribución que facilita la comprensión de cada sección.
 
+En primer lugar, se observa un menú lateral fijo que permite acceder rápidamente a todas las secciones. Esta organización responde a una arquitectura de información sencilla, ya que agrupa las funciones principales en un solo espacio visible, facilitando la navegación continua del usuario. La pantalla de Sign Up muestra un formulario de registro con campos como nombre, correo electrónico y contraseña, además de opciones para aceptar términos y registrarse o iniciar sesión con cuentas externas. Los elementos están organizados de forma vertical, lo que facilita el llenado del formulario y la lectura de la información.
+
+
+En la sección de *Perfil*, la información del usuario se presenta en bloques como datos personales, puntos, racha y logros, Además se muestras secciones de Familia, Progreso, Favoritos . Esta disposición permite identificar fácilmente cada elemento y mantener una estructura ordenada dentro de la pantalla. 
+En la sección de *Retos*, las actividades se muestran de forma clara mediante listas y bloques que incluyen el progreso y acciones disponibles. Esto permite al usuario reconocer rápidamente qué tareas puede realizar y cuál es su avance.
+En la sección de *Comunidad*, el contenido se organiza en diferentes bloques como publicaciones, eventos y metas colectivas. Además, se incluyen acciones visibles como “Unirse al evento” o “Crear evento”, lo que facilita la interacción. La separación del contenido permite distinguir cada tipo de información sin dificultad.
+En la sección de *Ranking*, se presenta una lista ordenada de usuarios con sus puntajes, destacando la posición del usuario. Esta organización permite comparar el progreso de forma directa.
+En la sección de *Tienda*, los productos están organizados en tarjetas con imagen, nombre, precio y botón de compra. También se observan categorías y etiquetas como “Nuevo” o “Tiempo limitado”, lo que ayuda a organizar y diferenciar los elementos disponibles.
+En la sección de *Ajustes*, se agrupan opciones relacionadas con la configuración de la cuenta, presentadas de manera simple.
+
+En general, los mock-ups mantienen una estructura consistente en todas las pantallas, con elementos alineados, botones visibles y una distribución ordenada. El uso de colores, tipografía y componentes repetidos refleja la aplicación de un Design System básico, mientras que la claridad de los elementos y el tamaño de los botones favorecen la accesibilidad y el uso por diferentes tipos de usuarios.
+
+* Sign up
+
+![Sign Up](assets/img/figures/SignUpWeb.jpg)
+
+* Panel Principal
+
+![panelcorregido1](assets/img/figures/panelcorregido2.png)
+![panelcorregido1](assets/img/figures/panelcorregido1.png)
+![panelCorredigo1](assets/img/figures/RetoCorredigo1.png)
+
+* Perfil
+
+![perfilcorregido](assets/img/figures/perfilcorregido4.png)
+![perfilCorregido](assets/img/figures/perfilCorregido.png)
+![Perfilcorregido](assets/img/figures/Perfilcorregido3.png)
+![Perfilcorregido](assets/img/figures/Perfilcorregido2.png)
+![Perfilcorregido](assets/img/figures/Perfilcorregido1.png)
+
+* Retos
+  
+![Retos](assets/img/figures/Retos1.jpg)
+![Retos](assets/img/figures/Retos3.jpg)
+![Retos](assets/img/figures/Retoa2.jpg)
+![Retos](assets/img/figures/Retos4.jpg)
+![Retos](assets/img/figures/Retoa5.jpg)
+
+* Comunidad
+
+![Comunidadcorregido1](assets/img/figures/Comunidadcorregido1.png)
+![comunidadcorregido1](assets/img/figures/comunidadcorregido2.png)
+![comunidadcorregido1](assets/img/figures/comunidadcorregido3.png)
+![Comunidad](assets/img/figures/Comunidad4.jpg)
+![Comunidad](assets/img/figures/Comunidad5.jpg)
+![Comunidad](assets/img/figures/Comunidad6.jpg)
+![Comunidad](assets/img/figures/Comunidad7.jpg)
+![Comunidad](assets/img/figures/Comunidad8.jpg)
+![Comunidad](assets/img/figures/Comunidad9.jpg)
+![Comunidad](assets/img/figures/Comunidad10.jpg)
+![Comunidad](assets/img/figures/Comunidad11.jpg)
+
+* Tienda
+  
+![Tienda](assets/img/figures/Tienda1.jpeg)
+![Tienda](assets/img/figures/Tienda2.jpeg)
+![Tienda](assets/img/figures/Tienda3.jpeg)
+
+* Ranking
+  
+![Ranking](assets/img/figures/Ranking.jpg)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -3484,19 +3544,73 @@ La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista
 
 ### 4.6.1. Design-Level EventStorming
 
+Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
+- Bounded context Gestion de usuarios
+
+![Gestion_usuarios](assets/img/figures/Bounded_context_gestion_usuarios.png)
+
+- Bounded context Perfil
+
+![Perfil](assets/img/figures/Bounded_context_perfil.png)
+
+- Bounded context Retos
+
+![Retos](assets/img/figures/Bounded_context_retos.png)
+
+- Bounded context comunidad
+
+![Comunidad](assets/img/figures/Bounded_context_comunidad.png)
+
+- Bounded context Ranking
+
+![Ranking](assets/img/figures/Bounded_context_ranking.png)
+
+- Bounded context Preferencias
+
+![Preferencias](assets/img/figures/Bounded_context_preferencias.png)
+
+- Bounded context Monetización
+
+![Monetizacion](assets/img/figures/Bounded_context_monetizacion.png)
 
 ### 4.6.2. Software Architecture Context Diagram
 
-
+![Context_Diagram](assets/img/figures/Diagrama_contexto.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-
+![Container_Diagram](assets/img/figures/Diagrama_contenedores.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+- Diagrama de componentes - Gestion de usuarios
 
+![Component_Diagram_Gestion_usuarios](assets/img/figures/Diagrama_componentes_gestion_usuario.png)
+
+- Diagrama de componentes - Gestion de preferencias
+
+![Component_Diagram_preferencia](assets/img/figures/Diagrama_componentes_preferencias.png)
+
+- Diagrama de componentes - Gestion de perfil
+
+![Component_Diagram_perfil](assets/img/figures/Diagrama_componentes_perfil.png)
+
+- Diagrama de componentes - Gestion de comunidad
+
+![Component_Diagram_comunidad](assets/img/figures/Diagrama_componentes_comunidad.png)
+
+- Diagrama de componentes - Gestion de retos
+
+![Component_Diagram_retos](assets/img/figures/Diagrama_componentes_retos.png)
+
+- Diagrama de componentes - Gestion de ranking
+
+![Component_Diagram_ranking](assets/img/figures/Diagrama_componentes_ranking.png)
+
+- Diagrama de componentes - Gestion de monetización
+
+![Component_Diagram_monetizacion](assets/img/figures/Diagrama_componentes_monetizacion.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -3525,9 +3639,6 @@ Ruta: https://trello.com/
 
 **Figura 89**
 *Tablas para sprint en Trello*
-
-Requirements Management: 
-Microsoft Word (SaaS/Application): Procesador de texto utilizado para documentar los requerimientos funcionales y no funcionales del sistema, facilitando su revisión y actualización colaborativa. Ruta: https://www.microsoft.com/microsoft-365/word 
 
 **Product UX/UI design:**
 
