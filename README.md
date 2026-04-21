@@ -3282,8 +3282,6 @@ Las guías de estilo web de EcoMind definen los patrones visuales y de interacci
 
  <img src="assets/img/figures/image-web.png" width="350"> 
 
-
-
 </div>
 
 ## 4.2. Information Architecture
@@ -3526,9 +3524,6 @@ Ruta: https://trello.com/
 
 **Figura 89**
 *Tablas para sprint en Trello*
-
-Requirements Management: 
-Microsoft Word (SaaS/Application): Procesador de texto utilizado para documentar los requerimientos funcionales y no funcionales del sistema, facilitando su revisión y actualización colaborativa. Ruta: https://www.microsoft.com/microsoft-365/word 
 
 **Product UX/UI design:**
 
