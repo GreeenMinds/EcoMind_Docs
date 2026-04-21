@@ -3622,7 +3622,7 @@ Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
 ### 4.8.1. Database Diagrams
 
-
+![Component_Diagram_monetizacion](assets/img/figures/ecomind_db.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
