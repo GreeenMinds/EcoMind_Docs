@@ -4144,8 +4144,17 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 
 #### 5.2.1.5. *Execution Evidence for Sprint Review*
 
+Durante este Sprint se completaron las principales vistas iniciales del Landing Page de EcoMind y se integraron las funcionalidades básicas de navegación entre ellas, logrando un primer incremento completamente navegable. Se implementaron secciones clave como el Header, Hero, “Por qué usar EcoMind”, “Sobre nosotros”, Footer, así como las vistas correspondientes a “Guía para padres”, “Recursos educativos”, “Preguntas frecuentes” y “Comunidad”. Además, se añadieron los redireccionamientos de los botones principales hacia el proceso de registro y se desarrolló el formulario de sign up con validaciones esenciales.
 
+![Landing Home](assets/img/figures/LandingHome.png)
 
+![Guía para Padres](assets/img/figures/guiaPadres.png)
+
+![Comunidad Vista](assets/img/figures/ComunidadVista.png)
+
+![FAQ Vista](assets/img/figures/FaqVista.png)
+
+Enlace: https://youtu.be/5LT_4Mb5lQ0
 #### 5.2.1.6. *Services Documentation Evidence for Sprint Review*
 
 
