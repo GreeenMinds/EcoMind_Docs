@@ -3557,6 +3557,33 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+- Diagrama de componentes - Gestion de usuarios
+
+![Component_Diagram_Gestion_usuarios](assets/img/figures/Diagrama_componentes_gestion_usuario.png)
+
+- Diagrama de componentes - Gestion de preferencias
+
+![Component_Diagram_preferencia](assets/img/figures/Diagrama_componentes_preferencias.png)
+
+- Diagrama de componentes - Gestion de perfil
+
+![Component_Diagram_perfil](assets/img/figures/Diagrama_componentes_perfil.png)
+
+- Diagrama de componentes - Gestion de comunidad
+
+![Component_Diagram_comunidad](assets/img/figures/Diagrama_componentes_comunidad.png)
+
+- Diagrama de componentes - Gestion de retos
+
+![Component_Diagram_retos](assets/img/figures/Diagrama_componentes_retos.png)
+
+- Diagrama de componentes - Gestion de ranking
+
+![Component_Diagram_ranking](assets/img/figures/Diagrama_componentes_ranking.png)
+
+- Diagrama de componentes - Gestion de monetización
+
+![Component_Diagram_monetizacion](assets/img/figures/Diagrama_componentes_monetizacion.png)
 
 ## 4.7. Software Object-Oriented Design
 
