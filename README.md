@@ -3849,7 +3849,24 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 
 #### 5.2.1.1. *Sprint Planning 1*
 
+Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing page de nuestra aplicación. Para ello designamos tareas específicas para cada sección, de modo que podamos repartirnos estas tareas entre los integrantes del grupo por seccion de la landing, agilizando su desarrollo. Dentro de la landing esta la pestaña principal (Home), en la cual se presenta quienes somos y que ofrecemos. De ahi ya tendriamos apartados más especificos, los cuales son: Preguntas frecuentes, guía para padres comunidad y registro de cuenta.
 
+
+
+| Sprint # | Sprint 1 |
+| -------- | -------- |
+| Sprint Planning Background | ---------------------------------------------------------------------- |
+| Date | 2026/04/18 |
+| Time | 10:00 PM |
+| Location | Virtual - Reunion en Discord |
+| Prepared By | Diaz Martinez, Kamil Alexther |
+| Attendees (to planning meeting) | Diaz Martinez, Kamil Alexther / Dulanto Espino, Leo César / Astocondor Bazan, Alejandra Isabel / Aponte Pablo, Isabel Luisa / Laura Acosta, Victor Jhosuef |
+| Sprint n – 1 Review Summary  | Desarrollo de landing page de la aplicacion Ecomind, con obetivo de desarrollar cada sección planteada (Home, Preguntas frecuentes, Guía para padres y Comunidad), para brindar información necesaria de la aplicación a los usuarios |
+| Sprint n – 1 Retrospective Summary| Coordinamos una reunion para discutir acerca del desarrllo del sprint, en ella nos dividimos por secciones la landing page. Creemos que fue una buena forma de agilizar tiempo, y trabajar de forma equitativa. De mejora seria que en futuras entregas hacer esto con mayor antelación ya que van a requerir mayor atención a desarrollo de la aplicación |
+| Sprint Goal & User Stories | ---------------------------------------------------------------------- |
+| Sprint n Goal  | Our focus is on developing a fully responsive landing page with all main sections completed. We believe it delivers a clear understanding of the app's value in promoting environmental habits through gamification to families and children. This will be confirmed when the page is deployed and can be navigated seamlessly on both mobile and desktop devices. |
+| Sprint n Velocity | Designamos aceptar hasta 20 Story Points |
+| Sum of Story Points  | 16 Story Poinst en total |
 
 #### 5.2.1.2. *Aspect Leaders and Collaborators*
 
