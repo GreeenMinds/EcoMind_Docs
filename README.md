@@ -3594,8 +3594,8 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 ![Ranking](assets/img/figures/UserFlows.png)
 
 ## 4.5. Web Applications Prototyping
-
-
+[![videoprototype.jpg](https://i.postimg.cc/P52fb2Jm/videoprototype.jpg)](https://postimg.cc/pm5tRQDT)
+🔗 [Ver video demostrativo Prototyping – EcoMind](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQANnu1XWjKASILUpVrf6O7ZAZe2gGy5Ki-gheW59sC20DY)
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -3763,13 +3763,6 @@ Google Chrome (Application): Navegador web utilizado para realizar pruebas funci
 El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada y colaborativa para el desarrollo, pruebas y liberación del producto digital.
 URL de repositorio de GitHub: https://github.com/GreeenMinds/EcoMind_LandingPage
 
-**Figura 94**
-*Repositorio de landing page en GitHub*
- 
-
-**Figura 95**
-*Repositorio de Acceptance Tests en GitHub*
- 
 **Estructura de Ramas (branches):**
 
 **Ramas principales:**
@@ -3848,32 +3841,223 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. *Sprint Planning 1*
+Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing page de nuestra aplicación. Para ello designamos tareas específicas para cada sección, de modo que podamos repartirnos estas tareas entre los integrantes del grupo por seccion de la landing, agilizando su desarrollo. Dentro de la landing esta la pestaña principal (Home), en la cual se presenta quienes somos y que ofrecemos. De ahi ya tendriamos apartados más especificos, los cuales son: Preguntas frecuentes, guía para padres y comunidad.
 
-Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing page de nuestra aplicación. Para ello designamos tareas específicas para cada sección, de modo que podamos repartirnos estas tareas entre los integrantes del grupo por seccion de la landing, agilizando su desarrollo. Dentro de la landing esta la pestaña principal (Home), en la cual se presenta quienes somos y que ofrecemos. De ahi ya tendriamos apartados más especificos, los cuales son: Preguntas frecuentes, guía para padres comunidad y registro de cuenta.
-
-
-
-| Sprint # | Sprint 1 |
-| -------- | -------- |
-| Sprint Planning Background | ---------------------------------------------------------------------- |
-| Date | 2026/04/18 |
-| Time | 10:00 PM |
-| Location | Virtual - Reunion en Discord |
-| Prepared By | Diaz Martinez, Kamil Alexther |
-| Attendees (to planning meeting) | Diaz Martinez, Kamil Alexther / Dulanto Espino, Leo César / Astocondor Bazan, Alejandra Isabel / Aponte Pablo, Isabel Luisa / Laura Acosta, Victor Jhosuef |
-| Sprint n – 1 Review Summary  | Desarrollo de landing page de la aplicacion Ecomind, con obetivo de desarrollar cada sección planteada (Home, Preguntas frecuentes, Guía para padres y Comunidad), para brindar información necesaria de la aplicación a los usuarios |
-| Sprint n – 1 Retrospective Summary| Coordinamos una reunion para discutir acerca del desarrllo del sprint, en ella nos dividimos por secciones la landing page. Creemos que fue una buena forma de agilizar tiempo, y trabajar de forma equitativa. De mejora seria que en futuras entregas hacer esto con mayor antelación ya que van a requerir mayor atención a desarrollo de la aplicación |
-| Sprint Goal & User Stories | ---------------------------------------------------------------------- |
-| Sprint n Goal  | Our focus is on developing a fully responsive landing page with all main sections completed. We believe it delivers a clear understanding of the app's value in promoting environmental habits through gamification to families and children. This will be confirmed when the page is deployed and can be navigated seamlessly on both mobile and desktop devices. |
-| Sprint n Velocity | Designamos aceptar hasta 20 Story Points |
-| Sum of Story Points  | 16 Story Poinst en total |
+| **Sprint #** |  1 |
+|------|--------|
+| **Date** | 2026-16-04 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
+| **Sprint n Goal** | Our focus is on developing a fully responsive landing page with all main sections completed. We believe it delivers a clear understanding of the app's value in promoting environmental habits through gamification to families and children. This will be confirmed when the page is deployed and can be navigated seamlessly on both mobile and desktop devices. |
+| **Sprint n Velocity** | Designamos aceptar hasta 20 SP |
+| **Sum of Story Points** | 11 SP |
 
 #### 5.2.1.2. *Aspect Leaders and Collaborators*
 
-
+| Team Member (Last Name, First Name) | GitHub Username | Sección Principal | Guía para Padres | Comunidad | FAQ |
+|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | C | L | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | L | C | C |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C |
+| Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | C |
 
 #### 5.2.1.3. *Sprint Backlog 1*
 
+<p><strong>Sprint #:</strong> Sprint 1</p>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO01</td>
+      <td>Header Landing</td>
+      <td>Implementar header del landing page</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO02</td>
+      <td>Hero Landing</td>
+      <td>Implementar sección hero del landing</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO03</td>
+      <td>Por qué usar Ecomind</td>
+      <td>Implementar sección con descripciones e imágenes</td>
+      <td>4</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO04</td>
+      <td>Sobre nosotros</td>
+      <td>Implementar sección de objetivos</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-051</td>
+      <td>Información descriptiva clara</td>
+      <td>TO05</td>
+      <td>Footer</td>
+      <td>Implementar footer del landing</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO06</td>
+      <td>Redirección guía padres</td>
+      <td>Implementar navegación a la sección</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO07</td>
+      <td>Sección guía padres</td>
+      <td>Implementar resumen de la aplicación</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO08</td>
+      <td>Recursos educativos</td>
+      <td>Mostrar materiales con descripción e imagen</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-052</td>
+      <td>Consejos para padres</td>
+      <td>TO09</td>
+      <td>Consejos clave</td>
+      <td>Implementar recomendaciones para padres</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO10</td>
+      <td>Botón FAQ</td>
+      <td>Insertar botón con redirección</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO11</td>
+      <td>Diseño FAQ</td>
+      <td>Diseñar sección FAQ</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO12</td>
+      <td>Definir preguntas</td>
+      <td>Seleccionar preguntas relevantes</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-053</td>
+      <td>Preguntas frecuentes</td>
+      <td>TO13</td>
+      <td>Contenido FAQ</td>
+      <td>Insertar preguntas y respuestas</td>
+      <td>1</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO14</td>
+      <td>Botón comunidad</td>
+      <td>Insertar redirección</td>
+      <td>2</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO15</td>
+      <td>Sección comunidad</td>
+      <td>Diseñar indicadores principales</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO16</td>
+      <td>Qué puedes hacer</td>
+      <td>Bloque informativo con imagen y texto</td>
+      <td>2</td>
+      <td>Alexther Kamil Diaz Martinez </td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>HU-054</td>
+      <td>Información de comunidad</td>
+      <td>TO17</td>
+      <td>Testimonios</td>
+      <td>Añadir tarjetas responsivas</td>
+      <td>2</td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+  </tbody>
+</table>
 
 
 #### 5.2.1.4. *Development Evidence for Sprint Review*
