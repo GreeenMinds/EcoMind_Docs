@@ -3718,34 +3718,20 @@ WhatsApp (SaaS/Application): Aplicación de mensajería instantánea utilizada p
 Trello (SaaS/Application): Herramienta de gestión de proyectos basada en la metodología Kanban, utilizada por el equipo para planificar, organizar y dar seguimiento al avance de las tareas del proyecto. A través de tableros, listas y tarjetas, se controlaron los sprints y se documentaron los entregables de cada fase. 
 Ruta: https://trello.com/
 
-**Figura 89**
-*Tablas para sprint en Trello*
-
 **Product UX/UI design:**
 
 Figma (SaaS/Application): Plataforma colaborativa en línea empleada para diseñar la interfaz visual del producto, diseñar Wireframes, crear prototipos interactivos y definir la estructura gráfica del sistema. Ruta: https://www.figma.com/ 
 
-**Figura 90**
-*Diseños realizados en figma*
-
  
 LucidChart (SaaS): Herramienta utilizada para crear user flows, representando visualmente las rutas y acciones que siguen los usuarios dentro del producto digital. Ruta: https://www.lucidchart.com/ 
-
-**Figura 91**
-*Wireflows realizados en LucidChart*
  
 **Software Development:**
 Visual Studio Code (Application): Editor de código fuente multiplataforma que permite escribir, depurar y ejecutar el código del sistema. Incluye integración con GitHub para control de versiones. Ruta: https://code.visualstudio.com/ 
 
 Live Preview (Extensión de Visual Studio Code) (Instalable): Extensión oficial de Microsoft que permite visualizar en tiempo real los cambios realizados en el código HTML, CSS y JavaScript dentro del navegador, facilitando el desarrollo web. Ruta: https://code.visualstudio.com/ 
 
-**Figura 92**
-*Vista de landing page y código*
  
 GitHub (SaaS): Plataforma basada en Git utilizada para alojar repositorios de código, realizar control de versiones, seguimiento de cambios y trabajo colaborativo entre desarrolladores. Ruta: https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
-
-**Figura 93**
-*Repositorio en GitHub*
 
  
 Software Testing:
@@ -3753,9 +3739,8 @@ Google Chrome (Application): Navegador web utilizado para realizar pruebas funci
 
 **Software Documentation:**
 
-- **Markdown (Lenguaje de marcado ligero):** Utilizado para elaborar y mantener la documentación del proyecto de forma simple, legible y compatible con múltiples plataformas.  
+**Markdown (Lenguaje de marcado ligero):** Utilizado para elaborar y mantener la documentación del proyecto de forma simple, legible y compatible con múltiples plataformas.  
   **Ruta:** https://www.markdownguide.org/
-
 
 
 ### 5.1.2. Source Code Management
@@ -4062,7 +4047,100 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 
 #### 5.2.1.4. *Development Evidence for Sprint Review*
 
-
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agrega header principal</td>
+      <td>Implementación del header del landing page</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar hero</td>
+      <td>Implementación de sección principal (hero)</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar beneficios</td>
+      <td>Sección "Por qué usar Ecomind"</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar about us</td>
+      <td>Sección "Sobre nosotros"</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar footer</td>
+      <td>Implementación del footer</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar guía para padres</td>
+      <td>Sección de guía y recomendaciones</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar preguntas frecuentes</td>
+      <td>Sección FAQ con contenido</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar sección comunidad</td>
+      <td>Vista principal de comunidad</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar estilos a comunidad</td>
+      <td>Diseño visual de sección comunidad</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>—</td>
+      <td>feat: agregar transiciones comunidad</td>
+      <td>Animaciones en sección comunidad</td>
+      <td>Nov 11, 2025</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. *Execution Evidence for Sprint Review*
 
