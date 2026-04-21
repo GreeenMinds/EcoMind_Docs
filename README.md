@@ -4196,7 +4196,11 @@ Finalmente, se concluye que EcoMind cuenta con una propuesta de valor sólida y 
 
 
 # Recomendaciones
+Como siguiente paso, se recomienda realizar una validación piloto con escolares y padres de familia para medir en la práctica el nivel de aceptación de la plataforma y comprobar el cumplimiento de las hipótesis y criterios de éxito definidos. Esta etapa permitirá obtener evidencia más precisa sobre el comportamiento real de los usuarios.
 
+También se recomienda priorizar el desarrollo de un MVP que incluya las funcionalidades principales del proyecto, como los mini-retos, el sistema de puntos e insignias, el seguimiento del progreso, las actividades familiares y el modo offline. Esto permitirá validar primero la propuesta principal de valor antes de incorporar funciones más complejas.
+
+Finalmente, sería importante reforzar el sistema de retroalimentación y reportes de avance, ya que los padres necesitan evidencias claras de que sus hijos están aprendiendo y desarrollando hábitos sostenibles. Esta funcionalidad puede convertirse en uno de los elementos más valiosos de la plataforma.
 
 
 # Bibliografía
