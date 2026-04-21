@@ -4174,14 +4174,22 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
 
 5. Una vez desplegado, el sitio estará disponible. 
-
+t
 Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
 ![Deployments_evidence](assets/img/figures/Deployments_evidence.png)
 
 #### 5.2.1.8. *Team Collaboration Insights during Sprint*
 
+**Sprint 1 - Landing Page**
 
+Para la elaboración del sprint cada integrante realizo commits según implementaba cambios o mejoras a la landing page. Podemos acceder a la lista de ellos, como tambien, si entramos a la pestaña "Insights" dentro del repositorio nos dara un resumen de los commits realizados por cada uno, de forma que se puede ver el aporte que ha dado a la etapa del proyecto.
+
+![Commit_list_1](assets/img/figures/Commit_list_1.png)
+
+![Commit_list_2](assets/img/figures/Commit_list_2.png)
+
+![Contributors](assets/img/figures/Contributors_insight.jpeg)
 
 # Conclusiones
 
