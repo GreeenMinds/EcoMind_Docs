@@ -3468,7 +3468,69 @@ La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista
 
 
 ### 4.4.3. Web Applications Mock-ups
+Los mock-ups de la web app de EcoMind presentan la estructura general de la aplicación y permiten entender cómo el usuario navega entre sus diferentes secciones principales: Perfil, Retos, Comunidad, Ranking, Tienda y Ajustes, además de la pantalla de registro (Sign Up). A través de estas pantallas se evidencia una organización clara de los contenidos y una distribución que facilita la comprensión de cada sección.
 
+En primer lugar, se observa un menú lateral fijo que permite acceder rápidamente a todas las secciones. Esta organización responde a una arquitectura de información sencilla, ya que agrupa las funciones principales en un solo espacio visible, facilitando la navegación continua del usuario. La pantalla de Sign Up muestra un formulario de registro con campos como nombre, correo electrónico y contraseña, además de opciones para aceptar términos y registrarse o iniciar sesión con cuentas externas. Los elementos están organizados de forma vertical, lo que facilita el llenado del formulario y la lectura de la información.
+
+
+En la sección de *Perfil*, la información del usuario se presenta en bloques como datos personales, puntos, racha y logros, Además se muestras secciones de Familia, Progreso, Favoritos . Esta disposición permite identificar fácilmente cada elemento y mantener una estructura ordenada dentro de la pantalla. 
+En la sección de *Retos*, las actividades se muestran de forma clara mediante listas y bloques que incluyen el progreso y acciones disponibles. Esto permite al usuario reconocer rápidamente qué tareas puede realizar y cuál es su avance.
+En la sección de *Comunidad*, el contenido se organiza en diferentes bloques como publicaciones, eventos y metas colectivas. Además, se incluyen acciones visibles como “Unirse al evento” o “Crear evento”, lo que facilita la interacción. La separación del contenido permite distinguir cada tipo de información sin dificultad.
+En la sección de *Ranking*, se presenta una lista ordenada de usuarios con sus puntajes, destacando la posición del usuario. Esta organización permite comparar el progreso de forma directa.
+En la sección de *Tienda*, los productos están organizados en tarjetas con imagen, nombre, precio y botón de compra. También se observan categorías y etiquetas como “Nuevo” o “Tiempo limitado”, lo que ayuda a organizar y diferenciar los elementos disponibles.
+En la sección de *Ajustes*, se agrupan opciones relacionadas con la configuración de la cuenta, presentadas de manera simple.
+
+En general, los mock-ups mantienen una estructura consistente en todas las pantallas, con elementos alineados, botones visibles y una distribución ordenada. El uso de colores, tipografía y componentes repetidos refleja la aplicación de un Design System básico, mientras que la claridad de los elementos y el tamaño de los botones favorecen la accesibilidad y el uso por diferentes tipos de usuarios.
+
+* Sign up
+
+![Sign Up](assets/img/figures/SignUpWeb.jpg)
+
+* Panel Principal
+
+![panelcorregido1](assets/img/figures/panelcorregido2.png)
+![panelcorregido1](assets/img/figures/panelcorregido1.png)
+![panelCorredigo1](assets/img/figures/RetoCorredigo1.png)
+
+* Perfil
+
+![perfilcorregido](assets/img/figures/perfilcorregido4.png)
+![perfilCorregido](assets/img/figures/perfilCorregido.png)
+![Perfilcorregido](assets/img/figures/Perfilcorregido3.png)
+![Perfilcorregido](assets/img/figures/Perfilcorregido2.png)
+![Perfilcorregido](assets/img/figures/Perfilcorregido1.png)
+
+* Retos
+  
+![Retos](assets/img/figures/Retos1.jpg)
+![Retos](assets/img/figures/Retos3.jpg)
+![Retos](assets/img/figures/Retoa2.jpg)
+![Retos](assets/img/figures/Retos4.jpg)
+![Retos](assets/img/figures/Retoa5.jpg)
+
+* Comunidad
+
+![Comunidadcorregido1](assets/img/figures/Comunidadcorregido1.png)
+![comunidadcorregido1](assets/img/figures/comunidadcorregido2.png)
+![comunidadcorregido1](assets/img/figures/comunidadcorregido3.png)
+![Comunidad](assets/img/figures/Comunidad4.jpg)
+![Comunidad](assets/img/figures/Comunidad5.jpg)
+![Comunidad](assets/img/figures/Comunidad6.jpg)
+![Comunidad](assets/img/figures/Comunidad7.jpg)
+![Comunidad](assets/img/figures/Comunidad8.jpg)
+![Comunidad](assets/img/figures/Comunidad9.jpg)
+![Comunidad](assets/img/figures/Comunidad10.jpg)
+![Comunidad](assets/img/figures/Comunidad11.jpg)
+
+* Tienda
+  
+![Tienda](assets/img/figures/Tienda1.jpeg)
+![Tienda](assets/img/figures/Tienda2.jpeg)
+![Tienda](assets/img/figures/Tienda3.jpeg)
+
+* Ranking
+  
+![Ranking](assets/img/figures/Ranking.jpg)
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
