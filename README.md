@@ -3461,7 +3461,7 @@ La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista
 
 ### 4.4.1. Web Applications Wireframes
 
-
+![Foto](assets/img/figures/Wireframes.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
