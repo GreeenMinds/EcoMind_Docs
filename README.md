@@ -3594,8 +3594,8 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 ![Ranking](assets/img/figures/UserFlows.png)
 
 ## 4.5. Web Applications Prototyping
-
-
+[![videoprototype.jpg](https://i.postimg.cc/P52fb2Jm/videoprototype.jpg)](https://postimg.cc/pm5tRQDT)
+🔗 [Ver video demostrativo Prototyping – EcoMind](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQANnu1XWjKASILUpVrf6O7ZAZe2gGy5Ki-gheW59sC20DY)
 
 ## 4.6. Domain-Driven Software Architecture
 
