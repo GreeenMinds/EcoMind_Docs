@@ -3516,7 +3516,7 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 * Comunidad
 
-![Comunidadcorregido1](assets/img/figures/Comunidadcorregido1.png)
+![Comunidad](assets/img/figures/Comunidad1.jpg)
 ![comunidadcorregido1](assets/img/figures/comunidadcorregido2.png)
 ![comunidadcorregido1](assets/img/figures/comunidadcorregido3.png)
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizada2..png)
