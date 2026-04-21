@@ -563,13 +563,13 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAc74he
 #### Segmento: Padres de Familia
 <br>
 
-| **Entrevista No. 1** |
+| **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/imagen078.png" width="335" hspace="240"> |
 | **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 48 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 48 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
 
-| **Entrevista No. 2** |
+| **Entrevista Nro. 2** |
 |---|
 | <img src="assets/img/figures/imagen079.png" width="330" hspace="240"> |
 | **Entrevistado N°2:** César Meléndez Romero<br> **Edad:** 62 años<br>**Ubicación:** Independencia, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 4:55<br> **Duración:** 5:13<br><br> **Resumen:** <br><br>Nuestro entrevistado es César, un profesor de 62 años que vive en Independencia y cuenta con 1 hijo. La rutina semanal de César se centra en sus clases, y la entrevista aborda la importancia del cuidado del medio ambiente y el uso de una aplicación educativa para este propósito.<br><br>En cuanto al uso de la tecnología, César tiene un conocimiento básico, ya que se siente confiado en su capacidad para usar un teléfono celular y aplicaciones. Respecto al cuidado del medio ambiente, le otorga gran importancia, especialmente con los problemas actuales como las sequías. En su hogar, las acciones más comunes son gestionar el consumo de agua y evitar materiales que emitan gases de efecto invernadero. Sin embargo, enfrenta dificultades porque la gente no es plenamente consciente de la importancia de estas acciones.<br><br>César considera que el apoyo de la tecnología puede ser clave para motivar a su familia. Estaría dispuesto a utilizar una aplicación con retos simples para enseñar acciones ambientales a sus hijos. Para él, lo más importante es que sus hijos valoren y preserven un medio ambiente saludable para el futuro. |
@@ -3460,6 +3460,11 @@ La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura y organización de la interfaz. A través de ellos se define la navegación entre las secciones principales: Perfil, Retos, Comunidad, Ranking, Tienda, Ajustes y la pantalla de registro (Sign Up). En ellos se evidencia una arquitectura de información clara, organizada mediante un menú lateral que facilita el acceso a cada sección y mejora la orientación del usuario dentro de la aplicación.
+
+En las diferentes secciones, la información se distribuye en bloques funcionales: el Perfil organiza datos del usuario ( Familia, Progreso, Favoritos) y logros; Retos muestra actividades y su progreso; Comunidad agrupa publicaciones , eventos, logross ; Ranking presenta una lista ordenada de usuarios; Tienda estructura productos en tarjetas; y Ajustes reúne opciones de configuración de forma simple. Esta organización permite identificar rápidamente cada contenido y acción, aplicando principios de diseño como jerarquía visual, proximidad, consistencia y simplicidad. Además, se emplean elementos de diseño como formularios, listas, botones y tarjetas que estructuran la interacción de manera clara.
+
+Asimismo, se incorpora el diseño inclusivo mediante una disposición ordenada, tamaños adecuados de los elementos interactivos y una estructura que reduce la carga cognitiva, facilitando su uso por distintos tipos de usuarios. En conjunto, los wireframes establecen una base funcional sólida, priorizando la usabilidad, la comprensión y una correcta organización antes del desarrollo visual final
 
 ![Foto](assets/img/figures/Wireframes.png)
 
@@ -3499,6 +3504,7 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 ![Perfilcorregido](assets/img/figures/Perfilcorregido3.png)
 ![Perfilcorregido](assets/img/figures/Perfilcorregido2.png)
 ![Perfilcorregido](assets/img/figures/Perfilcorregido1.png)
+![Comunidad actualizada](assets/img/figures/CompromisoActualizado.png)
 
 * Retos
   
@@ -3513,14 +3519,15 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 ![Comunidadcorregido1](assets/img/figures/Comunidadcorregido1.png)
 ![comunidadcorregido1](assets/img/figures/comunidadcorregido2.png)
 ![comunidadcorregido1](assets/img/figures/comunidadcorregido3.png)
-![Comunidad](assets/img/figures/Comunidad4.jpg)
-![Comunidad](assets/img/figures/Comunidad5.jpg)
+![Comunidad actualizada](assets/img/figures/ComunidadActualizada2..png)
+![Comunidad actualizada](assets/img/figures/ComunidadActualizada3..png)
 ![Comunidad](assets/img/figures/Comunidad6.jpg)
 ![Comunidad](assets/img/figures/Comunidad7.jpg)
-![Comunidad](assets/img/figures/Comunidad8.jpg)
-![Comunidad](assets/img/figures/Comunidad9.jpg)
-![Comunidad](assets/img/figures/Comunidad10.jpg)
-![Comunidad](assets/img/figures/Comunidad11.jpg)
+![Comunidad actualizada](assets/img/figures/ComunidadActualizado1..png)
+![Comunidad actualizada](assets/img/figures/ComunidadActualizada4..png)
+![Comunidad actualizada](assets/img/figures/ComunidadActualizada5..png)
+![Comunidad actualizada](assets/img/figures/ComunidadActualizada6..png)
+
 
 * Tienda
   
