@@ -3553,6 +3553,8 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+![Container_Diagram](assets/img/figures/Diagrama_contenedores.png)
+
 ### 4.6.4. Software Architecture Components Diagrams
 
 
