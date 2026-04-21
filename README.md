@@ -4212,7 +4212,27 @@ Finalmente, sería importante reforzar el sistema de retroalimentación y report
 
 
 # Bibliografía
+- Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
 
+- Chuliá, E. (1995). La conciencia ambiental de los españoles en los noventa. Análistas socio-políticos. https://www.asp-research.com/es/node/412  
+
+- Earth Cubs. (s.f.). Earth Cubs App. Earth Cubs. https://earthcubs.com/ 
+
+- Estrada Araoz, E. G., Huaypar Loayza, K. H., Gallegos Ramos, N. A., & Velásquez Giersch, L. (2022). Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú. Ciencia Amazónica (Iquitos), 9(2), 69-80. https://www.researchgate.net/publication/360519918_Conciencia_ambiental_y_actitudes_proambientales_en_estudiantes_de_educacion_secundaria_de_Madre_de_Dios_Peru  
+
+- Instituto Nacional de Estadística e Informática (INEI). (2024, 4 de octubre). Perú: Indicadores de Educación según Departamentos, 2013–2023 [Informe]. INEI. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1976/libro.pdf 
+
+- Instituto Nacional de Estadística e Informática (INEI). (2025, 27 de junio). Estadísticas de las Tecnologías de Información y Comunicación en los Hogares: Ene-Feb-Mar 2025 [Informe técnico]. INEI. https://www.gob.pe/institucion/inei/informes-publicaciones/6914428-las-tecnologias-de-informacion-y-comunicacion-en-los-hogares-ene-feb-mar-2025 
+
+- Martínez, R. (2010). La importancia de la educación ambiental ante la problemática actual. Revista Electrónica Educare, 14(1), 97–111.  https://www.redalyc.org/articulo.oa?id=194114419010  
+
+- Ministerio del Ambiente. Viceministerio de Gestión Ambiental. Dirección General de Educación, Ciudadanía e Información Ambiental. Dirección de Información, Investigación e Innovación Ambiental. (2024). Anuario estadístico del sector ambiente 2023 (1.ª ed.). Ministerio del Ambiente https://sinia.minam.gob.pe/documentos/anuario-estadistico-sector-ambiente-2023  
+
+- Reyes, R. (2018). El fenómeno del consumismo y sus desafíos para la mejora del medio ambiente. Documentos de Trabajo Areandina, 1. https://revia.areandina.edu.co/index.php/DT/article/view/1265  
+
+- Driessen, V. (2010). A successful Git branching model. https://nvie.com/posts/a-successful-git-branching-model/  
+
+- Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
 
 
 # Anexos
