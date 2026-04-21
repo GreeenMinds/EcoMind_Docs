@@ -192,11 +192,21 @@ Brindar a los escolares una educación ambiental innovadora, accesible y dinámi
 
 **Propuesta de Valor**
 
+GreenMinds convierte la educación ambiental en una experiencia práctica y motivadora mediante gamificación. Los estudiantes no solo aprenden, sino que aplican hábitos sostenibles en su vida diaria a través de retos interactivos.
 
+La plataforma es accesible online y offline, lo que permite su uso en distintos contextos, incluyendo zonas con baja conectividad. Además, involucra a la familia y comunidad, generando un impacto real más allá del aula.
 
 **Características principales**
 
+GreenMinds ofrece un sistema de retos gamificados que motiva a los estudiantes a participar activamente en actividades relacionadas con el reciclaje, el ahorro de agua y la eficiencia energética. Estas actividades están organizadas en retos progresivos que fomentan el aprendizaje mediante la acción.
 
+La plataforma incorpora un sistema de logros y recompensas que incentiva la constancia y el compromiso, permitiendo a los usuarios acumular puntos, desbloquear reconocimientos y visualizar su progreso. Este enfoque refuerza la motivación y convierte el aprendizaje en una experiencia entretenida.
+
+Asimismo, promueve la participación familiar, integrando actividades que pueden realizarse en casa y fortaleciendo el aprendizaje en el entorno cotidiano del estudiante. A esto se suma la creación de comunidades educativas, donde los usuarios pueden interactuar, colaborar y participar en rankings o retos grupales.
+
+GreenMinds también permite el seguimiento del progreso individual, mostrando avances, rachas y niveles de compromiso, lo que ayuda a los estudiantes a tomar conciencia de su impacto. Además, incluye contenido educativo interactivo como videos, lecturas e infografías que complementan los retos prácticos.
+
+Finalmente, la plataforma ofrece opciones de personalización, como la creación de avatares y perfiles, lo que incrementa la conexión del usuario con la experiencia y refuerza su motivación.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
