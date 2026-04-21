@@ -3549,14 +3549,11 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 ### 4.6.2. Software Architecture Context Diagram
 
-
+![Context_Diagram](assets/img/figures/Diagrama_contexto.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-
-
 ### 4.6.4. Software Architecture Components Diagrams
-
 
 
 ## 4.7. Software Object-Oriented Design
