@@ -3674,30 +3674,30 @@ Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 ### 4.7.1. Class Diagrams
 - **Etapa 1: Actualizar el Diagrama de clases en base al enfoque DDD**
 
-![Etapa_1:DDD](assets\img\figures\Etapa1_ActualizarDiagramaDDD.png)
+![Etapa_1:DDD](assets/img/figures/Etapa1_ActualizarDiagramaDDD.png)
 
 - **Etapa 2: Agrupar las clases en Bounded Context**
 
 **Bounded Context Ajustes:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCAjustes.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCAjustes.png)
 
 **Bounded Context Comunidad:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCComunidad.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCComunidad.png)
 
 **Bounded Context IAM:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCIAM.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCIAM.png)
 
 **Bounded Context Tienda:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCTienda.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCTienda.png)
 
 **Bounded Context Perfil:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCPerfil.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCPerfil.png)
 
 **Bounded Context Ranking:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCRaking.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCRaking.png)
 
 **Bounded Context Retos:**
-![Etapa_2:DDD](assets\img\figures\Etapa2_BCRetos.png)
+![Etapa_2:DDD](assets/img/figures/Etapa2_BCRetos.png)
 
 ## 4.8. Database Design
 
