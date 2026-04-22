@@ -4027,7 +4027,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 |-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
 | Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
 | Dulanto Espino, Leo César | Leotens | C | C | L | C | C |
-| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | L | C | C | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | C |
 | Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C | C |
 | Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | C | C|
 
@@ -4160,7 +4160,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Diseño FAQ</td>
       <td>Diseñar sección FAQ</td>
       <td>2</td>
-      <td></td>
+      <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4170,7 +4170,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Definir preguntas</td>
       <td>Seleccionar preguntas relevantes</td>
       <td>1</td>
-      <td></td>
+      <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4180,7 +4180,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Contenido FAQ</td>
       <td>Insertar preguntas y respuestas</td>
       <td>1</td>
-      <td></td>
+      <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4278,7 +4278,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>develop</td>
       <td>b228f03</td>
       <td>feat: añadir hamburguer interactivo</td>
-      <td>eader responsive</td>
+      <td>header responsive</td>
       <td>Abril 22, 2026</td>
     </tr>
     <tr>
@@ -4298,11 +4298,35 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Abril 22, 2026</td>
     </tr>
     <tr>
+     <td>EcoMind_LandingPage</td>
+     <td>develop</td>
+     <td>c62dc34</td>
+     <td>feat: añadir estructura html de FAQ</td>
+     <td>Implementación de la estructura para la sección FAQ</td>
+     <td>Abril 22, 2026</td>
+    </tr>
+     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar preguntas frecuentes</td>
-      <td>Sección FAQ con contenido</td>
+      <td>a9cfc5d</td>
+      <td>feat: añadir estilo de FAQ</td>
+      <td>Diseño visual de la sección FAQ</td>
+      <td>Abril 22, 2026</td>
+    </tr>
+      <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>328f11b</td>
+      <td>feat: agregar funciones para FAQ</td>
+      <td>Lógica para desplegar y ocultar respuestas</td>
+      <td>Abril 22, 2026</td>
+    </tr>
+     <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>anuncio52471</td>
+      <td>fix: añadir función de clics</td>
+      <td>Corrección para interacción en FAQ</td>
       <td>Abril 22, 2026</td>
     </tr>
     <tr>
