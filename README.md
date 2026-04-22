@@ -3795,33 +3795,42 @@ El diagrama de contenedores sirve para ver de forma visual la relación entre nu
 
 ### 4.7.1. Class Diagrams
 - **Etapa 1: Actualizar el Diagrama de clases en base al enfoque DDD**
+En esta etapa planteamos todas las clases del programa sin viendo los tipos de relaciones y multiplicidades de las clases, sus variables y funciones.
 
 ![Etapa_1:DDD](assets/img/figures/Etapa1_ActualizarDiagramaDDD.png)
 
 - **Etapa 2: Agrupar las clases en Bounded Context**
+En esta etapa de el DDD vemos como las clases se separan en bounded context segun su relación y finalidad en el software de ecomind
 
 **Bounded Context Ajustes:**
+ Agrupa las clases relacionadas con la personalización de la experiencia del usuario, como preferencias de tema, idioma y configuración de notificaciones. Este contexto centraliza las opciones que permiten adaptar la aplicación a cada usuario.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCAjustes.png)
 
 **Bounded Context Comunidad:**
+Reúne las clases que modelan la interacción social dentro de la plataforma, incluyendo comunidades, eventos, metas comunitarias, mapas y logros. Su objetivo es gestionar la participación colaborativa y las actividades compartidas.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCComunidad.png)
 
 **Bounded Context IAM:**
+Contiene las clases encargadas de la identidad y el acceso, como la gestión de usuarios, sesiones, credenciales y conexión con redes sociales. Este contexto se enfoca en autenticación, validación y control de acceso.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCIAM.png)
 
 **Bounded Context Tienda:**
+Agrupa las clases vinculadas al catálogo de productos(skin de personajes de ecomind), monedas virtuales en este caso usamos gemas, multiplicadores de ecopoints, historial de compra y métodos de pago. Este contexto organiza toda la lógica relacionada con la compra y administración de artículos dentro de la aplicación.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCTienda.png)
 
 **Bounded Context Perfil:**
+Reúne las clases que representan la información y progreso del usuario, como perfil, logros y familia, ademas de usar el patrón state para la racha que dependiendo de su estado cambie las interacciones de la app con el usuario. Este contexto permite modelar la identidad personal del usuario y su evolución dentro del sistema.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCPerfil.png)
 
 **Bounded Context Ranking:**
+ Contiene las clases que gestionan la clasificación de usuarios o grupos según su desempeño, incluyendo ranking, puestos y tipos de ranking. Su finalidad es organizar y consultar posiciones competitivas en distintos ámbitos.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCRaking.png)
 
 **Bounded Context Retos:**
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCRetos.png)
 
 - **Etapa 3: Indentificación de Value Object, Entity y Aggregate**
+En esta etapa final analizaremos las clases para definirlas como Value Object, Entity y Aggregate basado en el enfoque DDD.
 
 **Bounded Context Ajustes:**
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCAjustes.png)
