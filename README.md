@@ -774,46 +774,62 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 
 ## 2.4. Big Picture EventStorming
 
-- Módulo gestión ususarios
+Para esta etapa hicimos primero segmentamos los módulos que ibamos a trabajar para el desarrollo de EcoMind, luego hicimos dos etapas, la primera fue una lluvia de ideas/eventos necesarios para un flujo de cada modulo planteado, y como segunda etapa estaba conectar esos eventos para lograr un flujo funcional.
 
+1. **Módulo gestión ususarios**
+
+- LLuvia de ideas para crear flujo de gestión de usuarios.
 ![Gestion_usuarios-1](assets/img/figures/Eventstorming_gestion_usuarios_1.png)
 
+- Flujo de gestión de usuarios, donde se registra/logea, validación de cuenta y verificación de cuenta.
 ![Gestion_usuarios-2](assets/img/figures/Eventstorming_gestion_usuarios_2.png)
 
-- Módulo perfil
+2. Módulo perfil
 
+- LLuvia de ideas para crear flujo de perfil.
 ![Perfil-1](assets/img/figures/Eventstorming_perfil_1.png)
 
+- Flujo de perfil para la administración del perfil, familia y amigos.
 ![Perfil-2](assets/img/figures/Eventstorming_perfil_2.png)
 
-- Módulo retos
+3. Módulo retos
 
+- Lluvia de ideas para crear flujo de retos.
 ![Retos-1](assets/img/figures/Eventstorming_retos_1.png)
 
+- Flujo de retos para la realización de retos junto actividades, brindar recompensas y acceso a materiales educativos.
 ![Retos-2](assets/img/figures/Eventstorming_retos_2.png)
 
-- Módulo comunidad
+4. Módulo comunidad
 
+- Lluvia de ideas para crear flujo de comunidad.
 ![Comunidad-1](assets/img/figures/Eventstorming_comunidad_1.png)
 
+- Flujo de comunidad para acceso a logros comunitarios y logica de eventos desde su creación como tambien el registrarse en uno para su participación.
 ![Comunidad-2](assets/img/figures/Eventstorming_comunidad_2.png)
 
-- Módulo ranking
+5. Módulo ranking
 
+- Lluvia de ideas para crear flujo de ranking.
 ![Ranking-1](assets/img/figures/Eventstorming_ranking_1.png)
 
+- Flujo de ranking que inicia de visualización de puestos, actualización de ranking y cambio de tipo de ranking.
 ![Ranking-2](assets/img/figures/Eventstorming_ranking_2.png)
 
-- Módulo preferencias
+6. Módulo preferencias
 
+- Lluvia de ideas para crear flujo de preferencias.
 ![Preferencias-1](assets/img/figures/Eventstorming_preferencias_1.png)
 
+- Flujo de preferencias que inicia desde entrar a sección ajustes, y que su fin depende de que preferencia actualice el usuario.
 ![Preferencias-2](assets/img/figures/Eventstorming_preferencias_2.png)
 
-- Módulo monetización
+7. Módulo monetización
 
+- Lluvia de ideas para crear flujo de monetización.
 ![Monetizacion-1](assets/img/figures/Eventstorming_monetizacion_1.png)
 
+- Flujos de monetización, el primero que inicia abriendo la tienda de gemas y termina cuando el usuario adquiere algun producto y el segundo es el flujo para adquirir gemas tras transacción.
 ![Monetizacion-2](assets/img/figures/Eventstorming_monetizacion_2.png)
 
 ## 2.5. Ubiquitous Language
