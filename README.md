@@ -3551,7 +3551,9 @@ Asimismo, se incorpora el diseño inclusivo mediante una disposición ordenada, 
 ![Foto](assets/img/figures/Wireframes.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+El presente diagrama integra el flujo de interacción del usuario con la representación de las pantallas (wireframes), mostrando cómo cada acción genera un cambio en la interfaz. Se visualizan los estados de cada vista a lo largo del proceso, evidenciando la transición entre pantallas desde el inicio hasta la finalización de las actividades.
 
+Al final de cada recorrido se especifica el User goal asociado, mientras que las flechas indican las acciones del usuario que desencadenan cada transición entre pantallas.
 ![Foto](assets/img/figures/WireFlow.png)
 
 
@@ -3709,10 +3711,21 @@ Podemos concluir que los mock-ups de EcoMind evidencian una arquitectura de info
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
+El presente diagrama representa el flujo de navegación del usuario dentro de la aplicación, mostrando las principales rutas e interacciones desde el ingreso hasta el cumplimiento de sus objetivos. Se incluyen los distintos caminos que puede seguir el usuario, permitiendo comprender la estructura general del sistema y la relación entre sus funcionalidades.
+
+Al final de cada recorrido se indica la User Goal correspondiente, facilitando la identificación del objetivo alcanzado. Asimismo, las flechas del diagrama describen las acciones realizadas por el usuario para avanzar entre cada paso del flujo.
 
 ![Ranking](assets/img/figures/UserFlows.png)
 
 ## 4.5. Web Applications Prototyping
+La presente sección presenta los prototipos de interfaz de usuario (UI) para Desktop y Mobile Web de la plataforma Ecomind, los cuales simulan la interacción y navegación del usuario en coherencia con los paths definidos en los User Flow Diagrams.
+
+Las decisiones de interacción se basan en criterios de usabilidad, consistencia y retroalimentación inmediata, priorizando que el usuario pueda comprender fácilmente cómo avanzar dentro del sistema. Para ello, se han definido interacciones claras y directas, como selección de opciones, navegación mediante menús principales, ejecución de acciones progresivas (por ejemplo, iniciar y completar actividades) y visualización de resultados mediante estados de pantalla que reflejan cada acción realizada.
+
+En relación con la arquitectura de información, se ha estructurado un sistema de navegación principal que organiza los contenidos en módulos clave: dashboard, actividades, aprendizaje, perfil, comunidad, ranking y tienda. Esta organización permite que los usuarios identifiquen rápidamente dónde se encuentra cada funcionalidad, reduciendo la carga cognitiva y facilitando el acceso a los distintos flujos del sistema.
+
+Asimismo, los tipos de interacción seleccionados responden a los objetivos del usuario definidos previamente, integrando patrones como navegación jerárquica, acciones directas sobre elementos de interfaz y retroalimentación visual mediante indicadores de progreso, logros y recompensas. Esto asegura que cada flujo no solo sea funcional, sino también motivador y comprensible.
+
 [![videoprototype.jpg](https://i.postimg.cc/P52fb2Jm/videoprototype.jpg)](https://postimg.cc/pm5tRQDT)
 🔗 [Ver video demostrativo Prototyping – EcoMind](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQANnu1XWjKASILUpVrf6O7ZAZe2gGy5Ki-gheW59sC20DY)
 
