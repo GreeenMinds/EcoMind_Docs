@@ -4022,13 +4022,13 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 
 #### 5.2.1.2. *Aspect Leaders and Collaborators*
 
-| Team Member (Last Name, First Name) | GitHub Username | Sección Principal | Guía para Padres | Comunidad | FAQ |
-|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|
-| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C |
-| Dulanto Espino, Leo César | Leotens | C | C | L | C |
-| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | L | C | C |
-| Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C |
-| Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | Sección Principal | Guía para Padres | Comunidad | FAQ | Integración de páginas |
+|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | C | L | C | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | L | C | C | C |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C | C |
+| Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | C | C|
 
 #### 5.2.1.3. *Sprint Backlog 1*
 
@@ -4069,7 +4069,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Hero Landing</td>
       <td>Implementar sección hero del landing</td>
       <td>1</td>
-      <td></td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4079,7 +4079,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Por qué usar Ecomind</td>
       <td>Implementar sección con descripciones e imágenes</td>
       <td>4</td>
-      <td></td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4089,7 +4089,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Sobre nosotros</td>
       <td>Implementar sección de objetivos</td>
       <td>2</td>
-      <td></td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4243,34 +4243,42 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agrega header principal</td>
+      <td>bae8f55</td>
+      <td>feat: añadir header</td>
       <td>Implementación del header del landing page</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar hero</td>
+      <td>ac1fc2d</td>
+      <td>feat: añadir hero</td>
       <td>Implementación de sección principal (hero)</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar beneficios</td>
+      <td>dff8b62</td>
+      <td>feat: añadir beneficios</td>
       <td>Sección "Por qué usar Ecomind"</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar about us</td>
+      <td>d1273ba</td>
+      <td>feat: añadir sobre nosotros</td>
       <td>Sección "Sobre nosotros"</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>b228f03</td>
+      <td>feat: añadir hamburguer interactivo</td>
+      <td>eader responsive</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
@@ -4278,7 +4286,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>—</td>
       <td>feat: agregar footer</td>
       <td>Implementación del footer</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
@@ -4286,7 +4294,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>—</td>
       <td>feat: agregar guía para padres</td>
       <td>Sección de guía y recomendaciones</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
@@ -4294,7 +4302,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>—</td>
       <td>feat: agregar preguntas frecuentes</td>
       <td>Sección FAQ con contenido</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
@@ -4302,7 +4310,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>—</td>
       <td>feat: agregar sección comunidad</td>
       <td>Vista principal de comunidad</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
@@ -4310,7 +4318,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>—</td>
       <td>feat: agregar estilos a comunidad</td>
       <td>Diseño visual de sección comunidad</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
@@ -4318,7 +4326,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>—</td>
       <td>feat: agregar transiciones comunidad</td>
       <td>Animaciones en sección comunidad</td>
-      <td>Nov 11, 2025</td>
+      <td>Abril 22, 2026</td>
     </tr>
   </tbody>
 </table>
