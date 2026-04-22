@@ -47,6 +47,7 @@ Abril 2026
 | 1.0.0    | 13/04/26     | Alejandra Astocondor <br> Isabel Aponte    | docs: agregar antecedentes y problematica <br> docs: añadir Lean UX Problem Statement <br> docs: Añadir segmento objetivo  |
 | 1.1.0    | 16/04/26     | Leo Dulanto   | docs: agregar Lean UX assumptions <br> docs: agregar Lean UX Hypothesis Statements <br> docs: agregar Lean UX Canvas <br> docs: agregar analisis competitivo <br> docs: agregar diseño de entrevistas |
 | 1.2.0 | 19/04/26 | Victor Laura | docs: agregar User Stories <br> docs: agregar Impact Mapping <br> docs: agregar Product Backlog <br> docs: agregar Style Guidelines <br> docs: agregar Information Architecture |
+| 1.2.0 | 22/11/2026 |Alexther Kamil<br> Diaz Martinez| docs: agregar User Task Matrix <br> docs: agregar User Journey Mapping <br> docs: agregar Empathy Mapping <br> docs: agregar Ubiquitous Language<br>docs: agregar digrama de clases|   
 
 # Projet Report Collaboration Insights
 
