@@ -3763,8 +3763,6 @@ El diagrama de contenedores sirve para ver de forma visual la relación entre nu
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-- **Diagrama de componentes - Gestion de usuarios:**
-
 - **Diagrama de componentes - Gestion de usuarios:** Muestra los comnados y solicitudes dentro del manejo de cada cuenta, por lo que va a tener relacion bidireccional con la administración de preferencias, y va a enviar información a través de comandos a los bounded de perfil y monetización.
 
 ![Component_Diagram_Gestion_usuarios](assets/img/figures/Diagrama_componentes_gestion_usuario.png)
