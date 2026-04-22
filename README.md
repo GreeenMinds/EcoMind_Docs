@@ -3522,72 +3522,159 @@ Asimismo, se incorpora el diseño inclusivo mediante una disposición ordenada, 
 
 ![Foto](assets/img/figures/WireFlow.png)
 
+
 ### 4.4.3. Web Applications Mock-ups
+
 Los mock-ups de la web app de EcoMind presentan la estructura general de la aplicación y permiten entender cómo el usuario navega entre sus diferentes secciones principales: Perfil, Retos, Comunidad, Ranking, Tienda y Ajustes, además de la pantalla de registro (Sign Up). A través de estas pantallas se evidencia una organización clara de los contenidos y una distribución que facilita la comprensión de cada sección.
 
-En primer lugar, se observa un menú lateral fijo que permite acceder rápidamente a todas las secciones. Esta organización responde a una arquitectura de información sencilla, ya que agrupa las funciones principales en un solo espacio visible, facilitando la navegación continua del usuario. La pantalla de Sign Up muestra un formulario de registro con campos como nombre, correo electrónico y contraseña, además de opciones para aceptar términos y registrarse o iniciar sesión con cuentas externas. Los elementos están organizados de forma vertical, lo que facilita el llenado del formulario y la lectura de la información.
-
-
-En la sección de *Perfil*, la información del usuario se presenta en bloques como datos personales, puntos, racha y logros, Además se muestras secciones de Familia, Progreso, Favoritos . Esta disposición permite identificar fácilmente cada elemento y mantener una estructura ordenada dentro de la pantalla. 
-En la sección de *Retos*, las actividades se muestran de forma clara mediante listas y bloques que incluyen el progreso y acciones disponibles. Esto permite al usuario reconocer rápidamente qué tareas puede realizar y cuál es su avance.
-En la sección de *Comunidad*, el contenido se organiza en diferentes bloques como publicaciones, eventos y metas colectivas. Además, se incluyen acciones visibles como “Unirse al evento” o “Crear evento”, lo que facilita la interacción. La separación del contenido permite distinguir cada tipo de información sin dificultad.
-En la sección de *Ranking*, se presenta una lista ordenada de usuarios con sus puntajes, destacando la posición del usuario. Esta organización permite comparar el progreso de forma directa.
-En la sección de *Tienda*, los productos están organizados en tarjetas con imagen, nombre, precio y botón de compra. También se observan categorías y etiquetas como “Nuevo” o “Tiempo limitado”, lo que ayuda a organizar y diferenciar los elementos disponibles.
-En la sección de *Ajustes*, se agrupan opciones relacionadas con la configuración de la cuenta, presentadas de manera simple.
+En primer lugar, se observa un menú lateral fijo que permite acceder rápidamente a todas las secciones. Esta organización responde a una arquitectura de información sencilla, ya que agrupa las funciones principales en un solo espacio visible, facilitando la navegación continua del usuario. 
 
 En general, los mock-ups mantienen una estructura consistente en todas las pantallas, con elementos alineados, botones visibles y una distribución ordenada. El uso de colores, tipografía y componentes repetidos refleja la aplicación de un Design System básico, mientras que la claridad de los elementos y el tamaño de los botones favorecen la accesibilidad y el uso por diferentes tipos de usuarios.
 
 * Sign up
 
+La pantalla de registro presenta un formulario estructurado de manera vertical, solicitando datos esenciales como nombre, correo electrónico y contraseña. Además, incluye opciones para aceptar términos y condiciones, así como alternativas de registro mediante cuentas externas. La disposición facilita la lectura y el ingreso de datos por parte del usuario.
+
 ![Sign Up](assets/img/figures/SignUpWeb.jpg)
 
 * Panel Principal
 
+La imagen muestra el panel principal de la aplicación, donde se destacan los accesos rápidos a los retos mediante tarjetas visuales con íconos representativos. En la parte superior se presenta la categoría activa (“Energía”), lo que permite contextualizar las actividades disponibles.
+Los botones están organizados en bloques de colores, facilitando la identificación de cada tipo de reto. Además, en el lado derecho se visualiza un resumen del usuario, incluyendo la racha actual, puntos acumulados y barra de progreso, lo que permite monitorear el desempeño de forma inmediata.
+
 ![panelcorregido1](assets/img/figures/panelcorregido2.png)
+
+En esta vista se presentan las diferentes categorías de retos disponibles, como “Agua”, “Reciclaje” y “Reto diario”. Estas opciones están organizadas en forma de lista vertical con colores diferenciados, lo que facilita la navegación y selección.
+
 ![panelcorregido1](assets/img/figures/panelcorregido1.png)
+
+La imagen muestra la sección de recursos educativos accesibles desde el panel principal. En ella se presentan contenidos visuales como videos, libros e infografías organizados en una cuadrícula.
+
 ![panelCorredigo1](assets/img/figures/RetoCorredigo1.png)
 
 * Perfil
+  
+La imagen muestra la sección de perfil del usuario en EcoMind, donde se visualizan datos principales como nombre, puntos acumulados y número de amigos, junto con opciones para editar y compartir el perfil. Debajo, la navegación se organiza en secciones como resumen, familia, progreso y favoritos, facilitando una estructura clara y ordenada.
+
+Además, se presenta el compromiso ambiental del usuario y la racha actual, que indica su constancia en la aplicación. Finalmente, se muestran las medallas y logros, reforzando la motivación mediante la gamificación.
 
 ![perfilcorregido](assets/img/figures/perfilcorregido4.png)
+
+La imagen muestra la sección de familia dentro del perfil, donde se visualizan los integrantes del grupo familiar en tarjetas individuales. Esto permite gestionar y visualizar la participación conjunta de los usuarios.
+
 ![perfilCorregido](assets/img/figures/perfilCorregido.png)
+
+En esta sección se visualizan las actividades pendientes y completadas del usuario, permitiendo monitorear su avance dentro de la plataforma.
+
 ![Perfilcorregido](assets/img/figures/Perfilcorregido3.png)
+
+Se presenta la sección de favoritos, donde se almacenan recursos educativos como imágenes, infografías y contenidos consultados previamente, facilitando su acceso rápido.
+
 ![Perfilcorregido](assets/img/figures/Perfilcorregido2.png)
+
+La imagen muestra el perfil individual de un miembro de la familia, incluyendo su información, progreso y logros dentro de la aplicación.
+
 ![Perfilcorregido](assets/img/figures/Perfilcorregido1.png)
+
+La imagen muestra el formulario donde el usuario puede definir o editar su compromiso ambiental, reforzando su participación en hábitos sostenibles.
+
 ![Comunidad actualizada](assets/img/figures/CompromisoActualizado.png)
 
 * Retos
-  
+
+La imagen muestra una actividad individual con su título, descripción y materiales necesarios. Además, se incluye un botón para iniciar la actividad, facilitando la interacción directa del usuario.
+
 ![Retos](assets/img/figures/Retos1.jpg)
+
+Se presenta una actividad grupal donde el usuario puede invitar amigos y visualizar a los participantes antes de iniciar. Esto fomenta la colaboración dentro de la plataforma.
+
 ![Retos](assets/img/figures/Retos3.jpg)
+
+Se visualiza la lista de participantes seleccionados antes de iniciar la actividad.
+
 ![Retos](assets/img/figures/Retoa2.jpg)
+
+La interfaz presenta una animación que indica el inicio de la actividad, reforzando la interacción del usuario.
+
 ![Retos](assets/img/figures/Retos4.jpg)
+
+Finalmente, se muestra una animación de finalización junto con la recompensa en eco-points, motivando al usuario a continuar participando.
+
 ![Retos](assets/img/figures/Retoa5.jpg)
 
 * Comunidad
 
+La sección de Comunidad en EcoMind es un espacio interactivo donde los usuarios pueden ver actividad social, participar en eventos y seguir el progreso colectivo. Se organiza en tres vistas: feed, eventos y logros, accesibles mediante filtros.En el dashboard, se muestran publicaciones recientes en tarjetas, junto con una meta comunitaria representada por una barra de progreso y un mapa de eventos cercanos.
+
 ![Comunidad](assets/img/figures/Comunidad1.jpg)
+
+La sección de logros de la comunidad presenta hitos alcanzados tanto a nivel grupal como individual. Estos logros están organizados en tarjetas, donde se destacan acciones relevantes como completar proyectos familiares, mantener rachas o participar en eventos. Esta vista refuerza la motivación mediante reconocimiento visible.
+
 ![comunidadcorregido1](assets/img/figures/comunidadcorregido2.png)
+
+En la sección de eventos, se listan actividades disponibles organizadas en tarjetas que incluyen descripción, ubicación y acciones como “Unirse al evento”. Además, se integra un mapa que facilita la identificación de eventos cercanos, mejorando la experiencia del usuario mediante contexto visual.
+
 ![comunidadcorregido1](assets/img/figures/comunidadcorregido3.png)
+
+Cuando el usuario decide participar, se despliega un modal de confirmación, donde se detallan los datos del evento (fecha, hora y ubicación) y se permite elegir el tipo de participación: individual o familiar.
+
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizada2..png)
+
+*Ejemplo de otra modal de confirmacion*
+
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizada3..png)
+
+
+Una vez confirmada la acción, el sistema muestra una retroalimentación visual mediante animaciones, indicando que el usuario se ha unido exitosamente al evento, ya sea de forma individual o con su familia.
+*Unión individual*
+
 ![Comunidad](assets/img/figures/Comunidad6.jpg)
+
+*Unión familiar*
+
 ![Comunidad](assets/img/figures/Comunidad7.jpg)
+
+Asimismo, el sistema contempla distintos escenarios de error o restricción, comunicados mediante ventanas emergentes (modales), tales como:
+*Evento con capacidad máxima alcanzada:*
+
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizado1..png)
+
+*Problemas de conexión con el servidor:*
+
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizada4..png)
+
+*Restricción por no pertenecer a un grupo familiar*
+
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizada5..png)
+
+Finalmente, la funcionalidad de crear eventos permite a los usuarios generar nuevas actividades mediante un formulario estructurado que solicita información como nombre del evento, fecha, hora, punto de encuentro y descripción. Esto fomenta la participación activa dentro de la comunidad.
+
 ![Comunidad actualizada](assets/img/figures/ComunidadActualizada6..png)
 
 
 * Tienda
-  
+
+La sección de Tienda en EcoMind permite a los usuarios adquirir elementos virtuales mediante una interfaz organizada por categorías: avatares y cosméticos, multiplicadores de XP y gemas, accesibles desde filtros superiores.
+En la vista principal de  avatares y cosméticos, los productos se presentan en tarjetas, mostrando imagen, nombre, precio y un botón de compra, lo que facilita la identificación rápida de cada elemento.
+
 ![Tienda](assets/img/figures/Tienda1.jpeg)
+
+Por otro lado, los multiplicadores de XP se presentan en bloques destacados que indican el beneficio que otorgan, junto con su costo y botón de compra, permitiendo al usuario elegir fácilmente la opción que mejor se adapte a su progreso.
+
 ![Tienda](assets/img/figures/Tienda2.jpeg)
+
+En la categoría de gemas, se muestran diferentes paquetes disponibles con sus respectivos precios, incluyendo una opción destacada como oferta principal para incentivar la compra.
+
 ![Tienda](assets/img/figures/Tienda3.jpeg)
 
 * Ranking
   
+La sección de Ranking muestra una lista ordenada de usuarios según sus EcoPoints, permitiendo comparar el desempeño dentro de la plataforma. Los primeros puestos se destacan visualmente mediante indicadores como medallas, facilitando la identificación de los mejores usuarios.
+
 ![Ranking](assets/img/figures/Ranking.jpg)
+
+Podemos concluir que los mock-ups de EcoMind evidencian una arquitectura de información clara, una navegación intuitiva basada en un menú lateral y una aplicación consistente de principios de diseño como jerarquía visual, consistencia y visibilidad. En conjunto, estos elementos favorecen una experiencia de usuario fluida, accesible y orientada a la participación activa dentro de la plataforma.
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
