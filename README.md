@@ -3479,11 +3479,19 @@ La sección de **Comunidad** profundiza en la interacción social, integrando un
 
 Finalmente, la sección de **Preguntas Frecuentes** aborda la usabilidad técnica mediante un sistema de menús desplegables que minimiza el desplazamiento vertical y organiza las dudas comunes de manera lógica. En todas las vistas, se mantiene una consistencia rigurosa en la barra de navegación y el pie de página, lo que reduce la carga cognitiva y asegura que, tanto en escritorio como en dispositivos móviles, el usuario siempre sepa dónde se encuentra. Este enfoque integral no solo organiza el contenido, sino que prepara la plataforma para una implementación visual inclusiva, accesible y altamente efectiva para la educación ambiental familiar.
 
+* Wireframe de la página principal, donde se observa la cabecera hero con el mensaje central de la plataforma, seguida de la sección “Sobre nosotros” y una estructura organizada en bloques.
+
 ![Foto](assets/img/figures/Prototipo_Principal.png)
 
+* Wireframe de la sección Guía para Padres, donde se presenta una estructura enfocada en la orientación educativa para familias. La interfaz combina contenido informativo con elementos visuales, incluyendo una introducción descriptiva, una lista de beneficios y una imagen de apoyo
+  
 ![Foto](assets/img/figures/Prototipo_Guia.png)
 
+* Wireframe de la sección Preguntas Frecuentes (FAQ), que organiza las dudas comunes mediante un sistema de menús desplegables.
+
 ![Foto](assets/img/figures/Prototipo_Faq.png)
+
+*Wireframe de la sección Comunidad del Landing Page de EcoMind, donde se presenta una estructura orientada a la interacción social, integrando métricas de impacto, testimonios de usuarios y un bloque de eventos cercanos
 
 ![Foto](assets/img/figures/PrototipoComunidad.png)
 
