@@ -3803,7 +3803,7 @@ En esta etapa planteamos todas las clases del programa sin viendo los tipos de r
 ![Etapa_1:DDD](assets/img/figures/Etapa1_ActualizarDiagramaDDD.png)
 
 - **Etapa 2: Agrupar las clases en Bounded Context**
-En esta etapa de el DDD vemos como las clases se separan en bounded context segun su relación y finalidad en el software de ecomind
+En esta etapa de el DDD vemos como las clases se separan en bounded context segun su relación, finalidad en el software de ecomind y preparandonos para la etapa final donde veremos como individualiza cada bounded relacionandolos con los otros mediante los value object.
 
 **Bounded Context Ajustes:**
  Agrupa las clases relacionadas con la personalización de la experiencia del usuario, como preferencias de tema, idioma y configuración de notificaciones. Este contexto centraliza las opciones que permiten adaptar la aplicación a cada usuario.
