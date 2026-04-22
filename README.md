@@ -3633,7 +3633,7 @@ Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
 ### 4.6.2. Software Architecture Context Diagram
 
-El diagrama de contexto ayuda a determinar que y quienes van a interactuar con la aplicación. En nuestro caso van a estar los usuario (Niños y adultos) y las apis que permitiran la funcionalidad de ciertas acciones clave.
+El diagrama de contexto ayuda a determinar que y quienes van a interactuar con la aplicación. En nuestro caso van a estar los usuario (Niños y adultos) y las apis que permitiran la funcionalidad de ciertas acciones clave de determinados bounded context, entre las apis estan para pagos, social y acceso a mapa.
 
 ![Context_Diagram](assets/img/figures/Diagrama_contexto.png)
 
