@@ -3821,6 +3821,29 @@ El diagrama de contenedores sirve para ver de forma visual la relación entre nu
 **Bounded Context Retos:**
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCRetos.png)
 
+- **Etapa 3: Indentificación de Value Object, Entity y Aggregate**
+
+**Bounded Context Ajustes:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCAjustes.png)
+
+**Bounded Context Comunidad:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCComunidad.png)
+
+**Bounded Context IAM:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCIAM.png)
+
+**Bounded Context Tienda:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCTienda.png)
+
+**Bounded Context Perfil:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCPerfil.png)
+
+**Bounded Context Ranking:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCRanking.png)
+
+**Bounded Context Retos:**
+![Etapa_3:DDD](assets/img/figures/Etapa3_BCRetos.png)
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
