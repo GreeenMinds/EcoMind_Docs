@@ -3639,6 +3639,8 @@ El diagrama de contexto ayuda a determinar que y quienes van a interactuar con l
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+El diagrama de contenedores sirve para ver de forma visual la relación entre nuestros bounded context, para saber el flujo que habra entre ellos a la hora de ejecución de la aplicación, ademas de la conexión de cada bounded context a su base de datos y también la conexión entre cada bounded context con sus respectivas apis que utiliza dentro de su flujo. Otro dato a mencionar es que se especifica el lenguaje y framework que se utilizara en el desarrollo de la aplicación.
+
 ![Container_Diagram](assets/img/figures/Diagrama_contenedores.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
