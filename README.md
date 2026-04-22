@@ -3794,6 +3794,9 @@ El diagrama de contenedores sirve para ver de forma visual la relación entre nu
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+*link del diagrama de clases*
+https://lucid.app/lucidchart/fb1c4efb-d70b-48c3-bcfa-8fa26275d236/edit?view_items=fYpQNWc6qj2b&page=0_0&invitationId=inv_b7979c9d-5d01-4d86-8942-2c24dc1a7eb9
+
 - **Etapa 1: Actualizar el Diagrama de clases en base al enfoque DDD**
 En esta etapa planteamos todas las clases del programa sin viendo los tipos de relaciones y multiplicidades de las clases, sus variables y funciones.
 
@@ -3827,30 +3830,38 @@ Reúne las clases que representan la información y progreso del usuario, como p
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCRaking.png)
 
 **Bounded Context Retos:**
+Agrupa las clases relacionadas con los desafíos y materiales educativos, como retos escritos, puzles, cooperativos, videos, lecturas e infografías. Este contexto concentra la lógica de creación de retos donde usamos el patron Builder para facilitar la creación de estos.
 ![Etapa_2:DDD](assets/img/figures/Etapa2_BCRetos.png)
 
 - **Etapa 3: Indentificación de Value Object, Entity y Aggregate**
 En esta etapa final analizaremos las clases para definirlas como Value Object, Entity y Aggregate basado en el enfoque DDD.
 
 **Bounded Context Ajustes:**
+En este bounded de la etapa 3, Preferencia actúa como agregado principal que organiza la configuración personalizada del usuario, mientras que Notificacion funciona como entidad asociada y UsuarioId como value object.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCAjustes.png)
 
 **Bounded Context Comunidad:**
+Aquí definimos a Comunidad y Evento como agregados que estructuran la interacción colectiva, mientras que LogroComunitario, Meta y Mapa se identifican como entidades del dominio ademas que tenemos dos value object siendo usuarioId y logroId que interactuan con comunidad y logro comunitario.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCComunidad.png)
 
 **Bounded Context IAM:**
+Este contexto consolida la gestión de identidad y acceso, destacando a Sesion como agregado principal del ciclo de autenticación. GestionUsuario, UserRepository y RedSocial aparecen como entidades de soporte, mientras que UsuarioId se modela como value object para representar de forma consistente la identidad del usuario.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCIAM.png)
 
 **Bounded Context Tienda:**
+En este contexto, la lógica del BC tienda se concentra principalmente en Tienda y HistoriaCompra, ya que ambas clases organizan la administración de productos, transacciones y compras realizadas. Otras clases como Producto, MetodoPago, Gema, Cosmetico y Potenciador son las que se encuentran dentro de la tienda donde el usario podra interactuar con ellas, y UsuarioId permite asociar estas operaciones con cada usuario.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCTienda.png)
 
 **Bounded Context Perfil:**
+ El diagrama de perfil presenta a Perfil como la pieza central del contexto, pues reúne la información principal del usuario, su progreso y parte de su interacción con el sistema. Elementos como Racha, LogroUsuario, Familia y RachaEstado son clases donde el usuario podra ver como va progresando en la aplicación, mientras que UsuarioId y LogroId permite asociar el BC Perfil con id de usuario y logros del mismo.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCPerfil.png)
 
 **Bounded Context Ranking:**
+En este caso, Ranking ocupa el rol principal dentro del contexto al organizar la clasificación de usuarios según distintos criterios. La clase Puesto representa cada posición dentro de dicha estructura, mientras que TipoRanking define las categorías posibles y UsuarioId vincula cada registro con el usuario correspondiente.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCRanking.png)
 
 **Bounded Context Retos:**
+Este diagrama muestra que el contexto de retos se apoya principalmente en Material, ya que esta clase articula la gestión de recursos educativos y desafíos propuestos en la plataforma. A partir de ella se relacionan otros elementos como Video, Infografia, Lectura, RetoEscrito, RetoPuzzle y Cooperativo, además de sus respectivos constructores, mientras que UsuarioId permite mantener la referencia al usuario dentro de este dominio.
 ![Etapa_3:DDD](assets/img/figures/Etapa3_BCRetos.png)
 
 ## 4.8. Database Design
