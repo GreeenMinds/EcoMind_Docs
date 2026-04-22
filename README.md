@@ -3603,35 +3603,37 @@ En general, los mock-ups mantienen una estructura consistente en todas las panta
 
 Link Miro: https://miro.com/app/board/uXjVGg3HbPQ=/?share_link_id=238747434436
 
-- Bounded context Gestion de usuarios: Muestra el flujo para el manejo de las cuentas, iniciando con el registro/login, verificación de credenciales, permitir acciones en cuenta y verificar la cuenta del propietario.
+- **Bounded context Gestion de usuarios:** Muestra el flujo para el manejo de las cuentas, iniciando con el registro/login, verificación de credenciales, permitir acciones en cuenta y verificar la cuenta del propietario.
 
 ![Gestion_usuarios](assets/img/figures/Bounded_context_gestion_usuarios.png)
 
-- Bounded context Perfil: Muestra 3 flujos principales en la sección de perfil, el primero es el más grande que es administrar el perfil en general (Cambiar pestañas, administrar contenido favorito, etc), el segundo es por parte de administrar familia, aunque esto es más para usuarios registrados como adultos (Padres), y ya de ultimo un flujo social para agregar y eliminar amigos. 
+- **Bounded context Perfil:** Muestra 3 flujos principales en la sección de perfil, el primero es el más grande que es administrar el perfil en general (Cambiar pestañas, administrar contenido favorito, etc), el segundo es por parte de administrar familia, aunque esto es más para usuarios registrados como adultos (Padres), y ya de ultimo un flujo social para agregar y eliminar amigos. 
 
 ![Perfil](assets/img/figures/Bounded_context_perfil.png)
 
-- Bounded context Retos: Muestra 2 flujos, el primero es la parte principal de la sección retos, el cual maneja el inicio del reto, el progreso de actividades, culminación del reto, actualizacion de puntaje y racha, y la entrega de recompensas. Por otro lado esta el flujo de Acceder a materiales educativos, descargarlos o ponerlos como favoritos.
+- **Bounded context Retos:** Muestra 2 flujos, el primero es la parte principal de la sección retos, el cual maneja el inicio del reto, el progreso de actividades, culminación del reto, actualizacion de puntaje y racha, y la entrega de recompensas. Por otro lado esta el flujo de Acceder a materiales educativos, descargarlos o ponerlos como favoritos.
 
 ![Retos](assets/img/figures/Bounded_context_retos.png)
 
-- Bounded context comunidad: Muestra el flujo dentro de la sección comunidad, donde se abre en dos caminos, el primero para visualizar los logros comunitarios logrados, y el segundo para la sección de eventos, donde se pueden inscribir para participar en eventos en conjunto, como tambien la posibilidad de crear algun evento si fuera el caso.
+- **Bounded context comunidad:** Muestra el flujo dentro de la sección comunidad, donde se abre en dos caminos, el primero para visualizar los logros comunitarios logrados, y el segundo para la sección de eventos, donde se pueden inscribir para participar en eventos en conjunto, como tambien la posibilidad de crear algun evento si fuera el caso.
 
 ![Comunidad](assets/img/figures/Bounded_context_comunidad.png)
 
-- Bounded context Ranking: Muestra flujo de actualización de puntajes dentro del ranking y cambio de tipo de ranking mostrado (Global, Local, Familia).
+- **Bounded context Ranking:** Muestra flujo de actualización de puntajes dentro del ranking y cambio de tipo de ranking mostrado (Global, Local, Familia).
 
 ![Ranking](assets/img/figures/Bounded_context_ranking.png)
 
-- Bounded context Preferencias: Muestra el flujo para administrar preferencias dentro de la cuenta, como cambio de tema, idioma, datos de cuenta o manejo de las notificaciones.
+- **Bounded context Preferencias:** Muestra el flujo para administrar preferencias dentro de la cuenta, como cambio de tema, idioma, datos de cuenta o manejo de las notificaciones.
 
 ![Preferencias](assets/img/figures/Bounded_context_preferencias.png)
 
-- Bounded context Monetización: Muestra flujo de acceso a tienda, selección de producto, compra de cosmético o potenciador, verificación de saldo. Además de la compra de gemás y selección de método de pago.
+- **Bounded context Monetización:** Muestra flujo de acceso a tienda, selección de producto, compra de cosmético o potenciador, verificación de saldo. Además de la compra de gemás y selección de método de pago.
 
 ![Monetizacion](assets/img/figures/Bounded_context_monetizacion.png)
 
 ### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto ayuda a determinar que y quienes van a interactuar con la aplicación. En nuestro caso van a estar los usuario (Niños y adultos) y las apis que permitiran la funcionalidad de ciertas acciones clave.
 
 ![Context_Diagram](assets/img/figures/Diagrama_contexto.png)
 
