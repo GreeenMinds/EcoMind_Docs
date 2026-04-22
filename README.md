@@ -3495,11 +3495,19 @@ La sección de **Comunidad** profundiza en la interacción social, integrando un
 
 Finalmente, la sección de **Preguntas Frecuentes** aborda la usabilidad técnica mediante un sistema de menús desplegables que minimiza el desplazamiento vertical y organiza las dudas comunes de manera lógica. En todas las vistas, se mantiene una consistencia rigurosa en la barra de navegación y el pie de página, lo que reduce la carga cognitiva y asegura que, tanto en escritorio como en dispositivos móviles, el usuario siempre sepa dónde se encuentra. Este enfoque integral no solo organiza el contenido, sino que prepara la plataforma para una implementación visual inclusiva, accesible y altamente efectiva para la educación ambiental familiar.
 
+* Wireframe de la página principal, donde se observa la cabecera hero con el mensaje central de la plataforma, seguida de la sección “Sobre nosotros” y una estructura organizada en bloques.
+
 ![Foto](assets/img/figures/Prototipo_Principal.png)
 
+* Wireframe de la sección Guía para Padres, donde se presenta una estructura enfocada en la orientación educativa para familias. La interfaz combina contenido informativo con elementos visuales, incluyendo una introducción descriptiva, una lista de beneficios y una imagen de apoyo
+  
 ![Foto](assets/img/figures/Prototipo_Guia.png)
 
+* Wireframe de la sección Preguntas Frecuentes (FAQ), que organiza las dudas comunes mediante un sistema de menús desplegables.
+
 ![Foto](assets/img/figures/Prototipo_Faq.png)
+
+*Wireframe de la sección Comunidad del Landing Page de EcoMind, donde se presenta una estructura orientada a la interacción social, integrando métricas de impacto, testimonios de usuarios y un bloque de eventos cercanos
 
 ![Foto](assets/img/figures/PrototipoComunidad.png)
 
@@ -3513,12 +3521,19 @@ En la **Guía para Padres**, la estructura prioriza la facilidad de acompañamie
 
 La sección de **Preguntas Frecuentes (FAQ)** mantiene una estética minimalista y funcional. El uso de acordeones con bordes redondeados y tipografía clara permite una exploración rápida, aplicando el principio de simplicidad para evitar la sobrecarga cognitiva. Finalmente, en todas las vistas de escritorio y su adaptación móvil, el **Design System** garantiza una experiencia fluida: el uso de botones con esquinas suavizadas, la paleta de colores inspirada en la sostenibilidad y la iconografía amigable aseguran que EcoMind no solo sea una herramienta educativa, sino un ecosistema visualmente atractivo y profundamente accesible para todos los miembros del hogar.
 
+* Mockup final de la Landing Page principal de EcoMind, donde se evidencia el uso del color institucional en los llamados a la acción, una jerarquía visual clara en la cabecera y secciones informativas organizadas que guían al usuario desde la propuesta de valor hasta la exploración de beneficios.
 
 ![Foto](assets/img/figures/LandingPage.png)
 
+* Mockup final de la sección Preguntas Frecuentes (FAQ), con un diseño limpio en tonos claros y acentos en verde, que organiza la información en acordeones para facilitar su lectura.
+  
 ![Foto](assets/img/figures/LandingPage_Faq.png)
 
+* Mockup final de la sección Guía para Padres, donde los recursos se presentan en tarjetas con íconos y colores suaves, destacando el verde como color principal y mejorando la claridad visual.
+
 ![Foto](assets/img/figures/LandingPage_Guia.png)
+
+* Mockup final de la sección Comunidad EcoMind, que integra métricas, testimonios y eventos en bloques organizados, facilitando la comprensión del impacto colectivo y promoviendo la participación.
 
 ![Foto](assets/img/figures/LandingPageComunidad.png)
 
