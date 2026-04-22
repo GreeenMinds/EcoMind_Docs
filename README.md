@@ -3507,7 +3507,7 @@ Finalmente, la sección de **Preguntas Frecuentes** aborda la usabilidad técnic
 
 ![Foto](assets/img/figures/Prototipo_Faq.png)
 
-*Wireframe de la sección Comunidad del Landing Page de EcoMind, donde se presenta una estructura orientada a la interacción social, integrando métricas de impacto, testimonios de usuarios y un bloque de eventos cercanos
+* Wireframe de la sección Comunidad del Landing Page de EcoMind, donde se presenta una estructura orientada a la interacción social, integrando métricas de impacto, testimonios de usuarios y un bloque de eventos cercanos
 
 ![Foto](assets/img/figures/PrototipoComunidad.png)
 
@@ -4270,11 +4270,19 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 
 Durante este Sprint se completaron las principales vistas iniciales del Landing Page de EcoMind y se integraron las funcionalidades básicas de navegación entre ellas, logrando un primer incremento completamente navegable. Se implementaron secciones clave como el Header, Hero, “Por qué usar EcoMind”, “Sobre nosotros”, Footer, así como las vistas correspondientes a “Guía para padres”, “Recursos educativos”, “Preguntas frecuentes” y “Comunidad”. Además, se añadieron los redireccionamientos de los botones principales hacia el proceso de registro y se desarrolló el formulario de sign up con validaciones esenciales.
 
+* Vista principal del Landing Page con secciones informativas y acceso a las funcionalidades principales.
+  
 ![Landing Home](assets/img/figures/LandingHome.png)
 
+* Vista de la sección Guía para Padres, que presenta contenido introductorio junto con recursos educativos organizados en tarjetas y una sección de consejos
+  
 ![Guía para Padres](assets/img/figures/guiaPadres.png)
 
+* Vista de la sección Comunidad con información de interacción y participación de usuarios.
+
 ![Comunidad Vista](assets/img/figures/ComunidadVista.png)
+
+* Vista de la sección Preguntas Frecuentes con contenido organizado para consulta rápida.
 
 ![FAQ Vista](assets/img/figures/FaqVista.png)
 
