@@ -3825,6 +3825,8 @@ El diagrama de contenedores sirve para ver de forma visual la relación entre nu
 
 ### 4.8.1. Database Diagrams
 
+**Diagrama base de datos de Ecomind:** Para el planteamineto de la base de datos, primero planteamos tablas obligatorias, de ahi las segmentamos según los bounded context previamente obtenidos, para posterior a ello comenzar a relacionarlas. En lo que relacionamos se terminaron creando tablas intermedias debido a su tipo de relación entre si, para poder manejar datos de muchos a muchos; y además hubo otras tablas que se agregaban para completar el flujo de datos en algunos casos. Todo esto nos daría como resultado el siguiente diagrama.
+
 ![Component_Diagram_monetizacion](assets/img/figures/ecomind_db.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
