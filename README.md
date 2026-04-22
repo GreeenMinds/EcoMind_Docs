@@ -3734,29 +3734,31 @@ El diagrama de contenedores sirve para ver de forma visual la relación entre nu
 
 - **Diagrama de componentes - Gestion de usuarios:**
 
+- **Diagrama de componentes - Gestion de usuarios:** Muestra los comnados y solicitudes dentro del manejo de cada cuenta, por lo que va a tener relacion bidireccional con la administración de preferencias, y va a enviar información a través de comandos a los bounded de perfil y monetización.
+
 ![Component_Diagram_Gestion_usuarios](assets/img/figures/Diagrama_componentes_gestion_usuario.png)
 
-- **Diagrama de componentes - Gestion de preferencias:** 
+- **Diagrama de componentes - Gestion de preferencias:** Muestra los comandos y solicitudes para la administración de preferencias, envia informacion de los cambios a traves de un external service al bounded de gestión de usuarios.
 
 ![Component_Diagram_preferencia](assets/img/figures/Diagrama_componentes_preferencias.png)
 
-- **Diagrama de componentes - Gestion de perfil:**
+- **Diagrama de componentes - Gestion de perfil:** Muestra los comandos y solicitudes dentro de la sección perfil, debido a las distintas funcionalidades dentro de esta sección es necesario que sean 4 tipos: manejo de perfil, administración de familia, social y inventario de cosméticos y potenciadores.En cuanto a sus conexiones con los demas bounded context, recibiria información a traves de context facades de gestion usuarios, retos, comunidad y monetización; y por otro lado enviaria información a comunidad y ranking en cuanto a bounded context, pero además se comunicaria con apis de redes sociales y whatsapp para poder compartir el perfil del usuario.
 
 ![Component_Diagram_perfil](assets/img/figures/Diagrama_componentes_perfil.png)
 
-- **Diagrama de componentes - Gestion de comunidad:**
+- **Diagrama de componentes - Gestion de comunidad:** Muestra los comandos y solicitudes dentro de la sección comunidad, manejaria la parte de logros comunitarios y metas por el lado de comunidad y separamos comandos y solicitudes de enventos ya que requieren una lógica más extendida para la creación y participación de eventos, además de la conexión con la api de google maps para poder ver los eventos desde un mapa para una busqueda más inmersiva. Y tendria una conexion bidireccional con perfil ya que envia puntos y recompensas por la participación en eventos y por otro lado recibiria información de los perfiles de los usuarios de la comunidad.
 
 ![Component_Diagram_comunidad](assets/img/figures/Diagrama_componentes_comunidad.png)
 
-- **Diagrama de componentes - Gestion de retos:**
+- **Diagrama de componentes - Gestion de retos:** Muestra los comandos y solicitudes dentro de la sección retos, divididos en dos, siendo los primeros para el manejo de los retos y los segundos para el manejo de material educativo ecologico según busque el usuario. Tendria relación con el bounded context de perfil para enviarle sus puntajes de actividades desarrolladas.
 
 ![Component_Diagram_retos](assets/img/figures/Diagrama_componentes_retos.png)
 
-- **Diagrama de componentes - Gestion de ranking:**
+- **Diagrama de componentes - Gestion de ranking:** Muestra los comandos y solicitudes dentro de la sección ranking, estos serian para manejar los puntajes y posiciones dentro de los distintos rankings, y recibiria información del bounded context de perfil para saber los puntajes de los usuarios.
 
 ![Component_Diagram_ranking](assets/img/figures/Diagrama_componentes_ranking.png)
 
-- **Diagrama de componentes - Gestion de monetización:**
+- **Diagrama de componentes - Gestion de monetización:** Muestra los comandos y solicitudes dentro de la sección monetización. Donde estarian divididos para la transacción de compra de objetos y para la verificación de pagos. Recibiria información de gestión de usuarios para poder realizar los pagos, y enviaría información de las compras hechas por usuario a perfil. Además mencionar que tendria conexión con distintas apis para pagos (Yape, Paypal, etc.).
 
 ![Component_Diagram_monetizacion](assets/img/figures/Diagrama_componentes_monetizacion.png)
 
