@@ -163,7 +163,8 @@ Project Report URL: https://github.com/GreeenMinds/EcoMind_Docs
 
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 | -------- | -------- | -------- |
-| Text     | Text     | Text     |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> rah <br> <br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> insertar acción <br> <br>Dulanto Espino, Leo César <br> *AV1* <br> insertar acción <br> <br>Diaz Martinez, Alexther Kamil <br> *AV1* <br> insertar acción <br> <br>Laura Acosta, Victor Jhosuefr <br> *AV1* <br> insertar acción <br> <br> | Text     |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia**     | Aponte Pablo, Isabel Luisa <br>*AV1* <br> rah <br> <br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> insertar acción <br> <br>Dulanto Espino, Leo César <br> *AV1* <br> insertar acción <br> <br>Diaz Martinez, Alexther Kamil <br> *AV1* <br> insertar acción <br> <br>Laura Acosta, Victor Jhosuefr <br> *AV1* <br> insertar acción <br> <br> | Text     |
 
 
 # Capítulo I: Introducción
