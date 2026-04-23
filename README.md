@@ -4134,7 +4134,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Redirección guía padres</td>
       <td>Implementar navegación a la sección</td>
       <td>2</td>
-      <td></td>
+      <td>Victor Jhosef Laura Acosta</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4144,7 +4144,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Sección guía padres</td>
       <td>Implementar resumen de la aplicación</td>
       <td>2</td>
-      <td></td>
+      <td>Victor Jhosef Laura Acosta</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4154,7 +4154,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Recursos educativos</td>
       <td>Mostrar materiales con descripción e imagen</td>
       <td>2</td>
-      <td></td>
+      <td>Victor Jhosef Laura Acosta</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4164,7 +4164,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Consejos clave</td>
       <td>Implementar recomendaciones para padres</td>
       <td>2</td>
-      <td></td>
+      <td>Victor Jhosef Laura Acosta</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4316,7 +4316,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
+      <td>c57e47a</td>
       <td>feat: agregar guía para padres</td>
       <td>Sección de guía y recomendaciones</td>
       <td>Abril 22, 2026</td>
