@@ -4124,7 +4124,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Footer</td>
       <td>Implementar footer del landing</td>
       <td>1</td>
-      <td></td>
+      <td>Alexther Kamil Diaz Martinez</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4174,7 +4174,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Botón FAQ</td>
       <td>Insertar botón con redirección</td>
       <td>2</td>
-      <td></td>
+      <td>Alexther Kamil Diaz Martinez</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4308,7 +4308,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
+      <td>c62dc34</td>
       <td>feat: agregar footer</td>
       <td>Implementación del footer</td>
       <td>Abril 22, 2026</td>
@@ -4375,6 +4375,30 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>a0b2c13</td>
       <td>feat: Añadir imagenes comunidad</td>
       <td>Imagenes en sección comunidad</td>
+      <td>Abril 22, 2026</td>
+    </tr>
+     <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>6e91ad6</td>
+      <td>feat: Añadir estructura final comunidad</td>
+      <td>Vista eventos cercanos comunidad </td>
+      <td>Abril 22, 2026</td>
+    </tr>
+     <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>4a5ae90</td>
+      <td>feat: añadir estilos finales comunidad</td>
+      <td>Diseño visual final de la sección comunidad</td>
+      <td>Abril 22, 2026</td>
+    </tr>
+      <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>72c4123</td>
+      <td>feat: añadir imagenes</td>
+      <td>Imagenes finales de ecomind</td>
       <td>Abril 22, 2026</td>
     </tr>
        <tr>
