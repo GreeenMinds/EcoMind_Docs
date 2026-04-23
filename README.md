@@ -165,10 +165,18 @@ Project Report URL: https://github.com/GreeenMinds/EcoMind_Docs
 
 # Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 3**
+
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 | -------- | -------- | -------- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> rah <br> <br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> insertar acción <br> <br>Dulanto Espino, Leo César <br> *AV1* <br> insertar acción <br> <br>Diaz Martinez, Alexther Kamil <br> *AV1* <br> insertar acción <br> <br>Laura Acosta, Victor Jhosuefr <br> *AV1* <br> insertar acción <br> <br> | Text     |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia**     | Aponte Pablo, Isabel Luisa <br>*AV1* <br> rah <br> <br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> insertar acción <br> <br>Dulanto Espino, Leo César <br> *AV1* <br> insertar acción <br> <br>Diaz Martinez, Alexther Kamil <br> *AV1* <br> insertar acción <br> <br>Laura Acosta, Victor Jhosuefr <br> *AV1* <br> insertar acción <br> <br> | Text     |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Presentó el proceso de needfinding y el análisis competitivo del proyecto. <br> <br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Explicó las User Stories, épicas, style guidelines y los flujos (User Flow y Wireflow). <br> <br>Dulanto Espino, Leo César <br> *AV1* <br> Sustentó los diagramas de arquitectura (modelo C4) y el Big Picture Event Storming. <br> <br>Diaz Martinez, Alexther Kamil <br> *AV1* <br> Explicó el diagrama de clases, así como el deployment y configuraciones del sistema. <br> <br>Laura Acosta, Victor Jhosuefr <br> *AV1* <br> Explicó el Problem Statement y los elementos de Lean UX (assumptions, hypothesis y enfoque del producto). <br> <br> | *AV1* <br> El equipo logró comunicar de manera clara y estructurada los distintos componentes del proyecto, adaptando el lenguaje según el tipo de contenido (UX, técnico y de negocio). Se evidenció dominio de los temas y coherencia en la exposición general.  |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia**     | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Redactó el análisis competitivo, Ubiquitous Language y documentación de prototipos. <br> <br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Redactó antecedentes, problemática, Lean UX Problem Statement y flujos (User Flow y Wireflow). <br> <br>Dulanto Espino, Leo César <br> *AV1* <br> Documentó Lean UX (assumptions, hypothesis, canvas) y arquitectura de software. <br> <br>Diaz Martinez, Alexther Kamil <br> *AV1* <br> Elaboró documentación de user personas, journey mapping, empathy mapping y diagramas de clases. <br> <br>Laura Acosta, Victor Jhosuefr <br> *AV1* <br> Redactó user stories, product backlog, impact mapping y style guidelines. <br> <br> | *AV1* <br> El equipo desarrolló documentación clara, organizada y alineada a los distintos enfoques del proyecto (UX, negocio y técnico). Se mantuvo consistencia en la redacción y coherencia entre secciones, facilitando la comprensión integral del sistema.   |
 
 
 # Capítulo I: Introducción
