@@ -4052,7 +4052,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 | Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
 | Dulanto Espino, Leo César | Leotens | C | C | L | C | C |
 | Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | L |
-| Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C | C |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | C | L | C | C |
 | Victor Jhosuef Laura Acosta | Zatrynox | C | L | C | C | C|
 
 #### 5.2.1.3. *Sprint Backlog 1*
@@ -4224,7 +4224,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Sección comunidad</td>
       <td>Diseñar indicadores principales</td>
       <td>2</td>
-      <td></td>
+      <td>Alexther Kamil Diaz Martinez</td>
       <td>Completed</td>
     </tr>
     <tr>
@@ -4244,7 +4244,7 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Testimonios</td>
       <td>Añadir tarjetas responsivas</td>
       <td>2</td>
-      <td></td>
+      <td>Alexther Kamil Diaz Martinez</td>
       <td>Completed</td>
     </tr>
   </tbody>
