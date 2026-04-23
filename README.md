@@ -4377,6 +4377,14 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
       <td>Imagenes en sección comunidad</td>
       <td>Abril 22, 2026</td>
     </tr>
+       <tr>
+      <td>EcoMind_LandingPage</td>
+      <td>develop</td>
+      <td>0d94104</td>
+      <td>feat: añadir Readme Landing Page</td>
+      <td>Readme de la Landig Page de Ecomind</td>
+      <td>Abril 22, 2026</td>
+    </tr>
   </tbody>
 </table>
 
