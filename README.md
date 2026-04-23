@@ -4470,7 +4470,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 ![Commit_list_2](assets/img/figures/Commit_list_2.png)
 
-![Contributors](assets/img/figures/Contributors_insight.jpeg)
+![Contributors](assets/img/figures/Contributors_insight.png)
 
 # Conclusiones
 A partir del desarrollo del proyecto EcoMind, se concluye que la problemática planteada al inicio sí representa una necesidad real, ya que existe una brecha entre lo que los escolares aprenden sobre el cuidado del medio ambiente en la escuela y lo que realmente aplican en su vida diaria. Si bien los niños conocen conceptos como el reciclaje, el ahorro de agua o el cuidado de la energía, estas prácticas no siempre se mantienen en el hogar ni se convierten en hábitos sostenibles sin acompañamiento constante.
