@@ -4356,25 +4356,25 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar sección comunidad</td>
-      <td>Vista principal de comunidad</td>
+      <td>0b9a7fc</td>
+      <td>feat: Añadir estructura inicial seccion comunidad</td>
+      <td>Vista principal inicial de comunidad</td>
       <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar estilos a comunidad</td>
-      <td>Diseño visual de sección comunidad</td>
+      <td>be0d14e</td>
+      <td>feat: Añadir estilos iniciales comunidad</td>
+      <td>Diseño visual inicial de sección comunidad</td>
       <td>Abril 22, 2026</td>
     </tr>
     <tr>
       <td>EcoMind_LandingPage</td>
       <td>develop</td>
-      <td>—</td>
-      <td>feat: agregar transiciones comunidad</td>
-      <td>Animaciones en sección comunidad</td>
+      <td>a0b2c13</td>
+      <td>feat: Añadir imagenes comunidad</td>
+      <td>Imagenes en sección comunidad</td>
       <td>Abril 22, 2026</td>
     </tr>
   </tbody>
