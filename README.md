@@ -4051,9 +4051,9 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 |-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
 | Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
 | Dulanto Espino, Leo César | Leotens | C | C | L | C | C |
-| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | L |
 | Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C | C |
-| Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | C | C|
+| Victor Jhosuef Laura Acosta | Zatrynox | C | L | C | C | C|
 
 #### 5.2.1.3. *Sprint Backlog 1*
 
@@ -4402,8 +4402,11 @@ Durante este Sprint se completaron las principales vistas iniciales del Landing 
 
 Enlace: https://youtu.be/5LT_4Mb5lQ0
 #### 5.2.1.6. *Services Documentation Evidence for Sprint Review*
+Durante el presente Sprint no se desarrollaron Web Services ni endpoints, ya que el alcance del trabajo se centró en el diseño y desarrollo de una landing page estática orientada a la presentación del producto.
 
+En esta etapa, el enfoque estuvo en la definición de la interfaz de usuario y la experiencia del usuario, por lo que no se implementaron servicios backend ni APIs que requieran documentación mediante OpenAPI.
 
+Se prevé que en futuros Sprints, conforme se integren funcionalidades dinámicas y lógica de negocio, se desarrollen y documenten los correspondientes Web Services, incluyendo sus endpoints, parámetros y respuestas.
 
 #### 5.2.1.7. *Software Deployment Evidence for Sprint Review*
 
