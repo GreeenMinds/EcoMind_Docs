@@ -4622,6 +4622,103 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 ![Contributors](assets/img/figures/Contributors_insight.png)
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. *Sprint Planning 2*
+
+| **Sprint #** |  2 |
+|------|--------|
+| **Date** | 2026-16-04 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
+| **Sprint n Goal** | |
+| **Sprint n Velocity** |  |
+| **Sum of Story Points** | |
+
+#### 5.2.2.2. *Aspect Leaders and Collaborators*
+
+| Team Member (Last Name, First Name) | GitHub Username | Quests | Profile | Ranking | Community | Store |
+|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | C | C | L | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | C | L |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | L | C | C | C |
+| Victor Jhosuef Laura Acosta | Zatrynox | C | C | L | C | C|
+
+#### 5.2.2.3. *Sprint Backlog 2*
+
+<p><strong>Sprint #:</strong> Sprint 1</p>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>TO01</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Completed</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.1.4. *Development Evidence for Sprint Review*
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EcoMind_Frontend</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.5. *Execution Evidence for Sprint Review*
+
+#### 5.2.2.6. *Services Documentation Evidence for Sprint Review*
+
+#### 5.2.2.7. *Software Deployment Evidence for Sprint Review*
+
+#### 5.2.2.8. *Team Collaboration Insights during Sprint*
+
+**Sprint 2 - Frontend**
+
+
 # Conclusiones
 A partir del desarrollo del proyecto EcoMind, se concluye que la problemática planteada al inicio sí representa una necesidad real, ya que existe una brecha entre lo que los escolares aprenden sobre el cuidado del medio ambiente en la escuela y lo que realmente aplican en su vida diaria. Si bien los niños conocen conceptos como el reciclaje, el ahorro de agua o el cuidado de la energía, estas prácticas no siempre se mantienen en el hogar ni se convierten en hábitos sostenibles sin acompañamiento constante.
 
