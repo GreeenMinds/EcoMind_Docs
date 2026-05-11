@@ -4714,6 +4714,551 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 #### 5.2.2.7. *Software Deployment Evidence for Sprint Review*
 
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>bb0827a</td>
+  <td>initial commit</td>
+  <td>Configuración inicial del proyecto</td>
+  <td>Mayo 5, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>7c0cd4d</td>
+  <td>feat: add sidebar</td>
+  <td>Implementación del sidebar de navegación</td>
+  <td>Mayo 5, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>64ca55e</td>
+  <td>feat: sidebar store button</td>
+  <td>Agregar botón de tienda en el sidebar</td>
+  <td>Mayo 5, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>57ea3bc</td>
+  <td>feat: add header and db</td>
+  <td>Implementación del header y configuración de base de datos</td>
+  <td>Mayo 7, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>a0a2689</td>
+  <td>feat: add quest responses and domain entities</td>
+  <td>Agregar respuestas de quests y entidades de dominio</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>2a79b78</td>
+  <td>feat: quest domain assemblers</td>
+  <td>Implementación de assemblers para el dominio de quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>27ee5b7</td>
+  <td>feat: add quests-api and endpoints</td>
+  <td>Agregar API y endpoints para quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>08fe205</td>
+  <td>feat: add quest service</td>
+  <td>Implementación del servicio de quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>026bb94</td>
+  <td>feat: add quest categories and quest grid</td>
+  <td>Agregar categorías y cuadrícula de quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>d258706</td>
+  <td>feat: quest content</td>
+  <td>Implementación del contenido de quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+     <tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>1c25139</td>
+  <td>fix: minigame button</td>
+  <td>Corrección del botón de minijuego</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>cee3ef9</td>
+  <td>feat: update quest service</td>
+  <td>Actualización del servicio de quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_fronted</td>
+  <td>develop</td>
+  <td>c6eaaa1</td>
+  <td>feat: add quest flow</td>
+  <td>Implementación del flujo de quests</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>60d9562</td>
+  <td>feat: update quest data for endpoints</td>
+  <td>Actualización de datos de quests para endpoints</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>e0f8f5e</td>
+  <td>feat: Add community tables</td>
+  <td>Adición de tablas de comunidad</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>ec12ef8</td>
+  <td>feat: Add community endpoints</td>
+  <td>Implementación de endpoints de comunidad</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>096c655</td>
+  <td>feat: Add community structure</td>
+  <td>Creación de la estructura de comunidad</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>674a945</td>
+  <td>feat: Add community domain entities</td>
+  <td>Definición de entidades de dominio de comunidad</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>de68f06</td>
+  <td>feat: Add community responses</td>
+  <td>Adición de respuestas de comunidad</td>
+  <td>Mayo 8, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>fe471cc</td>
+  <td>feat: Add community assemblers</td>
+  <td>Adición de ensambladores de comunidad</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>58b5f4c</td>
+  <td>feat: Add community services</td>
+  <td>Implementación de servicios de comunidad</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>fbea03b</td>
+  <td>feat: Add community components</td>
+  <td>Adición de componentes de comunidad</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>56bad85</td>
+  <td>feat: add quest and community services</td>
+  <td>Servicios compartidos de quests y comunidad</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>46bc4b4</td>
+  <td>feat: add feature quests</td>
+  <td>Adición de funcionalidad de misiones</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>347ca12</td>
+  <td>feat(quests): add progress bar</td>
+  <td>Adición de barra de progreso en misiones</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>7d46c4f</td>
+  <td>fix: progress bar layout</td>
+  <td>Corrección del diseño de la barra de progreso</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>8c4ec71</td>
+  <td>feat: add responsive</td>
+  <td>Implementación de diseño responsivo</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>89fb13c</td>
+  <td>feat: add quest progress panel</td>
+  <td>Adición del panel de progreso de misiones</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>69a7b87</td>
+  <td>fix: update db</td>
+  <td>Corrección y actualización de base de datos</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>0d0c0d3</td>
+  <td>feat: add monetization data tables</td>
+  <td>Adición de tablas de datos de monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>a4da44b</td>
+  <td>feat: add monetization entities</td>
+  <td>Definición de entidades de monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>da4d5ae</td>
+  <td>feat: add monetization responses</td>
+  <td>Adición de respuestas para monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>936429c</td>
+  <td>feat: add monetization endpoints</td>
+  <td>Implementación de endpoints de monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>52ed7d8</td>
+  <td>feat: add search quests</td>
+  <td>Implementación de búsqueda de misiones</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>c60372a</td>
+  <td>feat: add monetization assemblers</td>
+  <td>Adición de ensambladores de monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>8b90bb3</td>
+  <td>feat: add search quests</td>
+  <td>Funcionalidad de búsqueda de quests</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>6d92ca4</td>
+  <td>feat: implement monetization API endpoints</td>
+  <td>Implementación técnica de endpoints de API</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>8910b3b</td>
+  <td>feat: add monetization store service</td>
+  <td>Servicio de store para monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>e95bb94</td>
+  <td>feat: update monetization data</td>
+  <td>Actualización de modelos de datos</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>3ee6b44</td>
+  <td>feat: update monetization module UI and logic</td>
+  <td>Actualización de interfaz y lógica del módulo de monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>87a6842</td>
+  <td>feat: add monetization components</td>
+  <td>Adición de componentes para el módulo de monetización</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>7664fec</td>
+  <td>feat(quest): add translations</td>
+  <td>Traducciones para el módulo de misiones</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>0564630</td>
+  <td>feat: Add Leaflet api map</td>
+  <td>Integración de API de mapas con Leaflet</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>565b253</td>
+  <td>feat: add minimal shared profile service</td>
+  <td>Servicio mínimo de perfil compartido</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>cf48dfb</td>
+  <td>Merge branch 'develop' into feature/endpoints</td>
+  <td>Sincronización de develop a rama de endpoints</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>d1e0eec</td>
+  <td>Merge pull request #7 from GreeenMinds/feature/endpoints</td>
+  <td>Integración de endpoints (PR #7)</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>e7c2200</td>
+  <td>feat: add header missing data</td>
+  <td>Adición de datos faltantes en el encabezado</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>e0dab6e</td>
+  <td>feat: add application profile domain structure</td>
+  <td>Estructura de dominio para el perfil de aplicación</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>36bf30b</td>
+  <td>feat: support collaborative quest sessions</td>
+  <td>Soporte para sesiones de misiones colaborativas</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>6c22864</td>
+  <td>feat: Add map on creation of event</td>
+  <td>Mapa para la creación de eventos</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>3e9ad4f</td>
+  <td>feat: add quest rewards</td>
+  <td>Adición de recompensas de misiones</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>0768ddc</td>
+  <td>feat: add selected Page</td>
+  <td>Implementación de página seleccionada</td>
+  <td>Mayo 9, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>0c561a2</td>
+  <td>feat: cooperative quests</td>
+  <td>Implementación de misiones cooperativas</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>0fd1567</td>
+  <td>feat: recuperar cambios de profile desde el stash</td>
+  <td>Recuperación de cambios de perfil (Git Stash)</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>0317ecd</td>
+  <td>fix: profile-content</td>
+  <td>Corrección en el contenido del perfil</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>2f35f12</td>
+  <td>fix: remove duplicated counter</td>
+  <td>Eliminación de contador duplicado</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>44bd205</td>
+  <td>feat: update store</td>
+  <td>Actualización de la tienda (Store)</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>e98a11f</td>
+  <td>feat: add monetization to layout</td>
+  <td>Adición de monetización al diseño general</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>e55bcbc</td>
+  <td>feat: update profile</td>
+  <td>Actualización de perfil de usuario</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>a5bd30a</td>
+  <td>fix: error merge</td>
+  <td>Corrección de error de integración (merge)</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>da76ef3</td>
+  <td>feat(ranking): add global/monthly/weekly ranking with user photos</td>
+  <td>Ranking global, mensual y semanal con fotos de usuario</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>d2cb1d8</td>
+  <td>Merge pull request #16 from GreeenMinds/feature/ranking</td>
+  <td>Integración de módulo de ranking (PR #16)</td>
+  <td>Mayo 10, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>6bb1d45</td>
+  <td>fix: Add es/en and change the avatars</td>
+  <td>Traducción es/en y cambio de avatares</td>
+  <td>Mayo 11, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>2964632</td>
+  <td>feat: Community translate</td>
+  <td>Traducciones para el módulo de comunidad</td>
+  <td>Mayo 11, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>bff0f19</td>
+  <td>feat: update store language</td>
+  <td>Actualización de idiomas en la tienda</td>
+  <td>Mayo 11, 2026</td>
+</tr>
+<tr>
+  <td>EcoMind_frontend</td>
+  <td>develop</td>
+  <td>b0da71a</td>
+  <td>feat: update cosmetics in profile</td>
+  <td>Actualización de cosméticos en el perfil de usuario</td>
+  <td>Mayo 11, 2026</td>
+</tr>
+  </tbody>
+</table> 
+
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 
 **Sprint 2 - Frontend**
