@@ -943,7 +943,7 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td align="center"><b>EP07</b></td>
-    <td align="center">Backend: Gestión de Usuarios y Autenticación</td>
+    <td align="center">Gestión de Usuarios y Autenticación</td>
     <td>Como equipo de desarrollo, necesitamos implementar los servicios de autenticación, registro y gestión de perfiles para soportar el acceso seguro a la plataforma.</td>
   </tr>
   <tr>
@@ -2759,14 +2759,14 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero que la información presentada sobre las funcionalidades disponibles se encuentre de forma sencilla, para que pueda ser entendible.</td>
+    <td colspan="3">Como visitante, quiero que la información presentada sobre las funcionalidades disponibles se encuentre de forma sencilla, para que pueda ser entendible.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Visualización de información<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante accede a la landing page,</li>
+        <li><b>Dado que</b> el visitante accede a la landing page,</li>
         <li><b>Cuando</b> se encuentre en la sección inicial,</li>
         <li><b>Entonces</b> el sistema mostrará una breve descripción de las funcionalidades, del equipo de desarrollo e imágenes descriptivas.</li>
       </ul>
@@ -2827,20 +2827,20 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero visualizar una sección de preguntas frecuentes sobre la aplicación en la landing page, para contar con un conocimiento básico de la aplicación.</td>
+    <td colspan="3">Como visitante, quiero visualizar una sección de preguntas frecuentes sobre la aplicación en la landing page, para contar con un conocimiento básico de la aplicación.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Acceso a preguntas frecuentes<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante se encuentra en la landing page,</li>
+        <li><b>Dado que</b> el visitante se encuentra en la landing page,</li>
         <li><b>Cuando</b> presione "Preguntas frecuentes",</li>
         <li><b>Entonces</b> el sistema redirige a la sección y muestra una lista de preguntas con sus respuestas.</li>
       </ul>
       <b>Escenario 2:</b> Error en acceso<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante presiona "Preguntas frecuentes",</li>
+        <li><b>Dado que</b> el visitante presiona "Preguntas frecuentes",</li>
         <li><b>Cuando</b> hay un fallo de navegación,</li>
         <li><b>Entonces</b> el sistema no redirige a ningún lado.</li>
       </ul>
@@ -2864,25 +2864,25 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero visualizar información de la sección de comunidad en la landing page, para conocer de qué formas puedo interactuar con otras personas dentro de la aplicación.</td>
+    <td colspan="3">Como visitante, quiero visualizar información de la sección de comunidad en la landing page, para conocer de qué formas puedo interactuar con otras personas dentro de la aplicación.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Acceso a la sección "Comunidad"<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante se encuentra en la landing page,</li>
+        <li><b>Dado que</b> el visitante se encuentra en la landing page,</li>
         <li><b>Cuando</b> selecciona la opción "Comunidad" o hace scroll hacia esa sección,</li>
         <li><b>Entonces</b> el sistema muestra la sección con una descripción general e indicadores de impacto.</li>
       </ul>
       <b>Escenario 2:</b> Interacción y logros comunitarios<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante revisa el bloque "¿Qué puedes hacer en la comunidad?",</li>
+        <li><b>Dado que</b> el visitante revisa el bloque "¿Qué puedes hacer en la comunidad?",</li>
         <li><b>Entonces</b> el sistema muestra el mensaje "Comparte tus logros" y explica cómo celebrar logros con otras familias.</li>
       </ul>
       <b>Escenario 3:</b> Testimonios y motivación<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante llega al final de la sección,</li>
+        <li><b>Dado que</b> el visitante llega al final de la sección,</li>
         <li><b>Entonces</b> el sistema muestra testimonios con nombre, rol y ubicación de los usuarios.</li>
       </ul>
       <b>Escenario 4:</b> Error de carga<br/>
@@ -2895,44 +2895,182 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
 </table>
 
 
-<table align="center">
+<<table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-055</td>
     <td><b>Epic ID</b></td><td>EP06</td>
   </tr>
+
   <tr>
     <td><b>Título</b></td>
     <td colspan="3">Redirección a registro de cuenta</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero poder ser redirigido desde la landing page hacia la pantalla de registro de cuenta, para crear mi cuenta y así participar en las actividades de la plataforma.</td>
+    <td colspan="3">
+      Como visitante, quiero poder ser redirigido desde la landing page hacia la pantalla de registro de cuenta, para crear mi cuenta y así participar en las actividades de la plataforma.
+    </td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Acceso desde el botón principal<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante se encuentra en la landing page,</li>
+        <li><b>Dado que</b> el visitante se encuentra en la landing page,</li>
         <li><b>Cuando</b> hace clic en el botón "Únete ahora",</li>
-        <li><b>Entonces</b> el sistema redirige automáticamente al formulario de registro con los campos "Name", "Email address" y "Password".</li>
+        <li><b>Entonces</b> el sistema redirige automáticamente al formulario de registro.</li>
       </ul>
       <b>Escenario 2:</b> Redirección desde menú de navegación<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante navega por la página,</li>
+        <li><b>Dado que</b> el visitante navega por la página,</li>
         <li><b>Cuando</b> selecciona "Únete ahora" desde la barra de navegación,</li>
-        <li><b>Entonces</b> el sistema lo lleva al formulario de registro con opciones "Sign in with Google" y "Sign in with Apple".</li>
-      </ul>
-      <b>Escenario 3:</b> Validación y confirmación del registro<br/>
-      <ul>
-        <li><b>Dado que</b> el estudiante completa el formulario y presiona "Sign up",</li>
-        <li><b>Entonces</b> el sistema verifica que todos los campos requeridos estén llenos, que el usuario haya aceptado los términos y que el correo no esté registrado,</li>
-        <li><b>Y</b> muestra un mensaje de bienvenida y redirige al panel principal.</li>
+        <li><b>Entonces</b> el sistema lo lleva al formulario de registro.</li>
       </ul>
     </td>
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-056</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Registro de usuario</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataform como estudiante o padre, para acceder a funcionalidades personalizadas de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Registro exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en la pantalla de registro,</li>
+        <li><b>Y</b> completa correctamente los campos "Name", "Email address", "Password" y selecciona un rol ("Padre" o "Estudiante"),</li>
+        <li><b>Cuando</b> selecciona el botón "Sign up",</li>
+        <li><b>Entonces</b> el sistema valida la información ingresada,</li>
+        <li><b>Y</b> crea la cuenta exitosamente con el rol seleccionado,</li>
+        <li><b>Y</b> redirige al usuario al panel principal de la aplicación.</li>
+      </ul>
+      <b>Escenario 2:</b> Error en el registro<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario deja campos obligatorios vacíos o ingresa un correo previamente registrado,</li>
+        <li><b>Cuando</b> intenta completar el registro,</li>
+        <li><b>Entonces</b> el sistema muestra mensajes de validación indicando los errores encontrados,</li>
+        <li><b>Y</b> evita que la cuenta sea creada hasta corregir la información.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-057</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Inicio de sesión</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario registrado, quiero autenticarme en el sistema mediante la validación de mis credenciales únicas (correo electrónico y contraseña), para establecer una sesión segua.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Inicio de sesión exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario posee una cuenta registrada en la plataforma,</li>
+        <li><b>Cuando</b> ingresa correctamente su correo y contraseña,</li>
+        <li><b>Entonces</b> el sistema valida las credenciales,</li>
+        <li><b>Y</b> brinda acceso a la aplicación,</li>
+        <li><b>Y</b> redirige al usuario al panel principal.</li>
+      </ul>
+      <b>Escenario 2:</b> Error en el inicio de sesión<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ingresa credenciales inválidas o deja campos vacíos,</li>
+        <li><b>Cuando</b> intenta iniciar sesión,</li>
+        <li><b>Entonces</b> el sistema muestra mensajes de validación indicando los errores encontrados,</li>
+        <li><b>Y</b> evita el acceso a la plataforma.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-058</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Recuperación de contraseña</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero iniciar el protocolo de recuperación de credenciales mediante mi dirección de correo electrónico vinculada, para volver a acceder a mi cuenta.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Envío de enlace de recuperación<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en la pantalla de inicio de sesión,</li>
+        <li><b>Cuando</b> selecciona la opción "Forgot password?" e ingresa su correo registrado,</li>
+        <li><b>Entonces</b> el sistema envía un enlace de recuperación al correo electrónico del usuario.</li>
+      </ul>
+      <b>Escenario 2:</b> Correo no registrado<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ingresa un correo que no existe en la plataforma,</li>
+        <li><b>Cuando</b> solicita recuperar su contraseña,</li>
+        <li><b>Entonces</b> el sistema informa que el correo ingresado no se encuentra registrado.</li>
+      </ul>
+      <b>Escenario 3:</b> Restablecimiento exitoso de contraseña<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede al enlace de recuperación enviado a su correo,</li>
+        <li><b>Cuando</b> ingresa y confirma una nueva contraseña válida,</li>
+        <li><b>Entonces</b> el sistema actualiza la contraseña y permite iniciar sesión nuevamente.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-059</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Cierre de sesión</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero ejecutar la finalización de mi sesión activa mediante la opción de "Log out, para proteger mi información personal en la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Cierre de sesión exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra autenticado en la plataforma,</li>
+        <li><b>Cuando</b> selecciona la opción "Log out",</li>
+        <li><b>Entonces</b> el sistema finaliza la sesión activa,</li>
+        <li><b>Y</b> redirige al usuario a la pantalla de inicio de sesión.</li>
+      </ul>
+      <b>Escenario 2:</b> Restricción de acceso tras cerrar sesión<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario cerró sesión correctamente,</li>
+        <li><b>Cuando</b> intenta acceder nuevamente a una pantalla protegida desde el navegador,</li>
+        <li><b>Entonces</b> el sistema solicita iniciar sesión nuevamente antes de permitir el acceso.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ### Technical Stories
 
@@ -3219,11 +3357,11 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 
 | # | ID | Título | Descripción | SP |
 |---|---|---|---|---|
-| 1 | HU-051 | Información descriptiva clara | Como estudiante, quiero entender fácilmente las funcionalidades desde la landing page. | 3 |
-| 2 | HU-054 | Información de la comunidad en landing | Como estudiante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
-| 3 | HU-052 | Consejos de uso para padres | Como padre, quiero ver recomendaciones de uso en la landing. | 3 |
-| 4 | HU-053 | Preguntas frecuentes en landing | Como estudiante, quiero acceder a preguntas frecuentes desde la landing. | 2 |
-| 5 | HU-055 | Redirección a registro | Como estudiante, quiero ir al registro desde la landing. | 5 |
+| 1 | HU-051 | Información descriptiva clara | Como visitante, quiero entender fácilmente las funcionalidades desde la landing page. | 3 |
+| 3 | HU-052 | Consejos de uso para padres | Como visitante, quiero ver recomendaciones de uso en la landing. | 3 |
+| 4 | HU-053 | Preguntas frecuentes en landing | Como visitante, quiero acceder a preguntas frecuentes desde la landing. | 2 |
+| 2 | HU-054 | Información de la comunidad en landing | Como visitante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
+| 5 | HU-055 | Redirección a registro | Como visitante, quiero ir al registro desde la landing. | 5 |
 | 6 | HU-001 | Miniactividad guiada con indicaciones | Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
 | 7 | HU-002 | Reto ambiental diario | Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación. | 5 |
 | 8 | HU-003 | Retroalimentación de actividades | Como estudiante, quiero recibir retroalimentación al finalizar una actividad, para saber en qué aspectos puedo mejorar. | 5 |
@@ -3274,7 +3412,19 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 53 | HU-047 | Soporte | Como estudiante, quiero soporte. | 3 |
 | 54 | HU-049 | Sincronización automática | Como estudiante, quiero sincronización automática. | 5 |
 | 55 | HU-050 | Optimización | Como estudiante, quiero eficiencia del sistema. | 3 |
-
+| 56 | TS-001 | Endpoint de registro de usuarios | Como desarrollador backend, quiero implementar el registro de usuarios. | 5 |
+| 57 | TS-002 | Endpoint de autenticación con JWT | Como desarrollador backend, quiero implementar autenticación con JWT. | 5 |
+| 58 | TS-003 | Endpoint de vinculación de cuentas padre-hijo | Como desarrollador backend, quiero implementar la vinculación familiar. | 5 |
+| 59 | TS-004 | Endpoint de gestión de retos (CRUD) | Como desarrollador backend, quiero implementar la gestión de retos. | 8 |
+| 60 | TS-005 | Endpoint de progreso y puntaje del usuario | Como desarrollador backend, quiero implementar el progreso del usuario. | 5 |
+| 61 | TS-006 | Endpoint de insignias y sistema de recompensas | Como desarrollador backend, quiero implementar el sistema de insignias. | 5 |
+| 62 | TS-007 | Endpoint de ranking de usuarios y familias | Como desarrollador backend, quiero implementar rankings. | 5 |
+| 63 | TS-008 | API de sincronización de datos offline | Como desarrollador backend, quiero implementar sincronización offline. | 8 |
+| 64 | TS-009 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
+| 65 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
+| 66 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
+| 67 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
+| 68 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
