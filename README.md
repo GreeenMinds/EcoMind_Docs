@@ -1007,8 +1007,7 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
       <ul>
         <li><b>Dado que</b> el estudiante inicia una miniactividad y omite algunas indicaciones,</li>
         <li><b>Cuando</b> el estudiante intenta finalizar la miniactividad,</li>
-        <li><b>Entonces</b> la aplicación muestra un aviso,</li>
-        <li><b>Y</b> sugiere al estudiante revisar los pasos que faltan.</li>
+        <li><b>Entonces</b> la aplicación no permite marcar como completado</li>
       </ul>
       <b>Escenario 5:</b> Eliminar miniactividad<br/>
       <ul>
@@ -1064,22 +1063,16 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero recibir retroalimentación al finalizar una actividad, para saber en qué aspectos puedo mejorar.</td>
+    <td colspan="3">Como estudiante, quiero recibir retroalimentación al realizar una actividad, para saber en qué aspectos puedo mejorar.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
       <b>Escenario 1:</b> Retroalimentación de actividad<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante finaliza una actividad en la aplicación,</li>
+        <li><b>Dado que</b> el estudiante esta realizando una actividad en la aplicación,</li>
         <li><b>Cuando</b> completa parcialmente los pasos o presenta errores,</li>
         <li><b>Entonces</b> la aplicación muestra recomendaciones claras sobre cómo mejorar.</li>
-      </ul>
-      <b>Escenario 2:</b> Falla en retroalimentación<br/>
-      <ul>
-        <li><b>Dado que</b> el estudiante recibe una retroalimentación,</li>
-        <li><b>Cuando</b> oprime el botón de reportar,</li>
-        <li><b>Entonces</b> la aplicación marca la recomendación.</li>
       </ul>
     </td>
   </tr>
@@ -1173,12 +1166,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
         <li><b>Cuando</b> edita el compromiso y valida su elección,</li>
         <li><b>Entonces</b> la aplicación edita el compromiso seleccionado.</li>
       </ul>
-      <b>Escenario 3:</b> Eliminar compromisos<br/>
-      <ul>
-        <li><b>Dado que</b> el usuario se encuentra en su perfil y selecciona un compromiso,</li>
-        <li><b>Cuando</b> lo elimina y valida su elección,</li>
-        <li><b>Entonces</b> la aplicación elimina el compromiso seleccionado.</li>
-      </ul>
     </td>
   </tr>
 </table>
@@ -1236,12 +1223,6 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
         <li><b>Dado que</b> el estudiante selecciona una actividad,</li>
         <li><b>Cuando</b> la realiza de forma exitosa,</li>
         <li><b>Entonces</b> el sistema mostrará una animación especial de celebración.</li>
-      </ul>
-      <b>Escenario 2:</b> Fallo en actividad<br/>
-      <ul>
-        <li><b>Dado que</b> el estudiante selecciona una actividad,</li>
-        <li><b>Cuando</b> la finaliza con algún error,</li>
-        <li><b>Entonces</b> el sistema mostrará una animación especial de ánimo.</li>
       </ul>
     </td>
   </tr>
@@ -4633,7 +4614,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 | **Location** | Reunión virtual (Google Meet / Zoom) |
 | **Prepared By** | Alejandra Isabel Astocondor Bazan |
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
-| **Sprint n Goal** | |
+| **Sprint n Goal** | Our focus is on developing the frontend interfaces and interactive flows for the application using fake API integration, including ranking community, environmental events, avatars, gems, XP multipliers, and progress visualization features. We believe this delivers a realistic and fully navigable user experience that validates the usability and interaction design of the platform before backend integration. This will be confirmed when users can seamlessly navigate and test all main application flows with responsive and functional UI behavior across the implemented screens. |
 | **Sprint n Velocity** |  |
 | **Sum of Story Points** | |
 
@@ -4648,8 +4629,6 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 | Victor Jhosuef Laura Acosta | Zatrynox | C | C | L | C | C|
 
 #### 5.2.2.3. *Sprint Backlog 2*
-
-<p><strong>Sprint #:</strong> Sprint 2</p>
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -4672,7 +4651,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
     <tr>
      <td>HU-001</td>
      <td>Miniactividad guiada con indicaciones</td>
-     <td>TO02</td>
+     <td>TO01</td>
      <td>Implementar selección de miniactividad</td>
      <td>Permitir que el estudiante elija una miniactividad desde el menú principal.</td>
      <td>3</td>
@@ -4682,7 +4661,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-001</td>
      <td>Miniactividad guiada con indicaciones</td>
-     <td>TO03</td>
+     <td>TO02</td>
      <td>Implementar inicio de miniactividad</td>
      <td>Agregar la lógica para marcar una miniactividad como activa al presionar “iniciar actividad”.</td>
      <td>3</td>
@@ -4692,18 +4671,17 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-001</td>
      <td>Miniactividad guiada con indicaciones</td>
-     <td>TO04</td>
+     <td>TO03</td>
      <td>Mostrar mensaje motivador de inicio</td>
      <td>Implementar mensajes motivadores cuando el usuario inicia una actividad.</td>
      <td>2</td>
      <td>Alejandra Isabel Astocondor Bazan</td>
      <td>Completed</td>
    </tr>
-   
    <tr>
      <td>HU-001</td>
      <td>Miniactividad guiada con indicaciones</td>
-     <td>TO05</td>
+     <td>TO04</td>
      <td>Registrar pasos completados</td>
      <td>Crear funcionalidad para que el estudiante marque cada paso realizado.</td>
      <td>5</td>
@@ -4713,7 +4691,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-001</td>
      <td>Miniactividad guiada con indicaciones</td>
-     <td>TO06</td>
+     <td>TO05</td>
      <td>Validar finalización correcta</td>
      <td>Verificar que todos los pasos estén completos antes de aprobar la actividad.</td>
      <td>4</td>
@@ -4723,7 +4701,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-001</td>
      <td>Miniactividad guiada con indicaciones</td>
-     <td>TO07</td>
+     <td>TO06</td>
      <td>Mostrar mensaje de actividad completada</td>
      <td>Implementar mensaje motivador al finalizar correctamente la miniactividad.</td>
      <td>2</td>
@@ -4733,7 +4711,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-002</td>
      <td>Reto ambiental diario</td>
-     <td>TO08</td>
+     <td>TO07</td>
      <td>Gestionar tiempo límite del reto</td>
      <td>Establecer un temporizador o fecha límite para controlar la duración del reto diario.</td>
      <td>3</td>
@@ -4743,7 +4721,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-004</td>
      <td>Sistema de puntos por aprendizaje</td>
-     <td>TO09</td>
+     <td>TO08</td>
      <td>Implementar asignación de puntaje</td>
      <td>Desarrollar la lógica para asignar automáticamente puntos al completar una actividad exitosamente.</td>
      <td>5</td>
@@ -4753,7 +4731,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-004</td>
      <td>Sistema de puntos por aprendizaje</td>
-     <td>TO10</td>
+     <td>TO09</td>
      <td>Actualizar puntaje en el sistema</td>
      <td>Guardar y actualizar el puntaje acumulado del estudiante dentro de la aplicación.</td>
      <td>4</td>
@@ -4763,7 +4741,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-004</td>
      <td>Sistema de puntos por aprendizaje</td>
-     <td>TO11</td>
+     <td>TO10</td>
      <td>Mostrar confirmación de puntos obtenidos</td>
      <td>Informar visualmente al estudiante los puntos obtenidos tras finalizar una actividad.</td>
      <td>2</td>
@@ -4773,7 +4751,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-006</td>
      <td>Establecimiento de compromiso</td>
-     <td>TO12</td>
+     <td>TO11</td>
      <td>Implementar registro de compromisos</td>
      <td>Permitir que el usuario agregue nuevos compromisos desde su perfil.</td>
      <td>4</td>
@@ -4783,7 +4761,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-006</td>
      <td>Establecimiento de compromiso</td>
-     <td>TO13</td>
+     <td>TO12</td>
      <td>Implementar edición de compromisos</td>
      <td>Permitir que el usuario modifique compromisos previamente registrados.</td>
      <td>4</td>
@@ -4793,7 +4771,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-006</td>
      <td>Establecimiento de compromiso</td>
-     <td>TO14</td>
+     <td>TO13</td>
      <td>Actualizar compromisos editados</td>
      <td>Guardar los cambios realizados en un compromiso seleccionado.</td>
      <td>3</td>
@@ -4803,18 +4781,17 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-009</td>
      <td>Ranking educativo</td>
-     <td>TO15</td>
+     <td>TO14</td>
      <td>Diseñar interfaz de ranking</td>
      <td>Crear la vista donde se mostrará el ranking de puntos de la comunidad y amigos.</td>
      <td>4</td>
      <td>Victor</td>
      <td>Completed</td>
    </tr>
-   
    <tr>
      <td>HU-009</td>
      <td>Ranking educativo</td>
-     <td>TO16</td>
+     <td>TO15</td>
      <td>Implementar consulta de puntajes</td>
      <td>Desarrollar la lógica para obtener los puntajes de los usuarios y generar el ranking.</td>
      <td>5</td>
@@ -4824,7 +4801,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
      <td>HU-009</td>
      <td>Ranking educativo</td>
-     <td>TO17</td>
+     <td>TO16</td>
      <td>Mostrar posición del usuario</td>
      <td>Permitir que el usuario visualice su posición dentro del ranking.</td>
      <td>3</td>
@@ -4834,175 +4811,397 @@ Para la elaboración del sprint cada integrante realizo commits según implement
    <tr>
    <td>HU-010</td>
    <td>Desafío entre compañeros</td>
-   <td>TO18</td>
+   <td>TO17</td>
    <td>Implementar envío de invitaciones</td>
    <td>Desarrollar la funcionalidad para enviar invitaciones a amigos dentro de una actividad en conjunto.</td>
    <td>5</td>
    <td>Alejandra Isabel Astocondor Bazan</td>
    <td>Completed</td>
    </tr>
-   
    <tr>
    <td>HU-010</td>
    <td>Desafío entre compañeros</td>
-   <td>TO19</td>
+   <td>TO18</td>
    <td>Validar límite de participantes</td>
    <td>Controlar que no se exceda la cantidad máxima de usuarios en una actividad en conjunto.</td>
    <td>3</td>
    <td>Alejandra Isabel Astocondor Bazan</td>
    <td>Completed</td>
    </tr>
-   
    <tr>
    <td>HU-010</td>
    <td>Desafío entre compañeros</td>
-   <td>TO20</td>
+   <td>TO19</td>
    <td>Implementar aceptación de invitaciones</td>
    <td>Permitir que los usuarios acepten invitaciones válidas a actividades en conjunto.</td>
    <td>4</td>
    <td>Alejandra Isabel Astocondor Bazan</td>
    <td>Completed</td>
    </tr>
-   
    <tr>
    <td>HU-010</td>
    <td>Desafío entre compañeros</td>
-   <td>TO21</td>
+   <td>TO20</td>
    <td>Registrar inscripción a actividad en conjunto</td>
    <td>Inscribir automáticamente al usuario cuando acepta una invitación válida.</td>
    <td>4</td>
    <td>Alejandra Isabel Astocondor Bazan</td>
    <td>Completed</td>
    </tr>
-   
    <tr>
    <td>HU-010</td>
    <td>Desafío entre compañeros</td>
-   <td>TO22</td>
+   <td>TO21</td>
    <td>Implementar rechazo de invitaciones</td>
    <td>Permitir que el usuario rechace una invitación y eliminarla del sistema.</td>
    <td>3</td>
    <td>Alejandra Isabel Astocondor Bazan</td>
    <td>Completed</td>
    </tr>
-   
    <tr>
    <td>HU-010</td>
    <td>Desafío entre compañeros</td>
-   <td>TO23</td>
+   <td>TO22</td>
    <td>Iniciar actividad en conjunto</td>
    <td>Permitir que el organizador inicie la actividad para todos los participantes inscritos.</td>
    <td>4</td>
    <td>Alejandra Isabel Astocondor Bazan</td>
    <td>Completed</td>
    </tr>
-
-   
    <tr>
      <td>HU-014</td>
      <td>Actividad familiar en comunidad</td>
-     <td>TO24</td>
+     <td>TO23</td>
      <td>Detectar ubicación del usuario (GPS)</td>
      <td>Implementar la verificación de GPS para habilitar el acceso a actividades de la comunidad cercanas.</td>
      <td>4</td>
      <td>Leo Dulanto</td>
      <td>Completed</td>
    </tr>
-   
    <tr>
      <td>HU-014</td>
      <td>Actividad familiar en comunidad</td>
-     <td>TO25</td>
+     <td>TO24</td>
      <td>Implementar inscripción a actividad comunitaria</td>
      <td>Permitir que el padre registre a su grupo familiar en una actividad de la comunidad seleccionada.</td>
      <td>5</td>
      <td>Leo Dulanto</td>
      <td>Completed</td>
    </tr>
-   
    <tr>
      <td>HU-014</td>
      <td>Actividad familiar en comunidad</td>
-     <td>TO26</td>
+     <td>TO25</td>
      <td>Registrar participación familiar</td>
      <td>Guardar la participación del grupo familiar en la actividad comunitaria seleccionada.</td>
      <td>4</td>
      <td>Leo Dulanto</td>
      <td>Completed</td>
    </tr>
-   
    <tr>
      <td>HU-014</td>
      <td>Actividad familiar en comunidad</td>
-     <td>TO27</td>
+     <td>TO26</td>
      <td>Cancelar inscripción a actividad</td>
      <td>Permitir eliminar la inscripción del grupo familiar en una actividad comunitaria con confirmación previa.</td>
      <td>3</td>
      <td>Leo Dulanto</td>
      <td>Completed</td>
    </tr>
-
+   <tr>
+    <td>HU-029</td>
+    <td>Avatares y cosméticos personalizables</td>
+    <td>TO27</td>
+    <td>Compra de avatares y cosméticos</td>
+    <td>Permitir al usuario comprar avatares y cosméticos usando gemas y agregarlos a su inventario.</td>
+    <td>5</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-029</td>
+    <td>Avatares y cosméticos personalizables</td>
+    <td>TO28</td>
+    <td>Validación de saldo insuficiente</td>
+    <td>Impedir la compra de avatares o cosméticos cuando el usuario no cuenta con suficientes gemas.</td>
+    <td>2</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-029</td>
+    <td>Avatares y cosméticos personalizables</td>
+    <td>TO29</td>
+    <td>Equipamiento de cosméticos</td>
+    <td>Permitir al usuario equipar cosméticos obtenidos para personalizar la apariencia de su avatar.</td>
+    <td>3</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-029</td>
+    <td>Avatares y cosméticos personalizables</td>
+    <td>TO30</td>
+    <td>Visualización de inventario y tienda</td>
+    <td>Mostrar los avatares y cosméticos disponibles, obtenidos y equipados dentro de la tienda e inventario.</td>
+    <td>3</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-031</td>
+    <td>Multiplicador de XP</td>
+    <td>TO31</td>
+    <td>Compra de multiplicador de XP</td>
+    <td>Permitir al usuario comprar un multiplicador de XP usando gemas y activarlo automáticamente.</td>
+    <td>3</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-031</td>
+    <td>Multiplicador de XP</td>
+    <td>TO32</td>
+    <td>Obtención de multiplicador por recompensas</td>
+    <td>Otorgar automáticamente multiplicadores de XP al completar actividades o retos diarios.</td>
+    <td>3</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-031</td>
+    <td>Multiplicador de XP</td>
+    <td>TO33</td>
+    <td>Aplicación de multiplicador de XP</td>
+    <td>Incrementar la experiencia obtenida en actividades según el multiplicador de XP activo.</td>
+    <td>3</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-035</td>
+    <td>Compra y obtención de gemas</td>
+    <td>TO34</td>
+    <td>Compra exitosa de gemas</td>
+    <td>Permitir al usuario comprar paquetes de gemas con dinero real y acreditarlas en su cuenta.</td>
+    <td>5</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-035</td>
+    <td>Compra y obtención de gemas</td>
+    <td>TO35</td>
+    <td>Validación de compra fallida de gemas</td>
+    <td>Mostrar un mensaje de error y evitar la acreditación de gemas cuando el pago falle o sea rechazado.</td>
+    <td>3</td>
+    <td>Isabel Aponte Pablo</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-035</td>
+    <td>Compra y obtención de gemas</td>
+    <td>TO36</td>
+    <td>Obtención de gemas por retos y misiones</td>
+    <td>Otorgar automáticamente gemas al usuario al completar retos o misiones diarias.</td>
+    <td>3</td>
+    <td>Alejandra Isabel Astocondor Bazan</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-035</td>
+    <td>Compra y obtención de gemas</td>
+    <td>TO37</td>
+    <td>Visualización de saldo de gemas</td>
+    <td>Mostrar al usuario la cantidad actual de gemas disponibles en su perfil o panel principal.</td>
+    <td>2</td>
+    <td>Alejandra Isabel Astocondor Bazan</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-036</td>
+    <td>Ranking comunitario</td>
+    <td>TO38</td>
+    <td>Visualización del ranking semanal</td>
+    <td>Mostrar un top de estudiantes con más puntos semanales destacando la posición del usuario actual.</td>
+    <td>3</td>
+    <td>Victor</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-037</td>
+    <td>Eventos ambientales</td>
+    <td>TO39</td>
+    <td>Inscripción a eventos ambientales</td>
+    <td>Permitir al estudiante inscribirse en eventos ambientales.</td>
+    <td>3</td>
+    <td>Leo Dulanto</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-037</td>
+    <td>Eventos ambientales</td>
+    <td>TO40</td>
+    <td>Cancelación de inscripción a eventos</td>
+    <td>Permitir cancelar la inscripción a eventos ambientales liberando el cupo disponible.</td>
+    <td>3</td>
+    <td>Leo Dulanto</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-037</td>
+    <td>Eventos ambientales</td>
+    <td>TO41</td>
+    <td>Confirmación de cancelación de evento</td>
+    <td>Enviar una confirmación al estudiante luego de cancelar correctamente su inscripción a un evento.</td>
+    <td>2</td>
+    <td>Leo Dulanto</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-038</td>
+    <td>Panel de logros compartidos</td>
+    <td>TO42</td>
+    <td>Visualización de logros destacados</td>
+    <td>Mostrar al estudiante una lista con los logros más destacados de los usuarios de la comunidad.</td>
+    <td>3</td>
+    <td>Leo Dulanto</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-039</td>
+    <td>Felicitación de logros comunitarios</td>
+    <td>TO43</td>
+    <td>Felicitación por meta colectiva</td>
+    <td>Mostrar una animación especial, publicar un anuncio en el feed y otorgar una insignia conmemorativa cuando la comunidad alcance una meta colectiva.</td>
+    <td>3</td>
+    <td>Leo Dulanto</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>HU-039</td>
+    <td>Felicitación de logros comunitarios</td>
+    <td>TO44</td>
+    <td>Progreso de meta comunitaria</td>
+    <td>Mostrar una barra de progreso de la meta colectiva y enviar notificaciones motivadoras al alcanzar hitos intermedios.</td>
+    <td>3</td>
+    <td>Leo Dulanto</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+  <td>HU-048</td>
+  <td>Visualización de eventos de la comunidad en mapa</td>
+  <td>TO45</td>
+  <td>Visualización de eventos en mapa</td>
+  <td>Mostrar en un mapa los eventos de la comunidad cercanos a la ubicación del usuario.</td>
+  <td>4</td>
+  <td>Leo Dulanto</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>HU-048</td>
+  <td>Visualización de eventos de la comunidad en mapa</td>
+  <td>TO46</td>
+  <td>Detalle de evento en mapa</td>
+  <td>Permitir visualizar la información detallada de un evento seleccionado desde el mapa.</td>
+  <td>2</td>
+  <td>Leo Dulanto</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>HU-048</td>
+  <td>Visualización de eventos de la comunidad en mapa</td>
+  <td>TO47</td>
+  <td>Manejo de error de ubicación</td>
+  <td>Solicitar al usuario habilitar permisos de ubicación cuando no sea posible obtener su localización.</td>
+  <td>2</td>
+  <td>Leo Dulanto</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-004</td>
+  <td>Endpoint de gestión de retos (CRUD)</td>
+  <td>TO48</td>
+  <td>Listado de retos disponibles</td>
+  <td>Implementar GET para retornar retos disponibles con su estado para el usuario autenticado.</td>
+  <td>3</td>
+  <td>Alejandra Astocondor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-004</td>
+  <td>Endpoint de gestión de retos (CRUD)</td>
+  <td>TO49</td>
+  <td>Detalle de reto específico</td>
+  <td>Implementar GET para retornar la descripción, pasos, puntos y categoría del reto.</td>
+  <td>3</td>
+  <td>Alejandra Astocondor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-004</td>
+  <td>Endpoint de gestión de retos (CRUD)</td>
+  <td>TO50</td>
+  <td>Finalización de reto</td>
+  <td>Implementar POST para registrar la finalización del reto y actualizar el puntaje del usuario.</td>
+  <td>5</td>
+  <td>Alejandra Astocondor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-004</td>
+  <td>Endpoint de gestión de retos (CRUD)</td>
+  <td>TO51</td>
+  <td>Filtros de retos</td>
+  <td>Permitir filtrar retos por categoría, dificultad y estado mediante query params.</td>
+  <td>3</td>
+  <td>Leo Dulanto</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-005</td>
+  <td>Endpoint de progreso y puntaje del usuario</td>
+  <td>TO52</td>
+  <td>Consulta de progreso del usuario</td>
+  <td>Implementar GET para retornar puntos totales, retos completados e insignias desbloqueadas.</td>
+  <td>4</td>
+  <td>Alejandra Astocondor, Kamil Diaz</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-007</td>
+  <td>Endpoint de ranking de usuarios y familias</td>
+  <td>TO53</td>
+  <td>Ranking de usuarios</td>
+  <td>Implementar GET para retornar el top de usuarios por puntaje filtrable por periodo.</td>
+  <td>4</td>
+  <td>Victor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-007</td>
+  <td>Endpoint de ranking de usuarios</td>
+  <td>TO54</td>
+  <td>Posición del usuario autenticado</td>
+  <td>Incluir la posición del usuario autenticado aunque no se encuentre dentro del top.</td>
+  <td>3</td>
+  <td>Victor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>TS-007</td>
+  <td>Endpoint de ranking de usuarios</td>
+  <td>TO55</td>
+  <td>Recalculo de ranking en tiempo real</td>
+  <td>Actualizar el ranking en tiempo real cada vez que un usuario complete retos y cambie su puntaje.</td>
+  <td>3</td>
+  <td>Victor</td>
+  <td>Completed</td>
+</tr>
   </tbody>
 </table>
 
-
-#### 5.2.1.4. *Development Evidence for Sprint Review*
-
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit Id</th>
-      <th>Commit Message</th>
-      <th>Commit Body</th>
-      <th>Commited on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EcoMind_Frontend</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-
-#### 5.2.1.4. *Development Evidence for Sprint Review*
-
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit Id</th>
-      <th>Commit Message</th>
-      <th>Commit Body</th>
-      <th>Commited on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EcoMind_Frontend</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-#### 5.2.2.5. *Execution Evidence for Sprint Review*
-
-#### 5.2.2.6. *Services Documentation Evidence for Sprint Review*
-
-#### 5.2.2.7. *Software Deployment Evidence for Sprint Review*
-
+#### 5.2.2.4. *Development Evidence for Sprint Review*
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -5547,6 +5746,13 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 </tr>
   </tbody>
 </table> 
+
+#### 5.2.2.5. *Execution Evidence for Sprint Review*
+
+#### 5.2.2.6. *Services Documentation Evidence for Sprint Review*
+
+#### 5.2.2.7. *Software Deployment Evidence for Sprint Review*
+
 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 
