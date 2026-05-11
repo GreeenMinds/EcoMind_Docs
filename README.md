@@ -4649,7 +4649,7 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 #### 5.2.2.3. *Sprint Backlog 2*
 
-<p><strong>Sprint #:</strong> Sprint 1</p>
+<p><strong>Sprint #:</strong> Sprint 2</p>
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -4670,14 +4670,303 @@ Para la elaboración del sprint cada integrante realizo commits según implement
   </thead>
   <tbody>
     <tr>
+     <td>HU-001</td>
+     <td>Miniactividad guiada con indicaciones</td>
+     <td>TO02</td>
+     <td>Implementar selección de miniactividad</td>
+     <td>Permitir que el estudiante elija una miniactividad desde el menú principal.</td>
+     <td>3</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-001</td>
+     <td>Miniactividad guiada con indicaciones</td>
+     <td>TO03</td>
+     <td>Implementar inicio de miniactividad</td>
+     <td>Agregar la lógica para marcar una miniactividad como activa al presionar “iniciar actividad”.</td>
+     <td>3</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-001</td>
+     <td>Miniactividad guiada con indicaciones</td>
+     <td>TO04</td>
+     <td>Mostrar mensaje motivador de inicio</td>
+     <td>Implementar mensajes motivadores cuando el usuario inicia una actividad.</td>
+     <td>2</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   
+   <tr>
+     <td>HU-001</td>
+     <td>Miniactividad guiada con indicaciones</td>
+     <td>TO05</td>
+     <td>Registrar pasos completados</td>
+     <td>Crear funcionalidad para que el estudiante marque cada paso realizado.</td>
+     <td>5</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-001</td>
+     <td>Miniactividad guiada con indicaciones</td>
+     <td>TO06</td>
+     <td>Validar finalización correcta</td>
+     <td>Verificar que todos los pasos estén completos antes de aprobar la actividad.</td>
+     <td>4</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-001</td>
+     <td>Miniactividad guiada con indicaciones</td>
+     <td>TO07</td>
+     <td>Mostrar mensaje de actividad completada</td>
+     <td>Implementar mensaje motivador al finalizar correctamente la miniactividad.</td>
+     <td>2</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-002</td>
+     <td>Reto ambiental diario</td>
+     <td>TO08</td>
+     <td>Gestionar tiempo límite del reto</td>
+     <td>Establecer un temporizador o fecha límite para controlar la duración del reto diario.</td>
+     <td>3</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-004</td>
+     <td>Sistema de puntos por aprendizaje</td>
+     <td>TO09</td>
+     <td>Implementar asignación de puntaje</td>
+     <td>Desarrollar la lógica para asignar automáticamente puntos al completar una actividad exitosamente.</td>
+     <td>5</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-004</td>
+     <td>Sistema de puntos por aprendizaje</td>
+     <td>TO10</td>
+     <td>Actualizar puntaje en el sistema</td>
+     <td>Guardar y actualizar el puntaje acumulado del estudiante dentro de la aplicación.</td>
+     <td>4</td>
+     <td>Kamil Diaz Martinez</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-004</td>
+     <td>Sistema de puntos por aprendizaje</td>
+     <td>TO11</td>
+     <td>Mostrar confirmación de puntos obtenidos</td>
+     <td>Informar visualmente al estudiante los puntos obtenidos tras finalizar una actividad.</td>
+     <td>2</td>
+     <td>Alejandra Isabel Astocondor Bazan</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-006</td>
+     <td>Establecimiento de compromiso</td>
+     <td>TO12</td>
+     <td>Implementar registro de compromisos</td>
+     <td>Permitir que el usuario agregue nuevos compromisos desde su perfil.</td>
+     <td>4</td>
+     <td>Kamil Diaz Martinez</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-006</td>
+     <td>Establecimiento de compromiso</td>
+     <td>TO13</td>
+     <td>Implementar edición de compromisos</td>
+     <td>Permitir que el usuario modifique compromisos previamente registrados.</td>
+     <td>4</td>
+     <td>Kamil Diaz Martinez</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-006</td>
+     <td>Establecimiento de compromiso</td>
+     <td>TO14</td>
+     <td>Actualizar compromisos editados</td>
+     <td>Guardar los cambios realizados en un compromiso seleccionado.</td>
+     <td>3</td>
+     <td>Kamil Diaz Martinez</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-009</td>
+     <td>Ranking educativo</td>
+     <td>TO15</td>
+     <td>Diseñar interfaz de ranking</td>
+     <td>Crear la vista donde se mostrará el ranking de puntos de la comunidad y amigos.</td>
+     <td>4</td>
+     <td>Victor</td>
+     <td>Completed</td>
+   </tr>
+   
+   <tr>
+     <td>HU-009</td>
+     <td>Ranking educativo</td>
+     <td>TO16</td>
+     <td>Implementar consulta de puntajes</td>
+     <td>Desarrollar la lógica para obtener los puntajes de los usuarios y generar el ranking.</td>
+     <td>5</td>
+     <td>Victor</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+     <td>HU-009</td>
+     <td>Ranking educativo</td>
+     <td>TO17</td>
+     <td>Mostrar posición del usuario</td>
+     <td>Permitir que el usuario visualice su posición dentro del ranking.</td>
+     <td>3</td>
+     <td>Victor</td>
+     <td>Completed</td>
+   </tr>
+   <tr>
+   <td>HU-010</td>
+   <td>Desafío entre compañeros</td>
+   <td>TO18</td>
+   <td>Implementar envío de invitaciones</td>
+   <td>Desarrollar la funcionalidad para enviar invitaciones a amigos dentro de una actividad en conjunto.</td>
+   <td>5</td>
+   <td>Alejandra Isabel Astocondor Bazan</td>
+   <td>Completed</td>
+   </tr>
+   
+   <tr>
+   <td>HU-010</td>
+   <td>Desafío entre compañeros</td>
+   <td>TO19</td>
+   <td>Validar límite de participantes</td>
+   <td>Controlar que no se exceda la cantidad máxima de usuarios en una actividad en conjunto.</td>
+   <td>3</td>
+   <td>Alejandra Isabel Astocondor Bazan</td>
+   <td>Completed</td>
+   </tr>
+   
+   <tr>
+   <td>HU-010</td>
+   <td>Desafío entre compañeros</td>
+   <td>TO20</td>
+   <td>Implementar aceptación de invitaciones</td>
+   <td>Permitir que los usuarios acepten invitaciones válidas a actividades en conjunto.</td>
+   <td>4</td>
+   <td>Alejandra Isabel Astocondor Bazan</td>
+   <td>Completed</td>
+   </tr>
+   
+   <tr>
+   <td>HU-010</td>
+   <td>Desafío entre compañeros</td>
+   <td>TO21</td>
+   <td>Registrar inscripción a actividad en conjunto</td>
+   <td>Inscribir automáticamente al usuario cuando acepta una invitación válida.</td>
+   <td>4</td>
+   <td>Alejandra Isabel Astocondor Bazan</td>
+   <td>Completed</td>
+   </tr>
+   
+   <tr>
+   <td>HU-010</td>
+   <td>Desafío entre compañeros</td>
+   <td>TO22</td>
+   <td>Implementar rechazo de invitaciones</td>
+   <td>Permitir que el usuario rechace una invitación y eliminarla del sistema.</td>
+   <td>3</td>
+   <td>Alejandra Isabel Astocondor Bazan</td>
+   <td>Completed</td>
+   </tr>
+   
+   <tr>
+   <td>HU-010</td>
+   <td>Desafío entre compañeros</td>
+   <td>TO23</td>
+   <td>Iniciar actividad en conjunto</td>
+   <td>Permitir que el organizador inicie la actividad para todos los participantes inscritos.</td>
+   <td>4</td>
+   <td>Alejandra Isabel Astocondor Bazan</td>
+   <td>Completed</td>
+   </tr>
+
+   
+   <tr>
+     <td>HU-014</td>
+     <td>Actividad familiar en comunidad</td>
+     <td>TO24</td>
+     <td>Detectar ubicación del usuario (GPS)</td>
+     <td>Implementar la verificación de GPS para habilitar el acceso a actividades de la comunidad cercanas.</td>
+     <td>4</td>
+     <td>Leo Dulanto</td>
+     <td>Completed</td>
+   </tr>
+   
+   <tr>
+     <td>HU-014</td>
+     <td>Actividad familiar en comunidad</td>
+     <td>TO25</td>
+     <td>Implementar inscripción a actividad comunitaria</td>
+     <td>Permitir que el padre registre a su grupo familiar en una actividad de la comunidad seleccionada.</td>
+     <td>5</td>
+     <td>Leo Dulanto</td>
+     <td>Completed</td>
+   </tr>
+   
+   <tr>
+     <td>HU-014</td>
+     <td>Actividad familiar en comunidad</td>
+     <td>TO26</td>
+     <td>Registrar participación familiar</td>
+     <td>Guardar la participación del grupo familiar en la actividad comunitaria seleccionada.</td>
+     <td>4</td>
+     <td>Leo Dulanto</td>
+     <td>Completed</td>
+   </tr>
+   
+   <tr>
+     <td>HU-014</td>
+     <td>Actividad familiar en comunidad</td>
+     <td>TO27</td>
+     <td>Cancelar inscripción a actividad</td>
+     <td>Permitir eliminar la inscripción del grupo familiar en una actividad comunitaria con confirmación previa.</td>
+     <td>3</td>
+     <td>Leo Dulanto</td>
+     <td>Completed</td>
+   </tr>
+
+  </tbody>
+</table>
+
+
+#### 5.2.1.4. *Development Evidence for Sprint Review*
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EcoMind_Frontend</td>
       <td></td>
       <td></td>
-      <td>TO01</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td>Completed</td>
     </tr>
   </tbody>
 </table>
