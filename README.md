@@ -72,6 +72,17 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 
 *TB1*
 
+En TB1, el equipo enfocó sus esfuerzos en la implementación del Sprint Backlog 2, traduciendo las User Stories planificadas en funcionalidades concretas de la plataforma. Se desarrollaron componentes frontend en Angular para la experiencia gamificada (retos interactivos, rankings, eventos comunitarios, sistema de recompensas, personalización de avatares) e implementaron servicios REST en el backend que permiten consumir datos dinámicos de manera segura.
+
+Se priorizó la calidad técnica con control de versiones disciplinado, commits semánticos y revisiones mediante pull requests. Se realizaron mejoras en la Landing Page con diseño responsivo. La Web Application fue desplegada en Firebase Hosting y el backend en Render.com, superando limitaciones iniciales de la fake API. Se completó la documentación del Sprint con detalles de User Stories, tareas técnicas, estimaciones, responsables y evidencias de desarrollo, incluyendo registros de commits y despliegues realizados.
+
+ El trabajo coordinado de todos los miembros en la documentación del Sprint permitió construir un registro exhaustivo y consistente de las diferentes áreas (desarrollo, despliegue, evidencias técnicas), demostrando así la participación equilibrada del equipo. 
+ Esto se demuestra a traves de sus contribuciones en commits y revisiones de código.
+
+ ![evidenciacom](https://i.postimg.cc/ncjDfZp0/evidenciacom.png)
+
+ ![evidencia-cod](https://i.postimg.cc/0Q0CmvbK/evidencia-cod.png)
+ 
 
 # Tabla de contenidos
 
