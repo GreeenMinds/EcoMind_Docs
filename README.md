@@ -4045,11 +4045,32 @@ Este diagrama muestra que el contexto de retos se apoya principalmente en Materi
 
 ## 4.8. Database Design
 
+En esta sección presentamos los Database Diagrams que diseñamos para representar la estructura de datos y las relaciones principales del sistema. Nuestro modelo está enfocado en una plataforma de aprendizaje gamificado donde los usuarios pueden completar retos, participar en actividades colaborativas e interactuar con una comunidad digital. Uno de los conceptos más importantes del negocio es Reto (Quest), entidad que representa los desafíos o misiones que permiten a los usuarios progresar dentro de la plataforma y obtener recompensas como gemas, ecopoints o logros. Además, incorporamos entidades como Actividad, Minijuego y Material para gestionar experiencias educativas dinámicas mediante videos, lecturas e infografías. También consideramos componentes sociales y colaborativos a través de entidades como Comunidad, Familia, Evento y Publicacion_comunidad, las cuales fortalecen la interacción entre usuarios. Finalmente, incluimos módulos relacionados con progreso, economía virtual y personalización mediante entidades como Ranking, Cosmetico, Multiplicador, Paquete_gemas y Movimiento_gemas, esenciales para mantener la motivación y participación continua dentro del sistema.
+
 ### 4.8.1. Database Diagrams
 
 **Diagrama base de datos de Ecomind:** Para el planteamineto de la base de datos, primero planteamos tablas obligatorias, de ahi las segmentamos según los bounded context previamente obtenidos, para posterior a ello comenzar a relacionarlas. En lo que relacionamos se terminaron creando tablas intermedias debido a su tipo de relación entre si, para poder manejar datos de muchos a muchos; y además hubo otras tablas que se agregaban para completar el flujo de datos en algunos casos. Todo esto nos daría como resultado el siguiente diagrama.
 
-![Component_Diagram_monetizacion](assets/img/figures/ecomind_db.png)
+![Component_Diagram_dataBase](assets/img/figures/DataBase.png)
+
+El Database Diagram desarrollado define las tablas, atributos, restricciones y relaciones necesarias para garantizar la persistencia e integridad de la información del sistema. La entidad Usuario funciona como núcleo principal de la base de datos y se relaciona con múltiples tablas intermedias como reto_usuario, actividad_usuario, material_usuario, usuario_ranking, usuario_cosmetico y usuario_multiplicador, permitiendo almacenar el progreso, desempeño y personalización de cada usuario. Asimismo, estructuramos el contenido educativo mediante la entidad Material y sus especializaciones Video, Infografia y Lectura, mientras que los componentes interactivos se gestionan a través de Minijuego y Minijuego_intento. Para soportar funcionalidades colaborativas incorporamos entidades como Sesion_reto_colaborativo, Miembro_reto_colaborativo, Familia, familia_usuario y amigo, permitiendo la creación de grupos y retos conjuntos. Finalmente, entidades como Compra_gemas, Movimiento_gemas, Notificaciones, Notificación_usuario, Meta_comunidad y Logro_comunidad permiten gestionar recompensas, transacciones virtuales, comunicación y objetivos colectivos, reflejando las principales reglas de negocio definidas para la plataforma.
+
+Entre los atributos más relevantes identificados en el modelo destacan:
+
+* exp_reward: cantidad de experiencia otorgada al completar un reto.
+* eco_points_reward: recompensa ecológica obtenida por actividades específicas.
+* level: nivel actual del usuario dentro de la plataforma.
+* experience: experiencia acumulada por el usuario.
+* streak_days: cantidad de días consecutivos de actividad del usuario.
+* gems_balance: balance actual de gemas disponibles.
+* progress_percentage: porcentaje de avance en retos o actividades.
+* completed_at: fecha y hora de finalización de una actividad o reto.
+* equipped: indica si un cosmético o multiplicador está equipado actualmente.
+* duration: duración estimada de materiales multimedia o actividades.
+* content_url: enlace asociado al contenido educativo.
+* session_code: código utilizado para acceder a sesiones colaborativas.
+* transaction_type: tipo de movimiento registrado dentro de la economía virtual.
+* is_read: estado de lectura de una notificación enviada al usuario.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
