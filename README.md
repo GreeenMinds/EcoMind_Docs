@@ -4625,8 +4625,11 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 **Procedimiento planificado:** 
 
-1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio. 
+1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
+   
+[![landing0.png](https://i.postimg.cc/FHWSMx6t/landing0.png)](https://postimg.cc/75zb7SDX)
 
+<<<<<<< HEAD
 ![Repository_updated](assets/img/figures/Repository_updated.png)
 
 2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
@@ -4646,8 +4649,21 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 ![Verify_landing](assets/img/figures/Verify_landing.png)
 
 Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
+=======
+3. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
+
+[![landing1](https://i.postimg.cc/tTgWwxB2/landing1.png)](https://postimg.cc/d7zhTLPy)
+
+3. En la sección Source, seleccionar la rama main y la carpeta raíz y  guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
+
+![landing3](https://i.postimg.cc/JnhZvkpY/landing3.png)
+
+4. Una vez desplegado, el sitio estará disponible. 
+>>>>>>> 8384536479e56a5a25aa5d493c5ca637269e58f2
 
 ![Deployments_evidence](assets/img/figures/Deployments_evidence.png)
+
+Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
 #### 5.2.1.8. *Team Collaboration Insights during Sprint*
 
@@ -6056,7 +6072,9 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 A partir del trabajo integral realizado durante el desarrollo del proyecto EcoMind, el equipo puede afirmar que la problemática identificada al inicio del proyecto efectivamente representa una necesidad real en el contexto peruano. Los escolares de hoy en día adquieren conocimientos sobre sostenibilidad ambiental en sus escuelas, sin embargo, existe una desconexión importante entre esa teoría aprendida en el aula y su aplicación práctica en la vida cotidiana del hogar. Esta brecha no surge de la falta de información, sino de la ausencia de herramientas que mantengan el interés del estudiante y que faciliten la participación de los padres en este proceso de aprendizaje continuo.
 
 Con respecto a los **Problem Statements** planteados al inicio, la investigación realizada confirma que fueron correctamente identificados. Durante las entrevistas con padres de familia (el 83% de los entrevistados lo confirmó), se evidenció que aunque sus hijos poseen conocimiento sobre prácticas ambientales como el reciclaje, el ahorro de agua y el cuidado de la energía, estas acciones no se materializan consistentemente en el hogar. Por otro lado, los padres expresaron claramente una necesidad genuina de herramientas que les ayuden a monitorear y motivar a sus hijos en el desarrollo de hábitos sostenibles, siendo que el 75% mostró interés explícito en contar con una solución accesible y amigable para este propósito. EcoMind responde a esta oportunidad de manera pertinente, integrando la educación formal escolar con la vida familiar y comunitaria a través de una experiencia diseñada para ser motivadora, interactiva y enfocada en la construcción de hábitos que perduren en el tiempo.
+
 En cuanto a los **assumptions** o supuestos sobre los que se construyó la solución, la validación realizada mediante entrevistas y sesiones de prototipado arrojó resultados alentadores. Se confirmó que el 89% de los escolares se sienten genuinamente atraídos por interfaces visuales, dinámicas y basadas en desafíos gamificados, lo que sugiere que el enfoque de juego y recompensas es el camino correcto. De igual forma, se validó que la participación conjunta entre padres e hijos no es solo deseable sino altamente valorada, con el 80% de padres indicando que participarían activamente en retos compartidos si la plataforma lo permitiera. El sistema de recompensas basado en puntos, insignias y ranking de logros demostró ser un mecanismo efectivo para motivar a los usuarios, generando una satisfacción percibida del 92% en las sesiones de evaluación de prototipos.
+
 Sin embargo, es importante reconocer que algunos supuestos requieren aún mayor validación en contextos reales de uso. Aunque existe disposición inicial clara para usar la plataforma con frecuencia (se asumió 3-5 veces por semana), la confirmación de que este patrón de uso se mantenga sostenidamente en el tiempo solo podrá comprobarse cuando usuarios reales interactúen con la plataforma durante períodos prolongados. De manera similar, aunque los padres manifestaron interés en recibir reportes de progreso sobre el aprendizaje de sus hijos, el formato exacto, el nivel de detalle y la frecuencia de estos reportes aún necesitan ser refinados basándose en experiencias reales de uso.
 
 En relación a las **Hypothesis Statements**, los resultados obtenidos muestran indicios positivos que permiten avanzar al siguiente nivel de validación. La hipótesis de que la gamificación aumentaría el engagement de los estudiantes en actividades ambientales fue evaluada mediante pruebas prácticas con prototipos interactivos, donde se observó que el 87.5% de los participantes completó más de dos retos durante sesiones de prueba, superando así el criterio de éxito inicial. La hipótesis sobre la importancia de la participación familiar fue validada positivamente, ya que el 85% de los padres entrevistados expresó entusiasmo genuino por participar en retos conjuntos con sus hijos. No obstante, es fundamental aclarar que estas validaciones corresponden a nivel de intención y potencial observado en ambiente controlado, no a comportamiento real sostenido en producción. Para confirmar plenamente que estas hipótesis se cumplen en la práctica, será necesario desplegar la plataforma con usuarios reales y medir su comportamiento durante un período de varios meses.
