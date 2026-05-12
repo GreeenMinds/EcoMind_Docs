@@ -4607,6 +4607,8 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 #### 5.2.2.1. *Sprint Planning 2*
 
+En esta sección se presentan los principales aspectos abordados durante el Sprint Planning Meeting correspondiente al Sprint 2 del proyecto. Durante esta reunión, el equipo definió el objetivo general del Sprint, seleccionó las User Stories priorizadas del Product Backlog y realizó la estimación y asignación de tareas necesarias para el desarrollo de las funcionalidades planificadas. Asimismo, se establecieron los responsables de cada actividad, el tiempo estimado de trabajo y las estrategias de coordinación para asegurar el cumplimiento de los objetivos planteados dentro del periodo del Sprint. A continuación, se muestra el cuadro resumen con la información correspondiente al Sprint Planning Meeting.
+
 | **Sprint #** |  2 |
 |------|--------|
 | **Date** | 2026-16-04 |
@@ -4615,8 +4617,8 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 | **Prepared By** | Alejandra Isabel Astocondor Bazan |
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
 | **Sprint n Goal** | Our focus is on developing the frontend interfaces and interactive flows for the application using fake API integration, including ranking community, environmental events, avatars, gems, XP multipliers, and progress visualization features. We believe this delivers a realistic and fully navigable user experience that validates the usability and interaction design of the platform before backend integration. This will be confirmed when users can seamlessly navigate and test all main application flows with responsive and functional UI behavior across the implemented screens. |
-| **Sprint n Velocity** |  |
-| **Sum of Story Points** | |
+| **Sprint n Velocity** | Decidimos aceptar hasta 20 SP |
+| **Sum of Story Points** | 74 SP |
 
 #### 5.2.2.2. *Aspect Leaders and Collaborators*
 
@@ -4629,6 +4631,8 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 | Victor Jhosuef Laura Acosta | Zatrynox | C | C | L | C | C|
 
 #### 5.2.2.3. *Sprint Backlog 2*
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto, el cual tuvo como objetivo principal implementar funcionalidades orientadas a fortalecer la experiencia gamificada, el aprendizaje interactivo y la participación comunitaria dentro de la plataforma. Durante este Sprint, el equipo desarrolló User Stories relacionadas con retos ambientales, miniactividades guiadas, rankings, eventos comunitarios, sistema de recompensas, personalización de avatares y gestión de progreso del usuario, así como diversos endpoints de soporte para las funcionalidades del sistema. Asimismo, se realizó la descomposición de cada User Story en tareas técnicas específicas (Work-items/Tasks), permitiendo organizar el trabajo de manera incremental, asignar responsabilidades y realizar el seguimiento del avance del Sprint mediante la herramienta de gestión del proyecto.
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -5203,6 +5207,8 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 #### 5.2.2.4. *Development Evidence for Sprint Review*
 
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2, mostrando los principales avances en la implementación de los productos definidos dentro del alcance del Sprint, incluyendo la Landing Page, las Web Applications y los Web Services asociados al proyecto. Durante este periodo, el equipo desarrolló funcionalidades relacionadas con la experiencia gamificada de aprendizaje, gestión de retos, rankings, eventos comunitarios, sistema de recompensas y servicios de soporte mediante una arquitectura basada en componentes y consumo de APIs simuladas. Asimismo, se consolidó la estructura técnica del proyecto mediante el uso de repositorios colaborativos, control de versiones y commits organizados por funcionalidades implementadas. A continuación, se presenta una tabla con los repositorios utilizados y los commits relacionados con las actividades de implementación realizadas durante el Sprint.
+
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
@@ -5749,12 +5755,90 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 #### 5.2.2.5. *Execution Evidence for Sprint Review*
 
+Durante el Sprint se lograron avances significativos en la visualización y navegación de la aplicación, incluyendo interfaces relacionadas con retos ambientales, rankings, actividades colaborativas, eventos comunitarios, sistema de recompensas, personalización de avatares y gestión del progreso del usuario. Asimismo, se integraron vistas funcionales conectadas mediante servicios y APIs simuladas, permitiendo demostrar el flujo de interacción entre las diferentes funcionalidades desarrolladas. A continuación, se muestran capturas de las principales vistas implementadas y un enlace al video demostrativo que evidencia la navegación y funcionamiento alcanzados durante el Sprint.
+
 #### 5.2.2.6. *Services Documentation Evidence for Sprint Review*
+## Services Documentation Evidence for Sprint Review
+
+Para este sprint no se cuenta con un repositorio independiente de Web Services ni con servicios backend desplegados. La aplicación consume un mock API local basado en `json-server`, definido dentro del repositorio frontend mediante los archivos `server/db.json` y `server/routes.json`.
+
+Por este motivo, no se incluyen commits de un repositorio de Web Services. En su lugar, se documentan los endpoints mock utilizados para validar las funcionalidades desarrolladas durante el sprint, tales como retos, reto diario, rachas, ranking semanal, tienda, cosméticos, comunidad, amigos y familia.
+
+**Repositorio de Web Services:** No aplica.  
+**Repositorio mock/API local:** [Repositorio frontend del proyecto EcoMind.](https://github.com/GreeenMinds/EcoMind_frontend)  
+**Base URL local:** `http://localhost:3000/api/v1`  
+**Archivo de datos mock:** `server/db.json`  
+**Archivo de rutas mock:** `server/routes.json`
+
+| Endpoint | Acciones implementadas | Sintaxis de llamada | Parámetros | Ejemplo de response |
+|---|---|---|---|---|
+| `/quest` | `GET` listar retos | `GET /api/v1/quest` | No requiere parámetros | Lista de retos disponibles, incluyendo categoría, tipo, recompensa y fecha de expiración. |
+| `/quest_user` | `GET`, `POST`, `PUT`, `DELETE` gestionar progreso del usuario | `GET /api/v1/quest_user`, `POST /api/v1/quest_user`, `PUT /api/v1/quest_user/{id}`, `DELETE /api/v1/quest_user/{id}` | `id`, `user_id`, `quest_id`, `status`, `progress` | Registro de avance de un usuario en un reto. |
+| `/activity` | `GET` listar actividades de retos | `GET /api/v1/activity` | No requiere parámetros | Lista de actividades asociadas a cada reto. |
+| `/activity_user` | `GET`, `POST`, `PUT`, `DELETE` gestionar avance de actividades | `GET /api/v1/activity_user`, `POST /api/v1/activity_user`, `PUT /api/v1/activity_user/{id}` | `id`, `user_id`, `activity_id`, `progress` | Registro de avance del usuario en una actividad. |
+| `/user` | `GET`, `PUT` consultar y actualizar usuario | `GET /api/v1/user/{id}`, `PUT /api/v1/user/{id}` | `id`, `streak`, `last_streak_date`, `ecopoints`, `gem_balance` | Datos del usuario, racha, gemas y ecopoints. |
+| `/ranking` | `GET` listar tipos de ranking | `GET /api/v1/ranking` | No requiere parámetros | Rankings disponibles: global, mensual y semanal. |
+| `/ecopoint_transaction` | `GET`, `POST` consultar y registrar movimientos de ecopoints | `GET /api/v1/ecopoint_transaction`, `POST /api/v1/ecopoint_transaction` | `user_id`, `ecopoints`, `created_at` | Movimiento usado para calcular ranking semanal/mensual. |
+| `/cosmetic` | `GET` listar cosméticos y avatares | `GET /api/v1/cosmetic` | No requiere parámetros | Lista de cosméticos con nombre, tipo, precio e imagen. |
+| `/user_cosmetic` | `GET`, `POST`, `PUT` gestionar inventario del usuario | `GET /api/v1/user_cosmetic`, `POST /api/v1/user_cosmetic`, `PUT /api/v1/user_cosmetic/{id}` | `user_id`, `cosmetic_id`, `equipped` | Cosmético adquirido o equipado por el usuario. |
+| `/gem_package` | `GET` listar paquetes de gemas | `GET /api/v1/gem_package` | No requiere parámetros | Paquetes disponibles con cantidad de gemas y precio. |
+| `/multiplier` | `GET` listar multiplicadores | `GET /api/v1/multiplier` | No requiere parámetros | Multiplicadores disponibles con factor, duración y costo. |
+| `/friend` | `GET`, `POST`, `PUT`, `DELETE` gestionar amigos | `GET /api/v1/friend` | `user_id`, `friend_id`, `status` | Relación de amistad entre usuarios. |
+| `/family` | `GET`, `POST`, `PUT`, `DELETE` gestionar familias | `GET /api/v1/family` | `id`, `name`, `commitment` | Información de una familia registrada. |
+| `/family_user` | `GET`, `POST`, `DELETE` gestionar miembros de familia | `GET /api/v1/family_user` | `user_id`, `family_id`, `family_role` | Relación entre usuario y familia. |
+| `/community_post` | `GET`, `POST` listar y crear publicaciones comunitarias | `GET /api/v1/community_post` | `community_id`, `user_id`, `content` | Publicación hecha por un usuario en la comunidad. |
+| `/event` | `GET`, `POST`, `PUT`, `DELETE` gestionar eventos comunitarios | `GET /api/v1/event` | `community_id`, `name`, `date`, `location`, `capacity` | Evento comunitario disponible para registro. |
+| `/community_goal` | `GET` listar metas comunitarias | `GET /api/v1/community_goal` | No requiere parámetros | Meta comunitaria con progreso, unidad y estado. |
+
+### Ejemplo de response
+
+```json
+{
+  "id": 1,
+  "user_id": 1,
+  "quest_id": 1,
+  "status": "completed",
+  "progress": 100,
+  "start_date": "2026-05-10",
+  "end_date": "2026-05-10",
+  "collaborative_session_id": null
+}
+```
+Este response corresponde a un registro de /quest_user e indica que el usuario completó un reto. Esta información es usada por la aplicación para mostrar el progreso, actualizar recompensas y controlar la lógica de rachas.
+
+**Evidencia visual**
+
+Listado de retos desde /quest.
+
+![Quest Endpoint](/assets/img/figures/questEndpoint.png)
+
+Usuario y ranking
+
+![User Endpoint](/assets/img/figures/userendpoint.png)
+
+Cosméticos disponibles desde /cosmetic.
+
+![Cosmetic Endpoint](/assets/img/figures/cosmeticendpoint.png)
+
+Comunidad con posts, eventos y metas desde /community_post, /event y community_goal.
+
+![Community Endpoint](/assets/img/figures/communityendpoint.png)
+
+**Commits relacionados**
+
+No existen commits en un repositorio independiente de Web Services. Los cambios relacionados con el mock API y su consumo se encuentran en el repositorio frontend, principalmente en:
+
+server/db.json
+server/routes.json
+Servicios Angular asociados a quests, ranking, perfil, monetización y comunidad.
+
 
 #### 5.2.2.7. *Software Deployment Evidence for Sprint Review*
 
 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
+
+**Sprint 1 - Landing Page**
 
 **Sprint 2 - Frontend**
 
