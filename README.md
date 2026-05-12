@@ -4680,6 +4680,10 @@ En esta sección se presentan los principales aspectos abordados durante el Spri
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto, el cual tuvo como objetivo principal implementar funcionalidades orientadas a fortalecer la experiencia gamificada, el aprendizaje interactivo y la participación comunitaria dentro de la plataforma. Durante este Sprint, el equipo desarrolló User Stories relacionadas con retos ambientales, miniactividades guiadas, rankings, eventos comunitarios, sistema de recompensas, personalización de avatares y gestión de progreso del usuario, así como diversos endpoints de soporte para las funcionalidades del sistema. Asimismo, se realizó la descomposición de cada User Story en tareas técnicas específicas (Work-items/Tasks), permitiendo organizar el trabajo de manera incremental, asignar responsabilidades y realizar el seguimiento del avance del Sprint mediante la herramienta de gestión del proyecto.
 
+Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d83107a37a6fbf986c65F81735F/ecomind-board
+
+![Sprint_2](assets/img/figures/Sprint_2.png)
+
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
