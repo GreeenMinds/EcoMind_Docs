@@ -4596,84 +4596,6 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 
 ![Deployments_evidence](assets/img/figures/Deployments_evidence.png)
 
-**Sprint 2**
-
-El despliegue del frontend se realizara con las herramientas firebase y render. Firebase permite el host del frontend y simular acciones, mientras que render permite hostear la data para brindarsela al deploy en firebase.
-
-**Procedimiento planificado:** 
-
-**Host db.json**
-
-1. Crear un repositorio nuevo que contenga el archivo db y package
-
-![Create_db_server](assets/img/figures/Create_db_server.png)
-
-2. Acceder a Render desde un navegador
-
-3. Crear cuenta / Iniciar sesión
-
-![Render](assets/img/figures/Render.png)
-
-4. Acceder a Dashboard
-
-5. Crear un web service
-
-![Web_service](assets/img/figures/Create_web_service.png)
-
-6. Conectar cuenta de github
-
-7. Elegir repositorio a hostear
-
-![Connect_repository](assets/img/figures/Connect_repository.png)
-
-8. Configurar web service
-
-![Configure_web_service](assets/img/figures/Configure_web_service.png)
-
-9. Crear web service y esperar deploy
-
-10. Actualizar en el proyecto el urlProvider en environments por el nuevo url obtenido
-
-![Update_url_provider](assets/img/figures/Update_url_provider.png)
-
-**Host frontend**
-
-11. Acceder a firebase desde un navegador
-
-12. Crear cuenta / Iniciar sesión
-
-![Firebase](assets/img/figures/Firebase.png)
-
-13. Seleccionar opción "Ir a consola"
-
-![Console](assets/img/figures/Console.png)
-
-14. Crear nuevo proyecto
-
-![New_firebase-proyect](assets/img/figures/New_firebase-proyect.png)
-
-15. Crear archivos para el deploy
-
-![Build](assets/img/figures/Build.png)
-
-16. Desde el proyecto, instalar firebase-tools
-
-![Firebase_tools](assets/img/figures/Firebase_tools.png)
-
-17. Logear cuenta
-
-18. Iniciar proceso de hosting
-
-![Login-Init](assets/img/figures/Login-Init.png)
-
-19. Iniciar deploy
-
-![Start_deploy](assets/img/figures/Start_deploy.png)
-
-20. Verificar si el deploy se realizo correctamente
-
-![Frontend_deployed](assets/img/figures/Frontend_deployed.png)
-
 #### 5.2.1.8. *Team Collaboration Insights during Sprint*
 
 **Sprint 1 - Landing Page**
@@ -5928,15 +5850,83 @@ La **Landing Page** ya se encontraba desplegada previamente, por lo que en este 
 | Landing Page | Ya se encontraba desplegada antes de este sprint. |
 | Web Application | Desplegada con firebase. |
 
-**Deployment Process**
 
-1. Se creo un repositorio aparte para la db.
-2. Se modifico los archivos environment en el proyecto, reemplazando el fake api local por typicode.
-3. Registrarse en Firebase y abrir consola del proyecto
-4. Instalar Firebase
-5. Logearse en Firebase
-6. Iniciar Firebase
-7. Deploy
+El despliegue del frontend se realizara con las herramientas firebase y render. Firebase permite el host del frontend y simular acciones, mientras que render permite hostear la data para brindarsela al deploy en firebase.
+
+**Procedimiento planificado:** 
+
+**Host db.json**
+
+1. Crear un repositorio nuevo que contenga el archivo db y package
+
+![Create_db_server](assets/img/figures/Create_db_server.png)
+
+2. Acceder a Render desde un navegador
+
+3. Crear cuenta / Iniciar sesión
+
+![Render](assets/img/figures/Render.png)
+
+4. Acceder a Dashboard
+
+5. Crear un web service
+
+![Web_service](assets/img/figures/Create_web_service.png)
+
+6. Conectar cuenta de github
+
+7. Elegir repositorio a hostear
+
+![Connect_repository](assets/img/figures/Connect_repository.png)
+
+8. Configurar web service
+
+![Configure_web_service](assets/img/figures/Configure_web_service.png)
+
+9. Crear web service y esperar deploy
+
+10. Actualizar en el proyecto el urlProvider en environments por el nuevo url obtenido
+
+![Update_url_provider](assets/img/figures/Update_url_provider.png)
+
+**Host frontend**
+
+11. Acceder a firebase desde un navegador
+
+12. Crear cuenta / Iniciar sesión
+
+![Firebase](assets/img/figures/Firebase.png)
+
+13. Seleccionar opción "Ir a consola"
+
+![Console](assets/img/figures/Console.png)
+
+14. Crear nuevo proyecto
+
+![New_firebase-proyect](assets/img/figures/New_firebase-proyect.png)
+
+15. Crear archivos para el deploy
+
+![Build](assets/img/figures/Build.png)
+
+16. Desde el proyecto, instalar firebase-tools
+
+![Firebase_tools](assets/img/figures/Firebase_tools.png)
+
+17. Logear cuenta
+
+18. Iniciar proceso de hosting
+
+![Login-Init](assets/img/figures/Login-Init.png)
+
+19. Iniciar deploy
+
+![Start_deploy](assets/img/figures/Start_deploy.png)
+
+20. Verificar si el deploy se realizo correctamente
+
+![Frontend_deployed](assets/img/figures/Frontend_deployed.png)
+
 
 
 **Build Configuration**
@@ -5958,13 +5948,15 @@ Ecomind_frontend desplegado: https://ecomind-frontend-bae73.web.app
 Landing Page: https://greeenminds.github.io/EcoMind_LandingPage/
 
 *Nota:*
-
-Durante el despliegue de la aplicación mediante Firebase Hosting, se identificaron limitaciones asociadas al uso de My JSON Server (Typicode) como servicio de fake API. Esta plataforma presenta restricciones relacionadas con el tamaño y complejidad de los objetos JSON utilizados en el archivo db.json, especialmente en recursos que contienen una gran cantidad de atributos por registro. Debido a estas limitaciones, múltiples endpoints dejaron de responder correctamente en el entorno desplegado, impidiendo la carga dinámica de datos dentro de la aplicación. Como consecuencia, se evidenció que My JSON Server resulta adecuado para prototipos simples, pero presenta restricciones importantes para proyectos con estructuras de datos más amplias y complejas como las implementadas en este Sprint.
-
-https://my-json-server.typicode.com/AleeAsto/db-server-eco
-
+Durante el despliegue de la aplicación mediante Firebase Hosting, se identificaron limitaciones asociadas al uso de My JSON Server (Typicode) como servicio de fake API. Esta plataforma presentó restricciones relacionadas con el tamaño, complejidad y cantidad de atributos presentes en los objetos JSON del archivo db.json, ocasionando fallos en la respuesta de múltiples endpoints y afectando la carga dinámica de datos dentro de la aplicación. Debido a ello, se optó por migrar el servicio de fake API hacia la plataforma Render.com, la cual permitió desplegar un servidor json-server más flexible y compatible con la estructura de datos implementada en el proyecto. Esta solución facilitó el consumo correcto de los endpoints REST, asegurando una integración más estable entre la aplicación frontend y la capa de datos simulada durante las pruebas y demostraciones del Sprint.
 
 Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQCCgfe9d_q1RqAKJSZE26x5AaamZSeERY4lenujULTnVDs?e=P2v9z2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Evidencias de Deployment individual**
+
+Alejandra Astocondor: https://ecomind-frontend.web.app/quests
+
+Leo Dulanto: https://ecomind-frontend-bae73.web.app
 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 
