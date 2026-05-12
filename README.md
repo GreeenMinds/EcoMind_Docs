@@ -4230,6 +4230,10 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 
 #### 5.2.1.3. *Sprint Backlog 1*
 
+Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d83107a37a6fbf986c65F81735F/ecomind-board
+
+![Sprint_1](assets/img/figures/Sprint_1.png)
+
 <p><strong>Sprint #:</strong> Sprint 1</p>
 
 <table border="1" cellspacing="0" cellpadding="6">
