@@ -2053,7 +2053,9 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como usuario, quiero comprar un multiplicador de XP, para aumentar la experiencia obtenida en mis actividades.</td>
+    <td colspan="3">
+      Como usuario, quiero comprar un multiplicador de XP, para aumentar la experiencia obtenida en mis actividades.
+    </td>
   </tr>
   <tr>
     <td colspan="4">
@@ -2070,23 +2072,15 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
         <li><b>Cuando</b> intenta comprar un multiplicador de XP,</li>
         <li><b>Entonces</b> el sistema rechaza la compra y muestra el mensaje "Gemas insuficientes".</li>
       </ul>
-       <b>Escenario 3:</b> Obtención de multiplicador por actividades o retos<br/>
-      <ul>
-        <li><b>Dado que</b> el usuario completa una actividad o cumple un reto diario,</li>
-        <li><b>Cuando</b> se cumplen las condiciones de recompensa,</li>
-        <li><b>Entonces</b> el sistema otorga automáticamente un multiplicador de XP al usuario.</li>
-      </ul>
-      <b>Escenario 4:</b> Aplicación del multiplicador de XP<br/>
+      <b>Escenario 3:</b> Aplicación del multiplicador de XP<br/>
       <ul>
         <li><b>Dado que</b> el usuario tiene un multiplicador de XP activo,</li>
         <li><b>Cuando</b> completa una actividad,</li>
         <li><b>Entonces</b> el sistema incrementa la experiencia obtenida según el multiplicador activo.</li>
       </ul>
-      </ul>
     </td>
   </tr>
 </table>
-
 
 <table align="center">
   <tr>
@@ -4984,16 +4978,6 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del p
   <tr>
     <td>HU-031</td>
     <td>Multiplicador de XP</td>
-    <td>TO32</td>
-    <td>Obtención de multiplicador por recompensas</td>
-    <td>Otorgar automáticamente multiplicadores de XP al completar actividades o retos diarios.</td>
-    <td>3</td>
-    <td>Isabel Aponte Pablo</td>
-    <td>Completed</td>
-  </tr>
-  <tr>
-    <td>HU-031</td>
-    <td>Multiplicador de XP</td>
     <td>TO33</td>
     <td>Aplicación de multiplicador de XP</td>
     <td>Incrementar la experiencia obtenida en actividades según el multiplicador de XP activo.</td>
@@ -6001,6 +5985,9 @@ Alejandra Astocondor: https://ecomind-frontend.web.app/quests
 Leo Dulanto: https://ecomind-frontend-bae73.web.app
 
 Alexther Diaz: https://ecomind-frontend-d2c86.web.app 
+
+Isabel Aponte: https://ecomindfrontend-master21.web.app/store
+
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa en la implementación de las distintas funcionalidades planteadas para la solución, organizando el trabajo mediante el uso de branches, commits y pull requests en GitHub. Cada integrante participó activamente en el desarrollo de componentes frontend, integración con fake APIs, construcción de vistas, configuración de servicios y validación de funcionalidades relacionadas con la Landing Page, Web Applications y Web Services del proyecto. Asimismo, se realizaron procesos constantes de integración y revisión de código para mantener la estabilidad del proyecto y asegurar la correcta incorporación de las funcionalidades desarrolladas por cada miembro. A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
 
