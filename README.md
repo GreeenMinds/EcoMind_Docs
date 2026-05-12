@@ -5958,6 +5958,7 @@ Alejandra Astocondor: https://ecomind-frontend.web.app/quests
 
 Leo Dulanto: https://ecomind-frontend-bae73.web.app
 
+Alexther Diaz: https://ecomind-frontend-d2c86.web.app 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 
 **Sprint 1 - Landing Page**
