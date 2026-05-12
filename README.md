@@ -5953,7 +5953,7 @@ La **Landing Page** ya se encontraba desplegada previamente, por lo que en este 
 
 URLS:
 
-Ecomind_frontend desplegado: https://ecomind-frontend.web.app/
+Ecomind_frontend desplegado: https://ecomind-frontend-bae73.web.app
 
 Landing Page: https://greeenminds.github.io/EcoMind_LandingPage/
 
