@@ -4627,13 +4627,23 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio. 
 
+![Repository_updated](assets/img/figures/Repository_updated.png)
+
 2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
+
+![Settings_Pages](assets/img/figures/Settings_Pages.png)
 
 3. En la sección Source, seleccionar la rama main y la carpeta raíz. 
 
+![Main_branch](assets/img/figures/Main_branch.png)
+
 4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
 
+![Landing_Deployed](assets/img/figures/Landing_Deployed.png)
+
 5. Una vez desplegado, el sitio estará disponible. 
+
+![Verify_landing](assets/img/figures/Verify_landing.png)
 
 Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
