@@ -6000,6 +6000,7 @@ Alejandra Astocondor: https://ecomind-frontend.web.app/quests
 
 Leo Dulanto: https://ecomind-frontend-bae73.web.app
 
+Alexther Diaz: https://ecomind-frontend-d2c86.web.app 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa en la implementación de las distintas funcionalidades planteadas para la solución, organizando el trabajo mediante el uso de branches, commits y pull requests en GitHub. Cada integrante participó activamente en el desarrollo de componentes frontend, integración con fake APIs, construcción de vistas, configuración de servicios y validación de funcionalidades relacionadas con la Landing Page, Web Applications y Web Services del proyecto. Asimismo, se realizaron procesos constantes de integración y revisión de código para mantener la estabilidad del proyecto y asegurar la correcta incorporación de las funcionalidades desarrolladas por cada miembro. A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
 
