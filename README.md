@@ -3991,69 +3991,69 @@ https://lucid.app/lucidchart/fb1c4efb-d70b-48c3-bcfa-8fa26275d236/edit?view_item
 - **Etapa 1: Actualizar el Diagrama de clases en base al enfoque DDD**
 En esta etapa planteamos todas las clases del programa sin viendo los tipos de relaciones y multiplicidades de las clases, sus variables y funciones.
 
-![Etapa_1:DDD](assets/img/figures/Etapa1_ActualizarDiagramaDDD.png)
+![Etapa_1:DDD](assets/img/figures/DDDetapa1.png)
 
 - **Etapa 2: Agrupar las clases en Bounded Context**
 En esta etapa de el DDD vemos como las clases se separan en bounded context segun su relación, finalidad en el software de ecomind y preparandonos para la etapa final donde veremos como individualiza cada bounded relacionandolos con los otros mediante los value object.
 
 **Bounded Context Ajustes:**
  Agrupa las clases relacionadas con la personalización de la experiencia del usuario, como preferencias de tema, idioma y configuración de notificaciones. Este contexto centraliza las opciones que permiten adaptar la aplicación a cada usuario.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCAjustes.png)
+![Etapa_2:DDD](assets/img/figures/etapa2settings.png)
 
 **Bounded Context Comunidad:**
 Reúne las clases que modelan la interacción social dentro de la plataforma, incluyendo comunidades, eventos, metas comunitarias, mapas y logros. Su objetivo es gestionar la participación colaborativa y las actividades compartidas.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCComunidad.png)
+![Etapa_2:DDD](assets/img/figures/etapa2community.png)
 
 **Bounded Context IAM:**
 Contiene las clases encargadas de la identidad y el acceso, como la gestión de usuarios, sesiones, credenciales y conexión con redes sociales. Este contexto se enfoca en autenticación, validación y control de acceso.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCIAM.png)
+![Etapa_2:DDD](assets/img/figures/etapa2iam.png)
 
 **Bounded Context Tienda:**
 Agrupa las clases vinculadas al catálogo de productos(skin de personajes de ecomind), monedas virtuales en este caso usamos gemas, multiplicadores de ecopoints, historial de compra y métodos de pago. Este contexto organiza toda la lógica relacionada con la compra y administración de artículos dentro de la aplicación.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCTienda.png)
+![Etapa_2:DDD](assets/img/figures/etapa2store.png)
 
 **Bounded Context Perfil:**
 Reúne las clases que representan la información y progreso del usuario, como perfil, logros y familia, ademas de usar el patrón state para la racha que dependiendo de su estado cambie las interacciones de la app con el usuario. Este contexto permite modelar la identidad personal del usuario y su evolución dentro del sistema.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCPerfil.png)
+![Etapa_2:DDD](assets/img/figures/etapa2profile.png)
 
 **Bounded Context Ranking:**
  Contiene las clases que gestionan la clasificación de usuarios o grupos según su desempeño, incluyendo ranking, puestos y tipos de ranking. Su finalidad es organizar y consultar posiciones competitivas en distintos ámbitos.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCRaking.png)
+![Etapa_2:DDD](assets/img/figures/etapa2ranking.png)
 
 **Bounded Context Retos:**
 Agrupa las clases relacionadas con los desafíos y materiales educativos, como retos escritos, puzles, cooperativos, videos, lecturas e infografías. Este contexto concentra la lógica de creación de retos donde usamos el patron Builder para facilitar la creación de estos.
-![Etapa_2:DDD](assets/img/figures/Etapa2_BCRetos.png)
+![Etapa_2:DDD](assets/img/figures/etapa2quests.png)
 
 - **Etapa 3: Indentificación de Value Object, Entity y Aggregate**
 En esta etapa final analizaremos las clases para definirlas como Value Object, Entity y Aggregate basado en el enfoque DDD.
 
 **Bounded Context Ajustes:**
 En este bounded de la etapa 3, Preferencia actúa como agregado principal que organiza la configuración personalizada del usuario, mientras que Notificacion funciona como entidad asociada y UsuarioId como value object.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCAjustes.png)
+![Etapa_3:DDD](assets/img/figures/etapa3settings.png)
 
 **Bounded Context Comunidad:**
 Aquí definimos a Comunidad y Evento como agregados que estructuran la interacción colectiva, mientras que LogroComunitario, Meta y Mapa se identifican como entidades del dominio ademas que tenemos dos value object siendo usuarioId y logroId que interactuan con comunidad y logro comunitario.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCComunidad.png)
+![Etapa_3:DDD](assets/img/figures/etapa3community.png)
 
 **Bounded Context IAM:**
 Este contexto consolida la gestión de identidad y acceso, destacando a Sesion como agregado principal del ciclo de autenticación. GestionUsuario, UserRepository y RedSocial aparecen como entidades de soporte, mientras que UsuarioId se modela como value object para representar de forma consistente la identidad del usuario.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCIAM.png)
+![Etapa_3:DDD](assets/img/figures/etapa3iam.png)
 
 **Bounded Context Tienda:**
 En este contexto, la lógica del BC tienda se concentra principalmente en Tienda y HistoriaCompra, ya que ambas clases organizan la administración de productos, transacciones y compras realizadas. Otras clases como Producto, MetodoPago, Gema, Cosmetico y Potenciador son las que se encuentran dentro de la tienda donde el usario podra interactuar con ellas, y UsuarioId permite asociar estas operaciones con cada usuario.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCTienda.png)
+![Etapa_3:DDD](assets/img/figures/etapa3store .png)
 
 **Bounded Context Perfil:**
  El diagrama de perfil presenta a Perfil como la pieza central del contexto, pues reúne la información principal del usuario, su progreso y parte de su interacción con el sistema. Elementos como Racha, LogroUsuario, Familia y RachaEstado son clases donde el usuario podra ver como va progresando en la aplicación, mientras que UsuarioId y LogroId permite asociar el BC Perfil con id de usuario y logros del mismo.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCPerfil.png)
+![Etapa_3:DDD](assets/img/figures/etapa3profile.png)
 
 **Bounded Context Ranking:**
 En este caso, Ranking ocupa el rol principal dentro del contexto al organizar la clasificación de usuarios según distintos criterios. La clase Puesto representa cada posición dentro de dicha estructura, mientras que TipoRanking define las categorías posibles y UsuarioId vincula cada registro con el usuario correspondiente.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCRanking.png)
+![Etapa_3:DDD](assets/img/figures/etapa3ranking.png)
 
 **Bounded Context Retos:**
 Este diagrama muestra que el contexto de retos se apoya principalmente en Material, ya que esta clase articula la gestión de recursos educativos y desafíos propuestos en la plataforma. A partir de ella se relacionan otros elementos como Video, Infografia, Lectura, RetoEscrito, RetoPuzzle y Cooperativo, además de sus respectivos constructores, mientras que UsuarioId permite mantener la referencia al usuario dentro de este dominio.
-![Etapa_3:DDD](assets/img/figures/Etapa3_BCRetos.png)
+![Etapa_3:DDD](assets/img/figures/etapa3quests.png)
 
 ## 4.8. Database Design
 
@@ -6058,7 +6058,7 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 # Conclusiones
 
-A partir del trabajo integral realizado durante el desarrollo del proyecto EcoMind, el equipo puede afirmar que la problemática identificada al inicio del proyecto efectivamente representa una necesidad real en el contexto peruano. Los escolares de hoy en día adquieren conocimientos sobre sostenibilidad ambiental en sus escuelas, sin embargo, existe una desconexión importante entre esa teoría aprendida en el aula y su aplicación práctica en la vida cotidiana del hogar. Esta brecha no surge de la falta de información, sino de la ausencia de herramientas que mantengan el interés del estudiante y que faciliten la participación de los padres en este proceso de aprendizaje continuo.
+A partir del trabajo integral realizado durante el desarrollo del proyecto EcoMind, el equipo puede afirmar que la problemática identificada al inicio del proyecto efectivamente representa una necesidad real en el contexto peruano. Los escolares de hoy en día adquieren conocimientos sobre sostenibilidad ambientgital en sus escuelas, sin embargo, existe una desconexión importante entre esa teoría aprendida en el aula y su aplicación práctica en la vida cotidiana del hogar. Esta brecha no surge de la falta de información, sino de la ausencia de herramientas que mantengan el interés del estudiante y que faciliten la participación de los padres en este proceso de aprendizaje continuo.
 
 Con respecto a los **Problem Statements** planteados al inicio, la investigación realizada confirma que fueron correctamente identificados. Durante las entrevistas con padres de familia (el 83% de los entrevistados lo confirmó), se evidenció que aunque sus hijos poseen conocimiento sobre prácticas ambientales como el reciclaje, el ahorro de agua y el cuidado de la energía, estas acciones no se materializan consistentemente en el hogar. Por otro lado, los padres expresaron claramente una necesidad genuina de herramientas que les ayuden a monitorear y motivar a sus hijos en el desarrollo de hábitos sostenibles, siendo que el 75% mostró interés explícito en contar con una solución accesible y amigable para este propósito. EcoMind responde a esta oportunidad de manera pertinente, integrando la educación formal escolar con la vida familiar y comunitaria a través de una experiencia diseñada para ser motivadora, interactiva y enfocada en la construcción de hábitos que perduren en el tiempo.
 
