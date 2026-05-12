@@ -5986,6 +5986,8 @@ Leo Dulanto: https://ecomind-frontend-bae73.web.app
 
 Alexther Diaz: https://ecomind-frontend-d2c86.web.app 
 
+Victor Laura: https://ecomind-frontend-202418655.web.app/ranking
+
 Isabel Aponte: https://ecomindfrontend-master21.web.app/store
 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
