@@ -6053,6 +6053,9 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 **Sprint 2 - Landing Page**
 
+![Insight_sprint2_1](/assets/img/figures/Insights_1.png)
+![Insight_sprint2_2](/assets/img/figures/Insights_2.png)
+
 # Conclusiones
 
 A partir del trabajo integral realizado durante el desarrollo del proyecto EcoMind, el equipo puede afirmar que la problemática identificada al inicio del proyecto efectivamente representa una necesidad real en el contexto peruano. Los escolares de hoy en día adquieren conocimientos sobre sostenibilidad ambiental en sus escuelas, sin embargo, existe una desconexión importante entre esa teoría aprendida en el aula y su aplicación práctica en la vida cotidiana del hogar. Esta brecha no surge de la falta de información, sino de la ausencia de herramientas que mantengan el interés del estudiante y que faciliten la participación de los padres en este proceso de aprendizaje continuo.
