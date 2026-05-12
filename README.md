@@ -69,6 +69,9 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 
 ![projet overview](assets/img/figures/docs_Contributors.png)
 
+*TB1*
+
+
 # Tabla de contenidos
 
 **Capítulo I: Introducción**  
@@ -4603,6 +4606,8 @@ Para la elaboración del sprint cada integrante realizo commits según implement
 
 ![Contributors](assets/img/figures/Contributors_insight.png)
 
+Deployment URL: https://greeenminds.github.io/EcoMind_LandingPage/
+
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. *Sprint Planning 2*
@@ -5758,7 +5763,6 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 Durante el Sprint se lograron avances significativos en la visualización y navegación de la aplicación, incluyendo interfaces relacionadas con retos ambientales, rankings, actividades colaborativas, eventos comunitarios, sistema de recompensas, personalización de avatares y gestión del progreso del usuario. Asimismo, se integraron vistas funcionales conectadas mediante servicios y APIs simuladas, permitiendo demostrar el flujo de interacción entre las diferentes funcionalidades desarrolladas. A continuación, se muestran capturas de las principales vistas implementadas y un enlace al video demostrativo que evidencia la navegación y funcionamiento alcanzados durante el Sprint.
 
 #### 5.2.2.6. *Services Documentation Evidence for Sprint Review*
-## Services Documentation Evidence for Sprint Review
 
 Para este sprint no se cuenta con un repositorio independiente de Web Services ni con servicios backend desplegados. La aplicación consume un mock API local basado en `json-server`, definido dentro del repositorio frontend mediante los archivos `server/db.json` y `server/routes.json`.
 
@@ -5835,6 +5839,52 @@ Servicios Angular asociados a quests, ranking, perfil, monetización y comunidad
 
 #### 5.2.2.7. *Software Deployment Evidence for Sprint Review*
 
+La **Landing Page** ya se encontraba desplegada previamente, por lo que en este sprint no se realizaron actividades adicionales sobre su deployment. El trabajo de despliegue se enfocó en preparar y publicar la aplicación frontend principal.
+
+**Deployment Scope**
+
+| Producto | Estado |
+|---|---|
+| Landing Page | Ya se encontraba desplegada antes de este sprint. |
+| Web Application | Desplegada con firebase. |
+
+**Deployment Process**
+
+1. Se creo un repositorio aparte para la db.
+2. Se modifico los archivos environment en el proyecto, reemplazando el fake api local por typicode.
+3. Registrarse en Firebase y abrir consola del proyecto
+4. Instalar Firebase
+5. Logearse en Firebase
+6. Iniciar Firebase
+7. Deploy
+
+
+**Build Configuration**
+
+| Configuración | Valor |
+|---|---|
+| Framework | Angular |
+| Package manager | npm |
+| Install command | `npm install` |
+| Build command | `npm run build` |
+| Output directory | `dist/EcoMind_frontend/browser` |
+| Repository | [Repositorio frontend de EcoMind](https://github.com/GreeenMinds/EcoMind_frontend/tree/master) |
+
+
+URLS:
+
+Ecomind_frontend desplegado: https://ecomind-frontend.web.app/
+
+Landing Page: https://greeenminds.github.io/EcoMind_LandingPage/
+
+*Nota:*
+
+Durante el despliegue de la aplicación mediante Firebase Hosting, se identificaron limitaciones asociadas al uso de My JSON Server (Typicode) como servicio de fake API. Esta plataforma presenta restricciones relacionadas con el tamaño y complejidad de los objetos JSON utilizados en el archivo db.json, especialmente en recursos que contienen una gran cantidad de atributos por registro. Debido a estas limitaciones, múltiples endpoints dejaron de responder correctamente en el entorno desplegado, impidiendo la carga dinámica de datos dentro de la aplicación. Como consecuencia, se evidenció que My JSON Server resulta adecuado para prototipos simples, pero presenta restricciones importantes para proyectos con estructuras de datos más amplias y complejas como las implementadas en este Sprint.
+
+https://my-json-server.typicode.com/AleeAsto/db-server-eco
+
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQCCgfe9d_q1RqAKJSZE26x5AaamZSeERY4lenujULTnVDs?e=P2v9z2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
 
