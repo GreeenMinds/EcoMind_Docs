@@ -50,8 +50,9 @@ Abril 2026
 | 1.2.0 | 19/04/26 | Alejandra Astocondor | docs: software deployment configuration <br> docs: Source Code Management <br> software development environment <br> docs: Landing page UI Design |
 | 1.2.2 | 20/04/2026 |Leo Dulanto| docs: agregar software architecture components diagram <br> docs: agregar software arquitecture Container Diagram < br> docs: agregar software arquitecture Context Diagram|   
 | 1.2.3 | 21/04/2026 |Alejandra Astocondor <br> Isabel Aponte <br> | docs: añadir web applications Wireframe <br> docs: añadir user flow <br> docs: añadir database diagram| 
-| 1.2.4 | 21/04/2026 |Alexther Kamil Diaz Martinez <br> Leo Dulanto| docs: agregar User Task Matrix <br> docs: agregar User Journey Mapping <br> docs: agregar Empathy Mapping <br> docs: agregar Ubiquitous Language<br>docs: agregar digrama de clases <br> docs: agregar big picture event storming|    
-
+| 1.2.4 | 21/04/2026 |Alexther Kamil Diaz Martinez <br> Leo Dulanto| docs: agregar User Task Matrix <br> docs: agregar User Journey Mapping <br> docs: agregar Empathy Mapping <br> docs: agregar Ubiquitous Language<br>docs: agregar digrama de clases <br> docs: agregar big picture event storming|   
+| 1.3.0 | 11/05/2026 | Alejandra Astocondor <br> Isabel Aponte <br> | docs: sprint backlog 2 <br> feat: agregar Development Evidence|
+| 1.3.0 | 12/05/2026 | Alejandra Astocondor <br> Leo Dulanto <br> Alexther Kamil Diaz Martinez <br> Victor Laura <br> Isabel Aponte Pablo | feat: add services documentation <br> doc: Software Deployment Evidence for Sprint 2 <br> docs: add deploy application <br> docs: team collaboration insights <br> docs: añadir student outcome <br> docs: actualizar recomendaciones y conclusiones |
 
 # Projet Report Collaboration Insights
 
