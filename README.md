@@ -1062,24 +1062,37 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Retroalimentación de actividades</td>
+    <td colspan="3">Rachas por completar retos diarios</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero recibir retroalimentación al realizar una actividad, para saber en qué aspectos puedo mejorar.</td>
+    <td colspan="3">Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Retroalimentación de actividad<br/>
+      <b>Escenario 1:</b> Incremento de racha al completar un reto diario<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante esta realizando una actividad en la aplicación,</li>
-        <li><b>Cuando</b> completa parcialmente los pasos o presenta errores,</li>
-        <li><b>Entonces</b> la aplicación muestra recomendaciones claras sobre cómo mejorar.</li>
+        <li><b>Dado que</b> el estudiante tiene un reto diario asignado,</li>
+        <li><b>Cuando</b> completa el reto diario por primera vez en el día,</li>
+        <li><b>Entonces</b> la aplicación incrementa su racha en una unidad.</li>
+      </ul>
+      <b>Escenario 2:</b> Restricción de incremento una vez por día<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ya incrementó su racha durante el día actual,</li>
+        <li><b>Cuando</b> completa otro reto el mismo día,</li>
+        <li><b>Entonces</b> la aplicación mantiene el valor de la racha sin incrementarlo nuevamente.</li>
+      </ul>
+      <b>Escenario 3:</b> Visualización de racha actualizada<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante completó un reto diario correctamente,</li>
+        <li><b>Cuando</b> regresa al panel principal de retos,</li>
+        <li><b>Entonces</b> la aplicación muestra la racha actualizada del usuario.</li>
       </ul>
     </td>
   </tr>
 </table>
+
 
 <table align="center">
   <tr>
@@ -3065,27 +3078,25 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de registro de usuarios</td>
+    <td colspan="3">Endpoint de usuarios</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar un endpoint POST /api/v1/auth/register que permita crear nuevos usuarios con validación de datos, para soportar el flujo de registro de la aplicación.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir los endpoints GET /api/v1/user y PUT /api/v1/user/{id}, para consultar y actualizar la información del usuario, incluyendo ecopoints, gemas y racha.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>El endpoint recibe nombre, correo, contraseña y rol (padre/estudiante).</li>
-        <li>Valida que el correo no exista previamente en la base de datos.</li>
-        <li>La contraseña se almacena hasheada con bcrypt (mínimo 10 salt rounds).</li>
-        <li>Retorna 201 Created con el token JWT y datos básicos del usuario.</li>
-        <li>Retorna 409 Conflict si el correo ya está registrado.</li>
-        <li>Retorna 422 Unprocessable Entity si los datos no cumplen el formato esperado.</li>
+        <li>GET /api/v1/user retorna la lista de usuarios registrados en el mock API.</li>
+        <li>GET /api/v1/user/{id} retorna la información de un usuario específico.</li>
+        <li>PUT /api/v1/user/{id} permite actualizar campos como streak, last_streak_date, gem_balance y ecopoints.</li>
+        <li>La respuesta incluye los campos necesarios para mostrar perfil, ranking, racha y balance de gemas.</li>
+        <li>La aplicación sincroniza los cambios del usuario después de completar retos o comprar elementos en tienda.</li>
       </ol>
     </td>
   </tr>
 </table>
-
 
 <table align="center">
   <tr>
@@ -3094,26 +3105,25 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de autenticación con JWT</td>
+    <td colspan="3">Endpoints de familia y miembros familiares</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar un endpoint POST /api/v1/auth/login con autenticación basada en JWT, para que los usuarios puedan iniciar sesión de forma segura.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir los endpoints GET /api/v1/family y GET /api/v1/family_user, para mostrar la familia del usuario y sus miembros vinculados.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>El endpoint recibe correo y contraseña, y valida las credenciales contra la base de datos.</li>
-        <li>Retorna un JWT válido con expiración de 24 horas en caso de éxito (200 OK).</li>
-        <li>Retorna 401 Unauthorized si las credenciales son incorrectas.</li>
-        <li>Después de 5 intentos fallidos consecutivos, bloquea el usuario por 15 minutos y retorna 429 Too Many Requests.</li>
-        <li>El token incluye el id de usuario y su rol (padre/estudiante) en el payload.</li>
+        <li>GET /api/v1/family retorna las familias registradas en el mock API.</li>
+        <li>GET /api/v1/family_user retorna las relaciones entre usuarios y familias.</li>
+        <li>GET /api/v1/family_user?user_id={id} permite obtener las relaciones familiares de un usuario específico.</li>
+        <li>La respuesta permite identificar el rol del usuario dentro de la familia mediante family_role.</li>
+        <li>La aplicación muestra la sección de familia con datos de muestra cuando existen registros relacionados.</li>
       </ol>
     </td>
   </tr>
 </table>
-
 
 <table align="center">
   <tr>
@@ -3122,21 +3132,21 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de vinculación de cuentas padre-hijo</td>
+    <td colspan="3">Endpoint de amigos</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar endpoints para vincular y desvincular cuentas de padre e hijo (/api/v1/family/link), para soportar el flujo de retos familiares y acceso al progreso compartido.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir el endpoint GET /api/v1/friend, para consultar las relaciones de amistad del usuario y mostrar sus amigos dentro de la aplicación.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>POST /api/v1/family/link acepta el código de invitación generado por el padre y vincula la cuenta del estudiante.</li>
-        <li>Un padre puede tener vinculados hasta 5 hijos.</li>
-        <li>DELETE /api/v1/family/link/:childId permite desvincular una cuenta de hijo.</li>
-        <li>Retorna 404 Not Found si el código de invitación no existe o ya expiró.</li>
-        <li>Los códigos de invitación expiran tras 48 horas de generados.</li>
+        <li>GET /api/v1/friend retorna las relaciones de amistad registradas.</li>
+        <li>GET /api/v1/friend?user_id={id} permite filtrar las amistades iniciadas por un usuario.</li>
+        <li>La respuesta incluye user_id, friend_id y status para validar si la amistad está aceptada.</li>
+        <li>La aplicación utiliza las amistades aceptadas para mostrar contactos disponibles.</li>
+        <li>El endpoint puede ser combinado con GET /api/v1/user para obtener los nombres y datos de los amigos.</li>
       </ol>
     </td>
   </tr>
@@ -3149,21 +3159,21 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de gestión de retos (CRUD)</td>
+    <td colspan="3">Endpoints de retos y actividades</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints CRUD para retos (/api/v1/challenges), para que la aplicación pueda listar, obtener detalle, completar y gestionar mini-retos ambientales.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir GET /api/v1/quest y GET /api/v1/activity, para listar retos ambientales, identificar su tipo y mostrar las actividades asociadas.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>GET /api/v1/challenges retorna la lista de retos disponibles con su estado para el usuario autenticado.</li>
-        <li>GET /api/v1/challenges/:id retorna el detalle completo de un reto específico (descripción, pasos, puntos, categoría).</li>
-        <li>POST /api/v1/challenges/:id/complete registra la finalización del reto y actualiza el puntaje del usuario.</li>
-        <li>Los retos pueden filtrarse por categoría, dificultad y estado mediante query params.</li>
-        <li>Todos los endpoints requieren token JWT válido.</li>
+        <li>GET /api/v1/quest retorna los retos disponibles con id, category, title, type y recompensas.</li>
+        <li>GET /api/v1/quest?category={category} permite filtrar retos por categoría, como energy, water, recycle o daily_quest.</li>
+        <li>GET /api/v1/activity retorna las actividades asociadas a los retos.</li>
+        <li>GET /api/v1/activity?quest_id={id} permite obtener las actividades de un reto específico.</li>
+        <li>La aplicación utiliza el campo type para distinguir retos de actividades, minijuegos y colaborativos.</li>
       </ol>
     </td>
   </tr>
@@ -3176,26 +3186,25 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de progreso y puntaje del usuario</td>
+    <td colspan="3">Endpoints de progreso de retos y actividades</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar un endpoint GET /api/v1/users/:id/progress que devuelva el puntaje, insignias y retos completados del usuario, para alimentar el panel de progreso y el ranking.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir los endpoints /api/v1/quest_user y /api/v1/activity_user, para registrar el inicio, progreso, abandono y finalización de retos del usuario.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>El endpoint retorna puntos totales, número de retos completados e insignias desbloqueadas.</li>
-        <li>Incluye resumen de actividad de los últimos 7 y 30 días.</li>
-        <li>Solo el propio usuario o su padre vinculado puede acceder al progreso.</li>
-        <li>Retorna 403 Forbidden si otro usuario intenta acceder al progreso ajeno.</li>
-        <li>Retorna 404 Not Found si el usuario no existe.</li>
+        <li>GET /api/v1/quest_user?user_id={id} retorna el progreso de retos del usuario.</li>
+        <li>POST /api/v1/quest_user crea un registro cuando el usuario inicia un reto.</li>
+        <li>PUT /api/v1/quest_user/{id} actualiza status, progress y end_date al completar un reto.</li>
+        <li>DELETE /api/v1/quest_user/{id} elimina un reto activo cuando el usuario lo abandona o cuando caduca el reto diario.</li>
+        <li>GET, POST, PUT y DELETE sobre /api/v1/activity_user permiten gestionar el progreso de actividades individuales.</li>
       </ol>
     </td>
   </tr>
 </table>
-
 
 <table align="center">
   <tr>
@@ -3204,20 +3213,21 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de insignias y sistema de recompensas</td>
+    <td colspan="3">Endpoints de logros de usuario y comunidad</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints para gestionar el sistema de insignias (/api/v1/badges), para registrar desbloqueos y consultarlos desde el perfil del usuario.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir GET /api/v1/achievement, GET /api/v1/user_achievement y GET /api/v1/community_achievement, para mostrar los logros disponibles y desbloqueados.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>GET /api/v1/badges retorna todas las insignias disponibles en la plataforma.</li>
-        <li>GET /api/v1/users/:id/badges retorna las insignias desbloqueadas por el usuario.</li>
-        <li>El sistema evalúa automáticamente si se deben desbloquear insignias al completar un reto.</li>
-        <li>Al desbloquear una insignia, se registra timestamp y se notifica al cliente vía respuesta del endpoint de completar reto.</li>
+        <li>GET /api/v1/achievement retorna los logros disponibles.</li>
+        <li>GET /api/v1/user_achievement?user_id={id} retorna los logros desbloqueados por un usuario.</li>
+        <li>GET /api/v1/community_achievement?community_id={id} retorna los logros obtenidos por una comunidad.</li>
+        <li>Las respuestas permiten relacionar achievement_id con los datos del logro correspondiente.</li>
+        <li>La aplicación muestra logros de usuario y comunidad cuando existen registros en el mock API.</li>
       </ol>
     </td>
   </tr>
@@ -3230,24 +3240,26 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Endpoint de ranking de usuarios y familias</td>
+    <td colspan="3">Endpoints de ranking semanal</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar endpoints para obtener rankings de usuarios y familias (/api/v1/rankings), para soportar las secciones de ranking individual y familiar de la aplicación.</td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir GET /api/v1/ranking, GET /api/v1/user y GET /api/v1/ecopoint_transaction, para calcular y mostrar el ranking semanal de usuarios.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b>
       <ol>
-        <li>GET /api/v1/rankings/users retorna el top 20 de usuarios por puntaje, filtrable por periodo (diario, semanal, mensual, histórico).</li>
-        <li>GET /api/v1/rankings/families retorna el top 20 de familias por puntaje acumulado.</li>
-        <li>La respuesta incluye la posición del usuario/familia autenticada aunque no esté en el top 20.</li>
-        <li>El ranking se recalcula en tiempo real al completar retos.</li>
+        <li>GET /api/v1/ranking retorna los tipos de ranking disponibles.</li>
+        <li>GET /api/v1/user retorna los usuarios participantes y sus ecopoints acumulados.</li>
+        <li>GET /api/v1/ecopoint_transaction retorna las transacciones usadas para calcular rankings por periodo.</li>
+        <li>La aplicación calcula el ranking semanal filtrando transacciones por rango de fechas.</li>
+        <li>El panel de retos muestra la posición semanal del usuario actual a partir del ranking calculado.</li>
       </ol>
     </td>
   </tr>
 </table>
+
 
 <table align="center">
   <tr>
@@ -3348,7 +3360,7 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 5 | HU-055 | Redirección a registro | Como visitante, quiero ir al registro desde la landing. | 5 |
 | 6 | HU-001 | Miniactividad guiada con indicaciones | Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
 | 7 | HU-002 | Reto ambiental diario | Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación. | 5 |
-| 8 | HU-003 | Retroalimentación de actividades | Como estudiante, quiero recibir retroalimentación al finalizar una actividad, para saber en qué aspectos puedo mejorar. | 5 |
+| 8 | HU-003 | Rachas por completar retos diarios | Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante. | 5 |
 | 9 | HU-004 | Sistema de puntos por aprendizaje | Como estudiante, quiero obtener puntos al completar actividades, para mantener mi motivación dentro de la aplicación. | 5 |
 | 10 | HU-005 | Reconocimiento por constancia | Como estudiante, quiero recibir reconocimientos al completar varias actividades seguidas, para reforzar mi compromiso con el aprendizaje. | 3 |
 | 11 | HU-006 | Establecimiento de compromiso | Como estudiante, quiero establecer compromisos individuales, para mantenerme constante. | 3 |
@@ -5209,7 +5221,37 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del p
   <td>Victor</td>
   <td>Completed</td>
 </tr>
-  </tbody>
+<tr>
+  <td>HU-002</td>
+  <td>Reto ambiental diario</td>
+  <td>TO56</td>
+  <td>Asignación automática de reto diario</td>
+  <td>Implementar la lógica para asignar un reto diario al usuario y cambiarlo automáticamente cuando el tiempo establecido caduca.</td>
+  <td>5</td>
+  <td>Alejandra Astocondor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>HU-003</td>
+  <td>Rachas por completar retos</td>
+  <td>TO57</td>
+  <td>Incremento de racha al completar reto</td>
+  <td>Implementar la lógica para incrementar la racha del usuario cuando completa un reto por primera vez en el día.</td>
+  <td>5</td>
+  <td>Alejandra Astocondor</td>
+  <td>Completed</td>
+</tr>
+<tr>
+  <td>HU-003</td>
+  <td>Rachas por completar retos diarios</td>
+  <td>TO58</td>
+  <td>Restricción de racha diaria</td>
+  <td>Validar que la racha solo aumente una vez por día, incluso si el usuario completa más de un reto durante la misma fecha.</td>
+  <td>3</td>
+  <td>Alejandra Astocondor</td>
+  <td>Completed</td>
+</tr>
+</tbody>
 </table>
 
 #### 5.2.2.4. *Development Evidence for Sprint Review*
@@ -5959,10 +6001,14 @@ Alejandra Astocondor: https://ecomind-frontend.web.app/quests
 Leo Dulanto: https://ecomind-frontend-bae73.web.app
 
 #### 5.2.2.8. *Team Collaboration Insights during Sprint*
+Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa en la implementación de las distintas funcionalidades planteadas para la solución, organizando el trabajo mediante el uso de branches, commits y pull requests en GitHub. Cada integrante participó activamente en el desarrollo de componentes frontend, integración con fake APIs, construcción de vistas, configuración de servicios y validación de funcionalidades relacionadas con la Landing Page, Web Applications y Web Services del proyecto. Asimismo, se realizaron procesos constantes de integración y revisión de código para mantener la estabilidad del proyecto y asegurar la correcta incorporación de las funcionalidades desarrolladas por cada miembro. A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
 
-**Sprint 1 - Landing Page**
+**Sprint 2 - Frontend (Web Application)**
 
-**Sprint 2 - Frontend**
+![sprint n2 resume](/assets/img/figures/sprint2.png)
+![sprint n2 colab](/assets/img/figures/sprint2colab.png)
+
+**Sprint 2 - Landing Page**
 
 
 # Conclusiones
