@@ -4576,6 +4576,8 @@ Se prevé que en futuros Sprints, conforme se integren funcionalidades dinámica
 
 #### 5.2.1.7. *Software Deployment Evidence for Sprint Review*
 
+**Sprint 1**
+
 El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de GitHub que permite publicar sitios web estáticos directamente desde el repositorio de código fuente, sin necesidad de configurar servidores adicionales. 
 
 **Procedimiento planificado:** 
@@ -4593,6 +4595,84 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
 ![Deployments_evidence](assets/img/figures/Deployments_evidence.png)
+
+**Sprint 2**
+
+El despliegue del frontend se realizara con las herramientas firebase y render. Firebase permite el host del frontend y simular acciones, mientras que render permite hostear la data para brindarsela al deploy en firebase.
+
+**Procedimiento planificado:** 
+
+**Host db.json**
+
+1. Crear un repositorio nuevo que contenga el archivo db y package
+
+![Create_db_server](assets/img/figures/Create_db_server.png)
+
+2. Acceder a Render desde un navegador
+
+3. Crear cuenta / Iniciar sesión
+
+![Render](assets/img/figures/Render.png)
+
+4. Acceder a Dashboard
+
+5. Crear un web service
+
+![Web_service](assets/img/figures/Create_web_service.png)
+
+6. Conectar cuenta de github
+
+7. Elegir repositorio a hostear
+
+![Connect_repository](assets/img/figures/Connect_repository.png)
+
+8. Configurar web service
+
+![Configure_web_service](assets/img/figures/Configure_web_service.png)
+
+9. Crear web service y esperar deploy
+
+10. Actualizar en el proyecto el urlProvider en environments por el nuevo url obtenido
+
+![Update_url_provider](assets/img/figures/Update_url_provider.png)
+
+**Host frontend**
+
+11. Acceder a firebase desde un navegador
+
+12. Crear cuenta / Iniciar sesión
+
+![Firebase](assets/img/figures/Firebase.png)
+
+13. Seleccionar opción "Ir a consola"
+
+![Console](assets/img/figures/Console.png)
+
+14. Crear nuevo proyecto
+
+![New_firebase-proyect](assets/img/figures/New_firebase-proyect.png)
+
+15. Crear archivos para el deploy
+
+![Build](assets/img/figures/Build.png)
+
+16. Desde el proyecto, instalar firebase-tools
+
+![Firebase_tools](assets/img/figures/Firebase_tools.png)
+
+17. Logear cuenta
+
+18. Iniciar proceso de hosting
+
+![Login-Init](assets/img/figures/Login-Init.png)
+
+19. Iniciar deploy
+
+![Start_deploy](assets/img/figures/Start_deploy.png)
+
+20. Verificar si el deploy se realizo correctamente
+
+![Frontend_deployed](assets/img/figures/Frontend_deployed.png)
 
 #### 5.2.1.8. *Team Collaboration Insights during Sprint*
 
