@@ -6066,6 +6066,239 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+En esta sección se presentan los commits realizados durante el Sprint 3, los cuales reflejan el avance en la implementación del Web Service de EcoMind. El desarrollo se organizó en ramas independientes por bounded context: feature/quests para el módulo de retos y actividades, feature/community para comunidades, eventos y publicaciones, feature/montz para la tienda de cosméticos, gemas y multiplicadores y feature/ranking para el ranking del usuario. Cada rama fue integrada a develop mediante pull requests revisados por el equipo.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>develop</td>
+      <td>3f200c5</td>
+      <td>first commit</td>
+      <td>Inicialización del repositorio</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>develop</td>
+      <td>2c93c00</td>
+      <td>inital commit</td>
+      <td>Configuración inicial del proyecto Spring Boot</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quests</td>
+      <td>7454f3f</td>
+      <td>feat(quests): implement quest domain and persistence layer</td>
+      <td>Implementación del dominio y capa de persistencia para retos</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quests</td>
+      <td>50673c4</td>
+      <td>feat: quest endpoint v1</td>
+      <td>Primera versión del endpoint de retos</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quests</td>
+      <td>1cef3b7</td>
+      <td>feat: get and search quests</td>
+      <td>Endpoints de obtención y búsqueda de retos</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>7616001</td>
+      <td>feat: Add domain event</td>
+      <td>Capa de dominio para eventos de comunidad</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>899cd61</td>
+      <td>feat: Add infrastructure event</td>
+      <td>Capa de infraestructura para eventos</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>aabb1ce</td>
+      <td>feat: Add application event</td>
+      <td>Capa de aplicación para eventos</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>38fcacb</td>
+      <td>feat: Add events endpoint</td>
+      <td>Endpoint REST para gestión de eventos</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quests</td>
+      <td>8f97fe6</td>
+      <td>feat(quests): add activity creation and query endpoints</td>
+      <td>Endpoints de creación y consulta de actividades</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>1fc2212</td>
+      <td>fix: Fix get event method</td>
+      <td>Corrección del método de obtención de eventos</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>ceb02bd</td>
+      <td>feat: Add community domain</td>
+      <td>Capa de dominio para comunidades</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>85905a3</td>
+      <td>feat: Add community infrastructure</td>
+      <td>Capa de infraestructura para comunidades</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>ba84e5e</td>
+      <td>feat: Add community application</td>
+      <td>Capa de aplicación para comunidades</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>4faa4fe</td>
+      <td>feat: Add communities endpoint</td>
+      <td>Endpoint REST para gestión de comunidades</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quests</td>
+      <td>9091c6d</td>
+      <td>feat(quests): add questuser endpoints</td>
+      <td>Endpoints para la relación usuario-reto</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>4be3d74</td>
+      <td>feat: Add post domain</td>
+      <td>Capa de dominio para publicaciones</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>3e8f88d</td>
+      <td>feat: Add post application</td>
+      <td>Capa de aplicación para publicaciones</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>2f7e481</td>
+      <td>feat: Add post infrastructure</td>
+      <td>Capa de infraestructura para publicaciones</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>abd5ef5</td>
+      <td>feat: Add posts endpoint</td>
+      <td>Endpoint REST para publicaciones de comunidad</td>
+      <td>13/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/montz</td>
+      <td>c41c862</td>
+      <td>feat: add Cosmetic endpoint</td>
+      <td>Endpoint para gestión de cosméticos</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/montz</td>
+      <td>ed01766</td>
+      <td>feat: add UserCosmetic endpoint</td>
+      <td>Endpoint para cosméticos del usuario</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/montz</td>
+      <td>0fa52ad</td>
+      <td>feat: add GemPurchase endpoint</td>
+      <td>Endpoint para compra de gemas</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/montz</td>
+      <td>a4a92ef</td>
+      <td>feat: add GemMovement endpoint</td>
+      <td>Endpoint para movimiento de gemas</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/montz</td>
+      <td>d2899d1</td>
+      <td>feat: add Multiplier endpoint</td>
+      <td>Endpoint para multiplicadores de XP</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quest</td>
+      <td>d7f8f31</td>
+      <td>feat: activity users endpoint and put & delete for activity and quest</td>
+      <td>Endpoints de usuarios en actividades y operaciones CRUD para actividades y retos</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/quests</td>
+      <td>4aaa654</td>
+      <td>feat(quests): add activity progress and quest completion flow</td>
+      <td>Flujo de progreso de actividades y completado de retos</td>
+      <td>14/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
