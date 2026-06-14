@@ -6076,7 +6076,109 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 ## 5.3. Validation Interviews
 
+En esta sección se registran las entrevistas de validación del proyecto. A diferencia de las entrevistas de la sección 2.2, donde se buscaba descubrir problemas y necesidades, aquí el objetivo es verificar si lo que construimos realmente funciona para los usuarios y si les resulta fácil de usar.
+
 ### 5.3.1. Diseño de Entrevistas
+
+Al inicio de cada sesión se le explica al participante que el objetivo es probar la aplicación, no sus conocimientos, por lo que puede interactuar con total libertad. Se le pide que mientras navega vaya comentando en voz alta lo que piensa o lo que le genera dudas. La sesión se divide en tres momentos: exploración del Landing Page, ejecución de tareas en la aplicación y cuestionario final.
+
+**Datos de registro del participante**
+
+- Nombre completo
+- Edad
+- Distrito de residencia
+
+**Segmento objetivo 1: Estudiantes de Primaria**
+
+*Elementos a validar: Landing Page y Web Application (aprendizaje ambiental gamificado).*
+
+**User Flows a validar :**
+
+- User Flow 1 – Miniactividades y retos. Seleccionar una categoría desde el panel principal, elegir una miniactividad, completarla paso a paso, recibir los eco-points y completar el reto diario para verificar la racha en el perfil.
+- User Flow 2 – Desafío entre compañeros. Elegir una actividad grupal, invitar amigos desde la lista, verificar participantes e iniciar la actividad en conjunto.
+- User Flow 3 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
+- User Flow 4 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, inscribirse en uno y consultar los logros compartidos y la meta comunitaria.
+- User Flow 5 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas, comprar un cosmético con gemas, equiparlo en el avatar y adquirir un multiplicador.
+
+
+**Tareas asignadas:**
+
+- Navegar el Landing Page, revisar las preguntas frecuentes y entrar a la aplicación.
+- Elegir una categoría de reto, completar una miniactividad y luego completar el reto diario.
+- Ir al perfil, revisar resumen con puntos, racha y medallas, crear un compromiso ambiental, revisar progreso y explorar favoritos.
+- Invitar a un amigo a un desafío grupal e iniciar la actividad.
+- Buscar su posición en el ranking.
+- En comunidad, buscar un evento en el mapa, ver el detalle e inscribirse.
+- En la tienda, comprar un cosmético con gemas, equiparlo y adquirir un multiplicador de XP.
+
+**Preguntas de validación:**
+
+1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
+
+2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer?
+
+3. ¿Te gustó ver que tu racha subió al completar el reto diario? ¿Eso te haría volver mañana?
+
+4. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental?
+
+5. ¿Cómo te pareció lo de invitar un amigo al desafío grupal? ¿Fue fácil o te trabaste en algún paso?
+
+6. Al ver los eventos en el mapa, ¿te quedó claro de qué trataba cada evento y cómo unirte?
+
+7. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
+
+8. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+
+0. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
+
+10. ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
+
+11. Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
+
+**Segmento objetivo 2: Padres de Familia**
+
+*Elementos a validar: Landing Page y Web Application (participación familiar y seguimiento del progreso de los hijos).*
+
+**User Flows a validar (sección 4.4.4):**
+
+- User Flow 1 – Familia y progreso. Acceder a la pestaña de familia en el perfil, revisar los integrantes, entrar al perfil del hijo y consultar su racha, puntos, medallas, actividades completadas.
+
+- User Flow 2 – Actividad familiar en comunidad. Explorar eventos cercanos en el mapa con GPS, inscribir al grupo familiar eligiendo participación familiar, y consultar logros compartidos.
+
+- User Flow 3 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
+
+**Tareas asignadas:**
+
+- Explorar el Landing Page, leer los consejos para padres y preguntas frecuentes, y acceder a la aplicación.
+- Acceder a la pestaña de familia en el perfil, revisar los integrantes y entrar al perfil de su hijo para ver su progreso y logros.
+- Revisar el resumen del perfil (racha, puntos, medallas) y la pestaña de progreso con actividades completadas y pendientes.
+- En comunidad, buscar un evento en el mapa, ver los detalles e inscribir al grupo familiar. Después cancelar la inscripción.
+- Revisar los logros en ranking.
+- Recorrer la tienda: cosméticos, multiplicadores y gemas.
+
+**Preguntas de validación:**
+
+1. Después de ver el Landing Page, ¿le quedó claro cómo EcoMind puede ayudar a su familia? ¿Los consejos para padres le sirvieron?
+
+2. En la pestaña de familia, ¿pudo encontrar a los integrantes y ver el perfil de su hijo sin dificultad? ¿La información le pareció suficiente?
+
+3. Al revisar las actividades completadas y pendientes, ¿siente que puede hacerle seguimiento real al aprendizaje de su hijo?
+
+4. ¿Cómo fue inscribir a la familia en un evento del mapa? ¿El modal con la opción individual/familiar le resultó claro?
+
+5. Al consultar el ranking, ¿pudo identificar fácilmente su posición? ¿Considera que el ranking es un buen mecanismo de motivación?
+
+6. La tienda y las gemas, los multipliers , ¿le generan confianza o le preocupa algo sobre las compras en la app?
+
+7. ¿Siente que la aplicación está pensada también para los padres o la percibe solo para los niños?
+
+8. ¿Algo de la interfaz le generó confusión o le pareció innecesario?
+
+9. Al consultar el ranking, ¿pudo identificar fácilmente su posición? ¿Considera que el ranking es un buen mecanismo de motivación?
+
+10. Del 1 al 5, ¿qué tan probable es que use EcoMind con su familia de forma regular? ¿Por qué?
+
+11. ¿Qué le cambiaría a la aplicación para que se adapte mejor a su dinámica familiar?
 
 ### 5.3.2. Registro de Entrevistas
 
