@@ -6067,7 +6067,7 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 | **Location** | Reunión virtual (Google Meet / Zoom) |
 | **Prepared By** | Alejandra Isabel Astocondor Bazan |
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
-| **Sprint n Goal** |  |
+| **Sprint n Goal** | Our focus in Sprint 3 is on developing the backend foundation for the main EcoMind bounded contexts, including quests, activities, user progress, community, gamification, monetization, profiles, and authentication. This sprint prioritizes building persistent REST APIs and domain logic that can replace mocked frontend behavior with real backend integration. The implemented services will support quest management, activity completion, progress tracking, community content, cosmetics, gems, XP multipliers, and the structure needed for the remaining bounded contexts to be added later. This will be confirmed when the frontend can integrate with the backend endpoints and users can complete the main flows with consistent data, updated progress, and reliable API responses across the platform. |
 | **Sprint n Velocity** | Decidimos aceptar hasta 20 SP |
 | **Sum of Story Points** |  |
 
@@ -6441,6 +6441,8 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 | **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista: https://youtu.be/8jCYdnOe3DM** <br>**Instante del que inicia:** 00:00<br> **Duración:** 9:06<br><br> **Resumen:** <br><br> El participante indicó que la Landing Page le permitió comprender el propósito general de EcoMind y destacó positivamente su diseño visual, especialmente la combinación de colores. Durante la realización de los retos, mencionó que las instrucciones no siempre fueron completamente claras y que las actividades se sentían más como formularios que como desafíos interactivos. Respecto al sistema de progreso, sugirió incorporar animaciones que permitan visualizar de manera más evidente el aumento de puntos y rachas, ya que esto podría generar una mayor sensación de avance y motivación. También mostró interés en la sección de comunidad, señalando que los eventos podrían presentarse con mayor nivel de detalle al seleccionarlos. Aunque inicialmente no encontró la opción para invitar amigos, esto se debió principalmente a que se dirigía directamente al botón de iniciar actividad sin explorar el resto de la interfaz. Además, logró comprender los eventos del mapa, encontró su posición en el ranking sin dificultades y disfrutó especialmente la experiencia de comprar objetos para personalizar su avatar.|
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+
 
 ## 5.4. Video About-the-Product
 
