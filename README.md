@@ -6060,7 +6060,27 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 #### 5.2.3.1. Sprint Planning 3
 
+| **Sprint #** |  3 |
+|------|--------|
+| **Date** | 2026-12-06 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
+| **Sprint n Goal** |  |
+| **Sprint n Velocity** | Decidimos aceptar hasta 20 SP |
+| **Sum of Story Points** |  |
+
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Quests | Profile | Ranking | Community | Store |
+|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | C | C | L | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | C | L |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | L | C | C | C |
+| Victor Jhosuef Laura Acosta | Zatrynox | C | C | L | C | C|
 
 #### 5.2.3.3. Sprint Backlog 3
 
