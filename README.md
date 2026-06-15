@@ -6435,6 +6435,11 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 ### 5.3.2. Registro de Entrevistas
 
+| **Entrevista Nro. 1** |
+|---|
+| <img src="assets/img/figures/validacion3Entrevista1.png" width="330" hspace="230"> |
+| **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista: https://youtu.be/8jCYdnOe3DM** <br>**Instante del que inicia:** 00:00<br> **Duración:** 9:06<br><br> **Resumen:** <br><br> El participante indicó que la Landing Page le permitió comprender el propósito general de EcoMind y destacó positivamente su diseño visual, especialmente la combinación de colores. Durante la realización de los retos, mencionó que las instrucciones no siempre fueron completamente claras y que las actividades se sentían más como formularios que como desafíos interactivos. Respecto al sistema de progreso, sugirió incorporar animaciones que permitan visualizar de manera más evidente el aumento de puntos y rachas, ya que esto podría generar una mayor sensación de avance y motivación. También mostró interés en la sección de comunidad, señalando que los eventos podrían presentarse con mayor nivel de detalle al seleccionarlos. Aunque inicialmente no encontró la opción para invitar amigos, esto se debió principalmente a que se dirigía directamente al botón de iniciar actividad sin explorar el resto de la interfaz. Además, logró comprender los eventos del mapa, encontró su posición en el ranking sin dificultades y disfrutó especialmente la experiencia de comprar objetos para personalizar su avatar.|
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
