@@ -6963,8 +6963,6 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 #### Segmento objetivo: Padres de Familia
 
-#### Segmento objetivo: Padres de Familia
-
 | **Entrevista Nro. 1** |
 |---|
 | <img src="https://i.postimg.cc/bvCQvyxJ/Captura-de-pantalla-2026-06-15-224233.png" width="330" hspace="230"> |
@@ -7086,6 +7084,22 @@ Las actividades disponibles dentro de la aplicación se perciben principalmente 
 **Recomendación:**
 
 Incorporar mecánicas más interactivas dentro de los retos, como desafíos prácticos, validaciones visuales, objetivos progresivos o actividades dinámicas que permitan diferenciar claramente los retos de un formulario convencional.
+
+
+**PROBLEMA #5: Las tarjetas de miembros de familia no permiten diferenciar roles visualmente**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. El entrevistado mencionó que le costó diferenciar quién es padre y quién es hijo, ya que la única distinción es la etiqueta de texto del rol ("Padre/Madre", "Hijo/Hija"), sin diferenciación por color o ícono que facilite el reconocimiento inmediato.
+
+![Problema_1](https://i.postimg.cc/5tCnDFdf/Captura-de-pantalla-2026-06-15-230556.png)
+
+**Recomendación:**
+
+Asignar colores de borde o fondo diferenciados a cada rol familiar (por ejemplo, verde para padres y amarillo para hijos) dentro de las tarjetas, para que el usuario pueda identificar rápidamente a cada miembro sin necesidad de leer la etiqueta del rol.
 
 ## 5.4. Video About-the-Product
 
