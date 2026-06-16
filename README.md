@@ -6842,11 +6842,33 @@ En esta sección se presentan los commits realizados durante el Sprint 3, los cu
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint se lograron avances significativos en el desarrollo de la capa backend de la aplicación, implementando diversos servicios y endpoints REST destinados a gestionar funcionalidades clave del sistema. Entre estas se encuentran la administración de usuarios, retos ambientales, actividades, rankings, eventos comunitarios, registros de participación, relaciones de amistad, recompensas, movimientos y compras de gemas, cosméticos, familias y asignaciones de misiones. Asimismo, se desarrollaron operaciones CRUD y endpoints especializados que permitieron atender los distintos requerimientos de negocio definidos para la solución. Todas las APIs implementadas fueron documentadas y validadas mediante Swagger, facilitando la visualización, prueba y verificación del correcto funcionamiento de cada servicio expuesto. Del mismo modo, se integró la persistencia de datos mediante la configuración de una base de datos MySQL, garantizando el almacenamiento y la gestión adecuada de la información manejada por la aplicación. A continuación, se presentan capturas, las cuales evidencian los endpoints desarrollados y el alcance funcional alcanzado durante el Sprint, así como un enlace al video demostrativo del funcionamiento de los servicios implementados.
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa en la implementación de las funcionalidades del backend planteadas para la solución, organizando el trabajo mediante el uso de branches, commits y pull requests en GitHub. Cada integrante participó activamente en la creación y configuración de APIs REST, el desarrollo de endpoints para la gestión de los diferentes módulos del sistema y la implementación de la lógica de negocio correspondiente. Asimismo, se realizó la documentación y validación de los servicios mediante Swagger, permitiendo visualizar, probar y verificar el correcto funcionamiento de cada endpoint desarrollado. De igual manera, se llevó a cabo la configuración y conexión con la base de datos MySQL, definiendo las entidades, relaciones y mecanismos necesarios para garantizar una adecuada persistencia y gestión de la información.A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
+
+Sprint 3 - Backend
+
+![Sprint_3_Overview_Backend](/assets/img/figures/Sprint_3_Overview_Backend.png)
+
+![Sprint_3_Contributors_Backend](/assets/img/figures/Sprint_3_Contributors_Backend.png)
+
+Sprint 3 - Frontend
+
+![Sprint_3_Overview_Frontend](/assets/img/figures/)
+
+![Sprint_3_Contributors_Frontend](/assets/img/figures/)
+
+Sprint 3 - Landing Page
+
+![Sprint_3_Overview_LandingPage](/assets/img/figures/)
+
+![Sprint_3_Contributors_LandingPage](/assets/img/figures/)
 
 ## 5.3. Validation Interviews
 
