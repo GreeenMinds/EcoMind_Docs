@@ -6842,6 +6842,8 @@ En esta sección se presentan los commits realizados durante el Sprint 3, los cu
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint se lograron avances significativos en el desarrollo de la capa backend de la aplicación, implementando diversos servicios y endpoints REST destinados a gestionar funcionalidades clave del sistema. Entre estas se encuentran la administración de usuarios, retos ambientales, actividades, rankings, eventos comunitarios, registros de participación, relaciones de amistad, recompensas, movimientos y compras de gemas, cosméticos, familias y asignaciones de misiones. Asimismo, se desarrollaron operaciones CRUD y endpoints especializados que permitieron atender los distintos requerimientos de negocio definidos para la solución. Todas las APIs implementadas fueron documentadas y validadas mediante Swagger, facilitando la visualización, prueba y verificación del correcto funcionamiento de cada servicio expuesto. Del mismo modo, se integró la persistencia de datos mediante la configuración de una base de datos MySQL, garantizando el almacenamiento y la gestión adecuada de la información manejada por la aplicación. A continuación, se presentan capturas, las cuales evidencian los endpoints desarrollados y el alcance funcional alcanzado durante el Sprint, así como un enlace al video demostrativo del funcionamiento de los servicios implementados.
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
