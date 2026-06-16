@@ -91,9 +91,9 @@ El trabajo se organizó mediante branches independientes, commits semánticos y 
 
 La colaboración del equipo se evidenció tanto en el repositorio del backend como en la actualización de la documentación del informe, donde se registraron los avances técnicos, evidencias de desarrollo, servicios implementados y capturas de validación. De esta manera, AV2 permitió consolidar una base backend funcional, mejor organizada y preparada para su integración con la aplicación frontend en los siguientes incrementos del proyecto.
 
-![Sprint_3_Overview_Backend](/assets/img/figures/Sprint_3_Overview_Backend.png)
+![Sprint_3_Overview_Backend](assets/img/figures/evidencia-av3.png)
 
-![Sprint_3_Contributors_Backend](/assets/img/figures/Sprint_3_Contributors_Backend.png)
+![Sprint_3_Contributors_Backend](assets/img/figures/evidencia-av3.1.png)
 
 # Tabla de contenidos
 
