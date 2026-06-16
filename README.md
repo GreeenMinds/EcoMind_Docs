@@ -6607,7 +6607,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-En esta sección se presentan los commits realizados durante el Sprint 3, los cuales reflejan el avance en la implementación del Web Service de EcoMind. El desarrollo se organizó en ramas independientes por bounded context: feature/quests para el módulo de retos y actividades, feature/community para comunidades, eventos y publicaciones, feature/montz para la tienda de cosméticos, gemas y multiplicadores y feature/ranking para el ranking del usuario. Cada rama fue integrada a develop mediante pull requests revisados por el equipo.
+En esta sección se presentan los commits realizados durante el Sprint 3, los cuales reflejan el avance en la implementación del Web Service de EcoMind. El desarrollo se organizó en ramas independientes por bounded context: feature/quests para el módulo de retos y actividades, feature/community para comunidades, eventos y publicaciones, feature/montz para la tienda de cosméticos, gemas y multiplicadores, feature/ranking para el ranking del usuario y feature/profile para perfiles, usuarios, familias y amigos. Cada rama fue integrada a develop mediante pull requests revisados por el equipo.
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -6836,6 +6836,86 @@ En esta sección se presentan los commits realizados durante el Sprint 3, los cu
       <td>feat(quests): add activity progress and quest completion flow</td>
       <td>Flujo de progreso de actividades y completado de retos</td>
       <td>14/06/2026</td>
+    </tr>
+      <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>ebdc3c9</td>
+      <td>feat: Add event registration domain</td>
+      <td>Capa de dominio para registro de eventos</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>d75c97b</td>
+      <td>feat: Add registration event infrastructure</td>
+      <td>Capa de infraestructura para eventos de registro</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>969bb91</td>
+      <td>feat: Add registration event application</td>
+      <td>Capa de aplicación para registro de eventos</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/community</td>
+      <td>6ca5283</td>
+      <td>feat: Add event registrations endpoint</td>
+      <td>Endpoint REST para registro de eventos</td>
+      <td>14/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/profile</td>
+      <td>45c4f82</td>
+      <td>feat: implement users API</td>
+      <td>Implementación de la API de usuarios</td>
+      <td>16/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/profile</td>
+      <td>edd8ce7</td>
+      <td>feat: implement families API</td>
+      <td>Implementación de la API de familias</td>
+      <td>16/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/profile</td>
+      <td>ab34715</td>
+      <td>feat: implement family users API</td>
+      <td>Implementación de la API de usuarios familiares</td>
+      <td>16/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/profile</td>
+      <td>405ab07</td>
+      <td>feat: implement family invitations API</td>
+      <td>Implementación de la API de invitaciones familiares</td>
+      <td>16/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/profile</td>
+      <td>47def2f</td>
+      <td>feat: implement friends API</td>
+      <td>Implementación de la API de amigos</td>
+      <td>16/06/2026</td>
+    </tr>
+    <tr>
+      <td>EcoMind_backend</td>
+      <td>feature/profile</td>
+      <td>479652e</td>
+      <td>feat: add description apis</td>
+      <td>Agregar descripciones a las APIs del módulo de perfil</td>
+      <td>16/06/2026</td>
     </tr>
   </tbody>
 </table>
