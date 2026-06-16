@@ -7294,6 +7294,29 @@ Desde la perspectiva de datos y medición, se recomienda implementar un sistema 
 
 Finalmente, desde una perspectiva de impacto, es fundamental reconocer que validar si EcoMind realmente logra generar cambios positivos en las prácticas ambientales de las familias requerirá investigación más rigurosa. Se recomienda diseñar ahora una metodología de estudio que, en fases posteriores, permita comparar familias que usan la plataforma con familias similares que no la usan, midiendo diferencias reales en comportamientos ambientales. Los resultados de esta investigación, si son positivos, pueden comunicarse a través de medios académicos y de prensa, construyendo credibilidad y diferenciación importante en el mercado. En resumen, el proyecto EcoMind tiene fundamentos sólidos para avanzar a la siguiente fase, y estas recomendaciones buscan guiar ese camino de manera estratégica y responsable.
 
+# Video About the Team
+
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video About-The-Team, el cual evidencia el proceso de trabajo realizado durante el desarrollo de EcoMind. El video incluye escenas con imágenes o grabaciones de sesiones reales de trabajo del equipo, complementadas con narración en voz en off para explicar la organización, colaboración y evolución del proyecto.
+
+Asimismo, el video incorpora el testimonio ante cámara de cada integrante, donde se describen las actividades realizadas durante los sprints, el logro de outcomes y el desarrollo de competencias alcanzadas a lo largo del proyecto.
+
+**Duración del video:** 9:49
+
+**Screenshot del video:**
+
+![Screenshot Video About-The-Team](assets/img/figures/video-about-the-team.png)
+
+**URL Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQA3cSqXvc0-S7xiT8x53BvEAS4PgA5g9oXopCmTuuCfeiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WV8gBz
+
+**URL YouTube:** https://youtu.be/lqOLK9ZJiZ0
+
+## Pauta de secuencias de contenido
+
+| Inicio | Sección | Descripción |
+|--------|---------|-------------|
+| 00:00:00 | Presentación del equipo | Introducción del equipo GreenMinds y breve presentación del proyecto EcoMind. |
+| 00:03:22 | Proceso de trabajo | Escenas de reuniones, coordinación del equipo, revisión de avances y organización de tareas. |
+| 00:04:25 | Testimonios de integrantes | Testimonios ante cámara de los integrantes, describiendo actividades realizadas, competencias desarrolladas y aporte al logro de outcomes. |
 
 
 # Bibliografía
