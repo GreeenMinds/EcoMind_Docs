@@ -6285,19 +6285,19 @@ Este response corresponde a un registro de /quest_user e indica que el usuario c
 
 Listado de retos desde /quest.
 
-![Quest Endpoint](/assets/img/figures/questEndpoint.png)
+![Quest Endpoint](assets/img/figures/questEndpoint.png)
 
 Usuario y ranking
 
-![User Endpoint](/assets/img/figures/userendpoint.png)
+![User Endpoint](assets/img/figures/userendpoint.png)
 
 Cosméticos disponibles desde /cosmetic.
 
-![Cosmetic Endpoint](/assets/img/figures/cosmeticendpoint.png)
+![Cosmetic Endpoint](assets/img/figures/cosmeticendpoint.png)
 
 Comunidad con posts, eventos y metas desde /community_post, /event y community_goal.
 
-![Community Endpoint](/assets/img/figures/communityendpoint.png)
+![Community Endpoint](assets/img/figures/communityendpoint.png)
 
 **Commits relacionados**
 
@@ -6438,13 +6438,13 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 **Sprint 2 - Frontend (Web Application)**
 
-![sprint n2 resume](/assets/img/figures/sprint2.png)
-![sprint n2 colab](/assets/img/figures/sprint2colab.png)
+![sprint n2 resume](assets/img/figures/sprint2.png)
+![sprint n2 colab](assets/img/figures/sprint2colab.png)
 
 **Sprint 2 - Landing Page**
 
-![Insight_sprint2_1](/assets/img/figures/Insights_1.png)
-![Insight_sprint2_2](/assets/img/figures/Insights_2.png)
+![Insight_sprint2_1](assets/img/figures/Insights_1.png)
+![Insight_sprint2_2](assets/img/figures/Insights_2.png)
 
 ### 5.2.2. Sprint 3
 
@@ -6480,7 +6480,7 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3 del p
 
 Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d83107a37a6fbf986c65F81735F/ecomind-board
 
-![Sprint_3](/assets/img/figures/Sprint_3.png)
+![Sprint_3](assets/img/figures/Sprint_3.png)
 
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -7103,7 +7103,7 @@ En esta sección se presentan los commits realizados durante el Sprint 3, los cu
 
 Durante el Sprint se lograron avances significativos en el desarrollo de la capa backend de la aplicación, implementando diversos servicios y endpoints REST destinados a gestionar funcionalidades clave del sistema. Entre estas se encuentran la administración de usuarios, retos ambientales, actividades, rankings, eventos comunitarios, registros de participación, relaciones de amistad, recompensas, movimientos y compras de gemas, cosméticos, familias y asignaciones de misiones. Asimismo, se desarrollaron operaciones CRUD y endpoints especializados que permitieron atender los distintos requerimientos de negocio definidos para la solución. Todas las APIs implementadas fueron documentadas y validadas mediante Swagger, facilitando la visualización, prueba y verificación del correcto funcionamiento de cada servicio expuesto. Del mismo modo, se integró la persistencia de datos mediante la configuración de una base de datos MySQL, garantizando el almacenamiento y la gestión adecuada de la información manejada por la aplicación. A continuación, se presentan capturas, las cuales evidencian los endpoints desarrollados y el alcance funcional alcanzado durante el Sprint, así como un enlace al video demostrativo del funcionamiento de los servicios implementados.
 
-![ExecutionEvidence](/assets/img/figures/execution.png)
+![ExecutionEvidence](assets/img/figures/execution.png)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -7151,19 +7151,19 @@ Para mostrar la interación, ejecutamos 4 endpoints relacionados al manejo de ev
 
 1. POST /api/v1/community/events: Se solicita la información necesaria para crear un evento, a excepción de la id del evento, esa se asigna de forma automatica. Al ejecutar se añadira el evento a la base de datos.
 
-![Services_Documentation_Post_Event](/assets/img/figures/Post_Event.png)
+![Services_Documentation_Post_Event](assets/img/figures/Post_Event.png)
 
 2. GET /api/v1/community/events: Permite buscar eventos, con parametros opcionales, los cuales van a filtrar segun indique el usuario. En esta ejecución no se añadio parametros, por lo cual nos brinda la lista completa de eventos.
 
-![Services_Documentation_Get_Event](/assets/img/figures/Get_Event.png)
+![Services_Documentation_Get_Event](assets/img/figures/Get_Event.png)
 
 3. POST /api/v1/community/events/{eventId}/registrations: Ahora que contamos con eventos, podemos registrar a un usuario en uno. Para ello nos va a pedir como parametro obligatorio la id del evento al cual se desea unir, y con ello ya puede llenar los datos necesarios de la inscripcion (Id del usuario, Id de familia en caso se necesario y tipo de registro). Al ejecutarse se añadiria el registro a la base de datos.
 
-![Services_Documentation_Post_Event_Registration](/assets/img/figures/Post_Event_Registration.png)
+![Services_Documentation_Post_Event_Registration](assets/img/figures/Post_Event_Registration.png)
 
 4. GET /api/v1/community/events/{eventId}/registrations: Por ultimo verificamos el registro al evento. Al igual que al buscar eventos nos solicitan parametros opcionales, a excepción de la id del evento que se quiere buscar. En caso haya registros en ese evento se listaran como es el caso.
 
-![Services_Documentation_Get_Event_Registration](/assets/img/figures/Get_Event_Registration.png)
+![Services_Documentation_Get_Event_Registration](assets/img/figures/Get_Event_Registration.png)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -7183,11 +7183,11 @@ Para publicar los cambios realizados en la Landing Page durante este sprint, el 
 
 **Evidencia de actualización en `main`:**
 
-![Sprint_3_Landing_Main](/assets/img/figures/srnt3Lan.png)
+![Sprint_3_Landing_Main](assets/img/figures/srnt3Lan.png)
 
 **Evidencia de Landing Page publicada:**
 
-![Sprint_3_Landing_Deployed](/assets/img/figures/sprint3Landinng.png)
+![Sprint_3_Landing_Deployed](assets/img/figures/sprint3Landinng.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -7195,21 +7195,21 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 Sprint 3 - Backend
 
-![Sprint_3_Overview_Backend](/assets/img/figures/Sprint_3_Overview_Backend.png)
+![Sprint_3_Overview_Backend](assets/img/figures/Sprint_3_Overview_Backend.png)
 
-![Sprint_3_Contributors_Backend](/assets/img/figures/Sprint_3_Contributors_Backend.png)
+![Sprint_3_Contributors_Backend](assets/img/figures/Sprint_3_Contributors_Backend.png)
 
 Sprint 3 - Frontend
 
-![Sprint_3_Overview_Frontend](/assets/img/figures/FrontSprint3.png)
+![Sprint_3_Overview_Frontend](/ssets/img/figures/FrontSprint3.png)
 
-![Sprint_3_Contributors_Frontend](/assets/img/figures/FrontCollab3.png)
+![Sprint_3_Contributors_Frontend](assets/img/figures/FrontCollab3.png)
 
 Sprint 3 - Landing Page
 
-![Sprint_3_Overview_LandingPage](/assets/img/figures/Land3Sprint.png)
+![Sprint_3_Overview_LandingPage](assets/img/figures/Land3Sprint.png)
 
-![Sprint_3_Contributors_LandingPage](/assets/img/figures/3SprintLandCollab.png)
+![Sprint_3_Contributors_LandingPage](assets/img/figures/3SprintLandCollab.png)
 
 ## 5.3. Validation Interviews
 
@@ -7408,7 +7408,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
-![Problema_1](/assets/img/figures/problema1.png)
+![Problema_1](assets/img/figures/problema1.png)
 
 **Recomendación:**
 
@@ -7424,7 +7424,7 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
 
-![Problema_2](/assets/img/figures/problema2.png)
+![Problema_2](assets/img/figures/problema2.png)
 
 **Recomendación:**
 
@@ -7439,7 +7439,7 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 La funcionalidad para invitar amigos a desafíos grupales no destaca visualmente dentro de la interfaz. Debido a ello, los usuarios pueden centrarse en las acciones principales de la pantalla e ignorar esta opción, reduciendo el uso de las funciones colaborativas de la aplicación.
 
-![Problema_3](/assets/img/figures/problema3.png)
+![Problema_3](assets/img/figures/problema3.png)
 
 **Recomendación:**
 
@@ -7454,7 +7454,7 @@ Agregar un botón o mensaje de confirmación que indique claramente que el reto 
 
 Las actividades disponibles dentro de la aplicación se perciben principalmente como formularios o cuestionarios. Esto reduce la sensación de participación activa y puede afectar el interés de los usuarios a largo plazo, ya que la experiencia no transmite completamente la dinámica de un reto o desafío gamificado.
 
-![Problema_4](/assets/img/figures/problema4.png)
+![Problema_4](assets/img/figures/problema4.png)
 
 **Recomendación:**
 
