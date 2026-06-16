@@ -7134,6 +7134,25 @@ A continuación, se presenta la relación de endpoints desarrollados durante el 
 | Gem Purchases       | `/api/v1/gem_purchase`                             | GET, POST, GET por ID                                      |
 | Multipliers         | `/api/v1/multiplier`                               | GET, POST, GET por ID                                      |
 
+**Evidencia de ejecución**
+
+Para mostrar la interación, ejecutamos 4 endpoints relacionados al manejo de eventos comunitarios. Empenzando desde la creación de un evento, hasta la inscripción de un usuario al evento creado.
+
+1. POST /api/v1/community/events: Se solicita la información necesaria para crear un evento, a excepción de la id del evento, esa se asigna de forma automatica. Al ejecutar se añadira el evento a la base de datos.
+
+![Services_Documentation_Post_Event](/assets/img/figures/Post_Event.png)
+
+2. GET /api/v1/community/events: Permite buscar eventos, con parametros opcionales, los cuales van a filtrar segun indique el usuario. En esta ejecución no se añadio parametros, por lo cual nos brinda la lista completa de eventos.
+
+![Services_Documentation_Get_Event](/assets/img/figures/Get_Event.png)
+
+3. POST /api/v1/community/events/{eventId}/registrations: Ahora que contamos con eventos, podemos registrar a un usuario en uno. Para ello nos va a pedir como parametro obligatorio la id del evento al cual se desea unir, y con ello ya puede llenar los datos necesarios de la inscripcion (Id del usuario, Id de familia en caso se necesario y tipo de registro). Al ejecutarse se añadiria el registro a la base de datos.
+
+![Services_Documentation_Post_Event_Registration](/assets/img/figures/Post_Event_Registration.png)
+
+4. GET /api/v1/community/events/{eventId}/registrations: Por ultimo verificamos el registro al evento. Al igual que al buscar eventos nos solicitan parametros opcionales, a excepción de la id del evento que se quiere buscar. En caso haya registros en ese evento se listaran como es el caso.
+
+![Services_Documentation_Get_Event_Registration](/assets/img/figures/Get_Event_Registration.png)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
