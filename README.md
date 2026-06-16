@@ -420,6 +420,46 @@ En términos de funcionamiento, se espera que la plataforma sea ágil, responsiv
 
 - ¿Qué otras suposiciones tenemos? Que las familias valorarán los reportes de impacto como evidencia de aprendizaje. Si esta suposición se prueba falsa, el proyecto podría tener baja adopción en los hogares. 
 
+- Suponemos que los escolares se sentirán motivados por retos breves, visuales y progresivos, siempre que reciban retroalimentación inmediata al completar actividades.
+
+- Suponemos que los padres estarán dispuestos a participar si las actividades familiares son simples, de corta duración y se pueden realizar con recursos disponibles en casa.
+
+- Suponemos que los colegios pueden convertirse en aliados estratégicos para recomendar la plataforma como complemento de educación ambiental.
+
+- Suponemos que el sistema de ranking, puntos, rachas y recompensas aumentará la frecuencia de uso sin desplazar el propósito educativo de la solución.
+
+- Suponemos que la comunidad y los eventos ambientales cercanos fortalecerán la continuidad de hábitos sostenibles fuera del aula.
+
+- Suponemos que una Landing Page clara, con testimonios y una propuesta de valor directa, facilitará la comprensión del producto y la conversión de visitantes en usuarios registrados.
+
+- Suponemos que la personalización de avatares, cosméticos y recompensas virtuales incrementará la conexión emocional de los escolares con la aplicación.
+
+- Suponemos que los usuarios aceptarán un modelo freemium si las funciones gratuitas entregan valor educativo suficiente y las funciones premium ofrecen beneficios claros de seguimiento, personalización o impacto.
+
+**User Outcomes**
+
+- Los escolares podrán convertir contenidos de educación ambiental en acciones concretas mediante retos, miniactividades y eco-acciones verificables.
+
+- Los escolares podrán visualizar su avance mediante puntos, rachas, logros y rankings, reforzando su motivación para continuar participando.
+
+- Los padres podrán acompañar el aprendizaje ambiental de sus hijos mediante actividades familiares, reportes de progreso y evidencias de retos completados.
+
+- Las familias podrán incorporar hábitos sostenibles en su rutina diaria, conectando lo aprendido en la escuela con prácticas reales en el hogar y la comunidad.
+
+- Los usuarios podrán participar en espacios comunitarios, eventos y logros colectivos que refuercen la colaboración ambiental.
+
+**Business Outcomes**
+
+- Incrementar la adopción inicial de EcoMind mediante instituciones educativas, Landing Page y difusión digital.
+
+- Mejorar la retención de usuarios a través de mecánicas de gamificación, recompensas, personalización y seguimiento del progreso.
+
+- Validar el interés de padres y estudiantes por una solución educativa ambiental que combine escuela, hogar y comunidad.
+
+- Generar una base de usuarios que permita evaluar el modelo freemium y futuras funciones premium de seguimiento, personalización o recompensas.
+
+- Posicionar a EcoMind como una plataforma educativa diferenciada frente a competidores, al integrar gamificación, participación familiar, comunidad y accesibilidad.
+
 #### *1.2.2.3. Lean UX Hypothesis Statements*
 
 **Hypothesis Statement 1**
@@ -917,6 +957,10 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+
+En esta sección se presentan las épicas y user stories definidas para EcoMind, construidas a partir del análisis de la problemática, los segmentos objetivo y las necesidades identificadas durante el proceso de needfinding. Las historias de usuario permiten traducir los requerimientos funcionales y técnicos en unidades de trabajo claras, priorizables y verificables para el equipo de desarrollo.
+
+Cada user story describe una necesidad desde la perspectiva del usuario o del equipo técnico, especificando el valor esperado y los criterios de aceptación necesarios para validar su cumplimiento. Estas historias abarcan los principales módulos de la solución, incluyendo retos gamificados, participación familiar, comunidad, ranking, perfil, monetización, autenticación y servicios backend.
 
 ### Épicas
 
@@ -4278,6 +4322,8 @@ En esta sección presentamos los Database Diagrams que diseñamos para represent
 
 ![Component_Diagram_dataBase](assets/img/figures/DataBase.png)
 
+El diagrama general de base de datos organiza los objetos de persistencia de EcoMind según los bounded contexts definidos durante el diseño de la solución. Para facilitar su lectura, las tablas se encuentran diferenciadas por colores; cada color agrupa las entidades que pertenecen a un mismo contexto funcional o que participan directamente en sus reglas de negocio. De esta manera, el modelo permite identificar con claridad qué tablas soportan la gestión de usuarios, los retos, la comunidad, el ranking, las preferencias, la monetización y los contenidos educativos.
+
 El Database Diagram desarrollado define las tablas, atributos, restricciones y relaciones necesarias para garantizar la persistencia e integridad de la información del sistema. La entidad Usuario funciona como núcleo principal de la base de datos y se relaciona con múltiples tablas intermedias como reto_usuario, actividad_usuario, material_usuario, usuario_ranking, usuario_cosmetico y usuario_multiplicador, permitiendo almacenar el progreso, desempeño y personalización de cada usuario. Asimismo, estructuramos el contenido educativo mediante la entidad Material y sus especializaciones Video, Infografia y Lectura, mientras que los componentes interactivos se gestionan a través de Minijuego y Minijuego_intento. Para soportar funcionalidades colaborativas incorporamos entidades como Sesion_reto_colaborativo, Miembro_reto_colaborativo, Familia, familia_usuario y amigo, permitiendo la creación de grupos y retos conjuntos. Finalmente, entidades como Compra_gemas, Movimiento_gemas, Notificaciones, Notificación_usuario, Meta_comunidad y Logro_comunidad permiten gestionar recompensas, transacciones virtuales, comunicación y objetivos colectivos, reflejando las principales reglas de negocio definidas para la plataforma.
 
 Entre los atributos más relevantes identificados en el modelo destacan:
@@ -4296,6 +4342,22 @@ Entre los atributos más relevantes identificados en el modelo destacan:
 * session_code: código utilizado para acceder a sesiones colaborativas.
 * transaction_type: tipo de movimiento registrado dentro de la economía virtual.
 * is_read: estado de lectura de una notificación enviada al usuario.
+
+**Separación por bounded context dentro del Database Diagram**
+
+No se elaboraron diagramas de base de datos independientes para cada bounded context; en su lugar, se construyó un único Database Diagram general. Dentro de este diagrama, la separación de responsabilidades se representa mediante colores en las tablas. Cada color agrupa los objetos de persistencia asociados a un bounded context, lo que permite reconocer visualmente qué entidades pertenecen a cada módulo de la solución.
+
+La organización por colores permite distinguir los siguientes grupos:
+
+- **IAM / Gestión de usuarios:** agrupa las tablas relacionadas con la identificación, datos base, familia y relaciones entre usuarios, como Usuario, Familia, familia_usuario y amigo.
+- **Perfil:** contiene tablas relacionadas con la información personal, compromisos, progreso general, logros y evolución del usuario.
+- **Retos / Quests:** agrupa las tablas que soportan la experiencia gamificada, como Reto, Actividad, reto_usuario, actividad_usuario, Minijuego, Minijuego_intento, Material, Video, Infografia y Lectura.
+- **Ranking:** contiene las tablas necesarias para registrar clasificaciones, puntajes, posiciones y periodos, como Ranking y usuario_ranking.
+- **Comunidad:** agrupa las tablas orientadas a interacción social, publicaciones, eventos, registros, metas y logros comunitarios.
+- **Tienda / Monetización:** reúne las tablas relacionadas con gemas, compras, movimientos, cosméticos, multiplicadores y personalización del usuario.
+- **Ajustes / Preferencias:** contiene tablas vinculadas con preferencias, notificaciones y configuración de experiencia del usuario.
+
+Esta representación facilita comprender la estructura de persistencia sin duplicar diagramas, manteniendo una vista integral del modelo y, al mismo tiempo, permitiendo identificar los límites funcionales de cada bounded context.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -4337,68 +4399,168 @@ Google Chrome (Application): Navegador web utilizado para realizar pruebas funci
 
 ### 5.1.2. Source Code Management
 
-El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada y colaborativa para el desarrollo, pruebas y liberación del producto digital.
-URL de repositorio de GitHub: https://github.com/GreeenMinds/EcoMind_LandingPage
+El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada para el desarrollo, integración, pruebas, liberación y mantenimiento de los productos de software de EcoMind.
 
-**Estructura de Ramas (branches):**
+**Repositorios de GitHub por producto**
+
+| Producto | Repositorio |
+|----------|-------------|
+| Landing Page | https://github.com/GreeenMinds/EcoMind_LandingPage |
+| Frontend Web Application | https://github.com/GreeenMinds/EcoMind_frontend |
+| Web Services / Backend | https://github.com/GreeenMinds/EcoMind_backend |
+| Project Report | https://github.com/GreeenMinds/EcoMind_Docs |
+
+**Estructura de ramas**
 
 **Ramas principales:**
-•	Main: Versión estable y lista para producción
-•	Develop: Rama de integración, se unirán todas las funcionalidades desarrolladas antes de preparar una versión oficial
 
-**Ramas de soporte:**
-•	Feature: Cada nueva funcionalidad o mejora se desarrollará en una rama independiente a partir de develop.
-Convención de nombre: feature/nombre-descriptivo.
-•	Release: Ramas temporales creadas desde develop para preparar una nueva versión antes de su lanzamiento. Solo se aplican correcciones menores o ajustes.
-Convención de nombres: release/vX.Y.Z
-•	Hotfix: Ramas utilizadas para solucionar errores críticos detectados en la versión de producción. Una vez corregido, se fusiona tanto en main como en develop.
-Convención de nombres: hotfix/v.X.Y.Z
+- `main`: versión estable, validada y lista para producción o publicación.
+- `develop`: rama de integración donde se consolidan las funcionalidades antes de preparar una versión oficial.
+
+**Feature branches:**
+
+Cada nueva funcionalidad, mejora o módulo se desarrolla en una rama independiente creada desde `develop`. La convención utilizada será:
+
+`feature/<bounded-context>-<descripcion-corta>`
+
+Ejemplos:
+
+- `feature/quests-endpoints`
+- `feature/community-events`
+- `feature/store-gems`
+- `feature/profile-family`
+- `feature/ranking-users`
+
+**Release branches:**
+
+Las ramas de release se crean desde `develop` cuando el incremento del producto está listo para estabilización. En estas ramas solo se permiten ajustes menores, correcciones de integración, actualización de documentación y preparación de versión. La convención utilizada será:
+
+`release/v<major>.<minor>.<patch>`
+
+Ejemplo: `release/v1.2.0`
+
+Al finalizar, la rama release se fusiona hacia `main` y también hacia `develop` para conservar los cambios de estabilización.
+
+**Hotfix branches:**
+
+Las ramas hotfix se crean desde `main` para corregir errores críticos detectados en producción o en una versión publicada. La convención utilizada será:
+
+`hotfix/v<major>.<minor>.<patch>-<descripcion-corta>`
+
+Ejemplo: `hotfix/v1.2.1-fix-login`
+
+Una vez corregido el problema, la rama hotfix se fusiona hacia `main` y `develop`, asegurando que la corrección quede disponible tanto en producción como en la línea activa de desarrollo.
 
 **Semantic Versioning:**
-Se usará Semantic Versioning 2.0.0, utilizando el formato: MAJOR.MINOR.PATCH
-MAJOR: Cambio incompatible
-MINOR: Nueva funcionalidad compatible
-PATCH: Corrección y ajuste menor
+
+Se usará Semantic Versioning 2.0.0, utilizando el formato `MAJOR.MINOR.PATCH`:
+
+- `MAJOR`: cambios incompatibles o reestructuraciones mayores.
+- `MINOR`: nuevas funcionalidades compatibles.
+- `PATCH`: correcciones de errores o ajustes menores.
 
 **Conventional Commits:**
-Para los mensajes de commit se utilizará el estándar Conventional Commits, asegurando claridad y trazabilidad en el historial del proyecto. 
 
-\<tipo>(\<opcional>): \<mensaje en presente>
+Para los mensajes de commit se utilizará el estándar Conventional Commits, asegurando claridad y trazabilidad en el historial del proyecto.
 
-Tipos:
-•	feat: nueva funcionalidad.
-•	fix: corrección de error.
-•	docs: cambios en documentación.
-•	style: formato o estilo (sin lógica).
-•	refactor: reestructuración del código.
-•	chore: tareas menores o de mantenimiento
+Formato:
+
+`<tipo>(<scope>): <mensaje en presente>`
+
+Tipos principales:
+
+- `feat`: nueva funcionalidad.
+- `fix`: corrección de error.
+- `docs`: cambios en documentación.
+- `style`: cambios de formato sin alterar lógica.
+- `refactor`: reestructuración del código sin cambiar comportamiento.
+- `test`: creación o actualización de pruebas.
+- `chore`: tareas menores o de mantenimiento.
+
+Ejemplos:
+
+- `feat(quests): add quest completion endpoint`
+- `fix(profile): correct family member query`
+- `docs(readme): update sprint deployment evidence`
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para todos los lenguajes se aplicará la nomenclatura en inglés.
+Para todos los productos de EcoMind se aplicará nomenclatura en inglés y convenciones consistentes entre frontend, backend y documentación técnica. El objetivo es mantener un código legible, mantenible y alineado con estándares ampliamente utilizados.
 
-**Lenguaje HTML:** Se seguirá la guía HTML Style Guide and Coding Conventions y las recomendaciones de Google HTML/CSS Style Guide:
+**Referencias adoptadas**
 
-•	Los nombres de archivos serán en minúsculas, sin espacios, separados por guiones.
-•	Las etiquetas estarán correctamente anidadas, en minúsculas y con sangría de dos espacios.
-•	Los atributos HTML se escribirán en minúsculas y siempre entre comillas.
-•	Los comentarios se usarán para describir secciones principales de código
-•	Evitar largas líneas de código
+| Lenguaje / tecnología | Referencia principal |
+|-----------------------|---------------------|
+| HTML | W3C HTML Standard y Google HTML/CSS Style Guide |
+| CSS | Google HTML/CSS Style Guide y MDN CSS Guidelines |
+| JavaScript | MDN JavaScript Guide y Google JavaScript Style Guide |
+| TypeScript | TypeScript Handbook y Angular Style Guide |
+| Java | Oracle Code Conventions for Java y Google Java Style Guide |
 
-**Lenguaje CSS:**
-De acuerdo con Google HTML/CSS Style Guide:
-•	Los nombres de clases y selectores se escribirán en minúsculas y con guiones (kebab-case).
-•	Se mantendrá un orden lógico: primero estructura general, luego estilos específicos.
-•	Se evitará el uso de estilos en línea dentro del HTML.
-•	Los valores numéricos de cero no incluirán unidad.
+**Convenciones generales de coding**
 
-**Lenguaje JavaScript:** Se seguirán las convenciones estándar de JavaScript Style Guide (Google y MDN):
-•	Uso de camelCase para variables y funciones.
-•	Uso de PascalCase para nombres de clases o constructores.
-•	Uso de const y let en lugar de var.
-•	Sangría de dos espacios y punto y coma al final de cada instrucción.
-•	Los comentarios se harán con // para líneas simples o /* ... */ para bloques.
+- Utilizar nombres descriptivos y en inglés para variables, funciones, clases, componentes, servicios y archivos.
+- Evitar abreviaturas ambiguas o nombres genéricos como `data`, `info` o `temp` cuando no aporten claridad.
+- Mantener funciones pequeñas y orientadas a una sola responsabilidad.
+- Separar responsabilidades por capas: presentación, aplicación, dominio e infraestructura cuando el módulo lo requiera.
+- Aplicar indentación consistente según el lenguaje y herramienta usada.
+- Evitar código duplicado cuando pueda extraerse a funciones, servicios o componentes reutilizables.
+- Agregar comentarios solo cuando expliquen una regla de negocio, decisión técnica o flujo no evidente.
+
+**Lenguaje HTML**
+
+Se seguirá W3C HTML Standard y Google HTML/CSS Style Guide:
+
+- Los nombres de archivos serán en minúsculas, sin espacios y separados por guiones (`kebab-case`).
+- Las etiquetas estarán correctamente anidadas, en minúsculas y con sangría consistente.
+- Los atributos HTML se escribirán en minúsculas y entre comillas.
+- Se utilizará estructura semántica cuando corresponda: `header`, `main`, `section`, `article`, `nav` y `footer`.
+- Se evitará incluir estilos inline, priorizando clases CSS reutilizables.
+
+**Lenguaje CSS**
+
+Se seguirá Google HTML/CSS Style Guide y MDN CSS Guidelines:
+
+- Los nombres de clases y selectores se escribirán en minúsculas y con guiones (`kebab-case`).
+- Se organizarán los estilos desde reglas generales hacia reglas específicas.
+- Se evitará el uso innecesario de `!important`.
+- Los valores numéricos de cero no incluirán unidad.
+- Se mantendrán estilos responsivos para asegurar compatibilidad en escritorio y móviles.
+
+**Lenguaje JavaScript**
+
+Se seguirán MDN JavaScript Guide y Google JavaScript Style Guide:
+
+- Uso de `camelCase` para variables y funciones.
+- Uso de `PascalCase` para clases o constructores.
+- Uso de `const` y `let` en lugar de `var`.
+- Manejo claro de funciones asíncronas con `async/await` cuando corresponda.
+- Separación de lógica reutilizable en funciones o módulos.
+
+**Lenguaje TypeScript**
+
+Se seguirá TypeScript Handbook y Angular Style Guide:
+
+- Uso de `camelCase` para variables, métodos y propiedades.
+- Uso de `PascalCase` para clases, interfaces, tipos, componentes y servicios.
+- Los componentes Angular usarán nombres descriptivos terminados en `Component`.
+- Los servicios Angular usarán nombres descriptivos terminados en `Service`.
+- Se evitará el uso de `any` cuando sea posible, priorizando interfaces, tipos o modelos.
+- Los archivos Angular se nombrarán en `kebab-case`, por ejemplo: `quest-list.component.ts`.
+
+**Lenguaje Java**
+
+Se seguirá Oracle Code Conventions for Java y Google Java Style Guide:
+
+- Uso de `PascalCase` para clases, entidades, controladores y servicios.
+- Uso de `camelCase` para atributos, métodos, parámetros y variables locales.
+- Uso de paquetes en minúsculas, organizados por bounded context y capa.
+- Los controladores REST terminarán en `Controller`.
+- Los servicios de aplicación terminarán en `Service`.
+- Los repositorios de persistencia terminarán en `Repository`.
+- Las entidades de dominio tendrán nombres singulares y representativos del negocio.
+- Se mantendrá separación por capas: domain, application, infrastructure e interfaces/rest cuando aplique.
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -4432,6 +4594,8 @@ Para el desarrolo del primer sprint nos centramos en el desarrollo de la landing
 | **Sum of Story Points** | 11 SP |
 
 #### 5.2.1.2. *Aspect Leaders and Collaborators*
+
+En esta sección se identifican los principales aspectos considerados para la ejecución del Sprint 1 y la distribución de responsabilidades dentro del equipo. Al tratarse del primer incremento del producto, el trabajo se enfocó en construir una Landing Page navegable y responsiva, priorizando la sección principal, la guía para padres, la comunidad, las preguntas frecuentes y la integración entre páginas. Para cada aspecto se definió un líder responsable de coordinar el avance y colaboradores encargados de apoyar la implementación, revisión y validación de las funcionalidades.
 
 | Team Member (Last Name, First Name) | GitHub Username | Sección Principal | Guía para Padres | Comunidad | FAQ | Integración de páginas |
 |-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
@@ -4896,6 +5060,8 @@ En esta sección se presentan los principales aspectos abordados durante el Spri
 | **Sum of Story Points** | 74 SP |
 
 #### 5.2.2.2. *Aspect Leaders and Collaborators*
+
+En esta sección se presentan los principales aspectos considerados para el Sprint 2 y la asignación de líderes y colaboradores por módulo. El sprint se centró en implementar la Web Application frontend y sus flujos interactivos, tomando en cuenta los módulos de quests, profile, ranking, community y store. La distribución permitió que cada bounded context funcional tuviera un responsable principal, mientras los demás integrantes colaboraban en integración, revisión, pruebas y consistencia de la experiencia de usuario.
 
 | Team Member (Last Name, First Name) | GitHub Username | Quests | Profile | Ranking | Community | Store |
 |-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
@@ -6286,6 +6452,8 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se describen los aspectos principales considerados durante el Sprint 3 y la distribución del trabajo para el desarrollo de Web Services. A diferencia de los sprints anteriores, el enfoque estuvo orientado al backend, por lo que se tomaron en cuenta los bounded contexts de quests, profile, ranking, community y store para organizar la implementación de entidades, lógica de dominio, persistencia, endpoints REST y validación mediante Swagger. Cada módulo contó con un líder responsable y colaboradores que apoyaron la integración, revisión y coherencia técnica entre servicios.
 
 | Team Member (Last Name, First Name) | GitHub Username | Quests | Profile | Ranking | Community | Store |
 |-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
