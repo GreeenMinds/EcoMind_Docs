@@ -6454,21 +6454,23 @@ SITE o APP A EVALUAR: EcoMind <br>
 **TAREAS A EVALUAR:**<br>
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-1. Registro de un usuario nuevo
-2. Publicación de un post
-3. Búsqueda de un paquete turístico
-4. Reserva de un viaje
-5. Cancelación de una reserva
-6. Agregar ítems a un pedido
-7. Pago de un paquete turístico
-8. Etc.
+1. Explorar la Landing Page y comprender el propósito de EcoMind.
+2. Completar una miniactividad o reto diario.
+3. Revisar la actualización de puntos y rachas tras completar una actividad.
+4. Navegar entre las diferentes secciones del perfil.
+5. Consultar el compromiso ambiental y el progreso personal.
+6. Invitar a un amigo a un desafío grupal.
+7. Explorar los eventos disponibles en la sección de comunidad.
+8. Unirse a un evento comunitario desde el mapa.
+9. Consultar la posición personal dentro del ranking.
+10. Explorar la tienda de recompensas.
+11. Personalizar el avatar mediante la compra de artículos.
+12. Comprender el funcionamiento del multiplicador de experiencia (XP).
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 1. Revisión de contenido de aprendizaje
 2. Ajustes
-3. Administrar puntos del programa de fidelización de viajes
-4. Guardar “alerta de paquetes”
-5. Etc. <br>
+   
    
 **ESCALA DE SEVERIDAD:**
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
@@ -6483,28 +6485,77 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **TABLA RESUMEN:**
 
-|# |Problema|Escala de severidad |Heuristica/Principio violada(o)|
+|# |Problema|Escala de severidad |Heurística/Principio violada(o)|
 |-----|-----------|-----|---------|
-|1 |a|b|c|
+|1 |El progreso obtenido al completar actividades no se visualiza de manera clara|2|Visibilidad del estado del sistema|
+|2 |La información de los eventos comunitarios es limitada|1|Reconocimiento antes que recuerdo|
+|3 |La opción para invitar amigos tiene poca visibilidad|1|Visibilidad del estado del sistema|
+|4 |Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación|2|Diseño estético y minimalista|
 
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra
 
-Severidad: 3 <br>
-Heurística violada: Usabilidad - Libertad y control del usuario
-Problema:
+**PROBLEMA #1: El progreso obtenido al completar actividades no se visualiza de manera clara**
 
-Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de
-compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a
-efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
 
-(Incluir además una captura de pantalla ilustrando el problema).
-Recomendación:
+**Problema:**
 
-La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para
-no perder los cambios realizados en nuestro carrito de compras.
+Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
+
+![Problema_1](/assets/img/figures/problema1.png)
+
+**Recomendación:**
+
+Implementar animaciones, barras de progreso o indicadores visuales que muestren de forma dinámica el incremento de puntos, experiencia y rachas al finalizar una actividad.
+
+
+**PROBLEMA #2: La información de los eventos comunitarios es limitada**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
+
+![Problema_2](/assets/img/figures/problema2.png)
+
+**Recomendación:**
+
+Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde se muestre información ampliada como descripción, objetivos, ubicación, fecha y requisitos de participación.
+
+**PROBLEMA #3: La opción para invitar amigos tiene poca visibilidad**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+
+**Problema:**
+
+La funcionalidad para invitar amigos a desafíos grupales no destaca visualmente dentro de la interfaz. Debido a ello, los usuarios pueden centrarse en las acciones principales de la pantalla e ignorar esta opción, reduciendo el uso de las funciones colaborativas de la aplicación.
+
+![Problema_3](/assets/img/figures/problema3.png)
+
+**Recomendación:**
+
+Agregar un botón o mensaje de confirmación que indique claramente que el reto puede iniciarse sin invitar a otros usuarios. Esto brindará mayor claridad sobre las opciones disponibles y reducirá posibles dudas durante el flujo de participación en desafíos colaborativos.
+
+**PROBLEMA #4: Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Diseño estético y minimalista
+
+**Problema:**
+
+Las actividades disponibles dentro de la aplicación se perciben principalmente como formularios o cuestionarios. Esto reduce la sensación de participación activa y puede afectar el interés de los usuarios a largo plazo, ya que la experiencia no transmite completamente la dinámica de un reto o desafío gamificado.
+
+![Problema_4](/assets/img/figures/problema4.png)
+
+**Recomendación:**
+
+Incorporar mecánicas más interactivas dentro de los retos, como desafíos prácticos, validaciones visuales, objetivos progresivos o actividades dinámicas que permitan diferenciar claramente los retos de un formulario convencional.
 
 ## 5.4. Video About-the-Product
 
