@@ -7133,6 +7133,11 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 #### Segmento objetivo: Padres de Familia
 
+| **Entrevista Nro. 1** |
+|---|
+| <img src="https://i.postimg.cc/bvCQvyxJ/Captura-de-pantalla-2026-06-15-224233.png" width="330" hspace="230"> |
+| **Entrevistado N°1:** Pedro Eulogio <br> **Edad:** 49 años<br>**Ubicación:** Barranca, Lima<br><br> **Entrevista: https://youtu.be/t60TTajjOdQ** <br>**Instante del que inicia:** 00:00<br> **Duración:** 8:47 <br><br> **Resumen:** <br><br> El participante indicó que la Landing Page y la guía para padres le permitieron comprender claramente cómo EcoMind puede ayudar a su familia, valorando positivamente los consejos incluidos para padres. Al explorar la sección de perfil y familia, pudo visualizar sin dificultad la información de los miembros y los retos completados, señalando que poder ver qué actividades hizo su hijo y cuáles le faltan le da tranquilidad para acompañar su aprendizaje. Respecto a la inscripción en eventos del mapa, consideró que el modal con las opciones individual y familiar fue claro y sencillo, sin presentar problemas. Sobre el ranking, lo identificó fácilmente y lo valoró como un buen mecanismo de motivación, mencionando que a su hijo le encanta ver su posición. Destacó que la aplicación se siente pensada también para los padres y no solo para los niños. Como punto de mejora, sugirió diferenciar visualmente las tarjetas de los miembros de la familia mediante colores distintos, ya que le costó distinguir quién es padre y quién es hijo al verse todas iguales. Finalmente, expresó alta probabilidad de usar EcoMind regularmente con su familia. |
+
 | **Entrevista Nro. 2** |
 |---|
 | <img src="assets/img/figures/Entrevista_2_Padres_Familia.png" width="330" hspace="230"> |
