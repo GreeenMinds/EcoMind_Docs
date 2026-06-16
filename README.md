@@ -6655,7 +6655,69 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation <br> Usability – Inclusive Design – Information Architecture
 
+CARRERA : Ingeniería de Software <br>
+CURSO : Desarrollo de Aplicaciones Open Source <br>
+SECCIÓN : 11990 <br>
+PROFESORES : Todos <br>
+AUDITOR : GreenMinds <br>
+SITE o APP A EVALUAR: EcoMind <br>
+
+**TAREAS A EVALUAR:**<br>
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo
+2. Publicación de un post
+3. Búsqueda de un paquete turístico
+4. Reserva de un viaje
+5. Cancelación de una reserva
+6. Agregar ítems a un pedido
+7. Pago de un paquete turístico
+8. Etc.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Revisión de contenido de aprendizaje
+2. Ajustes
+3. Administrar puntos del programa de fidelización de viajes
+4. Guardar “alerta de paquetes”
+5. Etc. <br>
+   
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|Nivel|Descripción|
+|-----|-----------|
+|1|Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil desuperar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+
+**TABLA RESUMEN:**
+
+|# |Problema|Escala de severidad |Heuristica/Principio violada(o)|
+|-----|-----------|-----|---------|
+|1 |a|b|c|
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra
+
+Severidad: 3 <br>
+Heurística violada: Usabilidad - Libertad y control del usuario
+Problema:
+
+Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de
+compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a
+efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
+
+(Incluir además una captura de pantalla ilustrando el problema).
+Recomendación:
+
+La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para
+no perder los cambios realizados en nuestro carrito de compras.
 
 ## 5.4. Video About-the-Product
 
