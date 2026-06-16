@@ -6856,7 +6856,7 @@ A continuación, se presenta la relación de endpoints desarrollados durante el 
 
 **Repositorio Frontend:** [Repositorio frontend del proyecto EcoMind](https://github.com/GreeenMinds/EcoMind_frontend)
 
-**URL local de la documentación Swagger:** [Url local Swagger](http://localhost:8092/swagger-ui/index.html)
+**URL local de la documentación Swagger:** http://localhost:8092/swagger-ui/index.html
 
 **Base de datos utilizada:** PostgreSQL
 
