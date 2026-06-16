@@ -6969,6 +6969,28 @@ A continuación, se presenta la relación de endpoints desarrollados durante el 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 no se realizó un nuevo despliegue de la Web Application frontend ni del backend, debido a que el alcance principal del sprint estuvo orientado al desarrollo y validación de servicios backend en ambiente de desarrollo, así como a la documentación de los endpoints implementados. Por ello, la evidencia de despliegue correspondiente a este sprint se centra en la actualización de la Landing Page, la cual ya se encontraba publicada mediante GitHub Pages.
+
+Para publicar los cambios realizados en la Landing Page durante este sprint, el equipo actualizó la rama `main` del repositorio correspondiente. Al estar configurada la publicación desde dicha rama, cada commit integrado a `main` genera la versión actualizada del sitio desplegado.
+
+**Alcance del deployment en Sprint 3**
+
+| Producto | Estado de despliegue en Sprint 3 | Observación |
+|----------|----------------------------------|-------------|
+| Landing Page | Actualizada mediante commit en `main` | GitHub Pages publica automáticamente los cambios desde la rama principal. |
+| Web Application frontend | Sin nuevo despliegue | Se mantuvo el despliegue realizado en el sprint anterior. |
+| Backend / Web Services | Sin nuevo despliegue en producción | Los servicios fueron desarrollados y validados localmente mediante Swagger y base de datos MySQL. |
+
+**Landing Page desplegada:** https://greeenminds.github.io/EcoMind_LandingPage/
+
+**Evidencia de actualización en `main`:**
+
+![Sprint_3_Landing_Main](/assets/img/figures/srnt3Lan.png)
+
+**Evidencia de Landing Page publicada:**
+
+![Sprint_3_Landing_Deployed](/assets/img/figures/sprint3Landinng.png)
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa en la implementación de las funcionalidades del backend planteadas para la solución, organizando el trabajo mediante el uso de branches, commits y pull requests en GitHub. Cada integrante participó activamente en la creación y configuración de APIs REST, el desarrollo de endpoints para la gestión de los diferentes módulos del sistema y la implementación de la lógica de negocio correspondiente. Asimismo, se realizó la documentación y validación de los servicios mediante Swagger, permitiendo visualizar, probar y verificar el correcto funcionamiento de cada endpoint desarrollado. De igual manera, se llevó a cabo la configuración y conexión con la base de datos MySQL, definiendo las entidades, relaciones y mecanismos necesarios para garantizar una adecuada persistencia y gestión de la información.A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
