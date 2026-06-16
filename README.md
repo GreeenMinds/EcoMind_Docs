@@ -82,7 +82,18 @@ Se priorizó la calidad técnica con control de versiones disciplinado, commits 
  ![evidenciacom](https://i.postimg.cc/ncjDfZp0/evidenciacom.png)
 
  ![evidencia-cod](https://i.postimg.cc/0Q0CmvbK/evidencia-cod.png)
- 
+
+*AV2*
+
+Durante la entrega AV2, el equipo centró sus esfuerzos en el desarrollo del backend de EcoMind, en proceso de implementar los Web Services correspondientes a los principales bounded contexts de la plataforma: quests, profile, ranking, community y store/monetización. Cada integrante asumió la responsabilidad de un módulo específico, desarrollando entidades, lógica de negocio, endpoints REST y mecanismos de persistencia orientados a reemplazar progresivamente el uso de datos simulados por servicios reales.
+
+El trabajo se organizó mediante branches independientes, commits semánticos y pull requests revisados por el equipo, lo que permitió mantener un flujo de integración ordenado y colaborativo. Además, se documentaron y validaron los endpoints mediante Swagger, facilitando la prueba de los servicios implementados y asegurando que cada funcionalidad cumpliera con los requerimientos definidos para el Sprint. También se trabajó en la conexión con MySQL, fortaleciendo la arquitectura del sistema y la gestión persistente de datos.
+
+La colaboración del equipo se evidenció tanto en el repositorio del backend como en la actualización de la documentación del informe, donde se registraron los avances técnicos, evidencias de desarrollo, servicios implementados y capturas de validación. De esta manera, AV2 permitió consolidar una base backend funcional, mejor organizada y preparada para su integración con la aplicación frontend en los siguientes incrementos del proyecto.
+
+![Sprint_3_Overview_Backend](/assets/img/figures/Sprint_3_Overview_Backend.png)
+
+![Sprint_3_Contributors_Backend](/assets/img/figures/Sprint_3_Contributors_Backend.png)
 
 # Tabla de contenidos
 
