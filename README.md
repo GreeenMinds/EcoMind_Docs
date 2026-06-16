@@ -6297,6 +6297,314 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 
 #### 5.2.3.3. Sprint Backlog 3
 
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3 del proyecto, orientado al desarrollo de endpoints backend para los principales bounded contexts de EcoMind. Durante este Sprint, el equipo trabajó Technical Stories relacionadas con la gestión de retos, progreso del usuario, ranking, perfil, comunidad y monetización. Asimismo, se realizó la descomposición de cada Technical Story en tareas específicas (Work-items/Tasks), permitiendo organizar el trabajo por módulo, asignar responsables y registrar el avance alcanzado durante el Sprint.
+
+Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d83107a37a6fbf986c65F81735F/ecomind-board
+
+![Sprint_3](/assets/img/figures/Sprint_3.png)
+
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-004</td>
+      <td>Endpoint de gestión de retos (CRUD)</td>
+      <td>TO01</td>
+      <td>Modelar entidad de retos</td>
+      <td>Definir la estructura de dominio, repositorio y persistencia necesaria para almacenar los retos ambientales.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Endpoint de gestión de retos (CRUD)</td>
+      <td>TO02</td>
+      <td>Implementar consulta de retos</td>
+      <td>Desarrollar endpoints GET para listar retos, buscar retos por identificador y permitir búsquedas por criterios definidos.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Endpoint de gestión de retos (CRUD)</td>
+      <td>TO03</td>
+      <td>Implementar creación y mantenimiento de retos</td>
+      <td>Desarrollar endpoints para crear, actualizar o eliminar retos según las operaciones permitidas por el backend.</td>
+      <td>5</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-005</td>
+      <td>Endpoint de progreso y puntaje del usuario</td>
+      <td>TO04</td>
+      <td>Registrar asignación de retos a usuarios</td>
+      <td>Implementar la operación para asignar retos a usuarios y guardar el estado inicial del progreso.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-005</td>
+      <td>Endpoint de progreso y puntaje del usuario</td>
+      <td>TO05</td>
+      <td>Registrar avance de actividades</td>
+      <td>Implementar la operación para enviar el progreso de una actividad y asociarlo al reto asignado.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-005</td>
+      <td>Endpoint de progreso y puntaje del usuario</td>
+      <td>TO06</td>
+      <td>Completar reto</td>
+      <td>Implementar la operación para finalizar retos</td>
+      <td>5</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-007</td>
+      <td>Endpoint de ranking de usuarios y familias</td>
+      <td>TO07</td>
+      <td>Preparar consulta de puntajes</td>
+      <td>Obtener los datos de usuarios, familias y ecopoints necesarios para construir los rankings.</td>
+      <td>3</td>
+      <td>Victor Jhosuef Laura Acosta</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-007</td>
+      <td>Endpoint de ranking de usuarios y familias</td>
+      <td>TO08</td>
+      <td>Implementar ranking por periodo</td>
+      <td>Desarrollar la lógica para ordenar usuarios y familias por puntaje según ranking semanal, mensual o global.</td>
+      <td>4</td>
+      <td>Victor Jhosuef Laura Acosta</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-007</td>
+      <td>Endpoint de ranking de usuarios y familias</td>
+      <td>TO09</td>
+      <td>Exponer posición del usuario</td>
+      <td>Incluir la posición del usuario autenticado dentro de la respuesta del ranking aunque no aparezca en el top principal.</td>
+      <td>3</td>
+      <td>Victor Jhosuef Laura Acosta</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-010</td>
+      <td>Endpoint de resumen y edición de perfil</td>
+      <td>TO10</td>
+      <td>Consultar datos principales del usuario</td>
+      <td>Implementar la consulta del usuario por identificador para exponer nombre, puntos, gemas y racha.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-011</td>
+      <td>Endpoint de progreso del perfil</td>
+      <td>TO13</td>
+      <td>Consultar retos por estado</td>
+      <td>Implementar la consulta de retos del usuario filtrados por estado para alimentar la vista de progreso.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-011</td>
+      <td>Endpoint de progreso del perfil</td>
+      <td>TO14</td>
+      <td>Consultar actividades del reto</td>
+      <td>Implementar la consulta de actividades vinculadas a un reto asignado al usuario.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-011</td>
+      <td>Endpoint de progreso del perfil</td>
+      <td>TO15</td>
+      <td>Consultar recompensas del progreso</td>
+      <td>Implementar la consulta de movimientos de gemas relacionados con recompensas obtenidas por el usuario.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-012</td>
+      <td>Endpoint de familia y amigos del perfil</td>
+      <td>TO16</td>
+      <td>Consultar familias registradas</td>
+      <td>Implementar endpoint para listar familias y recuperar la información base del grupo familiar.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-012</td>
+      <td>Endpoint de familia y amigos del perfil</td>
+      <td>TO17</td>
+      <td>Consultar miembros familiares</td>
+      <td>Implementar consulta de relaciones entre usuarios y familias para identificar integrantes y roles.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-012</td>
+      <td>Endpoint de familia y amigos del perfil</td>
+      <td>TO18</td>
+      <td>Consultar relaciones de amistad</td>
+      <td>Implementar consulta de amigos para exponer contactos vinculados al perfil del usuario.</td>
+      <td>3</td>
+      <td>Alexther Kamil Diaz Martinez</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-013</td>
+      <td>Endpoint de interacción comunitaria</td>
+      <td>TO19</td>
+      <td>Listar publicaciones comunitarias</td>
+      <td>Implementar endpoint para retornar las publicaciones registradas dentro de la comunidad.</td>
+      <td>3</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-013</td>
+      <td>Endpoint de interacción comunitaria</td>
+      <td>TO20</td>
+      <td>Crear publicación comunitaria</td>
+      <td>Implementar endpoint para registrar nuevas publicaciones asociadas a la comunidad.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-013</td>
+      <td>Endpoint de interacción comunitaria</td>
+      <td>TO21</td>
+      <td>Eliminar publicación comunitaria</td>
+      <td>Implementar endpoint para eliminar publicaciones existentes según el identificador recibido.</td>
+      <td>3</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-014</td>
+      <td>Endpoint de eventos comunitarios y participación</td>
+      <td>TO22</td>
+      <td>Listar y crear eventos comunitarios</td>
+      <td>Implementar endpoints para consultar eventos disponibles y registrar nuevos eventos comunitarios.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-014</td>
+      <td>Endpoint de eventos comunitarios y participación</td>
+      <td>TO23</td>
+      <td>Registrar inscripción a eventos</td>
+      <td>Implementar endpoint para registrar la participación de usuarios en eventos comunitarios.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-014</td>
+      <td>Endpoint de eventos comunitarios y participación</td>
+      <td>TO24</td>
+      <td>Consultar y cancelar inscripciones</td>
+      <td>Implementar endpoints para consultar participantes de un evento y cancelar inscripciones registradas.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-015</td>
+      <td>Endpoint de catálogo y compra de cosméticos</td>
+      <td>TO25</td>
+      <td>Listar catálogo de cosméticos</td>
+      <td>Implementar endpoint para consultar todos los cosméticos disponibles en la tienda.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-015</td>
+      <td>Endpoint de catálogo y compra de cosméticos</td>
+      <td>TO26</td>
+      <td>Consultar detalle de cosmético</td>
+      <td>Implementar endpoint para recuperar la información detallada de un cosmético por identificador.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-015</td>
+      <td>Endpoint de catálogo y compra de cosméticos</td>
+      <td>TO27</td>
+      <td>Registrar cosmético de usuario</td>
+      <td>Implementar endpoint para asociar un cosmético adquirido al inventario del usuario.</td>
+      <td>4</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-016</td>
+      <td>Endpoint de compra de gemas</td>
+      <td>TO28</td>
+      <td>Registrar compra de gemas</td>
+      <td>Implementar endpoint para crear compras de gemas y guardar la información de la transacción.</td>
+      <td>4</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-016</td>
+      <td>Endpoint de compra de gemas</td>
+      <td>TO29</td>
+      <td>Registrar movimiento de gemas</td>
+      <td>Implementar endpoint para crear movimientos de gemas asociados a compras o recompensas.</td>
+      <td>4</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TS-016</td>
+      <td>Endpoint de compra de gemas</td>
+      <td>TO30</td>
+      <td>Consultar multiplicadores disponibles</td>
+      <td>Implementar endpoint para exponer multiplicadores de XP disponibles dentro de la tienda.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 En esta sección se presentan los commits realizados durante el Sprint 3, los cuales reflejan el avance en la implementación del Web Service de EcoMind. El desarrollo se organizó en ramas independientes por bounded context: feature/quests para el módulo de retos y actividades, feature/community para comunidades, eventos y publicaciones, feature/montz para la tienda de cosméticos, gemas y multiplicadores y feature/ranking para el ranking del usuario. Cada rama fue integrada a develop mediante pull requests revisados por el equipo.
