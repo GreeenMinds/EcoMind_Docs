@@ -617,7 +617,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAc74he
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/imagen078.png" width="335" hspace="240"> |
-| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 48 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 48 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
+| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 48 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
 
 | **Entrevista Nro. 2** |
@@ -6948,18 +6948,27 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 8. ¿Algo de la interfaz le generó confusión o le pareció innecesario?
 
-9. Al consultar el ranking, ¿pudo identificar fácilmente su posición? ¿Considera que el ranking es un buen mecanismo de motivación?
+9. Del 1 al 5, ¿qué tan probable es que use EcoMind con su familia de forma regular? ¿Por qué?
 
-10. Del 1 al 5, ¿qué tan probable es que use EcoMind con su familia de forma regular? ¿Por qué?
-
-11. ¿Qué le cambiaría a la aplicación para que se adapte mejor a su dinámica familiar?
+10. ¿Qué le cambiaría a la aplicación para que se adapte mejor a su dinámica familiar?
 
 ### 5.3.2. Registro de Entrevistas
+
+#### Segmento objetivo: Escolares de Primaria
 
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/validacion3Entrevista1.png" width="330" hspace="230"> |
 | **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista: https://youtu.be/8jCYdnOe3DM** <br>**Instante del que inicia:** 00:00<br> **Duración:** 9:06<br><br> **Resumen:** <br><br> El participante indicó que la Landing Page le permitió comprender el propósito general de EcoMind y destacó positivamente su diseño visual, especialmente la combinación de colores. Durante la realización de los retos, mencionó que las instrucciones no siempre fueron completamente claras y que las actividades se sentían más como formularios que como desafíos interactivos. Respecto al sistema de progreso, sugirió incorporar animaciones que permitan visualizar de manera más evidente el aumento de puntos y rachas, ya que esto podría generar una mayor sensación de avance y motivación. También mostró interés en la sección de comunidad, señalando que los eventos podrían presentarse con mayor nivel de detalle al seleccionarlos. Aunque inicialmente no encontró la opción para invitar amigos, esto se debió principalmente a que se dirigía directamente al botón de iniciar actividad sin explorar el resto de la interfaz. Además, logró comprender los eventos del mapa, encontró su posición en el ranking sin dificultades y disfrutó especialmente la experiencia de comprar objetos para personalizar su avatar.|
+
+#### Segmento objetivo: Padres de Familia
+
+#### Segmento objetivo: Padres de Familia
+
+| **Entrevista Nro. 1** |
+|---|
+| <img src="https://i.postimg.cc/bvCQvyxJ/Captura-de-pantalla-2026-06-15-224233.png" width="330" hspace="230"> |
+| **Entrevistado N°1:** Pedro Aponte<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Lima<br><br> **Entrevista: https://youtu.be/YY7KW05d0U0** <br>**Instante del que inicia:** 00:00<br> **Duración:** 8:48<br><br> **Resumen:** <br><br> El participante indicó que la Landing Page y la guía para padres le permitieron comprender claramente cómo EcoMind puede ayudar a su familia, valorando positivamente los consejos incluidos para padres. Al explorar la sección de perfil y familia, pudo visualizar sin dificultad la información de los miembros y los retos completados, señalando que poder ver qué actividades hizo su hijo y cuáles le faltan le da tranquilidad para acompañar su aprendizaje. Respecto a la inscripción en eventos del mapa, consideró que el modal con las opciones individual y familiar fue claro y sencillo, sin presentar problemas. Sobre el ranking, lo identificó fácilmente y lo valoró como un buen mecanismo de motivación, mencionando que a su hijo le encanta ver su posición. Destacó que la aplicación se siente pensada también para los padres y no solo para los niños. Como punto de mejora, sugirió diferenciar visualmente las tarjetas de los miembros de la familia mediante colores distintos, ya que le costó distinguir quién es padre y quién es hijo al verse todas iguales. Finalmente, expresó alta probabilidad de usar EcoMind regularmente con su familia. |
 
 ### 5.3.3. Evaluaciones según heurísticas
 
