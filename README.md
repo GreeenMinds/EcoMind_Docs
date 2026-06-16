@@ -976,6 +976,21 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
   <td align="center">Monetización: Gestión de compras y recompensas</td>
   <td>Como equipo de desarrollo, necesitamos implementar mecanismos de monetización como la compra de avatares y cosméticos, así como la obtención de recompensas, para generar ingresos y mejorar la experiencia del usuario.</td>
 </tr>
+  <tr>
+  <td align="center"><b>EP011</b></td>
+  <td align="center">EP11 - Backend: Gestión de perfil</td>
+  <td>Como equipo de desarrollo, necesitamos implementar los servicios de perfil, familia, amistades, progreso e inventario del usuario, para centralizar su información personal y permitir el seguimiento de su evolución dentro de la plataforma.</td>
+</tr>
+  <tr>
+  <td align="center"><b>EP012</b></td>
+  <td align="center">EP12 - Backend: Participación comunitaria</td>
+  <td>Como equipo de desarrollo, necesitamos implementar los servicios de publicaciones, logros comunitarios, eventos ambientales e inscripción a actividades, para fomentar la interacción entre usuarios y la participación en iniciativas sostenibles.</td>
+</tr>
+  <tr>
+  <td align="center"><b>EP013</b></td>
+  <td align="center">EP13 - Backend: Monetización y cosméticos</td>
+  <td>Como equipo de desarrollo, necesitamos implementar los servicios de tienda, gemas, compras, cosméticos y potenciadores, para gestionar transacciones, recompensas y personalización del usuario dentro de la aplicación.</td>
+</tr>
 </table>
 
 ---
@@ -3321,6 +3336,196 @@ Estrategia que utiliza elementos de juego para hacer el aprendizaje más atracti
 </table>
 
 
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-010</td>
+    <td><b>Epic ID</b></td><td>EP011</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de resumen y edición de perfil</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/user/{userId}, GET /api/v1/user_cosmetic y POST /api/v1/user_cosmetic, para permitir la consulta del resumen del perfil y el registro de cosméticos seleccionados por el usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/user/{userId} retorna los datos principales del usuario, incluyendo nombre, ecopoints, gemas y racha.</li>
+        <li>GET /api/v1/user_cosmetic retorna los cosméticos asociados a los perfiles de usuario.</li>
+        <li>GET /api/v1/user_cosmetic/{userCosmeticId} retorna el detalle de un cosmético asignado a un usuario.</li>
+        <li>POST /api/v1/user_cosmetic registra un nuevo cosmético dentro del perfil del usuario cuando corresponde.</li>
+        <li>La respuesta permite refrescar el resumen visual del perfil sin modificar las tablas anteriores del sistema.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-011</td>
+    <td><b>Epic ID</b></td><td>EP011</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de progreso del perfil</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/quest-users/user/{userId}/status/{status}, GET /api/v1/activity-users/quest-user/{questUserId} y GET /api/v1/gem_movement, para exponer el avance del usuario dentro de su perfil.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/quest-users/user/{userId}/status/{status} retorna los retos del usuario filtrados por estado.</li>
+        <li>GET /api/v1/activity-users/quest-user/{questUserId} retorna las actividades asociadas a un reto asignado.</li>
+        <li>GET /api/v1/activity-users/quest-user/{questUserId}/activity/{activityId} retorna el avance de una actividad específica.</li>
+        <li>GET /api/v1/gem_movement permite consultar movimientos de gemas relacionados con recompensas obtenidas.</li>
+        <li>La información obtenida permite construir el resumen de progreso del perfil con actividades, retos y recompensas.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-012</td>
+    <td><b>Epic ID</b></td><td>EP011</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de familia y amigos del perfil</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/family, GET /api/v1/family_user y GET /api/v1/friend, para exponer la familia y amigos vinculados al perfil del usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/family retorna las familias registradas en el sistema.</li>
+        <li>GET /api/v1/family_user permite identificar los usuarios asociados a cada grupo familiar.</li>
+        <li>GET /api/v1/friend retorna las relaciones de amistad registradas para mostrar contactos del usuario.</li>
+        <li>La respuesta permite diferenciar miembros familiares y amigos dentro de la vista de perfil.</li>
+        <li>Si no existen relaciones registradas, la interfaz muestra estados vacíos sin interrumpir la navegación del usuario.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-013</td>
+    <td><b>Epic ID</b></td><td>EP012</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de interacción comunitaria</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/community/posts, POST /api/v1/community/posts y DELETE /api/v1/community/posts/{id}, para gestionar publicaciones dentro de la comunidad.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/community/posts retorna las publicaciones comunitarias disponibles.</li>
+        <li>POST /api/v1/community/posts permite crear una nueva publicación asociada a la comunidad.</li>
+        <li>DELETE /api/v1/community/posts/{id} permite eliminar una publicación existente cuando corresponde.</li>
+        <li>La respuesta incluye información suficiente para actualizar el muro comunitario.</li>
+        <li>Si no existen publicaciones, el sistema retorna una lista vacía para mostrar un estado inicial en la comunidad.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-014</td>
+    <td><b>Epic ID</b></td><td>EP012</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de eventos comunitarios y participación</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/community/events, POST /api/v1/community/events, GET /api/v1/community/events/{eventId}/registrations y POST /api/v1/community/events/{eventId}/registrations, para listar eventos ambientales y registrar la participación de los usuarios.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/community/events retorna los eventos comunitarios disponibles.</li>
+        <li>POST /api/v1/community/events permite crear un nuevo evento comunitario.</li>
+        <li>GET /api/v1/community/events/{eventId}/registrations retorna las inscripciones registradas para un evento.</li>
+        <li>POST /api/v1/community/events/{eventId}/registrations registra la participación de un usuario en el evento.</li>
+        <li>PATCH /api/v1/community/events/{eventId}/registrations/{registrationId}/cancel permite cancelar una inscripción existente.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-015</td>
+    <td><b>Epic ID</b></td><td>EP013</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de catálogo y compra de cosméticos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/cosmetic, GET /api/v1/cosmetic/{cosmeticId}, GET /api/v1/user_cosmetic y POST /api/v1/user_cosmetic, para exponer el catálogo de cosméticos y registrar cosméticos adquiridos por el usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/cosmetic retorna todos los cosméticos disponibles en el catálogo.</li>
+        <li>GET /api/v1/cosmetic/{cosmeticId} retorna el detalle de un cosmético específico.</li>
+        <li>GET /api/v1/user_cosmetic retorna los cosméticos asociados a usuarios.</li>
+        <li>POST /api/v1/user_cosmetic registra un nuevo cosmético adquirido por el usuario.</li>
+        <li>La respuesta permite actualizar el inventario visual del usuario dentro del perfil.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-016</td>
+    <td><b>Epic ID</b></td><td>EP013</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de compra de gemas</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/gem_purchase, POST /api/v1/gem_purchase, GET /api/v1/gem_movement, POST /api/v1/gem_movement y GET /api/v1/multiplier, para registrar compras de gemas y exponer los potenciadores disponibles.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/gem_purchase retorna todas las compras de gemas registradas.</li>
+        <li>POST /api/v1/gem_purchase permite crear una nueva compra de gemas.</li>
+        <li>GET /api/v1/gem_movement retorna los movimientos de gemas asociados a compras o recompensas.</li>
+        <li>POST /api/v1/gem_movement registra un nuevo movimiento de gemas cuando la compra se completa.</li>
+        <li>GET /api/v1/multiplier retorna los multiplicadores disponibles para mostrarlos como potenciadores dentro de la tienda.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+
 ## 3.2. Impact Mapping
 
 El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio, los actores clave, los impactos esperados y las funcionalidades que los sustentan.
@@ -3423,10 +3628,18 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 62 | TS-007 | Endpoint de ranking de usuarios y familias | Como desarrollador backend, quiero implementar rankings. | 5 |
 | 63 | TS-008 | API de sincronización de datos offline | Como desarrollador backend, quiero implementar sincronización offline. | 8 |
 | 64 | TS-009 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
-| 65 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
-| 66 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
-| 67 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
-| 68 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
+| 65 | TS-010 | Endpoint de resumen y edición de perfil | Como desarrollador backend, quiero implementar resumen y edición de perfil. | 5 |
+| 66 | TS-011 | Endpoint de progreso del perfil | Como desarrollador backend, quiero implementar progreso de usuario. | 5 |
+| 67 | TS-012 | Endpoint de familia y amigos del perfil | Como desarrollador backend, quiero implementar amigos y familia. | 5 |
+| 68 | TS-013 | Endpoint de interacción comunitaria | Como desarrollador backend, quiero implementar interación de post y logros comunitarios. | 5 |
+| 69 | TS-014 | Endpoint de eventos comunitarios y participación | Como desarrollador backend, quiero implementar eventos comunitarios. | 5 |
+| 70 | TS-015 | Endpoint de catálogo y compra de cosméticos | Como desarrollador backend, quiero implementar catalgo y compra de cosmeticos. | 5 |
+| 71 | TS-016 | Endpoint de compra de gemas | Como desarrollador backend, quiero implementar gemas. | 5 |
+| 72 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
+| 73 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
+| 74 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
+| 75 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
