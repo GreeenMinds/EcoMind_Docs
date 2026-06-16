@@ -6447,8 +6447,8 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 | **Prepared By** | Alejandra Isabel Astocondor Bazan |
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
 | **Sprint n Goal** | Our focus in Sprint 3 is on developing the backend foundation for the main EcoMind bounded contexts, including quests, activities, user progress, community, gamification, monetization, profiles, and authentication. This sprint prioritizes building persistent REST APIs and domain logic that can replace mocked frontend behavior with real backend integration. The implemented services will support quest management, activity completion, progress tracking, community content, cosmetics, gems, XP multipliers, and the structure needed for the remaining bounded contexts to be added later. This will be confirmed when the frontend can integrate with the backend endpoints and users can complete the main flows with consistent data, updated progress, and reliable API responses across the platform. |
-| **Sprint n Velocity** | Decidimos aceptar hasta 20 SP |
-| **Sum of Story Points** |  |
+| **Sprint n Velocity** | Decidimos aceptar hasta 55 SP |
+| **Sum of Story Points** | 53 SP |
 
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
