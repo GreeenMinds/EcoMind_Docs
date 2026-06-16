@@ -7362,7 +7362,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 |2 |La información de los eventos comunitarios es limitada|1|Reconocimiento antes que recuerdo|
 |3 |La opción para invitar amigos tiene poca visibilidad|1|Visibilidad del estado del sistema|
 |4 |Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación|2|Diseño estético y minimalista|
-
+|5 |Las tarjetas de miembros de familia no permiten diferenciar roles visualmente|2|Usabilidad|
+|6 |El sistema de retroalimentación no es lo suficientemente simple o claro|2|Visibilidad del estado del sistema|
+|7 |La personalización del perfil puede sentirse limitada para usuarios escolares|1|Flexibilidad y eficiencia de uso|
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -7438,11 +7440,41 @@ Incorporar mecánicas más interactivas dentro de los retos, como desafíos prá
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. El entrevistado mencionó que le costó diferenciar quién es padre y quién es hijo, ya que la única distinción es la etiqueta de texto del rol ("Padre/Madre", "Hijo/Hija"), sin diferenciación por color o ícono que facilite el reconocimiento inmediato.
 
-![Problema_1](https://i.postimg.cc/5tCnDFdf/Captura-de-pantalla-2026-06-15-230556.png)
+![Problema_5](https://i.postimg.cc/5tCnDFdf/Captura-de-pantalla-2026-06-15-230556.png)
 
 **Recomendación:**
 
 Asignar colores de borde o fondo diferenciados a cada rol familiar (por ejemplo, verde para padres y amarillo para hijos) dentro de las tarjetas, para que el usuario pueda identificar rápidamente a cada miembro sin necesidad de leer la etiqueta del rol.
+
+**Problema #6: El sistema de retroalimentación no es lo suficientemente simple o claro**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:**
+
+El participante sugiere “mejorar la simplicidad del proceso para facilitar la participación”. Esto apunta a que la respuesta del sistema después de realizar una acción podría no ser suficientemente clara, directa o motivadora. En una app gamificada, el usuario necesita entender rápidamente qué hizo bien, qué ganó y qué sigue.
+
+![Problema_6](assets/img/figures/Problema_6.png)
+
+**Recomendación:**
+
+Mostrar feedback inmediato y simple después de cada acción: mensajes breves, estados visuales y siguiente acción recomendada.
+
+**Problema #7: La personalización del perfil puede sentirse limitada para usuarios escolares**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+El participante sugiere agregar más opciones de personalización para hacer la experiencia más atractiva. Para escolares, la personalización del avatar/perfil no es solo estética: también refuerza identidad, pertenencia y motivación dentro de la plataforma.
+
+![Problema_7](assets/img/figures/Problema_7.png)
+
+**Recomendación:**
+
+Agregar más opciones de avatar, accesorios, fondos, insignias visibles o recompensas cosméticas desbloqueables según progreso.
 
 ## 5.4. Video About-the-Product
 
