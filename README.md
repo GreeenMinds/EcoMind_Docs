@@ -7103,6 +7103,22 @@ Asignar colores de borde o fondo diferenciados a cada rol familiar (por ejemplo,
 
 ## 5.4. Video About-the-Product
 
+El video About-the-Product de EcoMind presenta la propuesta de valor de la plataforma, sus principales funcionalidades y el impacto esperado en escolares, padres de familia y comunidades educativas. El contenido está dirigido a visitantes de la Landing Page que desean conocer el modelo de negocio y las características principales del producto, así como a usuarios de la aplicación que buscan comprender cómo realizar tareas relacionadas con retos, progreso, comunidad, ranking y recompensas.
+
+El tono utilizado en el video es cercano, educativo y motivador, alineado con la identidad de EcoMind como una solución tecnológica que promueve la conciencia ambiental mediante gamificación, participación familiar y actividades prácticas.
+
+Durante el video se incluye un testimonio positivo de un usuario participante en las entrevistas de validación, quien destaca la utilidad de EcoMind para acompañar el aprendizaje ambiental de los niños y motivarlos mediante retos, puntos y rankings.
+
+**Duración del video:** 2:04
+
+**Screenshot del video:**
+
+![Screenshot Video About-the-Product](assets/img/figures/videoproduct.png)
+
+**URL Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQA8_FXCPqpWRL34ZL1Wr2_hAevmamydF3aGV7KSZzIxe2s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aLlCs0
+
+**URL Youtube:** https://youtu.be/xlC5w4u3GxY
+
 # Conclusiones
 
 A partir del trabajo integral realizado durante el desarrollo del proyecto EcoMind, el equipo puede afirmar que la problemática identificada al inicio del proyecto efectivamente representa una necesidad real en el contexto peruano. Los escolares de hoy en día adquieren conocimientos sobre sostenibilidad ambientgital en sus escuelas, sin embargo, existe una desconexión importante entre esa teoría aprendida en el aula y su aplicación práctica en la vida cotidiana del hogar. Esta brecha no surge de la falta de información, sino de la ausencia de herramientas que mantengan el interés del estudiante y que faciliten la participación de los padres en este proceso de aprendizaje continuo.
