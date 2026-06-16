@@ -6846,6 +6846,45 @@ Durante el Sprint se lograron avances significativos en el desarrollo de la capa
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante este Sprint se lograron avances significativos en el desarrollo y documentación de los Web Services que soportan las funcionalidades principales de la plataforma. Se implementaron y documentaron múltiples endpoints REST relacionados con la gestión de usuarios, familias, invitaciones familiares, amistades, comunidades, publicaciones, eventos comunitarios, retos ambientales, actividades, rankings, recompensas, cosméticos y demás componentes asociados a la experiencia de gamificación del sistema.
+
+Asimismo, se integró la persistencia de datos mediante una base de datos MySQL, permitiendo el almacenamiento y recuperación de la información gestionada por los distintos servicios implementados. La documentación de los endpoints fue generada utilizando OpenAPI y publicada a través de Swagger UI, facilitando la visualización de las operaciones disponibles, la especificación de parámetros, la revisión de los modelos de datos y la ejecución de pruebas utilizando datos de ejemplo.
+
+A continuación, se presenta la relación de endpoints desarrollados durante el Sprint, incluyendo las acciones soportadas, la sintaxis de llamada y ejemplos de respuesta obtenidos a través de la documentación interactiva. Del mismo modo, se incorporan capturas de la interacción con Swagger UI que evidencian el correcto funcionamiento de los servicios implementados, así como la información correspondiente al repositorio del backend y a los commits asociados al desarrollo y documentación realizados durante el Sprint.
+
+**Repositorio de Web Services:** [Repositorio backend del proyecto EcoMind](https://github.com/GreeenMinds/EcoMind_backend)
+
+**Repositorio Frontend:** [Repositorio frontend del proyecto EcoMind](https://github.com/GreeenMinds/EcoMind_frontend)
+
+**URL local de la documentación Swagger:** [Url local Swagger](http://localhost:8092/swagger-ui/index.html)
+
+**Base de datos utilizada:** PostgreSQL
+
+| Recurso             | Endpoint Base                                      | Acciones Implementadas                                     |
+| ------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
+| Users               | `/api/v1/user`                                     | GET, PUT, DELETE                                           |
+| Friends             | `/api/v1/friend`                                   | GET, POST, PUT, DELETE, PATCH (accept/reject)              |
+| Families            | `/api/v1/family`                                   | GET, PUT, DELETE                                           |
+| Family Invitations  | `/api/v1/family_invitation`                        | GET, POST, PUT, DELETE, PATCH (accept/reject)              |
+| Family Users        | `/api/v1/family_user`                              | GET, POST, PUT, DELETE                                     |
+| Communities         | `/api/v1/community/communities`                    | GET, POST                                                  |
+| Posts     | `/api/v1/community/posts`                          | GET, POST, DELETE                                          |
+| Events              | `/api/v1/community/events`                         | GET, POST, DELETE                                          |
+| Event Registrations | `/api/v1/community/events/{eventId}/registrations` | GET, POST, PATCH (cancel), GET por usuario                 |
+| Quests              | `/api/v1/quests`                                   | GET, POST, PUT, DELETE, SEARCH                             |
+| Quest Users         | `/api/v1/quest-users`                              | GET, POST, DELETE, PATCH (complete), consultas específicas |
+| Activities          | `/api/v1/activities`                               | GET, POST, PUT, DELETE                                     |
+| Activity Users      | `/api/v1/activity-users`                           | GET, POST (assign), POST (submit), consultas específicas   |
+| Rankings            | `/api/v1/rankings`                                 | GET, POST, PUT, DELETE                                     |
+| User Rankings       | `/api/v1/user-rankings`                            | GET, POST, PUT, DELETE                                     |
+| Score Entries       | `/api/v1/score-entries`                            | GET, POST, DELETE                                          |
+| Cosmetics           | `/api/v1/cosmetic`                                 | GET, POST, GET por ID                                      |
+| User Cosmetics      | `/api/v1/user_cosmetic`                            | GET, POST, PUT, GET por ID                                 |
+| Gem Movements       | `/api/v1/gem_movement`                             | GET, POST, GET por ID                                      |
+| Gem Purchases       | `/api/v1/gem_purchase`                             | GET, POST, GET por ID                                      |
+| Multipliers         | `/api/v1/multiplier`                               | GET, POST, GET por ID                                      |
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
