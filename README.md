@@ -7003,15 +7003,15 @@ Sprint 3 - Backend
 
 Sprint 3 - Frontend
 
-![Sprint_3_Overview_Frontend](/assets/img/figures/)
+![Sprint_3_Overview_Frontend](/assets/img/figures/FrontSprint3.png)
 
-![Sprint_3_Contributors_Frontend](/assets/img/figures/)
+![Sprint_3_Contributors_Frontend](/assets/img/figures/FrontCollab3.png)
 
 Sprint 3 - Landing Page
 
-![Sprint_3_Overview_LandingPage](/assets/img/figures/)
+![Sprint_3_Overview_LandingPage](/assets/img/figures/Land3Sprint.png)
 
-![Sprint_3_Contributors_LandingPage](/assets/img/figures/)
+![Sprint_3_Contributors_LandingPage](/assets/img/figures/3SprintLandCollab.png)
 
 ## 5.3. Validation Interviews
 
