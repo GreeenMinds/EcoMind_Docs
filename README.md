@@ -7201,7 +7201,7 @@ Sprint 3 - Backend
 
 Sprint 3 - Frontend
 
-![Sprint_3_Overview_Frontend](/ssets/img/figures/FrontSprint3.png)
+![Sprint_3_Overview_Frontend](assets/img/figures/FrontSprint3.png)
 
 ![Sprint_3_Contributors_Frontend](assets/img/figures/FrontCollab3.png)
 
