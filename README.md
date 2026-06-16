@@ -6848,6 +6848,26 @@ En esta sección se presentan los commits realizados durante el Sprint 3, los cu
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa en la implementación de las funcionalidades del backend planteadas para la solución, organizando el trabajo mediante el uso de branches, commits y pull requests en GitHub. Cada integrante participó activamente en la creación y configuración de APIs REST, el desarrollo de endpoints para la gestión de los diferentes módulos del sistema y la implementación de la lógica de negocio correspondiente. Asimismo, se realizó la documentación y validación de los servicios mediante Swagger, permitiendo visualizar, probar y verificar el correcto funcionamiento de cada endpoint desarrollado. De igual manera, se llevó a cabo la configuración y conexión con la base de datos MySQL, definiendo las entidades, relaciones y mecanismos necesarios para garantizar una adecuada persistencia y gestión de la información.A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
+
+Sprint 3 - Backend
+
+![Sprint_3_Overview_Backend](/assets/img/figures/Sprint_3_Overview_Backend.png)
+
+![Sprint_3_Contributors_Backend](/assets/img/figures/Sprint_3_Contributors_Backend.png)
+
+Sprint 3 - Frontend
+
+![Sprint_3_Overview_Frontend](/assets/img/figures/)
+
+![Sprint_3_Contributors_Frontend](/assets/img/figures/)
+
+Sprint 3 - Landing Page
+
+![Sprint_3_Overview_LandingPage](/assets/img/figures/)
+
+![Sprint_3_Contributors_LandingPage](/assets/img/figures/)
+
 ## 5.3. Validation Interviews
 
 En esta sección se registran las entrevistas de validación del proyecto. A diferencia de las entrevistas de la sección 2.2, donde se buscaba descubrir problemas y necesidades, aquí el objetivo es verificar si lo que construimos realmente funciona para los usuarios y si les resulta fácil de usar.
