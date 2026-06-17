@@ -35,7 +35,7 @@ u202412316 - Diaz Martinez, Alexther Kamil
 u202418655 - Laura Acosta, Victor Jhosuef
 
 
-Abril 2026
+Junio 2026
 
 </div>
 
