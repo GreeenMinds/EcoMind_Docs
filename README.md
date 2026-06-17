@@ -53,6 +53,7 @@ Junio 2026
 | 1.2.4 | 21/04/2026 |Alexther Kamil Diaz Martinez <br> Leo Dulanto| docs: agregar User Task Matrix <br> docs: agregar User Journey Mapping <br> docs: agregar Empathy Mapping <br> docs: agregar Ubiquitous Language<br>docs: agregar digrama de clases <br> docs: agregar big picture event storming|   
 | 1.3.0 | 11/05/2026 | Alejandra Astocondor <br> Isabel Aponte <br> | docs: sprint backlog 2 <br> feat: agregar Development Evidence|
 | 1.3.0 | 12/05/2026 | Alejandra Astocondor <br> Leo Dulanto <br> Alexther Kamil Diaz Martinez <br> Victor Laura <br> Isabel Aponte Pablo | feat: add services documentation <br> doc: Software Deployment Evidence for Sprint 2 <br> docs: add deploy application <br> docs: team collaboration insights <br> docs: añadir student outcome <br> docs: actualizar recomendaciones y conclusiones |
+| 1.4.0 | 17/06/2026 | Alejandra Astocondor <br> Leo Dulanto <br> Alexther Kamil Diaz Martinez <br> Victor Laura <br> Isabel Aponte Pablo | docs: agregar Diseño de Entrevistas <br> docs: add Development Evidence for Sprint Review 3 <br> docs: add sprint Planning 3 and aspect Leaders <br> docs: add registro entrevista #1 <br> docs: add sprint3 goal <br> doc: Add new backend ts <br> docs: add problems 1-4 heuristics <br> doc: Add sprint 3 <br> docs: add Registro de Entrevistas PF <br> docs: update Evaluaciones según heurísticas <br> doc: Add Team Collaboration Insights during Sprint 3 <br> doc: Add Execution Evidence for Sprint Review <br> docs: add about the product <br> doc: Add Services Documentation Evidence for Sprint Review intro and apis table <br> docs: add execution evidence image <br> docs: añadir video about the team <br> docs: add sprint 3 deployment evidence <br> docs: deploy backend and frontend|
 
 # Projet Report Collaboration Insights
 
@@ -194,6 +195,32 @@ La colaboración del equipo se evidenció tanto en el repositorio del backend co
 5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
 5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
 
+5.2.2. [Sprint 2](#522-sprint-2)  
+5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)  
+5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)  
+5.2.2.3. [Sprint Backlog 2](#5223-sprint-backlog-1)  
+5.2.2.4. [Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)  
+5.2.2.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)  
+5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)  
+5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)  
+5.2.2.8. [Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+
+5.2.3. [Sprint 3](#523-sprint-3)  
+5.2.3.1. [Sprint Planning 3](#5231-sprint-planning-3)  
+5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)  
+5.2.3.3. [Sprint Backlog 3](#5223-sprint-backlog-3)  
+5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)  
+5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)  
+5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)  
+5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)  
+5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+5.3. [Validation Interviews](#53-Validation-Interviews)  
+5.3.1. [Diseño de Entrevistas](#531-Diseño-de-Entrevistas)
+5.3.2. [Registro de Entrevistas](#532-Registro-de-Entrevistas)
+5.3.3. [Evaluaciones según heurísticas](#533-Evaluaciones-según-heurísticas)
+
+5.4. [Video About-the-Product](#54-Video-About-the-Product)
 
 **Final**  
 [Conclusiones](#conclusiones)  
@@ -6446,7 +6473,7 @@ Durante el desarrollo de este Sprint, el equipo trabajó de manera colaborativa 
 ![Insight_sprint2_1](assets/img/figures/Insights_1.png)
 ![Insight_sprint2_2](assets/img/figures/Insights_2.png)
 
-### 5.2.2. Sprint 3
+### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
 
