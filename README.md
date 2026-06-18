@@ -215,10 +215,10 @@ La colaboración del equipo se evidenció tanto en el repositorio del backend co
 5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)  
 5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 
-5.3. [Validation Interviews](#53-Validation-Interviews)
-5.3.1. [Diseño de Entrevistas](#531-Diseño-de-Entrevistas)
-5.3.2. [Registro de Entrevistas](#532-Registro-de-Entrevistas)
-5.3.3. [Evaluaciones según heurísticas](#533-Evaluaciones-según-heurísticas)
+5.3. [Validation Interviews](#53-Validation-Interviews) <br>
+5.3.1. [Diseño de Entrevistas](#531-Diseño-de-Entrevistas)  <br>
+5.3.2. [Registro de Entrevistas](#532-Registro-de-Entrevistas)  <br>
+5.3.3. [Evaluaciones según heurísticas](#533-Evaluaciones-según-heurísticas)  <br>
 
 5.4. [Video About-the-Product](#54-Video-About-the-Product)
 
