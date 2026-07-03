@@ -1534,32 +1534,26 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Actividad familiar en comunidad</td>
+    <td colspan="3">Evento familiar en comunidad</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como padre, quiero participar con mi familia en actividades ambientales de la comunidad, para fomentar el trabajo en equipo.</td>
+    <td colspan="3">Como padre, quiero participar con mi familia en eventos de la comunidad, para fomentar el trabajo en equipo.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Inscribirse en actividades de la comunidad<br/>
+      <b>Escenario 1:</b> Inscribirse en eventos de la comunidad<br/>
       <ul>
         <li><b>Dado que</b> el padre se encuentra en la pantalla principal y tiene activado el GPS,</li>
-        <li><b>Cuando</b> seleccione la opción de actividades de comunidad y elija una opción de la lista,</li>
-        <li><b>Entonces</b> el sistema registrará al grupo familiar del usuario en la actividad de la comunidad.</li>
+        <li><b>Cuando</b> seleccione la opción de eventos de comunidad y elija una opción de la lista,</li>
+        <li><b>Entonces</b> el sistema registrará al grupo familiar del usuario en el evento de la comunidad.</li>
       </ul>
-      <b>Escenario 2:</b> Participar en actividad de la comunidad<br/>
+      <b>Escenario 2:</b> Cancelar inscripción<br/>
       <ul>
-        <li><b>Dado que</b> el padre se ha registrado en una actividad de la comunidad y el grupo familiar la completó,</li>
-        <li><b>Cuando</b> seleccione la opción de completar actividad y rellenen el informe de participación,</li>
-        <li><b>Entonces</b> el sistema marcará la actividad como completada para el grupo familiar.</li>
-      </ul>
-      <b>Escenario 3:</b> Cancelar inscripción<br/>
-      <ul>
-        <li><b>Dado que</b> el padre está inscrito en una actividad de la comunidad y se encuentra en actividades actuales,</li>
-        <li><b>Cuando</b> el padre seleccione eliminar actividad y confirme la selección,</li>
-        <li><b>Entonces</b> el sistema eliminará al grupo familiar de la actividad en comunidad.</li>
+        <li><b>Dado que</b> el padre está inscrito en un evento de la comunidad y se encuentra en la sección eventos,</li>
+        <li><b>Cuando</b> el padre seleccione eliminar evento y confirme la selección,</li>
+        <li><b>Entonces</b> el sistema eliminará al grupo familiar del evento de la comunidad.</li>
       </ul>
     </td>
   </tr>
