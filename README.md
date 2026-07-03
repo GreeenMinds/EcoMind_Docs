@@ -3666,7 +3666,7 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 24 | HU-030 | Preguntas frecuentes | Como estudiante, quiero acceder a una sección de preguntas frecuentes. | 2 |
 | 25 | HU-032 | Infografías resumen | Como estudiante, quiero acceder a infografías que resuman la información. | 3 |
 | 26 | HU-013 | Reto familiar en casa | Como padre, quiero realizar retos ambientales en casa junto a mi familia. | 5 |
-| 27 | HU-014 | Actividad familiar en comunidad | Como padre, quiero participar con mi familia en actividades ambientales. | 8 |
+| 27 | HU-014 | Evento familiar en comunidad | Como padre, quiero participar con mi familia en actividades ambientales. | 8 |
 | 28 | HU-015 | Registro de logros familiares | Como padre, quiero registrar los logros de mi familia. | 5 |
 | 29 | HU-016 | Premios por colaboración familiar | Como padre, quiero que la aplicación premie nuestras acciones conjuntas. | 5 |
 | 30 | HU-017 | Planificación de retos familiares | Como padre, quiero planificar nuestras actividades ambientales. | 8 |
