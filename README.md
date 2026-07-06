@@ -2492,30 +2492,32 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Modo offline</td>
+    <td colspan="3">Puntaje decreciente por repetición de minijuegos</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero usar la aplicación en modo offline, para continuar aprendiendo sin conexión.</td>
+    <td colspan="3">Como estudiante, quiero que al repetir un minijuego el puntaje obtenido disminuya progresivamente hasta llegar a 0, para motivarme a practicar nuevos retos y evitar acumular puntos por repetir la misma actividad.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Uso sin conexión<br/>
+      <b>Escenario 1:</b> Primera finalización del minijuego<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante no tiene acceso a internet,</li>
-        <li><b>Cuando</b> abre la aplicación,</li>
-        <li><b>Entonces</b> el sistema permite acceder a lecciones y materiales previamente descargados y muestra un indicador de modo offline.</li>
+        <li><b>Dado que</b> el estudiante inicia un minijuego que aún no ha completado,</li>
+        <li><b>Cuando</b> finalice el minijuego correctamente,</li>
+        <li><b>Entonces</b> el sistema otorgará el puntaje completo definido para esa actividad.</li>
       </ul>
-      <b>Escenario 2:</b> Sincronización pendiente<br/>
+      <b>Escenario 2:</b> Repetición del minijuego<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante usa la aplicación en modo offline y completa actividades,</li>
-        <li><b>Entonces</b> el sistema almacena la información localmente y la sincroniza automáticamente al restablecer la conexión.</li>
+        <li><b>Dado que</b> el estudiante ya completó previamente un minijuego,</li>
+        <li><b>Cuando</b> vuelva a completarlo,</li>
+        <li><b>Entonces</b> el sistema calculará un puntaje menor que el obtenido en la finalización anterior.</li>
       </ul>
-      <b>Escenario 3:</b> Contenido no disponible offline<br/>
+      <b>Escenario 3:</b> Puntaje agotado por repetición<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante intenta acceder a un recurso no descargado en modo offline,</li>
-        <li><b>Entonces</b> el sistema muestra un mensaje indicando que el contenido no está disponible sin conexión y ofrece descargarlo cuando haya internet.</li>
+        <li><b>Dado que</b> el estudiante repitió el mismo minijuego varias veces hasta agotar su valor de recompensa,</li>
+        <li><b>Cuando</b> lo complete nuevamente,</li>
+        <li><b>Entonces</b> el sistema otorgará 0 puntos y mostrará un mensaje indicando que debe practicar otros minijuegos para seguir sumando puntaje.</li>
       </ul>
     </td>
   </tr>
@@ -3365,33 +3367,6 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">API de sincronización de datos offline</td>
-  </tr>
-  <tr>
-    <td><b>Descripción</b></td>
-    <td colspan="3">Como desarrollador backend, necesito implementar un endpoint POST /api/v1/sync que reciba el progreso registrado en modo offline y lo sincronice con el servidor, para garantizar la continuidad del aprendizaje sin conexión.</td>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <b>Criterios de aceptación:</b>
-      <ol>
-        <li>El endpoint acepta un array de actividades completadas offline con timestamp local.</li>
-        <li>El sistema detecta y descarta duplicados antes de persistir.</li>
-        <li>Retorna 200 OK con el resumen de actividades sincronizadas y descartadas.</li>
-        <li>En caso de conflicto de datos, el sistema aplica la regla "última escritura gana" basada en timestamp.</li>
-        <li>Si el payload supera 100 actividades, el sistema retorna 413 Payload Too Large y solicita sincronización por lotes.</li>
-      </ol>
-    </td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td><b>Technical Story ID</b></td><td>TS-009</td>
-    <td><b>Epic ID</b></td><td>EP09</td>
-  </tr>
-  <tr>
-    <td><b>Título</b></td>
     <td colspan="3">Servicio de notificaciones push</td>
   </tr>
   <tr>
@@ -3414,7 +3389,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-010</td>
+    <td><b>Technical Story ID</b></td><td>TS-009</td>
     <td><b>Epic ID</b></td><td>EP011</td>
   </tr>
   <tr>
@@ -3441,7 +3416,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-011</td>
+    <td><b>Technical Story ID</b></td><td>TS-010</td>
     <td><b>Epic ID</b></td><td>EP011</td>
   </tr>
   <tr>
@@ -3468,7 +3443,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-012</td>
+    <td><b>Technical Story ID</b></td><td>TS-011</td>
     <td><b>Epic ID</b></td><td>EP011</td>
   </tr>
   <tr>
@@ -3495,7 +3470,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-013</td>
+    <td><b>Technical Story ID</b></td><td>TS-012</td>
     <td><b>Epic ID</b></td><td>EP012</td>
   </tr>
   <tr>
@@ -3522,7 +3497,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-014</td>
+    <td><b>Technical Story ID</b></td><td>TS-013</td>
     <td><b>Epic ID</b></td><td>EP012</td>
   </tr>
   <tr>
@@ -3549,7 +3524,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-015</td>
+    <td><b>Technical Story ID</b></td><td>TS-014</td>
     <td><b>Epic ID</b></td><td>EP013</td>
   </tr>
   <tr>
@@ -3576,7 +3551,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-016</td>
+    <td><b>Technical Story ID</b></td><td>TS-015</td>
     <td><b>Epic ID</b></td><td>EP013</td>
   </tr>
   <tr>
@@ -3603,7 +3578,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-017</td>
+    <td><b>Technical Story ID</b></td><td>TS-016</td>
     <td><b>Epic ID</b></td><td>EP09</td>
   </tr>
   <tr>
@@ -3630,7 +3605,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 <table align="center">
   <tr>
-    <td><b>Technical Story ID</b></td><td>TS-018</td>
+    <td><b>Technical Story ID</b></td><td>TS-017</td>
     <td><b>Epic ID</b></td><td>EP010</td>
   </tr>
   <tr>
@@ -3719,15 +3694,15 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 21 | TS-005 | Endpoint de progreso y puntaje del usuario | Como desarrollador backend, quiero implementar el progreso del usuario. | 5 |
 | 22 | TS-007 | Endpoint de ranking de usuarios y familias | Como desarrollador backend, quiero implementar rankings. | 5 |
 | 23 | HU-003 | Rachas por completar retos diarios | Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante. | 5 |
-| 24 | TS-010 | Endpoint de resumen y edición de perfil | Como desarrollador backend, quiero implementar resumen y edición de perfil. | 5 |
-| 25 | TS-011 | Endpoint de progreso del perfil | Como desarrollador backend, quiero implementar progreso de usuario. | 5 |
-| 26 | TS-012 | Endpoint de familia y amigos del perfil | Como desarrollador backend, quiero implementar amigos y familia. | 5 |
-| 27 | TS-013 | Endpoint de interacción comunitaria | Como desarrollador backend, quiero implementar interación de post y logros comunitarios. | 5 |
-| 28 | TS-014 | Endpoint de eventos comunitarios y participación | Como desarrollador backend, quiero implementar eventos comunitarios. | 5 |
-| 29 | TS-015 | Endpoint de catálogo y compra de cosméticos | Como desarrollador backend, quiero implementar catalgo y compra de cosmeticos. | 5 |
-| 30 | TS-016 | Endpoint de compra de gemas | Como desarrollador backend, quiero implementar gemas. | 5 |
-| 31 | TS-017 | Endpoint de notificaciones del usuario | Como desarrollador backend, quiero implementar la gestión de notificaciones del usuario. | 5 |
-| 32 | TS-018 | Endpoint de materiales de aprendizaje | Como desarrollador backend, quiero implementar la gestión de materiales de aprendizaje. | 5 |
+| 24 | TS-009 | Endpoint de resumen y edición de perfil | Como desarrollador backend, quiero implementar resumen y edición de perfil. | 5 |
+| 25 | TS-010 | Endpoint de progreso del perfil | Como desarrollador backend, quiero implementar progreso de usuario. | 5 |
+| 26 | TS-011 | Endpoint de familia y amigos del perfil | Como desarrollador backend, quiero implementar amigos y familia. | 5 |
+| 27 | TS-012 | Endpoint de interacción comunitaria | Como desarrollador backend, quiero implementar interación de post y logros comunitarios. | 5 |
+| 28 | TS-013 | Endpoint de eventos comunitarios y participación | Como desarrollador backend, quiero implementar eventos comunitarios. | 5 |
+| 29 | TS-014 | Endpoint de catálogo y compra de cosméticos | Como desarrollador backend, quiero implementar catalgo y compra de cosmeticos. | 5 |
+| 30 | TS-015 | Endpoint de compra de gemas | Como desarrollador backend, quiero implementar gemas. | 5 |
+| 31 | TS-016 | Endpoint de notificaciones del usuario | Como desarrollador backend, quiero implementar la gestión de notificaciones del usuario. | 5 |
+| 32 | TS-017 | Endpoint de materiales de aprendizaje | Como desarrollador backend, quiero implementar la gestión de materiales de aprendizaje. | 5 |
 | 33 | HU-055 | Redirección a registro | Como visitante, quiero ir al registro desde la landing. | 5 |
 | 34 | HU-005 | Reconocimiento por constancia | Como estudiante, quiero recibir reconocimientos al completar varias actividades seguidas, para reforzar mi compromiso con el aprendizaje. | 3 |
 | 35 | HU-007 | Seguimiento de progreso | Como estudiante, quiero ver mi progreso de actividades iniciadas, para saber cuánto he avanzado en ellas. | 5 |
@@ -3754,7 +3729,7 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 56 | HU-033 | Compartir logros ambientales | Como estudiante, quiero compartir mis logros ambientales. | 5 |
 | 57 | HU-034 | Reaccionar a publicaciones | Como estudiante, quiero reaccionar a publicaciones. | 3 |
 | 58 | HU-040 | Logros colectivos | Como estudiante, quiero celebrar logros en grupo. | 3 |
-| 59 | HU-041 | Acceso offline | Como estudiante, quiero usar la app sin conexión. | 8 |
+| 59 | HU-041 | Puntaje decreciente por repetición de minijuegos | Como estudiante, quiero que al repetir un minijuego el puntaje obtenido disminuya progresivamente hasta llegar a 0, para motivarme a practicar nuevos retos y evitar acumular puntos por repetir la misma actividad. | 5 |
 | 60 | HU-042 | Multiplataforma | Como estudiante, quiero usar la app en varios dispositivos. | 5 |
 | 61 | HU-043 | Carga rápida | Como estudiante, quiero rapidez en la aplicación. | 3 |
 | 62 | HU-044 | Interfaz simple | Como estudiante, quiero una interfaz sencilla. | 3 |
@@ -3767,12 +3742,11 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | 69 | TS-002 | Endpoint de autenticación con JWT | Como desarrollador backend, quiero implementar autenticación con JWT. | 5 |
 | 70 | TS-003 | Endpoint de vinculación de cuentas padre-hijo | Como desarrollador backend, quiero implementar la vinculación familiar. | 5 |
 | 71 | TS-006 | Endpoint de insignias y sistema de recompensas | Como desarrollador backend, quiero implementar el sistema de insignias. | 5 |
-| 72 | TS-008 | API de sincronización de datos offline | Como desarrollador backend, quiero implementar sincronización offline. | 8 |
-| 73 | TS-009 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
-| 74 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
-| 75 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
-| 76 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
-| 77 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
+| 72 | TS-008 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
+| 73 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
+| 74 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
+| 75 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
+| 76 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
 
 # Capítulo IV: Product Design
 
@@ -6671,7 +6645,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-010</td>
+      <td>TS-009</td>
       <td>Endpoint de resumen y edición de perfil</td>
       <td>TO10</td>
       <td>Consultar datos principales del usuario</td>
@@ -6681,7 +6655,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-011</td>
+      <td>TS-010</td>
       <td>Endpoint de progreso del perfil</td>
       <td>TO13</td>
       <td>Consultar retos por estado</td>
@@ -6691,7 +6665,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-011</td>
+      <td>TS-010</td>
       <td>Endpoint de progreso del perfil</td>
       <td>TO14</td>
       <td>Consultar actividades del reto</td>
@@ -6701,7 +6675,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-011</td>
+      <td>TS-010</td>
       <td>Endpoint de progreso del perfil</td>
       <td>TO15</td>
       <td>Consultar recompensas del progreso</td>
@@ -6711,7 +6685,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-012</td>
+      <td>TS-011</td>
       <td>Endpoint de familia y amigos del perfil</td>
       <td>TO16</td>
       <td>Consultar familias registradas</td>
@@ -6721,7 +6695,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-012</td>
+      <td>TS-011</td>
       <td>Endpoint de familia y amigos del perfil</td>
       <td>TO17</td>
       <td>Consultar miembros familiares</td>
@@ -6731,7 +6705,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-012</td>
+      <td>TS-011</td>
       <td>Endpoint de familia y amigos del perfil</td>
       <td>TO18</td>
       <td>Consultar relaciones de amistad</td>
@@ -6741,7 +6715,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-013</td>
+      <td>TS-012</td>
       <td>Endpoint de interacción comunitaria</td>
       <td>TO19</td>
       <td>Listar publicaciones comunitarias</td>
@@ -6751,7 +6725,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-013</td>
+      <td>TS-012</td>
       <td>Endpoint de interacción comunitaria</td>
       <td>TO20</td>
       <td>Crear publicación comunitaria</td>
@@ -6761,7 +6735,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-013</td>
+      <td>TS-012</td>
       <td>Endpoint de interacción comunitaria</td>
       <td>TO21</td>
       <td>Eliminar publicación comunitaria</td>
@@ -6771,7 +6745,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-014</td>
+      <td>TS-013</td>
       <td>Endpoint de eventos comunitarios y participación</td>
       <td>TO22</td>
       <td>Listar y crear eventos comunitarios</td>
@@ -6781,7 +6755,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-014</td>
+      <td>TS-013</td>
       <td>Endpoint de eventos comunitarios y participación</td>
       <td>TO23</td>
       <td>Registrar inscripción a eventos</td>
@@ -6791,7 +6765,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-014</td>
+      <td>TS-013</td>
       <td>Endpoint de eventos comunitarios y participación</td>
       <td>TO24</td>
       <td>Consultar y cancelar inscripciones</td>
@@ -6801,7 +6775,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-015</td>
+      <td>TS-014</td>
       <td>Endpoint de catálogo y compra de cosméticos</td>
       <td>TO25</td>
       <td>Listar catálogo de cosméticos</td>
@@ -6811,7 +6785,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-015</td>
+      <td>TS-014</td>
       <td>Endpoint de catálogo y compra de cosméticos</td>
       <td>TO26</td>
       <td>Consultar detalle de cosmético</td>
@@ -6821,7 +6795,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-015</td>
+      <td>TS-014</td>
       <td>Endpoint de catálogo y compra de cosméticos</td>
       <td>TO27</td>
       <td>Registrar cosmético de usuario</td>
@@ -6831,7 +6805,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-016</td>
+      <td>TS-015</td>
       <td>Endpoint de compra de gemas</td>
       <td>TO28</td>
       <td>Registrar compra de gemas</td>
@@ -6841,7 +6815,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-016</td>
+      <td>TS-015</td>
       <td>Endpoint de compra de gemas</td>
       <td>TO29</td>
       <td>Registrar movimiento de gemas</td>
@@ -6851,7 +6825,7 @@ Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d831
       <td>Completed</td>
     </tr>
     <tr>
-      <td>TS-016</td>
+      <td>TS-015</td>
       <td>Endpoint de compra de gemas</td>
       <td>TO30</td>
       <td>Consultar multiplicadores disponibles</td>
@@ -7512,6 +7486,157 @@ En esta sección se describen los aspectos principales considerados durante el S
 
 
 #### 5.2.4.3. Sprint Backlog 4
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 4 del proyecto, siguiendo el mismo orden establecido en el Product Backlog. Durante este Sprint se trabajaron User Stories y Technical Stories orientadas a completar la integración funcional de EcoMind, incluyendo registro e IAM, logros, progreso, materiales de aprendizaje, retos familiares, comunidad, notificaciones, sincronización y mejoras de plataforma. Asimismo, cada historia fue descompuesta en Work-items/Tasks específicos, asignados a un único responsable según el bounded context correspondiente y registrados con estado Completed.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-016</td><td>Endpoint de notificaciones del usuario</td><td>TO01</td><td>Modelar notificaciones del usuario</td><td>Definir la estructura de datos para almacenar notificaciones, estado de lectura y usuario destinatario.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-016</td><td>Endpoint de notificaciones del usuario</td><td>TO02</td><td>Implementar consulta de notificaciones</td><td>Crear endpoints para listar notificaciones del usuario y consultar su detalle.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-016</td><td>Endpoint de notificaciones del usuario</td><td>TO03</td><td>Actualizar estado de lectura</td><td>Permitir marcar notificaciones como leídas y reflejar el cambio en la aplicación.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-017</td><td>Endpoint de materiales de aprendizaje</td><td>TO04</td><td>Modelar materiales de aprendizaje</td><td>Definir la estructura para materiales educativos, categorías, contenido y recursos asociados.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>TS-017</td><td>Endpoint de materiales de aprendizaje</td><td>TO05</td><td>Implementar consulta de materiales</td><td>Crear endpoints para listar materiales de aprendizaje y recuperar el detalle de cada recurso.</td><td>4</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>TS-017</td><td>Endpoint de materiales de aprendizaje</td><td>TO06</td><td>Filtrar materiales por tema</td><td>Agregar filtros por categoría o tema para facilitar la búsqueda de recursos educativos.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-055</td><td>Redirección a registro</td><td>TO07</td><td>Conectar CTA de registro</td><td>Configurar la navegación desde la landing page hacia el flujo de creación de cuenta.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-055</td><td>Redirección a registro</td><td>TO08</td><td>Validar ruta desde landing</td><td>Comprobar que los botones principales redirijan correctamente al registro en desktop y mobile.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-005</td><td>Reconocimiento por constancia</td><td>TO09</td><td>Definir reglas de reconocimiento</td><td>Establecer las condiciones para otorgar reconocimientos por completar actividades consecutivas.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-005</td><td>Reconocimiento por constancia</td><td>TO10</td><td>Implementar visualización de reconocimiento</td><td>Mostrar el reconocimiento obtenido dentro de la experiencia del estudiante.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-005</td><td>Reconocimiento por constancia</td><td>TO11</td><td>Validar actualización de logro</td><td>Comprobar que el reconocimiento se registre cuando el usuario cumpla la condición definida.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-007</td><td>Seguimiento de progreso</td><td>TO12</td><td>Consultar actividades iniciadas</td><td>Obtener las actividades iniciadas por el estudiante para calcular el avance actual.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-007</td><td>Seguimiento de progreso</td><td>TO13</td><td>Mostrar porcentaje de progreso</td><td>Integrar indicadores visuales para que el estudiante visualice cuánto ha avanzado.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-007</td><td>Seguimiento de progreso</td><td>TO14</td><td>Validar estados de progreso</td><td>Revisar que las actividades pendientes, iniciadas y completadas se muestren correctamente.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-008</td><td>Animaciones de logro</td><td>TO15</td><td>Agregar feedback de logro</td><td>Crear animaciones motivadoras al aprobar actividades o completar avances relevantes.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-008</td><td>Animaciones de logro</td><td>TO16</td><td>Activar animación al completar actividad</td><td>Conectar la animación con el evento de aprobación o finalización de actividad.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-011</td><td>Colección de medallas</td><td>TO17</td><td>Modelar medallas obtenidas</td><td>Definir la información necesaria para representar medallas obtenidas y bloqueadas.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-011</td><td>Colección de medallas</td><td>TO18</td><td>Construir vista de colección</td><td>Implementar la vista de medallas obtenidas por retos superados y estados de desbloqueo.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-011</td><td>Colección de medallas</td><td>TO19</td><td>Validar desbloqueo de medallas</td><td>Comprobar que las medallas cambien de estado al cumplir las condiciones correspondientes.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-012</td><td>Historial de aprendizaje</td><td>TO20</td><td>Listar actividades completadas</td><td>Registrar y presentar el historial de actividades completadas para consulta del estudiante.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-012</td><td>Historial de aprendizaje</td><td>TO21</td><td>Ordenar historial por fecha</td><td>Mostrar las actividades completadas según fecha de finalización para facilitar la revisión.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-023</td><td>Guía simplificada</td><td>TO22</td><td>Organizar materiales didácticos</td><td>Preparar una sección de materiales con explicaciones simples para conceptos ambientales.</td><td>4</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-023</td><td>Guía simplificada</td><td>TO23</td><td>Clasificar materiales por tema</td><td>Agrupar los materiales educativos por categorías ambientales para mejorar su consulta.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-023</td><td>Guía simplificada</td><td>TO24</td><td>Validar lectura del contenido</td><td>Revisar que los materiales sean comprensibles y adecuados para estudiantes.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-024</td><td>Tutorial paso a paso</td><td>TO25</td><td>Diseñar flujo de tutorial</td><td>Definir los pasos principales que explican el uso de la aplicación.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-024</td><td>Tutorial paso a paso</td><td>TO26</td><td>Implementar tutorial de uso</td><td>Crear un flujo guiado que explique al usuario cómo utilizar las funciones principales de la aplicación.</td><td>4</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-024</td><td>Tutorial paso a paso</td><td>TO27</td><td>Agregar control de avance</td><td>Permitir que el usuario avance o retroceda entre los pasos del tutorial.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-025</td><td>Recordatorios educativos</td><td>TO28</td><td>Configurar recordatorios de materiales</td><td>Mostrar avisos dentro de la aplicación sobre materiales pendientes o recomendados.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-025</td><td>Recordatorios educativos</td><td>TO29</td><td>Validar visualización de recordatorios</td><td>Comprobar que los recordatorios aparezcan solo cuando existan materiales pendientes.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-026</td><td>Contenido breve y claro</td><td>TO30</td><td>Ajustar contenido educativo</td><td>Adaptar textos de materiales para que sean breves, comprensibles y adecuados al usuario objetivo.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-026</td><td>Contenido breve y claro</td><td>TO31</td><td>Revisar consistencia textual</td><td>Verificar que los materiales mantengan una estructura corta y uniforme.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-027</td><td>Videos explicativos</td><td>TO32</td><td>Integrar videos educativos</td><td>Agregar soporte visual para videos explicativos dentro del módulo de aprendizaje.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-027</td><td>Videos explicativos</td><td>TO33</td><td>Validar reproducción de videos</td><td>Comprobar que los videos puedan abrirse y reproducirse desde la vista de aprendizaje.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-028</td><td>Lenguaje sencillo</td><td>TO34</td><td>Normalizar lenguaje de materiales</td><td>Revisar los textos educativos para asegurar un lenguaje sencillo y consistente.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-030</td><td>Preguntas frecuentes</td><td>TO35</td><td>Crear sección de FAQ</td><td>Implementar preguntas frecuentes dentro de la aplicación para resolver dudas comunes del estudiante.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-030</td><td>Preguntas frecuentes</td><td>TO36</td><td>Organizar respuestas por tema</td><td>Agrupar preguntas y respuestas según el tipo de duda del usuario.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-032</td><td>Infografías resumen</td><td>TO37</td><td>Agregar infografías educativas</td><td>Incorporar infografías que resuman conceptos ambientales y materiales de aprendizaje.</td><td>3</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-032</td><td>Infografías resumen</td><td>TO38</td><td>Validar visualización de infografías</td><td>Comprobar que las infografías se muestren correctamente en la vista de materiales.</td><td>2</td><td>Victor Jhosuef Laura Acosta</td><td>Completed</td></tr>
+    <tr><td>HU-013</td><td>Reto familiar en casa</td><td>TO39</td><td>Crear flujo de reto familiar</td><td>Implementar la selección e inicio de retos ambientales para realizar en familia.</td><td>5</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-013</td><td>Reto familiar en casa</td><td>TO40</td><td>Registrar participación familiar</td><td>Guardar la relación entre el reto seleccionado y los integrantes participantes.</td><td>3</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-013</td><td>Reto familiar en casa</td><td>TO41</td><td>Validar finalización del reto familiar</td><td>Comprobar que el reto familiar pueda marcarse como completado correctamente.</td><td>3</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-015</td><td>Registro de logros familiares</td><td>TO42</td><td>Registrar logros familiares</td><td>Guardar y visualizar los logros alcanzados por el grupo familiar.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-015</td><td>Registro de logros familiares</td><td>TO43</td><td>Asociar logro al grupo familiar</td><td>Relacionar cada logro registrado con la familia correspondiente.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-015</td><td>Registro de logros familiares</td><td>TO44</td><td>Mostrar historial de logros familiares</td><td>Presentar los logros familiares en una vista ordenada y fácil de consultar.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-016</td><td>Premios por colaboración familiar</td><td>TO45</td><td>Definir recompensas familiares</td><td>Establecer premios por acciones conjuntas realizadas por integrantes de una familia.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-016</td><td>Premios por colaboración familiar</td><td>TO46</td><td>Asignar premios familiares</td><td>Implementar recompensas por colaboración familiar completada.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-016</td><td>Premios por colaboración familiar</td><td>TO47</td><td>Validar entrega de premios</td><td>Comprobar que los premios se asignen una sola vez al cumplir el reto familiar.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-017</td><td>Planificación de retos familiares</td><td>TO48</td><td>Crear programación de retos</td><td>Permitir registrar retos familiares con fecha, descripción y participantes.</td><td>4</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-017</td><td>Planificación de retos familiares</td><td>TO49</td><td>Mostrar calendario de retos</td><td>Presentar las actividades planificadas para que la familia pueda consultarlas.</td><td>3</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-017</td><td>Planificación de retos familiares</td><td>TO50</td><td>Actualizar estado de planificación</td><td>Permitir modificar el estado de los retos familiares planificados.</td><td>3</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-017</td><td>Planificación de retos familiares</td><td>TO51</td><td>Validar planificación familiar</td><td>Verificar que solo se planifiquen retos con datos completos y fechas válidas.</td><td>2</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-018</td><td>Alertas de actividades</td><td>TO52</td><td>Mostrar alertas de actividades</td><td>Configurar alertas para recordar actividades o retos pendientes del grupo familiar.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-018</td><td>Alertas de actividades</td><td>TO53</td><td>Validar alertas pendientes</td><td>Comprobar que las alertas se oculten cuando la actividad sea completada.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-019</td><td>Agregar integrantes a la familia</td><td>TO54</td><td>Crear grupo familiar</td><td>Implementar el flujo para crear un grupo familiar con un responsable inicial.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-019</td><td>Agregar integrantes a la familia</td><td>TO55</td><td>Agregar integrantes con rol</td><td>Permitir asociar nuevos integrantes al grupo familiar con el rol correspondiente.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-019</td><td>Agregar integrantes a la familia</td><td>TO56</td><td>Validar miembros duplicados</td><td>Evitar que un mismo usuario sea agregado más de una vez al grupo familiar.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-020</td><td>Felicitación de logros familiares</td><td>TO57</td><td>Agregar felicitación familiar</td><td>Mostrar animaciones o mensajes de felicitación cuando una familia complete un reto.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-020</td><td>Felicitación de logros familiares</td><td>TO58</td><td>Activar felicitación por evento</td><td>Conectar la felicitación con la finalización real del reto familiar.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-021</td><td>Reportes de progreso familiares</td><td>TO59</td><td>Preparar datos del reporte familiar</td><td>Obtener avance, retos completados y logros del grupo familiar.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-021</td><td>Reportes de progreso familiares</td><td>TO60</td><td>Construir reporte visual familiar</td><td>Generar reportes visuales con el avance y resultados del grupo familiar.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-021</td><td>Reportes de progreso familiares</td><td>TO61</td><td>Agregar filtros de periodo</td><td>Permitir consultar el reporte por periodo semanal, mensual o general.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-021</td><td>Reportes de progreso familiares</td><td>TO62</td><td>Validar totales del reporte</td><td>Comprobar que los indicadores del reporte coincidan con el progreso registrado.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-022</td><td>Ranking de familias</td><td>TO63</td><td>Calcular puntaje familiar</td><td>Consolidar puntos y logros acumulados por familia para el ranking.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-022</td><td>Ranking de familias</td><td>TO64</td><td>Mostrar ranking familiar</td><td>Presentar la posición de las familias según puntajes y logros acumulados.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-022</td><td>Ranking de familias</td><td>TO65</td><td>Validar posición de la familia</td><td>Comprobar que la familia del usuario aparezca con su posición correspondiente.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-033</td><td>Compartir logros ambientales</td><td>TO66</td><td>Preparar publicación de logro</td><td>Construir el contenido que se compartirá en comunidad a partir de un logro ambiental.</td><td>3</td><td>Leo César Dulanto Espino</td><td>Completed</td></tr>
+    <tr><td>HU-033</td><td>Compartir logros ambientales</td><td>TO67</td><td>Publicar logros en comunidad</td><td>Permitir que los estudiantes compartan logros ambientales dentro del feed comunitario.</td><td>4</td><td>Leo César Dulanto Espino</td><td>Completed</td></tr>
+    <tr><td>HU-033</td><td>Compartir logros ambientales</td><td>TO68</td><td>Validar publicación creada</td><td>Comprobar que el logro compartido aparezca correctamente en el feed comunitario.</td><td>2</td><td>Leo César Dulanto Espino</td><td>Completed</td></tr>
+    <tr><td>HU-034</td><td>Reaccionar a publicaciones</td><td>TO69</td><td>Implementar reacciones comunitarias</td><td>Agregar reacciones a publicaciones y actualizar los contadores visibles para los usuarios.</td><td>4</td><td>Leo César Dulanto Espino</td><td>Completed</td></tr>
+    <tr><td>HU-034</td><td>Reaccionar a publicaciones</td><td>TO70</td><td>Actualizar contador de reacciones</td><td>Sincronizar el contador visible cuando el usuario agregue o retire una reacción.</td><td>3</td><td>Leo César Dulanto Espino</td><td>Completed</td></tr>
+    <tr><td>HU-034</td><td>Reaccionar a publicaciones</td><td>TO71</td><td>Validar reacción única por usuario</td><td>Evitar registros duplicados de reacción en una misma publicación.</td><td>2</td><td>Leo César Dulanto Espino</td><td>Completed</td></tr>
+    <tr><td>HU-040</td><td>Logros colectivos</td><td>TO72</td><td>Definir logros colectivos</td><td>Establecer condiciones para logros alcanzados por grupo o comunidad.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-040</td><td>Logros colectivos</td><td>TO73</td><td>Registrar logros colectivos</td><td>Implementar la visualización de logros alcanzados por grupos o comunidad.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-040</td><td>Logros colectivos</td><td>TO74</td><td>Validar progreso colectivo</td><td>Comprobar que el logro colectivo se actualice al acumular contribuciones del grupo.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>HU-041</td><td>Puntaje decreciente por repetición de minijuegos</td><td>TO75</td><td>Definir regla de reducción de puntaje</td><td>Establecer el porcentaje o monto de reducción aplicado cada vez que el estudiante repite un minijuego.</td><td>3</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-041</td><td>Puntaje decreciente por repetición de minijuegos</td><td>TO76</td><td>Registrar intentos por minijuego</td><td>Guardar la cantidad de veces que el estudiante completa cada minijuego para calcular la recompensa correspondiente.</td><td>4</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-041</td><td>Puntaje decreciente por repetición de minijuegos</td><td>TO77</td><td>Aplicar puntaje mínimo de 0</td><td>Validar que el cálculo de recompensa nunca sea negativo y llegue a 0 cuando el minijuego se repita demasiadas veces.</td><td>3</td><td>Alejandra Isabel Astocondor Bazan</td><td>Completed</td></tr>
+    <tr><td>HU-042</td><td>Multiplataforma</td><td>TO78</td><td>Validar experiencia desktop</td><td>Ajustar vistas principales para mantener compatibilidad en pantallas de escritorio.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-042</td><td>Multiplataforma</td><td>TO79</td><td>Validar experiencia mobile</td><td>Revisar navegación y layout de vistas principales en dispositivos móviles.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-042</td><td>Multiplataforma</td><td>TO80</td><td>Corregir inconsistencias responsivas</td><td>Ajustar componentes que presenten problemas de visualización en distintos dispositivos.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-043</td><td>Carga rápida</td><td>TO81</td><td>Revisar cargas de componentes</td><td>Identificar elementos que aumenten innecesariamente el tiempo de carga.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-043</td><td>Carga rápida</td><td>TO82</td><td>Optimizar tiempos de carga</td><td>Reducir cargas innecesarias y mejorar la respuesta de navegación en la aplicación.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-043</td><td>Carga rápida</td><td>TO83</td><td>Validar navegación fluida</td><td>Comprobar que las vistas principales respondan sin demoras significativas.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-044</td><td>Interfaz simple</td><td>TO84</td><td>Revisar claridad de interfaz</td><td>Ajustar componentes y textos para que los flujos principales sean más simples de usar.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-044</td><td>Interfaz simple</td><td>TO85</td><td>Validar flujo principal</td><td>Comprobar que el usuario pueda completar las acciones principales sin pasos innecesarios.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-045</td><td>Disponibilidad</td><td>TO86</td><td>Validar disponibilidad de módulos</td><td>Revisar que las rutas y servicios principales se encuentren disponibles durante la demostración.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-045</td><td>Disponibilidad</td><td>TO87</td><td>Registrar incidencias de disponibilidad</td><td>Documentar y corregir fallos detectados en rutas o servicios principales.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-046</td><td>Seguridad</td><td>TO88</td><td>Proteger navegación autenticada</td><td>Aplicar restricciones de acceso para vistas que requieren sesión activa.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-046</td><td>Seguridad</td><td>TO89</td><td>Validar datos sensibles</td><td>Revisar que la información del usuario no se exponga en vistas no autorizadas.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-046</td><td>Seguridad</td><td>TO90</td><td>Comprobar cierre de sesión seguro</td><td>Verificar que los datos de sesión se eliminen al cerrar sesión.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-047</td><td>Soporte</td><td>TO91</td><td>Agregar canal de soporte</td><td>Incorporar acceso a información de soporte para dudas o incidencias del usuario.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-047</td><td>Soporte</td><td>TO92</td><td>Validar acceso a soporte</td><td>Comprobar que la opción de soporte sea visible y funcional desde la aplicación.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-049</td><td>Sincronización automática</td><td>TO93</td><td>Detectar cambios pendientes</td><td>Identificar datos creados o modificados durante la sesión del usuario para mantenerlos actualizados.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-049</td><td>Sincronización automática</td><td>TO94</td><td>Sincronizar datos pendientes</td><td>Preparar la actualización automática de datos cuando el usuario complete acciones relevantes en la plataforma.</td><td>5</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-049</td><td>Sincronización automática</td><td>TO95</td><td>Resolver conflictos simples</td><td>Definir comportamiento cuando existan cambios simultáneos sobre el mismo recurso.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-049</td><td>Sincronización automática</td><td>TO96</td><td>Validar resultado de sincronización</td><td>Comprobar que los datos pendientes se actualicen correctamente al finalizar el flujo correspondiente.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-050</td><td>Optimización</td><td>TO97</td><td>Revisar consumo de recursos</td><td>Identificar componentes y servicios con uso innecesario de recursos.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-050</td><td>Optimización</td><td>TO98</td><td>Optimizar servicios principales</td><td>Ajustar llamadas y procesos para mejorar eficiencia y estabilidad general del sistema.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-050</td><td>Optimización</td><td>TO99</td><td>Validar estabilidad posterior</td><td>Comprobar que las optimizaciones no afecten los flujos principales.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-001</td><td>Endpoint de registro de usuarios</td><td>TO100</td><td>Diseñar request de registro</td><td>Definir los campos requeridos para registrar usuarios con rol inicial.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-001</td><td>Endpoint de registro de usuarios</td><td>TO101</td><td>Implementar endpoint de registro</td><td>Crear el servicio backend para registrar usuarios con datos base y rol inicial.</td><td>5</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-001</td><td>Endpoint de registro de usuarios</td><td>TO102</td><td>Agregar validaciones de registro</td><td>Validar campos obligatorios, correo único y formato de credenciales.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-001</td><td>Endpoint de registro de usuarios</td><td>TO103</td><td>Probar registro de usuario</td><td>Verificar respuestas exitosas y errores esperados del endpoint de registro.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-002</td><td>Endpoint de autenticación con JWT</td><td>TO104</td><td>Configurar generación de token</td><td>Implementar emisión de JWT al autenticar credenciales válidas.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-002</td><td>Endpoint de autenticación con JWT</td><td>TO105</td><td>Proteger rutas autenticadas</td><td>Aplicar validación de token en endpoints que requieren sesión activa.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-002</td><td>Endpoint de autenticación con JWT</td><td>TO106</td><td>Manejar errores de autenticación</td><td>Retornar respuestas claras para credenciales inválidas o token expirado.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-002</td><td>Endpoint de autenticación con JWT</td><td>TO107</td><td>Validar flujo de autenticación</td><td>Probar inicio de sesión, uso de token y acceso a recursos protegidos.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-003</td><td>Endpoint de vinculación de cuentas padre-hijo</td><td>TO108</td><td>Modelar relación padre-hijo</td><td>Definir la estructura para asociar cuentas familiares dentro del backend.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-003</td><td>Endpoint de vinculación de cuentas padre-hijo</td><td>TO109</td><td>Implementar vinculación familiar</td><td>Desarrollar la operación para relacionar una cuenta padre con una cuenta hijo.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-003</td><td>Endpoint de vinculación de cuentas padre-hijo</td><td>TO110</td><td>Validar permisos de vinculación</td><td>Comprobar que solo usuarios autorizados puedan gestionar vínculos familiares.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-006</td><td>Endpoint de insignias y sistema de recompensas</td><td>TO111</td><td>Modelar insignias y recompensas</td><td>Definir entidades y reglas para insignias, reconocimientos y recompensas.</td><td>3</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>TS-006</td><td>Endpoint de insignias y sistema de recompensas</td><td>TO112</td><td>Implementar consulta de insignias</td><td>Crear endpoint para listar insignias disponibles y obtenidas por el usuario.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>TS-006</td><td>Endpoint de insignias y sistema de recompensas</td><td>TO113</td><td>Registrar recompensa obtenida</td><td>Implementar operación para otorgar recompensas cuando se cumplan condiciones.</td><td>4</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>TS-006</td><td>Endpoint de insignias y sistema de recompensas</td><td>TO114</td><td>Validar reglas de recompensa</td><td>Comprobar que las recompensas se asignen según las reglas definidas.</td><td>2</td><td>Isabel Luisa Aponte Pablo</td><td>Completed</td></tr>
+    <tr><td>TS-008</td><td>Servicio de notificaciones push</td><td>TO115</td><td>Definir tipos de notificación</td><td>Clasificar recordatorios, alertas de actividad y mensajes educativos.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-008</td><td>Servicio de notificaciones push</td><td>TO116</td><td>Configurar servicio push</td><td>Implementar el servicio para enviar recordatorios y alertas relevantes al usuario.</td><td>5</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-008</td><td>Servicio de notificaciones push</td><td>TO117</td><td>Registrar preferencias de notificación</td><td>Permitir controlar qué notificaciones recibe el usuario según el contexto.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>TS-008</td><td>Servicio de notificaciones push</td><td>TO118</td><td>Validar entrega de notificaciones</td><td>Comprobar que las notificaciones se generen con contenido y destinatario correctos.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-056</td><td>Registro de usuario</td><td>TO119</td><td>Crear formulario de registro</td><td>Implementar formulario de registro con selección de rol y validaciones básicas.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-056</td><td>Registro de usuario</td><td>TO120</td><td>Integrar registro con backend</td><td>Conectar el formulario con el endpoint de registro de usuarios.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-056</td><td>Registro de usuario</td><td>TO121</td><td>Validar mensajes de error</td><td>Mostrar mensajes claros cuando el registro no pueda completarse.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-057</td><td>Inicio de sesión</td><td>TO122</td><td>Crear formulario de login</td><td>Implementar formulario de inicio de sesión con correo y contraseña.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-057</td><td>Inicio de sesión</td><td>TO123</td><td>Integrar login con JWT</td><td>Conectar el inicio de sesión con la autenticación basada en token.</td><td>4</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-057</td><td>Inicio de sesión</td><td>TO124</td><td>Validar navegación autenticada</td><td>Redirigir al usuario correctamente luego de iniciar sesión.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-058</td><td>Recuperación de contraseña</td><td>TO125</td><td>Crear solicitud de recuperación</td><td>Agregar el flujo para solicitar recuperación de contraseña mediante correo electrónico.</td><td>3</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-058</td><td>Recuperación de contraseña</td><td>TO126</td><td>Validar respuesta al usuario</td><td>Mostrar confirmación o error según el resultado de la solicitud de recuperación.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-059</td><td>Cierre de sesión</td><td>TO127</td><td>Implementar cierre de sesión</td><td>Eliminar la sesión activa de forma segura y redirigir al usuario fuera de las vistas protegidas.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+    <tr><td>HU-059</td><td>Cierre de sesión</td><td>TO128</td><td>Validar limpieza de sesión</td><td>Comprobar que el usuario no pueda volver a vistas protegidas luego de cerrar sesión.</td><td>2</td><td>Alexther Kamil Diaz Martinez</td><td>Completed</td></tr>
+  </tbody>
+</table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
