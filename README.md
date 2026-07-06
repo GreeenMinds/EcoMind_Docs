@@ -7520,7 +7520,6 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 Asimismo, se implementaron servicios REST, lógica de negocio, modelos de dominio, infraestructura de persistencia, integración con APIs externas y mecanismos de seguridad basados en JWT. En el Frontend se desarrollaron interfaces de usuario, vistas, componentes reutilizables, validaciones, integración con servicios backend y funcionalidades orientadas a mejorar la experiencia de usuario.
 
 El proyecto se gestionó mediante repositorios colaborativos utilizando Git y GitHub, aplicando control de versiones, integración continua de funcionalidades y una organización de commits orientada a cada historia de usuario y componente desarrollado. A continuación, se presenta una tabla con los repositorios utilizados y los commits asociados a las actividades de implementación realizadas durante el Sprint 4.
-# EcoMind - Commit History
 
 | Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
 |------------|--------|-----------|----------------|-------------|--------------------|
