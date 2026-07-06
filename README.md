@@ -7719,7 +7719,34 @@ El proyecto se gestionó mediante repositorios colaborativos utilizando Git y Gi
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 4 se completó la integración funcional entre el frontend y los servicios backend de EcoMind. El incremento permitió ejecutar los principales flujos de la plataforma con datos persistentes, reemplazando progresivamente los mocks utilizados en iteraciones anteriores. La validación comprendió autenticación e IAM, retos, progreso y logros, materiales de aprendizaje, comunidad, familias, notificaciones y funcionalidades compartidas de la plataforma.
+
+Para comprobar el funcionamiento del incremento se realizaron pruebas funcionales sobre los recorridos principales del usuario. Se verificó el registro, inicio y cierre de sesión; la recuperación de contraseña y la protección de rutas; la consulta y ejecución de retos individuales y familiares; la actualización del progreso y los logros; la visualización de materiales educativos; y la interacción con publicaciones, reacciones, eventos y notificaciones de la comunidad.
+
+| Módulo ejecutado | Evidencia funcional validada | Resultado |
+|---|---|---|
+| IAM y usuario | Registro, inicio de sesión, recuperación de contraseña, cierre de sesión y acceso a rutas protegidas mediante JWT. | Flujo completado correctamente y sesión gestionada de forma segura. |
+| Quests | Consulta, inicio, seguimiento, finalización y reinicio de retos individuales y familiares. | Los cambios de estado se almacenan y se reflejan en la interfaz. |
+| Progreso y logros | Visualización del avance, rachas, reconocimientos, insignias y logros de usuario y comunidad. | El progreso y las recompensas se actualizan según las acciones realizadas. |
+| Learning | Consulta y filtrado de materiales de aprendizaje, incluyendo recursos educativos y contenido en video. | Los materiales se recuperan desde el backend y se muestran correctamente. |
+| Comunidad y familias | Publicaciones, reacciones, amistades, familias, retos colaborativos e inscripción familiar en eventos. | Las interacciones se registran y los cambios se visualizan para los usuarios participantes. |
+| Notificaciones | Consulta de notificaciones y actualización de su estado de lectura. | Las notificaciones del usuario se muestran y pueden marcarse como leídas. |
+| Plataforma e integración | Comunicación frontend-backend, persistencia en MySQL, validaciones y manejo de respuestas de los servicios REST. | Los flujos integrados operan con datos persistentes y respuestas consistentes. |
+
+Las pruebas realizadas permitieron confirmar que las historias incluidas en el Sprint Backlog 4 se encuentran integradas en un incremento navegable y demostrable. Asimismo, se comprobó la comunicación entre las interfaces, la lógica de negocio y la capa de persistencia, cumpliendo el objetivo definido para el Sprint 4.
+
+**Evidencias visuales de ejecución:**
+
+<!-- Agregar aquí las capturas del Sprint 4. Ejemplo:
+![Ejecución de autenticación e IAM](assets/img/figures/Sprint_4_IAM.png)
+![Ejecución de retos, progreso y logros](assets/img/figures/Sprint_4_Quests_Progress.png)
+![Ejecución de Learning](assets/img/figures/Sprint_4_Learning.png)
+![Ejecución de comunidad y familias](assets/img/figures/Sprint_4_Community.png)
+![Ejecución de notificaciones](assets/img/figures/Sprint_4_Notifications.png)
+-->
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
