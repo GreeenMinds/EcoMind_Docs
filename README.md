@@ -7442,6 +7442,17 @@ Sprint 3 - Landing Page
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
+En esta sección se describen los aspectos principales considerados durante el Sprint 4 y la distribución del trabajo por bounded context para avanzar en la integración frontend-backend del sistema. El sprint se organizó bajo un enfoque de ownership end-to-end por módulo, abarcando frontend, backend, persistencia, validaciones y pruebas. La distribución se realizó sobre los contextos de Quests, Comunidad, Gamificación y Progreso, Learning, y Plataforma común, usuario y notificaciones, permitiendo que cada responsable avance de manera independiente mediante mocks, contratos acordados y un usuario de ejemplo centralizado, para luego reemplazar dichas dependencias por integraciones reales entre módulos. Cada aspecto contó con un líder principal y colaboradores encargados de apoyar la revisión, coherencia técnica, integración final y validación funcional de los flujos desarrollados.
+
+| Team Member (Last Name, First Name) | GitHub Username | Quests | Community | User Progress | Learning | IAM |
+|-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | L | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | L | C | C | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | L | C | C |
+| Alexther Kamil Diaz Martinez | kamil-tron | C | C | C | C | L |
+| Victor Jhosuef Laura Acosta | Zatrynox | C | C | C | L | C|
+
+
 #### 5.2.4.3. Sprint Backlog 4
 
 #### 5.2.4.4. Development Evidence for Sprint Review
