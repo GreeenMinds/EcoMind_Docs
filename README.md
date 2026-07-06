@@ -7747,6 +7747,48 @@ Las pruebas realizadas permitieron confirmar que las historias incluidas en el S
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+Durante este Sprint se amplió la documentación de los Web Services que soportan las nuevas funcionalidades e integraciones de EcoMind. Se incorporaron endpoints REST para autenticación, recuperación de contraseña, notificaciones, retos colaborativos, minijuegos, planes familiares, compra de gemas, pagos, materiales educativos, rankings y logros. Estos servicios permitieron reemplazar los flujos simulados del frontend por operaciones conectadas al backend y con persistencia de datos.
+
+Asimismo, se configuró la autorización mediante JWT para los endpoints protegidos y su uso desde Swagger UI. La documentación generada con OpenAPI permite visualizar las operaciones disponibles, sus parámetros, cuerpos de solicitud, modelos de respuesta y códigos HTTP, además de realizar pruebas con datos de ejemplo.
+
+A continuación, se presenta la relación de los principales endpoints trabajados durante el Sprint 4.
+
+**Repositorio de Web Services:** [Repositorio backend del proyecto EcoMind](https://github.com/GreeenMinds/EcoMind_backend)
+
+**Repositorio Frontend:** [Repositorio frontend del proyecto EcoMind](https://github.com/GreeenMinds/EcoMind_frontend)
+
+**URL local de la documentación Swagger:** http://localhost:8092/swagger-ui/index.html
+
+**Base de datos utilizada:** PostgreSQL
+
+| Recurso | Endpoint Base | Acciones Implementadas |
+|---|---|---|
+| Authentication | `/api/v1/authentication` | POST (sign-up/sign-in/logout/password recovery), GET (usuario autenticado), DELETE (cuenta) |
+| Notifications | `/api/v1/notification` | GET, POST, PATCH (marcar una o todas como leídas), GET (cantidad no leída) |
+| Collaborative Quests | `/api/v1/collaborative-quests` | POST (crear/iniciar), GET (estado), DELETE |
+| Collaborative Quest Members | `/api/v1/collaborative-quest-members` | POST (invitar), PATCH (aceptar/rechazar/abandonar/remover) |
+| Minigames | `/api/v1/minigames` | GET, POST, DELETE |
+| Minigame Attempts | `/api/v1/minigame-attempts` | GET, POST (iniciar/finalizar/cancelar) |
+| Family Plans | `/api/v1/family-plans` | GET, POST, PUT, DELETE, POST (activar/completar) |
+| Gem Movements | `/api/v1/gem_movement` | GET, POST, GET por ID |
+| User Cosmetics | `/api/v1/user_cosmetic` | GET, POST (comprar), PUT, GET por usuario o ID |
+| User Multipliers | `/api/v1/user_multiplier` | GET, POST (comprar), GET por usuario o ID |
+| Payment Webhooks | `/api/v1/webhooks` | POST (confirmación de pagos Culqi) |
+| Educational Materials | `/api/v1/educational-materials` | GET, POST, PUT, DELETE, SEARCH, POST (favorito) |
+| Rankings | `/api/v1/rankings/{rankingType}/leaderboard` | GET (clasificación por tipo) |
+| Achievements | `/api/v1/achievements` | GET, POST, GET por ID |
+| User Achievements | `/api/v1/user-achievements/{userId}` | GET por usuario |
+| Community Achievements | `/api/v1/community-achievements/{communityId}` | GET por comunidad |
+
+**Evidencia de ejecución**
+
+Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proyectos frontend y backend de EcoMind. El backend expone los endpoints mediante Swagger UI y el frontend consume estos contratos para ejecutar los flujos de autenticación, retos, aprendizaje, comunidad, monetización, ranking y logros.
+
+![Proyectos frontend y backend del Sprint 4](assets/img/figures/Sprint_4_Service_Projects.png)
+
+<!-- Agregar aquí una captura de Swagger UI con los endpoints desplegados. Ejemplo:
+![Documentación Swagger de los servicios del Sprint 4](assets/img/figures/Sprint_4_Swagger.png)
+-->
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
