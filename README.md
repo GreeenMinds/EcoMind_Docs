@@ -7515,6 +7515,86 @@ En esta sección se describen los aspectos principales considerados durante el S
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 4, mostrando los principales avances en la implementación de las funcionalidades definidas para la plataforma EcoMind. Durante este periodo, el equipo desarrolló e integró componentes tanto del Frontend como del Backend, incorporando módulos relacionados con autenticación e IAM, monetización mediante gemas y métodos de pago, aprendizaje interactivo (Learning), retos individuales y colaborativos, logros (Achievements), rankings, familias, comunidad, reacciones a publicaciones, eventos comunitarios, notificaciones y seguimiento del progreso de los usuarios.
+
+Asimismo, se implementaron servicios REST, lógica de negocio, modelos de dominio, infraestructura de persistencia, integración con APIs externas y mecanismos de seguridad basados en JWT. En el Frontend se desarrollaron interfaces de usuario, vistas, componentes reutilizables, validaciones, integración con servicios backend y funcionalidades orientadas a mejorar la experiencia de usuario.
+
+El proyecto se gestionó mediante repositorios colaborativos utilizando Git y GitHub, aplicando control de versiones, integración continua de funcionalidades y una organización de commits orientada a cada historia de usuario y componente desarrollado. A continuación, se presenta una tabla con los repositorios utilizados y los commits asociados a las actividades de implementación realizadas durante el Sprint 4.
+# EcoMind - Commit History
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|------------|--------|-----------|----------------|-------------|--------------------|
+| EcoMind_backend | develop | 598954e | feat: collab session post and get | Endpoints POST y GET para sesiones colaborativas | July 1, 2026 |
+| EcoMind_backend | develop | ed4c4a4 | feat(monetization): add GemPackage aggregate | Aggregate para paquetes de gemas | July 1, 2026 |
+| EcoMind_backend | develop | e0195a6 | feat(monetization): add UserMultiplier aggregate | Aggregate para multiplicadores de usuario | July 1, 2026 |
+| EcoMind_backend | develop | cc24170 | feat: improve UserMultiplier | Mejoras en multiplicadores de usuario | July 1, 2026 |
+| EcoMind_backend | develop | c70d372 | feat: improve GemPurchase | Mejoras en compras de gemas | July 1, 2026 |
+| EcoMind_backend | develop | f4665cd | feat: improve UserCosmetic | Mejoras en cosméticos de usuario | July 1, 2026 |
+| EcoMind_backend | develop | 24b512c | feat: add collaborative quest session flow | Flujo de sesiones colaborativas | July 1, 2026 |
+| EcoMind_frontend | develop | 22e12cc | feat: connect monetization load path to real backend | Conexión de monetización al backend real | July 2, 2026 |
+| EcoMind_backend | develop | c2cd368 | feat: add leave and removal from collaborative quests | Permite abandonar o remover participantes | July 2, 2026 |
+| EcoMind_backend | develop | 6223997 | fix: validate collaborative quest lifecycle | Validación del ciclo de vida colaborativo | July 2, 2026 |
+| EcoMind_backend | develop | b957df4 | feat: add gem purchase checkout endpoint | Checkout para compra de gemas | July 2, 2026 |
+| EcoMind_backend | develop | 93c4fa1 | feat: add gem purchase approve/reject endpoints | Aprobación y rechazo de compras de gemas | July 2, 2026 |
+| EcoMind_backend | develop | 5ac3c4e | feat: credit gems and record movement when a gem purchase is approved | Registro y acreditación de gemas | July 2, 2026 |
+| EcoMind_backend | develop | f079541 | feat: buy cosmetic with gems | Compra de cosméticos con gemas | July 2, 2026 |
+| EcoMind_backend | develop | 35c1ad1 | feat: add minigame quests and attempts | Soporte para minijuegos y sus intentos | July 2, 2026 |
+| EcoMind_backend | develop | a64dc52 | feat: add minigame deletion rules | Reglas para eliminación de minijuegos | July 2, 2026 |
+| EcoMind_backend | develop | b38848d | feat: pay gem purchase through Culqi gateway | Pago de gemas mediante Culqi | July 2, 2026 |
+| EcoMind_backend | develop | 939df0d | feat: track payment method + charge reference | Registro de método de pago y referencia | July 2, 2026 |
+| EcoMind_backend | develop | f9be7df | feat: add PayPal gateway and route by payment method | Integración de PayPal | July 2, 2026 |
+| EcoMind_backend | develop | 653ec65 | feat: add Culqi payment webhook | Webhook de Culqi | July 2, 2026 |
+| EcoMind_frontend | develop | 0b398d8 | feat: real card, yape and paypal | Integración de métodos de pago reales | July 3, 2026 |
+| EcoMind_frontend | develop | 5eafe26 | feat: integrate quests and collaborative quests with backend | Integración de quests con backend | July 3, 2026 |
+| EcoMind_frontend | develop | 1ae8b44 | feat: connect quests and minigames backend flow | Integración de quests y minijuegos | July 3, 2026 |
+| EcoMind_frontend | develop | fff1fe1 | feat: add post reactions | Reacciones en publicaciones | July 3, 2026 |
+| EcoMind_frontend | develop | 51923f3 | fix: Mega Bundle special | Corrección del paquete Mega Bundle | July 3, 2026 |
+| EcoMind_frontend | develop | 5897e61 | feat: Add delete event by creator | Eliminación de eventos por creador | July 3, 2026 |
+| EcoMind_frontend | develop | a34515f | feat: add family plans quest workflow | Flujo de planes familiares | July 3, 2026 |
+| EcoMind_frontend | develop | 083ac72 | feat: add family ranking toggle and family achievements section | Ranking y logros familiares | July 3, 2026 |
+| EcoMind_frontend | develop | 02208bd | feat: move family progress report into a modal | Reporte familiar en modal | July 3, 2026 |
+| EcoMind_frontend | develop | 38474f6 | feat: share quest achievement to community feed | Compartir logros en la comunidad | July 3, 2026 |
+| EcoMind_frontend | develop | f1a3c85 | fix: refresh gem packages and gem balance updates | Actualización de gemas y balances | July 3, 2026 |
+| EcoMind_backend | develop | 06d219d | feat: add completion rewards and streak tracking | Recompensas y rachas | July 3, 2026 |
+| EcoMind_backend | develop | 7148360 | feat: apply active gem multiplier | Aplicación de multiplicadores activos | July 3, 2026 |
+| EcoMind_backend | develop | 6da5baf | feat: add family plans endpoints | Endpoints de planes familiares | July 3, 2026 |
+| EcoMind_backend | develop | 7fee1fb | feat: add family plans for collaborative quests | Planes familiares colaborativos | July 3, 2026 |
+| EcoMind_backend | develop | 3ca2d52 | feat: add family | Implementación de familias | July 3, 2026 |
+| EcoMind_frontend | develop | 4efb858 | feat: add friendship flow | Flujo de amistad | July 4, 2026 |
+| EcoMind_frontend | develop | d2f70c0 | feat: add technical support | Soporte técnico | July 4, 2026 |
+| EcoMind_frontend | develop | 8c7b675 | feat: add notifications v1 | Notificaciones v1 | July 4, 2026 |
+| EcoMind_frontend | develop | 8df1fcb | feat: add notifications v2 | Notificaciones v2 | July 4, 2026 |
+| EcoMind_frontend | develop | d05ff30 | feat: add auth facade service | Servicio fachada de autenticación | July 4, 2026 |
+| EcoMind_frontend | develop | 1c5c233 | feat: add sign up screen | Pantalla de registro | July 4, 2026 |
+| EcoMind_frontend | develop | b3685b6 | feat: add sign in screen | Pantalla de inicio de sesión | July 4, 2026 |
+| EcoMind_frontend | develop | 47d237d | feat: add password recovery screen | Recuperación de contraseña | July 4, 2026 |
+| EcoMind_frontend | develop | a0bd302 | feat: add account security settings | Configuración de seguridad | July 4, 2026 |
+| EcoMind_backend | develop | 627030d | feat: add friendship flow | Flujo de amistad backend | July 4, 2026 |
+| EcoMind_backend | develop | 7af4878 | feat: add notifications v1 | Backend notificaciones v1 | July 4, 2026 |
+| EcoMind_backend | develop | 31ccbbe | feat: add notifications v2 | Backend notificaciones v2 | July 4, 2026 |
+| EcoMind_backend | develop | 0e6ced6 | feat: add authentication rest endpoints | Endpoints REST de autenticación | July 4, 2026 |
+| EcoMind_backend | develop | 3460ace | fix: add jwt authorization to swagger docs | JWT en Swagger | July 4, 2026 |
+| EcoMind_frontend | develop | 658718e | feat: add community backend connection | Conexión comunidad-backend | July 5, 2026 |
+| EcoMind_frontend | develop | ffcd743 | feat: add iam frontend bounded context | Bounded Context IAM | July 5, 2026 |
+| EcoMind_frontend | develop | d5b4405 | feat: add iam api session service and models | Servicio de sesión IAM | July 5, 2026 |
+| EcoMind_frontend | develop | 42c77d6 | feat: add auth interceptor and route guards | Guards e interceptor | July 5, 2026 |
+| EcoMind_frontend | develop | 04c9350 | feat: connect auth pages to iam flow | Flujo IAM en frontend | July 5, 2026 |
+| EcoMind_frontend | develop | 34dbcc9 | feat(learning): implement learning UI module | Interfaz Learning | July 5, 2026 |
+| EcoMind_frontend | develop | 70019d4 | feat: add daily quest visuals | Visualización de quests diarias | July 5, 2026 |
+| EcoMind_frontend | develop | d12f218 | feat(ranking): consume backend leaderboard endpoint | Consumo de ranking backend | July 5, 2026 |
+| EcoMind_backend | develop | 57bea68 | fix: prevent managing cosmetics for other users | Restricción de cosméticos | July 5, 2026 |
+| EcoMind_backend | develop | 585bd50 | feat: add notifications for reactions and purchases | Notificaciones de compras y reacciones | July 5, 2026 |
+| EcoMind_backend | develop | 69842b7 | feat: add educational materials seeder | Seeder educativo | July 5, 2026 |
+| EcoMind_backend | develop | 183d00f | feat: add daily quest lifecycle | Ciclo de vida Daily Quest | July 5, 2026 |
+| EcoMind_backend | develop | e0383eb | feat(ranking): leaderboard endpoint | Endpoint Ranking | July 5, 2026 |
+| EcoMind_frontend | develop | 679c8d0 | feat: event registration by family | Registro familiar en eventos | July 6, 2026 |
+| EcoMind_frontend | develop | 099f007 | fix: community post points | Corrección de puntos comunitarios | July 6, 2026 |
+| EcoMind_frontend | develop | 5a71220 | feat: add user and community achievement | Logros de usuario y comunidad | July 6, 2026 |
+| EcoMind_frontend | develop | 8968c42 | fix: user achievements in profile view | Corrección de logros en perfil | July 6, 2026 |
+| EcoMind_backend | develop | c5a4d6b | fix: restart a quest | Reinicio de quests | July 6, 2026 |
+| EcoMind_backend | develop | 922f2fc | fix(learning): add videoUrl field | VideoUrl en materiales educativos | July 6, 2026 |
+| EcoMind_backend | develop | 8a66719 | refactor: achievements | Refactorización de logros | July 6, 2026 |
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
