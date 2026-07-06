@@ -3601,6 +3601,62 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-017</td>
+    <td><b>Epic ID</b></td><td>EP09</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de notificaciones del usuario</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/notification, POST /api/v1/notification, PATCH /api/v1/notification/{notificationId}/read, PATCH /api/v1/notification/read-all y GET /api/v1/notification/unread-count, para registrar, consultar y gestionar las notificaciones del usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/notification retorna las notificaciones asociadas al usuario.</li>
+        <li>POST /api/v1/notification permite crear una nueva notificación para recordatorios, logros, retos diarios o eventos comunitarios.</li>
+        <li>PATCH /api/v1/notification/{notificationId}/read marca una notificación específica como leída.</li>
+        <li>PATCH /api/v1/notification/read-all marca todas las notificaciones del usuario como leídas.</li>
+        <li>GET /api/v1/notification/unread-count retorna la cantidad de notificaciones no leídas.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-018</td>
+    <td><b>Epic ID</b></td><td>EP010</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de materiales de aprendizaje</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/educational-materials, GET /api/v1/educational-materials/{materialId}, POST /api/v1/educational-materials, PUT /api/v1/educational-materials/{materialId}, DELETE /api/v1/educational-materials/{materialId}, POST /api/v1/educational-materials/{materialId}/favorite y GET /api/v1/educational-materials/search, para gestionar materiales educativos dentro de la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/educational-materials retorna todos los materiales educativos registrados.</li>
+        <li>GET /api/v1/educational-materials/{materialId} retorna el detalle de un material educativo por identificador.</li>
+        <li>POST /api/v1/educational-materials permite crear un nuevo material educativo.</li>
+        <li>PUT /api/v1/educational-materials/{materialId} actualiza la información de un material educativo existente.</li>
+        <li>DELETE /api/v1/educational-materials/{materialId} elimina un material educativo cuando corresponde.</li>
+        <li>POST /api/v1/educational-materials/{materialId}/favorite permite marcar o desmarcar un material como favorito.</li>
+        <li>GET /api/v1/educational-materials/search permite buscar materiales educativos según criterios definidos.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
 
 ## 3.2. Impact Mapping
 
@@ -3641,80 +3697,82 @@ El Impact Mapping de EcoMind refleja la relación entre los objetivos de negocio
 | # | ID | Título | Descripción | SP |
 |---|---|---|---|---|
 | 1 | HU-051 | Información descriptiva clara | Como visitante, quiero entender fácilmente las funcionalidades desde la landing page. | 3 |
-| 3 | HU-052 | Consejos de uso para padres | Como visitante, quiero ver recomendaciones de uso en la landing. | 3 |
-| 4 | HU-053 | Preguntas frecuentes en landing | Como visitante, quiero acceder a preguntas frecuentes desde la landing. | 2 |
-| 2 | HU-054 | Información de la comunidad en landing | Como visitante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
-| 5 | HU-055 | Redirección a registro | Como visitante, quiero ir al registro desde la landing. | 5 |
-| 6 | HU-001 | Miniactividad guiada con indicaciones | Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
-| 7 | HU-002 | Reto ambiental diario | Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación. | 5 |
-| 8 | HU-003 | Rachas por completar retos diarios | Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante. | 5 |
-| 9 | HU-004 | Sistema de puntos por aprendizaje | Como estudiante, quiero obtener puntos al completar actividades, para mantener mi motivación dentro de la aplicación. | 5 |
-| 10 | HU-005 | Reconocimiento por constancia | Como estudiante, quiero recibir reconocimientos al completar varias actividades seguidas, para reforzar mi compromiso con el aprendizaje. | 3 |
-| 11 | HU-006 | Establecimiento de compromiso | Como estudiante, quiero establecer compromisos individuales, para mantenerme constante. | 3 |
-| 12 | HU-007 | Seguimiento de progreso | Como estudiante, quiero ver mi progreso de actividades iniciadas, para saber cuánto he avanzado en ellas. | 5 |
-| 13 | HU-008 | Animaciones de logro | Como estudiante, quiero ver animaciones motivadoras al aprobar una actividad, para sentir satisfacción por mi esfuerzo. | 3 |
-| 14 | HU-009 | Ranking educativo | Como usuario, quiero ver un ranking de los mejores puntajes, para compararme de forma sana con otros usuarios. | 3 |
-| 15 | HU-010 | Desafío entre compañeros | Como estudiante, quiero realizar actividades en conjunto con mis amigos, para aprender y divertirnos al mismo tiempo. | 8 |
-| 16 | HU-011 | Colección de medallas | Como estudiante, quiero ganar medallas al superar retos, para sentir orgullo por mis logros. | 5 |
-| 17 | HU-012 | Historial de aprendizaje | Como estudiante, quiero revisar mi historial de actividades completadas, para repasar contenido de mi progreso. | 3 |
-| 18 | HU-023 | Guía simplificada | Como estudiante, quiero acceder a materiales didacticos, para entender conceptos ambientales sin dificultad. | 5 |
-| 19 | HU-024 | Tutorial paso a paso | Como usuario, quiero seguir tutoriales paso a paso dentro de la aplicación, para aprender cómo usarla correctamente. | 5 |
-| 20 | HU-025 | Recordatorios educativos | Como estudiante, quiero recibir recordatorios en la aplicación de materiales pendientes. | 3 |
-| 21 | HU-026 | Contenido breve y claro | Como estudiante, quiero que la información sea breve y clara. | 3 |
-| 22 | HU-027 | Videos explicativos | Como estudiante, quiero ver videos explicativos dentro de la aplicación. | 3 |
-| 23 | HU-028 | Lenguaje sencillo | Como estudiante, quiero contenido en lenguaje sencillo. | 2 |
-| 24 | HU-030 | Preguntas frecuentes | Como estudiante, quiero acceder a una sección de preguntas frecuentes. | 2 |
-| 25 | HU-032 | Infografías resumen | Como estudiante, quiero acceder a infografías que resuman la información. | 3 |
-| 26 | HU-013 | Reto familiar en casa | Como padre, quiero realizar retos ambientales en casa junto a mi familia. | 5 |
-| 27 | HU-014 | Evento familiar en comunidad | Como padre, quiero participar con mi familia en actividades ambientales. | 8 |
-| 28 | HU-015 | Registro de logros familiares | Como padre, quiero registrar los logros de mi familia. | 5 |
-| 29 | HU-016 | Premios por colaboración familiar | Como padre, quiero que la aplicación premie nuestras acciones conjuntas. | 5 |
-| 30 | HU-017 | Planificación de retos familiares | Como padre, quiero planificar nuestras actividades ambientales. | 8 |
-| 31 | HU-018 | Alertas de actividades | Como padre, quiero recibir alertas de actividades. | 5 |
-| 32 | HU-019 | Agregar integrantes a la familia | Como padre, quiero crear mi grupo familiar. | 5 |
-| 33 | HU-020 | Felicitación de logros familiares | Como padre, quiero una animación al cumplir un reto. | 3 |
-| 34 | HU-021 | Reportes de progreso familiares | Como padre, quiero recibir reportes visuales del progreso. | 5 |
-| 35 | HU-022 | Ranking de familias | Como padre, quiero ver el ranking de familias. | 5 |
-| 36 | HU-033 | Compartir logros ambientales | Como estudiante, quiero compartir mis logros ambientales. | 5 |
-| 37 | HU-034 | Reaccionar a publicaciones | Como estudiante, quiero reaccionar a publicaciones. | 3 |
-| 38 | HU-036 | Ranking comunitario | Como estudiante, quiero ver un ranking de usuarios. | 3 |
-| 39 | HU-037 | Eventos ambientales | Como estudiante, quiero participar en eventos ambientales. | 5 |
-| 40 | HU-048 | Eventos de la comunidad en mapa | Como usuario, quiero ver eventos cercanos en un mapa. | 5 |
-| 41 | HU-029 | Avatares y cosméticos personalizables | Como usuario, quiero personalizar mi avatar con cosméticos. | 5 |
-| 42 | HU-031 | Multiplicador de XP | Como usuario, quiero comprar u obtener multiplicadores de XP. | 5 |
-| 43 | HU-035 | Compra y obtención de gemas | Como usuario, quiero obtener gemas mediante compras o misiones. | 5 |
-| 44 | HU-038 | Panel de logros compartidos | Como estudiante, quiero consultar logros destacados. | 3 |
-| 45 | HU-039 | Invitar amigos | Como estudiante, quiero invitar amigos. | 3 |
-| 46 | HU-040 | Logros colectivos | Como estudiante, quiero celebrar logros en grupo. | 3 |
-| 47 | HU-041 | Acceso offline | Como estudiante, quiero usar la app sin conexión. | 8 |
-| 48 | HU-042 | Multiplataforma | Como estudiante, quiero usar la app en varios dispositivos. | 5 |
-| 49 | HU-043 | Carga rápida | Como estudiante, quiero rapidez en la aplicación. | 3 |
-| 50 | HU-044 | Interfaz simple | Como estudiante, quiero una interfaz sencilla. | 3 |
-| 51 | HU-045 | Disponibilidad | Como estudiante, quiero acceso 24/7. | 3 |
-| 52 | HU-046 | Seguridad | Como estudiante, quiero datos protegidos. | 5 |
-| 53 | HU-047 | Soporte | Como estudiante, quiero soporte. | 3 |
-| 54 | HU-049 | Sincronización automática | Como estudiante, quiero sincronización automática. | 5 |
-| 55 | HU-050 | Optimización | Como estudiante, quiero eficiencia del sistema. | 3 |
-| 56 | TS-001 | Endpoint de registro de usuarios | Como desarrollador backend, quiero implementar el registro de usuarios. | 5 |
-| 57 | TS-002 | Endpoint de autenticación con JWT | Como desarrollador backend, quiero implementar autenticación con JWT. | 5 |
-| 58 | TS-003 | Endpoint de vinculación de cuentas padre-hijo | Como desarrollador backend, quiero implementar la vinculación familiar. | 5 |
-| 59 | TS-004 | Endpoint de gestión de retos (CRUD) | Como desarrollador backend, quiero implementar la gestión de retos. | 8 |
-| 60 | TS-005 | Endpoint de progreso y puntaje del usuario | Como desarrollador backend, quiero implementar el progreso del usuario. | 5 |
-| 61 | TS-006 | Endpoint de insignias y sistema de recompensas | Como desarrollador backend, quiero implementar el sistema de insignias. | 5 |
-| 62 | TS-007 | Endpoint de ranking de usuarios y familias | Como desarrollador backend, quiero implementar rankings. | 5 |
-| 63 | TS-008 | API de sincronización de datos offline | Como desarrollador backend, quiero implementar sincronización offline. | 8 |
-| 64 | TS-009 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
-| 65 | TS-010 | Endpoint de resumen y edición de perfil | Como desarrollador backend, quiero implementar resumen y edición de perfil. | 5 |
-| 66 | TS-011 | Endpoint de progreso del perfil | Como desarrollador backend, quiero implementar progreso de usuario. | 5 |
-| 67 | TS-012 | Endpoint de familia y amigos del perfil | Como desarrollador backend, quiero implementar amigos y familia. | 5 |
-| 68 | TS-013 | Endpoint de interacción comunitaria | Como desarrollador backend, quiero implementar interación de post y logros comunitarios. | 5 |
-| 69 | TS-014 | Endpoint de eventos comunitarios y participación | Como desarrollador backend, quiero implementar eventos comunitarios. | 5 |
-| 70 | TS-015 | Endpoint de catálogo y compra de cosméticos | Como desarrollador backend, quiero implementar catalgo y compra de cosmeticos. | 5 |
-| 71 | TS-016 | Endpoint de compra de gemas | Como desarrollador backend, quiero implementar gemas. | 5 |
-| 72 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
-| 73 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
-| 74 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
-| 75 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
+| 2 | HU-052 | Consejos de uso para padres | Como visitante, quiero ver recomendaciones de uso en la landing. | 3 |
+| 3 | HU-053 | Preguntas frecuentes en landing | Como visitante, quiero acceder a preguntas frecuentes desde la landing. | 2 |
+| 4 | HU-054 | Información de la comunidad en landing | Como visitante, quiero conocer cómo interactuar en la comunidad desde la landing. | 3 |
+| 5 | HU-001 | Miniactividad guiada con indicaciones | Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
+| 6 | HU-002 | Reto ambiental diario | Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación. | 5 |
+| 7 | HU-004 | Sistema de puntos por aprendizaje | Como estudiante, quiero obtener puntos al completar actividades, para mantener mi motivación dentro de la aplicación. | 5 |
+| 8 | HU-006 | Establecimiento de compromiso | Como estudiante, quiero establecer compromisos individuales, para mantenerme constante. | 3 |
+| 9 | HU-009 | Ranking educativo | Como usuario, quiero ver un ranking de los mejores puntajes, para compararme de forma sana con otros usuarios. | 3 |
+| 10 | HU-010 | Desafío entre compañeros | Como estudiante, quiero realizar actividades en conjunto con mis amigos, para aprender y divertirnos al mismo tiempo. | 8 |
+| 11 | HU-014 | Evento familiar en comunidad | Como padre, quiero participar con mi familia en actividades ambientales. | 8 |
+| 12 | HU-029 | Avatares y cosméticos personalizables | Como usuario, quiero personalizar mi avatar con cosméticos. | 5 |
+| 13 | HU-031 | Multiplicador de XP | Como usuario, quiero comprar u obtener multiplicadores de XP. | 5 |
+| 14 | HU-035 | Compra y obtención de gemas | Como usuario, quiero obtener gemas mediante compras o misiones. | 5 |
+| 15 | HU-036 | Ranking comunitario | Como estudiante, quiero ver un ranking de usuarios. | 3 |
+| 16 | HU-037 | Eventos ambientales | Como estudiante, quiero participar en eventos ambientales. | 5 |
+| 17 | HU-038 | Panel de logros compartidos | Como estudiante, quiero consultar logros destacados. | 3 |
+| 18 | HU-039 | Invitar amigos | Como estudiante, quiero invitar amigos. | 3 |
+| 19 | HU-048 | Eventos de la comunidad en mapa | Como usuario, quiero ver eventos cercanos en un mapa. | 5 |
+| 20 | TS-004 | Endpoint de gestión de retos (CRUD) | Como desarrollador backend, quiero implementar la gestión de retos. | 8 |
+| 21 | TS-005 | Endpoint de progreso y puntaje del usuario | Como desarrollador backend, quiero implementar el progreso del usuario. | 5 |
+| 22 | TS-007 | Endpoint de ranking de usuarios y familias | Como desarrollador backend, quiero implementar rankings. | 5 |
+| 23 | HU-003 | Rachas por completar retos diarios | Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante. | 5 |
+| 24 | TS-010 | Endpoint de resumen y edición de perfil | Como desarrollador backend, quiero implementar resumen y edición de perfil. | 5 |
+| 25 | TS-011 | Endpoint de progreso del perfil | Como desarrollador backend, quiero implementar progreso de usuario. | 5 |
+| 26 | TS-012 | Endpoint de familia y amigos del perfil | Como desarrollador backend, quiero implementar amigos y familia. | 5 |
+| 27 | TS-013 | Endpoint de interacción comunitaria | Como desarrollador backend, quiero implementar interación de post y logros comunitarios. | 5 |
+| 28 | TS-014 | Endpoint de eventos comunitarios y participación | Como desarrollador backend, quiero implementar eventos comunitarios. | 5 |
+| 29 | TS-015 | Endpoint de catálogo y compra de cosméticos | Como desarrollador backend, quiero implementar catalgo y compra de cosmeticos. | 5 |
+| 30 | TS-016 | Endpoint de compra de gemas | Como desarrollador backend, quiero implementar gemas. | 5 |
+| 31 | TS-017 | Endpoint de notificaciones del usuario | Como desarrollador backend, quiero implementar la gestión de notificaciones del usuario. | 5 |
+| 32 | TS-018 | Endpoint de materiales de aprendizaje | Como desarrollador backend, quiero implementar la gestión de materiales de aprendizaje. | 5 |
+| 33 | HU-055 | Redirección a registro | Como visitante, quiero ir al registro desde la landing. | 5 |
+| 34 | HU-005 | Reconocimiento por constancia | Como estudiante, quiero recibir reconocimientos al completar varias actividades seguidas, para reforzar mi compromiso con el aprendizaje. | 3 |
+| 35 | HU-007 | Seguimiento de progreso | Como estudiante, quiero ver mi progreso de actividades iniciadas, para saber cuánto he avanzado en ellas. | 5 |
+| 36 | HU-008 | Animaciones de logro | Como estudiante, quiero ver animaciones motivadoras al aprobar una actividad, para sentir satisfacción por mi esfuerzo. | 3 |
+| 37 | HU-011 | Colección de medallas | Como estudiante, quiero ganar medallas al superar retos, para sentir orgullo por mis logros. | 5 |
+| 38 | HU-012 | Historial de aprendizaje | Como estudiante, quiero revisar mi historial de actividades completadas, para repasar contenido de mi progreso. | 3 |
+| 39 | HU-023 | Guía simplificada | Como estudiante, quiero acceder a materiales didacticos, para entender conceptos ambientales sin dificultad. | 5 |
+| 40 | HU-024 | Tutorial paso a paso | Como usuario, quiero seguir tutoriales paso a paso dentro de la aplicación, para aprender cómo usarla correctamente. | 5 |
+| 41 | HU-025 | Recordatorios educativos | Como estudiante, quiero recibir recordatorios en la aplicación de materiales pendientes. | 3 |
+| 42 | HU-026 | Contenido breve y claro | Como estudiante, quiero que la información sea breve y clara. | 3 |
+| 43 | HU-027 | Videos explicativos | Como estudiante, quiero ver videos explicativos dentro de la aplicación. | 3 |
+| 44 | HU-028 | Lenguaje sencillo | Como estudiante, quiero contenido en lenguaje sencillo. | 2 |
+| 45 | HU-030 | Preguntas frecuentes | Como estudiante, quiero acceder a una sección de preguntas frecuentes. | 2 |
+| 46 | HU-032 | Infografías resumen | Como estudiante, quiero acceder a infografías que resuman la información. | 3 |
+| 47 | HU-013 | Reto familiar en casa | Como padre, quiero realizar retos ambientales en casa junto a mi familia. | 5 |
+| 48 | HU-015 | Registro de logros familiares | Como padre, quiero registrar los logros de mi familia. | 5 |
+| 49 | HU-016 | Premios por colaboración familiar | Como padre, quiero que la aplicación premie nuestras acciones conjuntas. | 5 |
+| 50 | HU-017 | Planificación de retos familiares | Como padre, quiero planificar nuestras actividades ambientales. | 8 |
+| 51 | HU-018 | Alertas de actividades | Como padre, quiero recibir alertas de actividades. | 5 |
+| 52 | HU-019 | Agregar integrantes a la familia | Como padre, quiero crear mi grupo familiar. | 5 |
+| 53 | HU-020 | Felicitación de logros familiares | Como padre, quiero una animación al cumplir un reto. | 3 |
+| 54 | HU-021 | Reportes de progreso familiares | Como padre, quiero recibir reportes visuales del progreso. | 5 |
+| 55 | HU-022 | Ranking de familias | Como padre, quiero ver el ranking de familias. | 5 |
+| 56 | HU-033 | Compartir logros ambientales | Como estudiante, quiero compartir mis logros ambientales. | 5 |
+| 57 | HU-034 | Reaccionar a publicaciones | Como estudiante, quiero reaccionar a publicaciones. | 3 |
+| 58 | HU-040 | Logros colectivos | Como estudiante, quiero celebrar logros en grupo. | 3 |
+| 59 | HU-041 | Acceso offline | Como estudiante, quiero usar la app sin conexión. | 8 |
+| 60 | HU-042 | Multiplataforma | Como estudiante, quiero usar la app en varios dispositivos. | 5 |
+| 61 | HU-043 | Carga rápida | Como estudiante, quiero rapidez en la aplicación. | 3 |
+| 62 | HU-044 | Interfaz simple | Como estudiante, quiero una interfaz sencilla. | 3 |
+| 63 | HU-045 | Disponibilidad | Como estudiante, quiero acceso 24/7. | 3 |
+| 64 | HU-046 | Seguridad | Como estudiante, quiero datos protegidos. | 5 |
+| 65 | HU-047 | Soporte | Como estudiante, quiero soporte. | 3 |
+| 66 | HU-049 | Sincronización automática | Como estudiante, quiero sincronización automática. | 5 |
+| 67 | HU-050 | Optimización | Como estudiante, quiero eficiencia del sistema. | 3 |
+| 68 | TS-001 | Endpoint de registro de usuarios | Como desarrollador backend, quiero implementar el registro de usuarios. | 5 |
+| 69 | TS-002 | Endpoint de autenticación con JWT | Como desarrollador backend, quiero implementar autenticación con JWT. | 5 |
+| 70 | TS-003 | Endpoint de vinculación de cuentas padre-hijo | Como desarrollador backend, quiero implementar la vinculación familiar. | 5 |
+| 71 | TS-006 | Endpoint de insignias y sistema de recompensas | Como desarrollador backend, quiero implementar el sistema de insignias. | 5 |
+| 72 | TS-008 | API de sincronización de datos offline | Como desarrollador backend, quiero implementar sincronización offline. | 8 |
+| 73 | TS-009 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
+| 74 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataforma. | 7 |
+| 75 | HU-057 | Inicio de sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 7 |
+| 76 | HU-058 | Recuperación de contraseña | Como usuario, quiero recuperar mi contraseña mediante correo electrónico. | 7 |
+| 77 | HU-059 | Cierre de sesión | Como usuario, quiero cerrar sesión de forma segura. | 7 |
 
 # Capítulo IV: Product Design
 
