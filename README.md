@@ -7429,6 +7429,17 @@ Sprint 3 - Landing Page
 
 #### 5.2.4.1. Sprint Planning 4
 
+| **Sprint #** |  4 |
+|------|--------|
+| **Date** | 2026-06-27 |
+| **Time** | 8:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
+| **Sprint n Goal** |  |
+| **Sprint n Velocity** |  |
+| **Sum of Story Points** |  |
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
 #### 5.2.4.3. Sprint Backlog 4
