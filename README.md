@@ -7482,7 +7482,11 @@ En esta sección se describen los aspectos principales considerados durante el S
 
 #### 5.2.4.3. Sprint Backlog 4
 
-En esta sección se presenta el Sprint Backlog correspondiente al Sprint 4 del proyecto, siguiendo el mismo orden establecido en el Product Backlog. Durante este Sprint se trabajaron User Stories y Technical Stories orientadas a completar la integración funcional de EcoMind, incluyendo registro e IAM, logros, progreso, materiales de aprendizaje, retos familiares, comunidad, notificaciones, sincronización y mejoras de plataforma. Asimismo, cada historia fue descompuesta en Work-items/Tasks específicos, asignados a un único responsable según el bounded context correspondiente y registrados con estado Completed.
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 4 del proyecto, siguiendo el mismo orden establecido en el Product Backlog. Durante este Sprint se trabajaron User Stories y Technical Stories orientadas a completar la integración funcional de EcoMind, incluyendo registro e IAM, logros, progreso, materiales de aprendizaje, retos familiares, comunidad, notificaciones, sincronización y mejoras de plataforma. Asimismo, cada historia fue descompuesta en Work-items/Tasks específicos, asignados a cada integrante.
+
+Link: https://trello.com/invite/b/69e7c2e17451f5e99498fc5d/ATTIc7a8ea7596857d83107a37a6fbf986c65F81735F/ecomind-board
+
+![Sprint_4](assets/img/figures/Sprint_4.png)
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
