@@ -7463,9 +7463,9 @@ Sprint 3 - Landing Page
 | **Location** | Reunión virtual (Google Meet / Zoom) |
 | **Prepared By** | Alejandra Isabel Astocondor Bazan |
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Alexther Kamil Diaz Martinez, Victor Jhosuef Laura Acosta |
-| **Sprint n Goal** |  |
-| **Sprint n Velocity** |  |
-| **Sum of Story Points** |  |
+| **Sprint n Goal** | Our focus is on delivering an integrated EcoMind web experience where students and parents can use the main learning, quest, family, community, progress, achievement, notification and authentication flows with real frontend-backend interaction. We believe it delivers a more complete, reliable and motivating product experience to students and parents by allowing them to complete minigames and quests, track progress, receive relevant community event alerts, manage family participation, review achievements and access learning materials from a single connected platform. This will be confirmed when users can register or log in, complete the planned learning and quest flows, see updated points, progress and achievements, interact with community features, receive parent-focused community event alerts and validate these flows through the deployed web application and documented services during the Sprint Review. |
+| **Sprint n Velocity** | 210 SP |
+| **Sum of Story Points** | 205 SP |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
