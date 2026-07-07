@@ -7750,17 +7750,32 @@ Para comprobar el funcionamiento del incremento se realizaron pruebas funcionale
 | Notificaciones | Consulta de notificaciones y actualización de su estado de lectura. | Las notificaciones del usuario se muestran y pueden marcarse como leídas. |
 | Plataforma e integración | Comunicación frontend-backend, persistencia en MySQL, validaciones y manejo de respuestas de los servicios REST. | Los flujos integrados operan con datos persistentes y respuestas consistentes. |
 
-Las pruebas realizadas permitieron confirmar que las historias incluidas en el Sprint Backlog 4 se encuentran integradas en un incremento navegable y demostrable. Asimismo, se comprobó la comunicación entre las interfaces, la lógica de negocio y la capa de persistencia, cumpliendo el objetivo definido para el Sprint 4.
 
-**Evidencias visuales de ejecución:**
+Para evidenciar el funcionamiento de los servicios desarrollados durante el Sprint 4, se ejecutaron diferentes flujos desde la aplicación frontend conectada al backend. Las siguientes capturas muestran la información recuperada y actualizada mediante los endpoints de autenticación, perfil, familias, rankings y notificaciones.
 
-<!-- Agregar aquí las capturas del Sprint 4. Ejemplo:
-![Ejecución de autenticación e IAM](assets/img/figures/Sprint_4_IAM.png)
-![Ejecución de retos, progreso y logros](assets/img/figures/Sprint_4_Quests_Progress.png)
-![Ejecución de Learning](assets/img/figures/Sprint_4_Learning.png)
-![Ejecución de comunidad y familias](assets/img/figures/Sprint_4_Community.png)
-![Ejecución de notificaciones](assets/img/figures/Sprint_4_Notifications.png)
--->
+1. **Configuración y seguridad de la cuenta:** Esta vista permite consultar y actualizar la información de la cuenta del usuario autenticado. También presenta las opciones de seguridad y eliminación de cuenta, evidenciando la integración con los servicios de IAM y perfil.
+
+![Configuración y seguridad de la cuenta](https://i.postimg.cc/6567T8xD/Captura-de-pantalla-2026-07-06-230404.png)
+
+2. **Reporte de progreso familiar:** El modal presenta un resumen del progreso de la familia y de sus integrantes. Esta evidencia demuestra la consulta de información consolidada mediante los servicios de reportes, progreso y ranking familiar.
+
+![Reporte de progreso familiar](https://i.postimg.cc/kXMVD2P0/Captura-de-pantalla-2026-07-06-230433.png)
+
+3. **Gestión de integrantes de la familia:** La vista permite visualizar la familia del usuario, sus integrantes y las acciones disponibles para administrar la participación familiar. La información mostrada es obtenida mediante los endpoints de familias, usuarios e invitaciones.
+
+![Gestión de integrantes de la familia](https://i.postimg.cc/hP4JhXRZ/Captura-de-pantalla-2026-07-06-230458.png)
+
+4. **Ranking de familias:** Esta pantalla muestra la clasificación de las familias según el puntaje acumulado. Evidencia el consumo del servicio de leaderboard y la presentación ordenada de las posiciones obtenidas desde el backend.
+
+![Ranking de familias](https://i.postimg.cc/rFydzD2n/Captura-de-pantalla-2026-07-06-230523.png)
+
+5. **Notificaciones del usuario:** El panel desplegable presenta las notificaciones generadas por las acciones realizadas en la plataforma. Esta ejecución evidencia la consulta de notificaciones y la actualización de su estado de lectura.
+
+![Notificaciones del usuario](https://i.postimg.cc/7YPCb5rQ/Captura-de-pantalla-2026-07-06-230644.png)
+
+6. **Creación de una cuenta:** El formulario permite registrar un nuevo usuario mediante el servicio de autenticación. Se solicitan los datos necesarios, se aplican validaciones y se envía la información al endpoint de registro para crear la cuenta.
+
+![Creación de una cuenta](https://i.postimg.cc/KvcK41h0/Captura-de-pantalla-2026-07-06-230739.png)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
