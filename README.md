@@ -8001,15 +8001,22 @@ Con esta configuración, el Sprint 4 valida principalmente la continuidad operat
 
 **Evidencia de Landing Page publicada:**
 
-![Sprint_3_Landing_Deployed](assets/img/figures/sprint3Landinng.png)
+![Sprint_4_Landing_Deployed](assets/img/figures/sprint4Landing.png)
 
 
 **Evidencia de Frontend publicado:**
 
+![Sprint_4_Frontend_Deployed](assets/img/figures/sprint4Frontend.png)
+
 **Evidencia de Backend publicado:**
+
+![Sprint_4_Backend_Deployed](assets/img/figures/sprint4Backend.png)
 
 **Evidencia de Backend conectado:**
 
+![Sprint_4_Backend_Deployed](assets/img/figures/sprint4BackendConnection.png)
+
+![Sprint_4_Backend_Deployed](assets/img/figures/sprint4FrontendConnection.png)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
