@@ -7792,7 +7792,7 @@ A continuación, se presenta la relación de los principales endpoints trabajado
 
 Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proyectos frontend y backend de EcoMind. El backend expone los endpoints mediante Swagger UI y el frontend consume estos contratos para ejecutar los flujos de autenticación, retos, aprendizaje, comunidad, monetización, ranking y logros.
 
-![Proyectos frontend y backend del Sprint 4](assets/img/figures/Sprint_4_Service_Projects.png)
+![Proyectos_frontend_backend_Sprint4](assets/img/figures/Sprint_4_Service_Projects.png)
 
 <!-- Agregar aquí una captura de Swagger UI con los endpoints desplegados. Ejemplo:
 ![Documentación Swagger de los servicios del Sprint 4](assets/img/figures/Sprint_4_Swagger.png)
@@ -7801,6 +7801,20 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint. 
+Durante el desarrollo del Sprint 4, el equipo trabajó de manera colaborativa en la integración funcional de EcoMind, conectando los principales flujos del frontend con los servicios backend implementados para la solución. El trabajo se organizó mediante branches, commits y pull requests en GitHub, lo que permitió distribuir responsabilidades por módulo y mantener una trazabilidad clara de los avances realizados por cada integrante. En este sprint se desarrollaron e integraron funcionalidades relacionadas con autenticación, quests, progreso, logros, comunidad, notificaciones y materiales de aprendizaje, fortaleciendo la experiencia final de estudiantes y padres dentro de la plataforma.
+Asimismo, se validó la comunicación entre las interfaces de usuario y los endpoints REST correspondientes, verificando que los datos se consulten, registren y actualicen correctamente a través de los servicios backend y la base de datos MySQL. También se documentaron las evidencias de desarrollo, pruebas funcionales, servicios integrados y despliegue del incremento, permitiendo demostrar el cumplimiento de las historias planificadas para el Sprint 4. A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
+
+**Backend**
+![Team_collab_backend](assets/img/figures/BackSprint4.png)
+![TeamCollab2](assets/img/figures/BackCollab4SP.png)
+
+**Frontend**
+![Team_collab_backend](assets/img/figures/FrontSprint4.png)
+![TeamCollab2](assets/img/figures/FrontCollab4SP.png)
+
+**Landing Page**
+![Team_collab_backend](assets/img/figures/LanSprint4.png)
+![TeamCollab2](assets/img/figures/LanCollab4SP.png)
 
 ## 5.3. Validation Interviews
 
