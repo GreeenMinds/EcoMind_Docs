@@ -7223,7 +7223,7 @@ Para mostrar la interación, ejecutamos 4 endpoints relacionados al manejo de ev
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-## Links
+**Links**
 
 | Servicio | URL |
 |---|---|
@@ -7232,27 +7232,26 @@ Para mostrar la interación, ejecutamos 4 endpoints relacionados al manejo de ev
 | Swagger API Docs | https://ecomind-backend-t2nh.onrender.com/swagger-ui/index.html |
 | Mock DB (json-server) | https://db-server-eco-1.onrender.com |
 | Landing Page   | https://greeenminds.github.io/EcoMind_LandingPage/ |
-## Stack
+
+**Stack**
 
 - **Frontend:** Angular 21 (standalone components)
 - **Hosting:** Firebase Hosting
 - **Backend Real:** Render
 - **Mock DB:** Render (json-server con db.json)
 
----
+**Cómo desplegar**
 
-## Cómo desplegar
+**Frontend (Firebase) — Paso a paso**
 
-### Frontend (Firebase) — Paso a paso
-
-#### 1. Crear proyecto en Firebase Console
+**1. Crear proyecto en Firebase Console**
 1. Ve a https://console.firebase.google.com
 2. Click en **Crear un proyecto**
 3. Ponle un nombre (ej: `ecomind-app`)
 4. Desactiva Google Analytics
 5. Espera a que se cree
 
-#### 2. Inicializar Firebase en el proyecto local
+**2. Inicializar Firebase en el proyecto local**
 ```bash
 firebase login
 firebase init hosting
@@ -7264,13 +7263,13 @@ Responde:
 - **Set up automatic builds** → `No`
 - **File index.html already exists** → `No`
 
-#### 3. Build y deploy manual (primera vez)
+**3. Build y deploy manual (primera vez)**
 ```bash
 ng build
 firebase deploy
 ```
 
-#### 4. Configurar GitHub Actions (auto-deploy)
+**4. Configurar GitHub Actions (auto-deploy)**
 ```bash
 firebase login:ci
 ```
@@ -7279,15 +7278,14 @@ firebase login:ci
 - Name: `FIREBASE_TOKEN`
 - Value: pega el token
 
-#### 5. Deploy automático
+**5. Deploy automático**
 Después de eso, cada `git push` a `master`:
 1. GitHub Actions corre `ng build`
 2. Firebase Hosting se actualiza automáticamente
 3. El cambio se ve en https://ecomind-app.web.app
 
----
 
-### Backend Real (Render) — Paso a paso
+**Backend Real (Render) — Paso a paso**
 
 1. Ve a https://dashboard.render.com
 2. Click en **New +** → **Web Service**
@@ -7300,23 +7298,19 @@ Después de eso, cada `git push` a `master`:
    - **Build Command:** el comando de build de tu backend
    - **Start Command:** el comando de inicio
    - **Plan:** Free
----
 
 ![Sprint_3_Backend_Connected_Step1](assets/img/figures/rider2.png)
 
----
 
 ![Sprint_3_Backend_Connected_Step2](assets/img/figures/rider3.png)
 
----
 
 ![Sprint_3_Backend_Connected_Step3](assets/img/figures/rider4.png)
 
----
 
-5. Click en **Create Web Service**
+1. Click en **Create Web Service**
 
-#### Auto-deploy
+**Auto-deploy**
 Render se configura con auto-deploy por defecto. Cada `git push` a `master`:
 1. Render detecta el cambio
 2. Reconstruye y redeploya automáticamente
@@ -7325,13 +7319,10 @@ Render se configura con auto-deploy por defecto. Cada `git push` a `master`:
 
 ![Sprint_3_Backend_](assets/img/figures/sw1.png)
 
----
-
 ![Sprint_3_Backend_](assets/img/figures/sw2.png)
 
----
 
-### Mock DB (json-server en Render) — Paso a paso
+**Mock DB (json-server en Render) — Paso a paso**
 
 1. Ve a https://dashboard.render.com
 2. Click en **New +** → **Web Service**
@@ -7351,14 +7342,12 @@ Render se configura con auto-deploy por defecto. Cada `git push` a `master`:
 
 > Importante: Usa `$PORT` en el Start Command, no un puerto fijo como `3000`.
 
-#### Auto-deploy
+**Auto-deploy**
 Cada `git push` a `master`:
 1. Render detecta cambios en `server/db.json`
 2. Reinicia json-server automáticamente
 
----
-
-## Conexión Frontend ↔ Backend
+**Conexión Frontend <-> Backend**
 
 El frontend apunta a **2 servidores distintos**:
 
@@ -7367,7 +7356,7 @@ El frontend apunta a **2 servidores distintos**:
 | Users (perfil, login, gemas) | `https://ecomind-backend-t2nh.onrender.com/api/v1/user` | Backend Real |
 | Comunidad, Quests, Eventos, Tienda, Ranking, etc. | `https://db-server-eco-1.onrender.com/{recurso}` | Mock DB |
 
-## Configuración de URLs
+**Configuración de URLs**
 
 Las URLs se configuran en `src/environments/environment.ts`:
 
@@ -7378,7 +7367,7 @@ platformProviderBackendApiBaseUrl: 'https://ecomind-backend-t2nh.onrender.com/ap
 
 Para desarrollo local se usa `src/environments/environment.development.ts`.
 
-## Desarrollo Local
+**Desarrollo Local**
 
 ```bash
 # 1. Iniciar json-server mock
@@ -7391,7 +7380,7 @@ npm start
 http://localhost:4200
 ```
 
-## Build Manual
+**Build Manual**
 
 ```bash
 ng build
