@@ -5,24 +5,29 @@
 
 **Universidad Peruana de Ciencias Aplicadas (UPC)**
 
-Facultad de Ingeniería
 Carrera de Ingeniería de Software
 
-Ciclo 2026-10 <br><br>
+<br>
 
-Desarrollo de Aplicaciones Open Source
+**1ASI079**
 
-NRC:11990
+**Desarrollo de Aplicaciones Open Source**
 
-Profesor: Juan Antonio Flores Moroco <br><br>
+NRC <br> **11990**
 
-Informe del Trabajo Final
+**Informe del Trabajo Final**
 
-Startup: GreenMinds
+Profesor
 
-Product: EcoMind <br><br>
+**Juan Antonio Flores Moroco** <br><br>
 
-Integrantes:
+Equipo <br>
+**GreenMinds**
+
+Proyecto <br>
+**EcoMind** <br><br>
+
+Integrantes
 
 u20241e158 - Aponte Pablo, Isabel Luisa
 
@@ -34,8 +39,9 @@ u202412316 - Diaz Martinez, Alexther Kamil
 
 u202418655 - Laura Acosta, Victor Jhosuef
 
+**Período 202610**
 
-Junio 2026
+**Julio 2026**
 
 </div>
 
