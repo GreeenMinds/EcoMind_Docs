@@ -7805,17 +7805,17 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 <img src="assets/img/figures/sprint4-swagger/profile-01-create-family.png" alt="Creación de familia desde Swagger" width="720">
 
-2. **POST `/api/v1/user/{userId}/commitment`:** Actualiza el compromiso ambiental del usuario dentro de su perfil.
+2. **PATCH `/api/v1/user/{userId}/commitment`:** Actualiza el compromiso ambiental del usuario dentro de su perfil.
 
 <img src="assets/img/figures/sprint4-swagger/profile-02-update-commitment.png" alt="Actualización de compromiso ambiental desde Swagger" width="720">
 
-3. **POST `/api/v1/friend-request`:** Registra una solicitud de amistad entre usuarios para el flujo social del perfil.
+3. **POST `/api/v1/friend`:** Registra una solicitud de amistad entre usuarios para el flujo social del perfil.
 
 <img src="assets/img/figures/sprint4-swagger/profile-03-create-friend-request.png" alt="Solicitud de amistad desde Swagger" width="720">
 
-4. **GET `/api/v1/family/{familyId}/members`:** Lista los miembros de una familia registrada.
+4. **GET `/api/v1/friend`:** Lista relaciones de amistad y permite filtrarlas por usuario o estado.
 
-<img src="assets/img/figures/sprint4-swagger/profile-04-family-members.png" alt="Consulta de miembros de familia desde Swagger" width="720">
+<img src="assets/img/figures/sprint4-swagger/profile-04-list-friends.png" alt="Consulta de relaciones de amistad desde Swagger" width="720">
 
 **Bounded Context Learning**
 
@@ -7823,13 +7823,13 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 <img src="assets/img/figures/sprint4-swagger/learning-01-create-material.png" alt="Creación de material educativo desde Swagger" width="720">
 
-2. **GET `/api/v1/educational-materials/{materialId}`:** Consulta el detalle de un material educativo por su identificador.
+2. **GET `/api/v1/educational-materials`:** Lista los materiales educativos disponibles y permite filtrarlos por idioma.
 
-<img src="assets/img/figures/sprint4-swagger/learning-02-get-material.png" alt="Consulta de material educativo desde Swagger" width="720">
+<img src="assets/img/figures/sprint4-swagger/learning-02-list-materials.png" alt="Listado de materiales educativos desde Swagger" width="720">
 
-3. **POST `/api/v1/material-reviews`:** Registra una reseña o valoración realizada por un usuario sobre un material educativo.
+3. **POST `/api/v1/material-reviews`:** Marca un material educativo como revisado por un usuario.
 
-<img src="assets/img/figures/sprint4-swagger/learning-03-create-review.png" alt="Creación de reseña de material desde Swagger" width="720">
+<img src="assets/img/figures/sprint4-swagger/learning-03-create-review.png" alt="Marcado de material revisado desde Swagger" width="720">
 
 4. **POST `/api/v1/tutorials/progress/step`:** Guarda el avance del usuario en un paso del tutorial.
 
@@ -7855,7 +7855,7 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 **Bounded Context Community**
 
-1. **POST `/api/v1/communities`:** Crea una comunidad para agrupar usuarios y actividades colaborativas.
+1. **POST `/api/v1/community/communities`:** Crea una comunidad para agrupar usuarios y actividades colaborativas.
 
 <img src="assets/img/figures/sprint4-swagger/community-01-create-community.png" alt="Creación de comunidad desde Swagger" width="720">
 
@@ -7867,7 +7867,7 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 <img src="assets/img/figures/sprint4-swagger/community-03-create-event.png" alt="Creación de evento comunitario desde Swagger" width="720">
 
-4. **POST `/api/v1/community/events/{communityEventId}/registrations`:** Registra la participación de un usuario en un evento comunitario.
+4. **POST `/api/v1/community/events/{eventId}/registrations`:** Registra la participación de un usuario en un evento comunitario.
 
 <img src="assets/img/figures/sprint4-swagger/community-04-register-event.png" alt="Inscripción a evento comunitario desde Swagger" width="720">
 
@@ -7877,9 +7877,9 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 <img src="assets/img/figures/sprint4-swagger/ranking-01-create-ranking.png" alt="Creación de ranking desde Swagger" width="720">
 
-2. **POST `/api/v1/user-metrics`:** Registra métricas del usuario utilizadas para calcular posiciones en rankings.
+2. **POST `/api/v1/score-entries`:** Registra una entrada de puntaje utilizada para calcular posiciones en rankings.
 
-<img src="assets/img/figures/sprint4-swagger/ranking-02-create-user-metrics.png" alt="Registro de métricas de usuario desde Swagger" width="720">
+<img src="assets/img/figures/sprint4-swagger/ranking-02-create-score-entry.png" alt="Registro de entrada de puntaje desde Swagger" width="720">
 
 3. **GET `/api/v1/rankings/{rankingType}/leaderboard`:** Consulta la tabla de posiciones filtrada por tipo de ranking y periodo.
 
@@ -7891,7 +7891,7 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 **Bounded Context Monetization**
 
-1. **POST `/api/v1/gem_packages`:** Crea un paquete de gemas disponible para compra dentro de la tienda.
+1. **POST `/api/v1/gem_package`:** Crea un paquete de gemas disponible para compra dentro de la tienda.
 
 <img src="assets/img/figures/sprint4-swagger/monetization-01-create-gem-package.png" alt="Creación de paquete de gemas desde Swagger" width="720">
 
@@ -7899,11 +7899,11 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 <img src="assets/img/figures/sprint4-swagger/monetization-02-list-gem-purchases.png" alt="Listado de compras de gemas desde Swagger" width="720">
 
-3. **POST `/api/v1/cosmetics`:** Crea un cosmético o avatar disponible para los usuarios.
+3. **POST `/api/v1/cosmetic`:** Crea un cosmético o avatar disponible para los usuarios.
 
 <img src="assets/img/figures/sprint4-swagger/monetization-03-create-cosmetic.png" alt="Creación de cosmético desde Swagger" width="720">
 
-4. **GET `/api/v1/cosmetics`:** Lista los cosméticos registrados para la tienda.
+4. **GET `/api/v1/cosmetic`:** Lista los cosméticos registrados para la tienda.
 
 <img src="assets/img/figures/sprint4-swagger/monetization-04-list-cosmetics.png" alt="Listado de cosméticos desde Swagger" width="720">
 
