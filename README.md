@@ -7238,7 +7238,6 @@ Para mostrar la interación, ejecutamos 4 endpoints relacionados al manejo de ev
 - **Frontend:** Angular 21 (standalone components)
 - **Hosting:** Firebase Hosting
 - **Backend Real:** Render
-- **Mock DB:** Render (json-server con db.json)
 
 **Cómo desplegar**
 
@@ -7466,7 +7465,7 @@ Sprint 3 - Landing Page
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
-En esta sección se describen los aspectos principales considerados durante el Sprint 4 y la distribución del trabajo por bounded context para avanzar en la integración frontend-backend del sistema. El sprint se organizó bajo un enfoque de ownership end-to-end por módulo, abarcando frontend, backend, persistencia, validaciones y pruebas. La distribución se realizó sobre los contextos de Quests, Comunidad, Gamificación y Progreso, Learning, y Plataforma común, usuario y notificaciones, permitiendo que cada responsable avance de manera independiente mediante mocks, contratos acordados y un usuario de ejemplo centralizado, para luego reemplazar dichas dependencias por integraciones reales entre módulos. Cada aspecto contó con un líder principal y colaboradores encargados de apoyar la revisión, coherencia técnica, integración final y validación funcional de los flujos desarrollados.
+En esta sección se describen los aspectos principales considerados durante el Sprint 4 y la distribución del trabajo por bounded context para avanzar en la integración frontend-backend del sistema. El sprint se organizó bajo un enfoque de ownership end-to-end por módulo, abarcando frontend, backend, persistencia, validaciones y pruebas. La distribución se realizó sobre los contextos de Quests, Comunidad, Gamificación y Progreso, Learning, y Plataforma común, usuario y notificaciones, permitiendo que cada responsable avance de manera independiente sobre contratos acordados y servicios reales integrados. Cada aspecto contó con un líder principal y colaboradores encargados de apoyar la revisión, coherencia técnica, integración final y validación funcional de los flujos desarrollados.
 
 | Team Member (Last Name, First Name) | GitHub Username | Quests | Community | User Progress | Learning | IAM |
 |-----------------------------------|-----------------|-----------------------------|------------------|-----------|-----|----|
@@ -7716,7 +7715,7 @@ El proyecto se gestionó mediante repositorios colaborativos utilizando Git y Gi
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 4 se completó la integración funcional entre el frontend y los servicios backend de EcoMind. El incremento permitió ejecutar los principales flujos de la plataforma con datos persistentes, reemplazando progresivamente los mocks utilizados en iteraciones anteriores. La validación comprendió autenticación e IAM, retos, progreso y logros, materiales de aprendizaje, comunidad, familias, notificaciones y funcionalidades compartidas de la plataforma.
+Durante el Sprint 4 se completó la integración funcional entre el frontend y los servicios backend de EcoMind. El incremento permitió ejecutar los principales flujos de la plataforma con datos persistentes mediante servicios reales desplegados. La validación comprendió autenticación e IAM, retos, progreso y logros, materiales de aprendizaje, comunidad, familias, notificaciones y funcionalidades compartidas de la plataforma.
 
 Para comprobar el funcionamiento del incremento se realizaron pruebas funcionales sobre los recorridos principales del usuario. Se verificó el registro, inicio y cierre de sesión; la recuperación de contraseña y la protección de rutas; la consulta y ejecución de retos individuales y familiares; la actualización del progreso y los logros; la visualización de materiales educativos; y la interacción con publicaciones, reacciones, eventos y notificaciones de la comunidad.
 
@@ -7789,9 +7788,59 @@ Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proy
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.4.8. Team Collaboration Insights during Sprint. 
+**Links**
+
+| Servicio | URL |
+|---|---|
+| Frontend (Firebase) | https://ecomind-app.web.app |
+| Backend Real (API) | https://ecomind-backend-t2nh.onrender.com |
+| Swagger API Docs | https://ecomind-backend-t2nh.onrender.com/swagger-ui/index.html |
+| Landing Page   | https://greeenminds.github.io/EcoMind_LandingPage/ |
+
+**Stack**
+
+- **Frontend:** Angular 21 (standalone components)
+- **Hosting:** Firebase Hosting
+- **Backend Real:** Render
+
+---
+
+Durante este sprint, la Landing Page se mantuvo publicada mediante GitHub Pages y se actualizó desde la rama `main` del repositorio correspondiente. La Web Application continuó desplegada en Firebase Hosting, incorporando los cambios del frontend integrado. El Backend permaneció desplegado en Render con auto-deploy desde GitHub, permitiendo exponer los endpoints REST utilizados por los flujos de autenticación, quests, progreso, logros, comunidad, notificaciones y materiales de aprendizaje.
+
+Las URLs de consumo se mantienen configuradas en el entorno del frontend, apuntando al backend real desplegado en Render:
+
+```typescript
+platformProviderBackendApiBaseUrl: 'https://ecomind-backend-t2nh.onrender.com/api/v1',
+```
+
+Con esta configuración, el Sprint 4 valida principalmente la continuidad operativa del despliegue, la actualización de los artefactos publicados y la disponibilidad de los servicios necesarios para demostrar el incremento integrado durante la Sprint Review.
+
+**Alcance del deployment en Sprint 4**
+
+| Producto | Estado de despliegue en Sprint 4 | Observación |
+|----------|----------------------------------|-------------|
+| Landing Page | Se mantuvo publicada y actualizada desde la rama `main`. | GitHub Pages publica automáticamente los cambios integrados en la rama principal. |
+| Web Application frontend | Se actualizó el despliegue existente en Firebase Hosting con los flujos integrados del Sprint 4. | La aplicación está disponible en https://ecomind-app.web.app y consume servicios backend para ejecutar los principales flujos del producto. |
+| Backend / Web Services | Se mantuvo el despliegue en Render con auto-deploy desde GitHub. | Los endpoints del Sprint 4 fueron validados mediante Swagger UI, accesible en https://ecomind-backend-t2nh.onrender.com/swagger-ui/index.html. |
+
+
+**Evidencia de Landing Page publicada:**
+
+![Sprint_3_Landing_Deployed](assets/img/figures/sprint3Landinng.png)
+
+
+**Evidencia de Frontend publicado:**
+
+**Evidencia de Backend publicado:**
+
+**Evidencia de Backend conectado:**
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 Durante el desarrollo del Sprint 4, el equipo trabajó de manera colaborativa en la integración funcional de EcoMind, conectando los principales flujos del frontend con los servicios backend implementados para la solución. El trabajo se organizó mediante branches, commits y pull requests en GitHub, lo que permitió distribuir responsabilidades por módulo y mantener una trazabilidad clara de los avances realizados por cada integrante. En este sprint se desarrollaron e integraron funcionalidades relacionadas con autenticación, quests, progreso, logros, comunidad, notificaciones y materiales de aprendizaje, fortaleciendo la experiencia final de estudiantes y padres dentro de la plataforma.
-Asimismo, se validó la comunicación entre las interfaces de usuario y los endpoints REST correspondientes, verificando que los datos se consulten, registren y actualicen correctamente a través de los servicios backend y la base de datos MySQL. También se documentaron las evidencias de desarrollo, pruebas funcionales, servicios integrados y despliegue del incremento, permitiendo demostrar el cumplimiento de las historias planificadas para el Sprint 4. A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
+
+Asimismo, se validó la comunicación entre las interfaces de usuario y los endpoints REST correspondientes, verificando que los datos se consulten, registren y actualicen correctamente a través de los servicios backend y la base de datos. También se documentaron las evidencias de desarrollo, pruebas funcionales, servicios integrados y despliegue del incremento, permitiendo demostrar el cumplimiento de las historias planificadas para el Sprint 4. A continuación, se presentan capturas de los analíticos de colaboración y del historial de commits que evidencian la participación del equipo durante el Sprint.
 
 **Backend**
 ![Team_collab_backend](assets/img/figures/BackSprint4.png)
