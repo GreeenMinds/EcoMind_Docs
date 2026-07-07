@@ -7780,11 +7780,150 @@ A continuación, se presenta la relación de los principales endpoints trabajado
 
 Para evidenciar la integración de servicios del Sprint 4 se utilizaron los proyectos frontend y backend de EcoMind. El backend expone los endpoints mediante Swagger UI y el frontend consume estos contratos para ejecutar los flujos de autenticación, retos, aprendizaje, comunidad, monetización, ranking y logros.
 
-![Proyectos_frontend_backend_Sprint4](assets/img/figures/Sprint_4_Service_Projects.png)
 
-<!-- Agregar aquí una captura de Swagger UI con los endpoints desplegados. Ejemplo:
-![Documentación Swagger de los servicios del Sprint 4](assets/img/figures/Sprint_4_Swagger.png)
--->
+**Bounded Context IAM**
+
+1. **POST `/api/v1/authentication/sign-up`:** Registra una nueva cuenta de usuario con sus credenciales y datos iniciales.
+
+<img src="assets/img/figures/sprint4-swagger/iam-01-sign-up.png" alt="Registro de usuario desde Swagger" width="720">
+
+2. **POST `/api/v1/authentication/sign-in`:** Valida las credenciales del usuario y retorna el token de autenticación para consumir endpoints protegidos.
+
+<img src="assets/img/figures/sprint4-swagger/iam-02-sign-in.png" alt="Inicio de sesión desde Swagger" width="720">
+
+3. **POST `/api/v1/authentication/password-recovery/request`:** Solicita el proceso de recuperación de contraseña para el correo registrado.
+
+<img src="assets/img/figures/sprint4-swagger/iam-03-password-recovery-request.png" alt="Solicitud de recuperación de contraseña desde Swagger" width="720">
+
+4. **GET `/api/v1/authentication/me`:** Consulta la información del usuario autenticado usando el token activo.
+
+<img src="assets/img/figures/sprint4-swagger/iam-04-me.png" alt="Consulta del usuario autenticado desde Swagger" width="720">
+
+**Bounded Context Profile**
+
+1. **POST `/api/v1/family`:** Crea una familia asociada al usuario para habilitar funcionalidades familiares.
+
+<img src="assets/img/figures/sprint4-swagger/profile-01-create-family.png" alt="Creación de familia desde Swagger" width="720">
+
+2. **POST `/api/v1/user/{userId}/commitment`:** Actualiza el compromiso ambiental del usuario dentro de su perfil.
+
+<img src="assets/img/figures/sprint4-swagger/profile-02-update-commitment.png" alt="Actualización de compromiso ambiental desde Swagger" width="720">
+
+3. **POST `/api/v1/friend-request`:** Registra una solicitud de amistad entre usuarios para el flujo social del perfil.
+
+<img src="assets/img/figures/sprint4-swagger/profile-03-create-friend-request.png" alt="Solicitud de amistad desde Swagger" width="720">
+
+4. **GET `/api/v1/family/{familyId}/members`:** Lista los miembros de una familia registrada.
+
+<img src="assets/img/figures/sprint4-swagger/profile-04-family-members.png" alt="Consulta de miembros de familia desde Swagger" width="720">
+
+**Bounded Context Learning**
+
+1. **POST `/api/v1/educational-materials`:** Crea un material educativo ambiental disponible para los usuarios.
+
+<img src="assets/img/figures/sprint4-swagger/learning-01-create-material.png" alt="Creación de material educativo desde Swagger" width="720">
+
+2. **GET `/api/v1/educational-materials/{materialId}`:** Consulta el detalle de un material educativo por su identificador.
+
+<img src="assets/img/figures/sprint4-swagger/learning-02-get-material.png" alt="Consulta de material educativo desde Swagger" width="720">
+
+3. **POST `/api/v1/material-reviews`:** Registra una reseña o valoración realizada por un usuario sobre un material educativo.
+
+<img src="assets/img/figures/sprint4-swagger/learning-03-create-review.png" alt="Creación de reseña de material desde Swagger" width="720">
+
+4. **POST `/api/v1/tutorials/progress/step`:** Guarda el avance del usuario en un paso del tutorial.
+
+<img src="assets/img/figures/sprint4-swagger/learning-04-tutorial-step.png" alt="Registro de avance de tutorial desde Swagger" width="720">
+
+**Bounded Context Quests**
+
+1. **POST `/api/v1/quests`:** Crea una misión o reto con sus datos principales, recompensa y reglas de participación.
+
+<img src="assets/img/figures/sprint4-swagger/quests-01-create-quest.png" alt="Creación de quest desde Swagger" width="720">
+
+2. **GET `/api/v1/quests`:** Lista las misiones disponibles para verificar los retos registrados.
+
+<img src="assets/img/figures/sprint4-swagger/quests-02-list-quests.png" alt="Listado de quests desde Swagger" width="720">
+
+3. **DELETE `/api/v1/quests/{questId}`:** Elimina una misión registrada y valida el flujo de mantenimiento del bounded context.
+
+<img src="assets/img/figures/sprint4-swagger/quests-03-delete-quest.png" alt="Eliminación de quest desde Swagger" width="720">
+
+4. **POST `/api/v1/activities`:** Crea una actividad asociada a una misión para completar el flujo de retos.
+
+<img src="assets/img/figures/sprint4-swagger/quests-04-create-activity.png" alt="Creación de actividad desde Swagger" width="720">
+
+**Bounded Context Community**
+
+1. **POST `/api/v1/communities`:** Crea una comunidad para agrupar usuarios y actividades colaborativas.
+
+<img src="assets/img/figures/sprint4-swagger/community-01-create-community.png" alt="Creación de comunidad desde Swagger" width="720">
+
+2. **POST `/api/v1/community/posts`:** Registra una publicación dentro de una comunidad.
+
+<img src="assets/img/figures/sprint4-swagger/community-02-create-post.png" alt="Creación de publicación comunitaria desde Swagger" width="720">
+
+3. **POST `/api/v1/community/events`:** Crea un evento comunitario con información de ubicación, fecha y descripción.
+
+<img src="assets/img/figures/sprint4-swagger/community-03-create-event.png" alt="Creación de evento comunitario desde Swagger" width="720">
+
+4. **POST `/api/v1/community/events/{communityEventId}/registrations`:** Registra la participación de un usuario en un evento comunitario.
+
+<img src="assets/img/figures/sprint4-swagger/community-04-register-event.png" alt="Inscripción a evento comunitario desde Swagger" width="720">
+
+**Bounded Context Ranking**
+
+1. **POST `/api/v1/rankings`:** Crea un ranking para clasificar usuarios o familias según su progreso.
+
+<img src="assets/img/figures/sprint4-swagger/ranking-01-create-ranking.png" alt="Creación de ranking desde Swagger" width="720">
+
+2. **POST `/api/v1/user-metrics`:** Registra métricas del usuario utilizadas para calcular posiciones en rankings.
+
+<img src="assets/img/figures/sprint4-swagger/ranking-02-create-user-metrics.png" alt="Registro de métricas de usuario desde Swagger" width="720">
+
+3. **GET `/api/v1/rankings/{rankingType}/leaderboard`:** Consulta la tabla de posiciones filtrada por tipo de ranking y periodo.
+
+<img src="assets/img/figures/sprint4-swagger/ranking-03-leaderboard.png" alt="Consulta de leaderboard desde Swagger" width="720">
+
+4. **GET `/api/v1/family-rankings`:** Lista rankings familiares para comparar el desempeño entre familias.
+
+<img src="assets/img/figures/sprint4-swagger/ranking-04-family-rankings.png" alt="Consulta de rankings familiares desde Swagger" width="720">
+
+**Bounded Context Monetization**
+
+1. **POST `/api/v1/gem_packages`:** Crea un paquete de gemas disponible para compra dentro de la tienda.
+
+<img src="assets/img/figures/sprint4-swagger/monetization-01-create-gem-package.png" alt="Creación de paquete de gemas desde Swagger" width="720">
+
+2. **GET `/api/v1/gem_purchase`:** Lista las compras de gemas registradas en el sistema.
+
+<img src="assets/img/figures/sprint4-swagger/monetization-02-list-gem-purchases.png" alt="Listado de compras de gemas desde Swagger" width="720">
+
+3. **POST `/api/v1/cosmetics`:** Crea un cosmético o avatar disponible para los usuarios.
+
+<img src="assets/img/figures/sprint4-swagger/monetization-03-create-cosmetic.png" alt="Creación de cosmético desde Swagger" width="720">
+
+4. **GET `/api/v1/cosmetics`:** Lista los cosméticos registrados para la tienda.
+
+<img src="assets/img/figures/sprint4-swagger/monetization-04-list-cosmetics.png" alt="Listado de cosméticos desde Swagger" width="720">
+
+**Bounded Context Achievements**
+
+1. **POST `/api/v1/achievements`:** Crea una definición de logro con tipo, descripción y umbral de desbloqueo.
+
+<img src="assets/img/figures/sprint4-swagger/achievements-01-create-achievement.png" alt="Creación de achievement desde Swagger" width="720">
+
+2. **GET `/api/v1/achievements`:** Lista los logros registrados en el sistema.
+
+<img src="assets/img/figures/sprint4-swagger/achievements-02-list-achievements.png" alt="Listado de achievements desde Swagger" width="720">
+
+3. **GET `/api/v1/achievements/{achievementId}`:** Consulta el detalle de un logro específico.
+
+<img src="assets/img/figures/sprint4-swagger/achievements-03-get-achievement.png" alt="Consulta de achievement por id desde Swagger" width="720">
+
+4. **GET `/api/v1/user-achievements/{userId}`:** Evalúa y consulta los logros desbloqueados por un usuario.
+
+<img src="assets/img/figures/sprint4-swagger/achievements-04-user-achievements.png" alt="Consulta de achievements de usuario desde Swagger" width="720">
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
