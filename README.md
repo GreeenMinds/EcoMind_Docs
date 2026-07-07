@@ -8399,9 +8399,9 @@ Asimismo, el video incorpora el testimonio ante cámara de cada integrante, dond
 
 ![Screenshot Video About-The-Team](assets/img/figures/video-about-the-team.png)
 
-**URL Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQA3cSqXvc0-S7xiT8x53BvEAS4PgA5g9oXopCmTuuCfeiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WV8gBz
+**URL Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQDUHFqEScRlQbCLKaC6VxUGAQaZqKX93OQZu4NxmLHv6LU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Kasby3
 
-**URL YouTube:** https://youtu.be/lqOLK9ZJiZ0
+**URL YouTube:** https://youtu.be/zK3UhtK78Uc
 
 ## Pauta de secuencias de contenido
 
