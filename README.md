@@ -104,6 +104,10 @@ El trabajo se organizó de forma colaborativa por módulos, manteniendo responsa
 
 La colaboración en TB2 permitió cerrar el documento con una visión integral del producto, reflejando no solo los resultados técnicos alcanzados, sino también la capacidad del equipo para comunicar de manera ordenada el proceso de desarrollo, la integración de componentes y el estado final de EcoMind como solución educativa gamificada orientada al aprendizaje ambiental.
 
+![Sprint_4_Overview_Backend](assets/img/figures/docsSprint41.png)
+
+![Sprint_4_Contributors_Backend](assets/img/figures/docsSprint42.png)
+
 # Tabla de contenidos
 
 **Capítulo I: Introducción**  
@@ -7986,12 +7990,12 @@ Asimismo, se validó la comunicación entre las interfaces de usuario y los endp
 ![TeamCollab2](assets/img/figures/BackCollab4SP.png)
 
 **Frontend**
-![Team_collab_backend](assets/img/figures/FrontSprint4.png)
-![TeamCollab2](assets/img/figures/FrontCollab4SP.png)
+![Team_collab_frontend](assets/img/figures/FrontSprint4.png)
+![TeamCollab3](assets/img/figures/FrontCollab4SP.png)
 
 **Landing Page**
-![Team_collab_backend](assets/img/figures/LanSprint4.png)
-![TeamCollab2](assets/img/figures/LanCollab4SP.png)
+![Team_collab_landing](assets/img/figures/LanSprint4.png)
+![TeamCollab4](assets/img/figures/LanCollab4SP.png)
 
 ## 5.3. Validation Interviews
 
